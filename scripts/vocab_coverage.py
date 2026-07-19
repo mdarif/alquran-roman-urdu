@@ -44,99 +44,23 @@ import argparse
 import csv
 import re
 import sys
-import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
-# ---------------------------------------------------------------------------
-# Normalisation
-#
-# This is the contract. If a Dart implementation ever needs to agree with this,
-# freeze test vectors — divergence fails silently and every lookup just misses.
-# ---------------------------------------------------------------------------
-
-# Arabic presentation forms. The Tanzil Junagarhi text really does contain
-# these: `واﻻ` ends in U+FEFB (lam-alef ligature), not lam + alef. NFC leaves
-# it alone; NFKC decomposes it. Fold only this block, not the whole string,
-# so we don't invite NFKC's other surprises.
-_PRESENTATION_FORMS = re.compile(r"[\uFB50-\uFDFF\uFE70-\uFEFF]")
-
-# Letter folding. Arabic-script variants that Urdu writes differently, plus
-# forms that arrive from mixed sources.
-_LETTER_FOLD = {
-    "\u064A": "\u06CC",  # ARABIC YEH        -> FARSI YEH
-    "\u0649": "\u06CC",  # ALEF MAKSURA      -> FARSI YEH
-    "\u06CD": "\u06CC",  # YEH WITH TAIL     -> FARSI YEH
-    "\u0643": "\u06A9",  # ARABIC KAF        -> KEHEH
-    "\u06AA": "\u06A9",  # SWASH KAF         -> KEHEH
-    "\u0647": "\u06C1",  # ARABIC HEH        -> HEH GOAL
-    "\u06C3": "\u06C1",  # TEH MARBUTA GOAL  -> HEH GOAL
-    "\u0629": "\u06C1",  # TEH MARBUTA       -> HEH GOAL
-    "\u06C0": "\u06C2",  # HEH+YEH LIGATURE  -> HEH GOAL WITH HAMZA
-    "\u0623": "\u0627",  # ALEF WITH HAMZA ABOVE -> ALEF
-    "\u0625": "\u0627",  # ALEF WITH HAMZA BELOW -> ALEF
-    "\u0622": "\u0622",  # ALEF MADDA — keep, it is phonemically distinct
-}
-# NOT folded, deliberately:
-#   U+06BE HEH DOACHASHMEE (ھ) — marks aspiration. bh/kh/th/ph all depend on
-#   it. Folding it into ہ destroys the word. This is the single most damaging
-#   normalisation mistake available here.
-
-# Combining marks: tashkeel and friends. Category Mn.
-_TASHKEEL = re.compile(r"[\u064B-\u065F\u0670\u06D6-\u06ED]")
-
-# Joiners and invisible formatting.
-_INVISIBLE = re.compile(r"[\u200B-\u200F\u202A-\u202E\u2066-\u2069\uFEFF\u0640]")
+# The normaliser is the contract; it lives in its own module so a future Dart
+# port can be pinned against the same vectors. → normalise.py, AGENTS.md §7.
+# Add this script's own directory to the path so the import works whether the
+# file is run directly or imported from another CWD (e.g. CI).
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from normalise import normalise, self_test  # noqa: E402,F401  (re-exported for main)
 
 # Urdu / Arabic punctuation and ASCII punctuation.
 _PUNCT = re.compile(r"[\u060C\u061B\u061F\u06D4\u066A-\u066D\u00AB\u00BB"
                     r"!-/:-@\[-`{-~\u2000-\u206F]")
 
-_URDU_DIGITS = str.maketrans("\u06F0\u06F1\u06F2\u06F3\u06F4"
-                             "\u06F5\u06F6\u06F7\u06F8\u06F9", "0123456789")
 
 # A token we care about: at least one Arabic-block letter.
 _HAS_LETTER = re.compile(r"[\u0620-\u064A\u066E-\u06D3\u06FA-\u06FF]")
-
-
-def fold_presentation_forms(text: str) -> str:
-    """NFKC only the presentation-form blocks, leave everything else alone."""
-    return _PRESENTATION_FORMS.sub(
-        lambda m: unicodedata.normalize("NFKC", m.group(0)), text
-    )
-
-
-def normalise(text: str, *, strip_tashkeel: bool = True) -> str:
-    """Canonical key form. Lossy by design — this is a lookup key, not display text."""
-    text = unicodedata.normalize("NFC", text)
-    text = fold_presentation_forms(text)
-    text = _INVISIBLE.sub("", text)
-    if strip_tashkeel:
-        text = _TASHKEEL.sub("", text)
-    text = "".join(_LETTER_FOLD.get(ch, ch) for ch in text)
-    text = text.translate(_URDU_DIGITS)
-    return unicodedata.normalize("NFC", text)
-
-
-# Self-check vectors. If a second implementation ever exists, these are the
-# contract. Extend them; never quietly change one to make a test pass.
-NORMALISATION_VECTORS = [
-    ("\u0648\u0627\uFEFB", "\u0648\u0627\u0644\u0627"),   # lam-alef ligature decomposes
-    ("\u0631\u062D\u0645", "\u0631\u062D\u0645"),          # plain word unchanged
-    ("\u06A9\u06BE\u0627\u0646\u0627", "\u06A9\u06BE\u0627\u0646\u0627"),  # do-chashmi preserved
-    ("\u064A\u0627", "\u06CC\u0627"),                      # arabic yeh -> farsi yeh
-    ("\u0643\u062A\u0627\u0628", "\u06A9\u062A\u0627\u0628"),  # arabic kaf -> keheh
-    ("\u0627\u0644\u0644\u0670\u0647", "\u0627\u0644\u0644\u06C1"),  # dagger alef stripped, heh folded
-]
-
-
-def self_test() -> None:
-    failures = [(src, want, got) for src, want in NORMALISATION_VECTORS
-                if (got := normalise(src)) != want]
-    if failures:
-        for src, want, got in failures:
-            print(f"VECTOR FAIL: {src!r} -> {got!r}, expected {want!r}", file=sys.stderr)
-        sys.exit("normalisation vectors failed — fix before trusting any coverage number")
 
 
 # ---------------------------------------------------------------------------

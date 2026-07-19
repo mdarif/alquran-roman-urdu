@@ -1,0 +1,101 @@
+{
+  "$comment": "Normalisation contract for alquran-roman-urdu. Read by scripts/normalise.py (Python) and any future Dart port; both MUST pass every vector. Divergence fails silently — every lookup just misses. Never edit an existing vector to make a test pass (AGENTS.md §7); a fold change is an ADR + key migration. input/expected are literal strings; *_codepoints mirror them so invisible forms (e.g. U+FEFB) are auditable by eye.",
+  "vectors": [
+    {
+      "id": "lam-alef-ligature-decomposes",
+      "input": "واﻻ",
+      "expected": "والا",
+      "input_codepoints": "U+0648 U+0627 U+FEFB",
+      "expected_codepoints": "U+0648 U+0627 U+0644 U+0627",
+      "pins": "gotchas §1 — U+FEFB presentation ligature folds to lam+alef; NFC alone would not"
+    },
+    {
+      "id": "plain-word-unchanged",
+      "input": "رحم",
+      "expected": "رحم",
+      "input_codepoints": "U+0631 U+062D U+0645",
+      "expected_codepoints": "U+0631 U+062D U+0645",
+      "pins": "control — a clean word must pass through untouched"
+    },
+    {
+      "id": "do-chashmi-he-not-folded",
+      "input": "کھانا",
+      "expected": "کھانا",
+      "input_codepoints": "U+06A9 U+06BE U+0627 U+0646 U+0627",
+      "expected_codepoints": "U+06A9 U+06BE U+0627 U+0646 U+0627",
+      "pins": "gotchas §2 — ھ U+06BE (aspiration) never folds; khaana must not become kahaana"
+    },
+    {
+      "id": "arabic-yeh-to-farsi-yeh",
+      "input": "يا",
+      "expected": "یا",
+      "input_codepoints": "U+064A U+0627",
+      "expected_codepoints": "U+06CC U+0627",
+      "pins": "AGENTS §7 — Arabic yeh U+064A -> Farsi yeh U+06CC"
+    },
+    {
+      "id": "arabic-kaf-to-keheh",
+      "input": "كتاب",
+      "expected": "کتاب",
+      "input_codepoints": "U+0643 U+062A U+0627 U+0628",
+      "expected_codepoints": "U+06A9 U+062A U+0627 U+0628",
+      "pins": "AGENTS §7 — Arabic kaf U+0643 -> keheh U+06A9"
+    },
+    {
+      "id": "allah-dagger-alef-stripped-heh-folded",
+      "input": "اللٰه",
+      "expected": "اللہ",
+      "input_codepoints": "U+0627 U+0644 U+0644 U+0670 U+0647",
+      "expected_codepoints": "U+0627 U+0644 U+0644 U+06C1",
+      "pins": "gotchas §5 — dagger alef U+0670 stripped for keying; Arabic heh U+0647 -> gol he U+06C1"
+    },
+    {
+      "id": "alef-madda-not-folded",
+      "input": "آدم",
+      "expected": "آدم",
+      "input_codepoints": "U+0622 U+062F U+0645",
+      "expected_codepoints": "U+0622 U+062F U+0645",
+      "pins": "gotchas §2 — alef madda آ U+0622 is phonemically distinct; must NOT fold to bare alef"
+    },
+    {
+      "id": "hamza-above-alef-to-bare-alef",
+      "input": "أحمد",
+      "expected": "احمد",
+      "input_codepoints": "U+0623 U+062D U+0645 U+062F",
+      "expected_codepoints": "U+0627 U+062D U+0645 U+062F",
+      "pins": "AGENTS §7 — alef+hamza-above U+0623 -> bare alef U+0627"
+    },
+    {
+      "id": "hamza-below-alef-to-bare-alef",
+      "input": "إن",
+      "expected": "ان",
+      "input_codepoints": "U+0625 U+0646",
+      "expected_codepoints": "U+0627 U+0646",
+      "pins": "AGENTS §7 — alef+hamza-below U+0625 -> bare alef U+0627"
+    },
+    {
+      "id": "teh-marbuta-to-gol-he",
+      "input": "رحمة",
+      "expected": "رحمہ",
+      "input_codepoints": "U+0631 U+062D U+0645 U+0629",
+      "expected_codepoints": "U+0631 U+062D U+0645 U+06C1",
+      "pins": "AGENTS §7 — teh marbuta ة U+0629 -> gol he U+06C1"
+    },
+    {
+      "id": "tatweel-removed",
+      "input": "کـتاب",
+      "expected": "کتاب",
+      "input_codepoints": "U+06A9 U+0640 U+062A U+0627 U+0628",
+      "expected_codepoints": "U+06A9 U+062A U+0627 U+0628",
+      "pins": "AGENTS §7 — tatweel U+0640 (kashida) removed"
+    },
+    {
+      "id": "urdu-digits-to-ascii",
+      "input": "۱۲۳",
+      "expected": "123",
+      "input_codepoints": "U+06F1 U+06F2 U+06F3",
+      "expected_codepoints": "U+0031 U+0032 U+0033",
+      "pins": "AGENTS §7 — Urdu-Indic digits U+06F0-9 map to ASCII 0-9"
+    }
+  ]
+}

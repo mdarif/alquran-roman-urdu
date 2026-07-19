@@ -103,3 +103,31 @@ Both must run it in CI.
 Tanzil's Urdu files should be 6,236 lines. If the count is off, the usual cause
 is how the bismillah is handled at surah boundaries, or a header/footer line —
 not a damaged download. Check before re-fetching.
+
+---
+
+## §8 — The vector set claimed pins it did not have; "documented" ≠ "tested"
+
+AGENTS.md §7 and §2 both stated alef madda `آ` and do-chashmi he `ھ` were "pinned
+by vectors." Only do-chashmi actually was. The original inline set had **6**
+vectors and pinned exactly one deliberate fold plus the lam-alef ligature, the
+dagger-alef strip, the yeh fold and the kaf fold. **Not pinned:** alef madda
+staying unfolded, `أ`/`إ` → bare alef, teh marbuta → gol he, tatweel removal,
+Urdu-digit mapping.
+
+Why it bites: a regression that started folding alef madda into bare alef — the
+exact "plausible wrong word" failure §2 warns about — would have **passed** the
+old self-test silently. The contract asserted less than the prose promised, and
+the prose is what a reviewer trusts.
+
+Fix applied in this change: the normaliser was extracted to
+`scripts/normalise.py`, the vectors moved to `tests/normalization_vectors.json`
+(now the single source of truth for Python and any future Dart port), and the
+set extended to **12** so every deliberate fold — and every deliberate
+non-fold — is pinned. Each added vector's `expected` was computed from the
+current normaliser and confirmed to equal the documented intent before being
+frozen; none was reverse-fitted to make a test pass.
+
+Lesson for the next fold: adding a rule to the normaliser without adding a vector
+leaves a claim in the docs with nothing enforcing it. Extend the JSON in the
+same change. → AGENTS.md §7.
