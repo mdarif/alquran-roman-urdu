@@ -1,0 +1,6 @@
+out/
+data/raw/
+data/vendor/
+__pycache__/
+*.tar
+.DS_Store
