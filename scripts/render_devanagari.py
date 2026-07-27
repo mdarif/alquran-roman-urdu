@@ -146,6 +146,17 @@ def render(phonemic: str) -> str:
             out.append(ANUSVARA if out[-1] in NASAL_ANUSVARA else CHANDRABINDU)
             continue
 
+        if tok == "-":
+            # Literal hyphen, for Persian compounds that Hindi/Urdu typography
+            # writes hyphenated rather than spaced or joined: بے نام ونشان is
+            # बे-नाम-ओ-निशाँ, not बे नाम ओ निशान. Distinct from `_`, which is a
+            # plain word break.
+            if not out:
+                raise PhonemeError("hyphen '-' at the start of a form")
+            out.append("-")
+            pending_consonant = False
+            continue
+
         if tok == "M":
             # Explicit anusvara. `~` picks chandrabindu unless a matra occupies
             # the space above, which is right for हूँ and अँधेरा but wrong for

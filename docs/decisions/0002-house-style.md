@@ -1,6 +1,7 @@
 # ADR 0002 — House style for Roman Urdu and Devanagari output
 
-- **Status:** ACCEPTED — all four rulings signed off by the owner, 2026-07-27
+- **Status:** ACCEPTED — signed off 2026-07-27. **Ruling 4 REVISED the same
+  day** after browser review of the rendered surahs; see the revision note there.
 - **Date:** 2026-07-27
 - **Scope:** `alquran-roman-urdu` — the phonemic store and both renderers
 - **Referenced by:** ADR 0001 §2 (one phonemic form, many renderings), ADR 0003
@@ -115,9 +116,28 @@ reverse, since it is a pure render-time substitution.
 Urdu writes pronoun and postposition apart; Hindi usually joins them. 9,099
 tokens — **4.9% of the corpus**.
 
-**Accepted 2026-07-27. Ruling: join, via an n-gram lexicon key**, for the closed
-set below. Owner chose Hindi naturalness over token-for-token alignment with the
-Urdu. The 20 most frequent pairs are seeded in `data/lexicon/lexicon.tsv`.
+> ### ⚠ REVISED 2026-07-27 — pronoun+postposition stays SPLIT
+>
+> The original ruling (join: उसका, हमने, उनके) was reversed by the owner the same
+> day, after reading the rendered surahs in the browser rather than reasoning
+> about the rule in the abstract. Corrections given: उस का, उस के, उस की, उस से,
+> हम ने, तू ने — **separate**, per Rekhta, preserving Urdu's word boundaries and
+> the Perso-Arabic register ADR 0003 identifies as the product.
+>
+> **What still joins:** the verb + future auxiliary — `جائے گی` → **जाएगी**,
+> `کروں گا` → **करूँगा**. And lexical compounds, which were never part of this
+> ruling: `بے نام ونشان` → **बे-नाम-ओ-निशाँ** (hyphenated, per Rekhta).
+>
+> **What still splits:** everything in the table below. The 21 seeded n-gram keys
+> were removed from `data/lexicon/lexicon.tsv`; the table is kept as the record of
+> what was considered, not as a to-do list.
+>
+> **Lesson worth keeping:** the abstract question ("join or split?") was answered
+> one way and the concrete rendered text answered it the other. Judge these on the
+> page, not in the ADR.
+
+**Superseded text:** *Ruling: join, via an n-gram lexicon key, for the closed set
+below. Owner chose Hindi naturalness over token-for-token alignment with the Urdu.*
 
 | Urdu | Devanagari | Tokens |
 |---|---|---|
@@ -151,7 +171,7 @@ mechanical rule cannot see. Keying `"ان کی"` separately from `"ان"` record
 decision instead of re-deriving it. That is the same reasoning as
 non-negotiable #1 applied to boundaries rather than vowels.
 
-**Also settled here:** the split direction. Urdu glues verb particles Hindi
+**Unaffected by the revision:** the split direction. Urdu glues verb particles Hindi
 separates — `ہوگئے` → **हो गए**, `کردیا` → **कर दिया** (400 tokens / 76 types).
 Use the `_` word-break phoneme. Beware `رضامندی` and `پابندی`, which merely end
 in `دی` and are single words.

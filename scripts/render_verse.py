@@ -115,14 +115,17 @@ MAX_NGRAM = 3
 def _match_ngram(toks: list[str], i: int, lex: dict[str, dict]) -> tuple[str, str, int] | None:
     """Longest multi-token lexicon match starting at `i`, or None.
 
-    Only bare tokens may join: a comma, paren or full stop mid-window is a real
-    break, so a sequence containing one is never collapsed into a single word.
+    Punctuation *between* tokens is a real break, so a window containing one is
+    never collapsed into a single word. Punctuation leading the first token or
+    trailing the last is NOT: `(جائے گی،)` is still جائے+گی joined, wrapped in
+    the paren and comma. Blocking on the leading bracket was an early over-guard
+    that silently left `(जाए गी,)` unjoined.
     """
     for span in range(min(MAX_NGRAM, len(toks) - i), 1, -1):
         window = toks[i:i + span]
-        if any(_EDGE.match(w)["pre"] or _EDGE.match(w)["post"] for w in window[:-1]):
+        if any(_EDGE.match(w)["post"] for w in window[:-1]):
             continue
-        if _EDGE.match(window[0])["pre"]:
+        if any(_EDGE.match(w)["pre"] for w in window[1:]):
             continue
         key = " ".join(lex_key(_EDGE.match(w)["core"]) for w in window)
         entry = lex.get(key)
@@ -132,8 +135,9 @@ def _match_ngram(toks: list[str], i: int, lex: dict[str, dict]) -> tuple[str, st
             deva = render(entry["phonemic"])
         except PhonemeError:
             continue  # a broken entry falls back to per-token rendering
+        pre = "".join(PUNCT_MAP.get(c, c) for c in _EDGE.match(window[0])["pre"])
         post = "".join(PUNCT_MAP.get(c, c) for c in _EDGE.match(window[-1])["post"])
-        return deva + post, entry.get("status", "pending"), span
+        return pre + deva + post, entry.get("status", "pending"), span
     return None
 
 

@@ -2,31 +2,17 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 آتا	aa t aa	pending			0	MACHINE SUGGESTION - unreviewed.
 آجائے	aa _ j aa ' e	pending			0	MACHINE SUGGESTION - unreviewed. Urdu glues; Hindi आ जाए
 آپ	aa p	pending			0	MACHINE SUGGESTION - unreviewed.
-آپ نے	aa p n e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
 آگ	aa g	pending			0	MACHINE SUGGESTION - unreviewed.
 آیا	aa y aa	pending			0	MACHINE SUGGESTION - unreviewed.
 ابولہب	a b uu _ l a h a b	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: Abu Lahab is two words
 اس	i s	pending			0	MACHINE SUGGESTION - unreviewed.
-اس سے	i s s e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition | AMBIGUOUS: اس is is/us (this/that) - reviewer decides per entry
-اس میں	i s m e ~	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition | AMBIGUOUS: اس is is/us (this/that) - reviewer decides per entry
-اس نے	i s n e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition | AMBIGUOUS: اس is is/us (this/that) - reviewer decides per entry
-اس کا	i s k aa	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition | AMBIGUOUS: اس is is/us (this/that) - reviewer decides per entry
-اس کو	i s k o	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition | AMBIGUOUS: اس is is/us (this/that) - reviewer decides per entry
-اس کی	i s k ii	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition | AMBIGUOUS: اس is is/us (this/that) - reviewer decides per entry
-اس کے	i s k e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition | AMBIGUOUS: اس is is/us (this/that) - reviewer decides per entry
 اللہ	a l+ l aa h	pending			0	MACHINE SUGGESTION - unreviewed. gemination
 ان	u n	pending			0	MACHINE SUGGESTION - unreviewed. AMBIGUOUS: un vs an
-ان سے	u n s e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
-ان میں	u n m e ~	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
-ان کا	u n k aa	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
-ان کو	u n k o	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
-ان کی	u n k ii	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
-ان کے	u n k e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
 اندھیرا	a ~ dh e r aa	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was अनधेरा - needs nasal
 اندھیری	a ~ dh e r ii	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was अनधेरी - needs nasal
 انسان	i M s aa n	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was इनसान - anusvara
 انعام	i n aa m	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 2: ain absorbs -> इनाम
-انہوں نے	u n+ h o ~ n e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
+انہوں	u n+ h o ~	pending			0	MACHINE SUGGESTION - unreviewed. OWNER DECISION 2026-07-27: ADR 0002 ruling 4 REVISED - pronoun+postposition stays SPLIT (Rekhta).
 اور	au r	pending			0	MACHINE SUGGESTION - unreviewed.
 اپنے	a p n e	pending			0	MACHINE SUGGESTION - unreviewed.
 ایک	e k	pending			0	MACHINE SUGGESTION - unreviewed.
@@ -42,19 +28,18 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 بیشک	b e sh a k	pending			0	MACHINE SUGGESTION - unreviewed.
 بیوی	b ii v ii	pending			0	MACHINE SUGGESTION - unreviewed.
 بے	b e	pending			0	MACHINE SUGGESTION - unreviewed.
+بے نام ونشان	b e - n aa m - o - n i sh aa ~	approved	Mohammad Arif		0	OWNER CORRECTION 2026-07-27. Persian compound, hyphenated (Rekhta). n-gram kept deliberately: ADR 0002 ruling 4 revision drops pronoun+postposition joins, NOT lexical compounds.
 تاریکی	t aa r ii k ii	pending			0	MACHINE SUGGESTION - unreviewed.
 تجھ	t u jh	pending			0	MACHINE SUGGESTION - unreviewed. aspirate jh
 تجھے	t u jh e	pending			0	MACHINE SUGGESTION - unreviewed.
-تسبیح	t a s b ii h	pending			0	MACHINE SUGGESTION - unreviewed.
+تسبیح	t a s+ b ii h	approved	Mohammad Arif		0	OWNER CORRECTION 2026-07-27 (browser review). tasbeeh needs conjunct स्ब
 تعالی	t aa ' a l aa	pending			0	MACHINE SUGGESTION - unreviewed. ain -> independent अ
 تعریف	t aa r ii f	pending			0	MACHINE SUGGESTION - unreviewed. ain elided; taareef
 تم	t u m	pending			0	MACHINE SUGGESTION - unreviewed.
-تم نے	t u m n e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
 تمام	t a m aa m	pending			0	MACHINE SUGGESTION - unreviewed.
 تمہارا	t u m+ h aa r aa	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was तुमहारा - conjunct
 تمہارے	t u m+ h aa r e	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was तुमहारे - conjunct
 تو	t uu	pending			0	MACHINE SUGGESTION - unreviewed.
-تو نے	t uu n e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
 توبہ	t au b aa	pending			0	MACHINE SUGGESTION - unreviewed.
 تیرا	t e r aa	pending			0	MACHINE SUGGESTION - unreviewed.
 تیری	t e r ii	pending			0	MACHINE SUGGESTION - unreviewed.
@@ -66,14 +51,13 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 جس	j i s	pending			0	MACHINE SUGGESTION - unreviewed.
 جن	j i n	pending			0	MACHINE SUGGESTION - unreviewed.
 جنہوں	j i n+ h o ~	pending			0	MACHINE SUGGESTION - unreviewed. conjunct
-جنہوں نے	j i n+ h o ~ n e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
 جو	j o	pending			0	MACHINE SUGGESTION - unreviewed.
-جوق	j o q	pending			0	MACHINE SUGGESTION - unreviewed.
+جوق	j au q	approved	Mohammad Arif		0	OWNER CORRECTION 2026-07-27 (browser review). joq -> jauq
 جہالت	j a h aa l a t	pending			0	MACHINE SUGGESTION - unreviewed.
 جہانوں	j a h aa n o ~	pending			0	MACHINE SUGGESTION - unreviewed.
 حسد	h a s a d	pending			0	MACHINE SUGGESTION - unreviewed.
 حق	h a q	pending			0	MACHINE SUGGESTION - unreviewed. nukta q
-حمد	h a m d	pending			0	MACHINE SUGGESTION - unreviewed.
+حمد	h a m+ d	approved	Mohammad Arif		0	OWNER CORRECTION 2026-07-27 (browser review). hamd needs conjunct म्द
 حوض	h au z	pending			0	MACHINE SUGGESTION - unreviewed.
 خواہ	x+ v aa h	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was ख़ाह - needs ख़्वाह
 خود	x u d	pending			0	MACHINE SUGGESTION - unreviewed.
@@ -91,7 +75,7 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 راہ	r aa h	pending			0	MACHINE SUGGESTION - unreviewed.
 رب	r a b	pending			0	MACHINE SUGGESTION - unreviewed.
 رحم	r a h a m	pending			0	MACHINE SUGGESTION - unreviewed. raham vs rahm - vowel call
-رسی	r a s ii	pending			0	MACHINE SUGGESTION - unreviewed.
+رسی	r a s+ s ii	approved	Mohammad Arif		0	OWNER CORRECTION 2026-07-27 (browser review). rassi is geminate
 رہا	r a h aa	pending			0	MACHINE SUGGESTION - unreviewed.
 ساتھ	s aa th	pending			0	MACHINE SUGGESTION - unreviewed.
 سب	s a b	pending			0	MACHINE SUGGESTION - unreviewed.
@@ -125,7 +109,7 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 مانگ	m aa ~ g	pending			0	MACHINE SUGGESTION - unreviewed.
 مدد	m a d a d	pending			0	MACHINE SUGGESTION - unreviewed.
 معبود	m aa b uu d	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was invalid phoneme a'
-مغفرت	m a G f i r a t	pending			0	MACHINE SUGGESTION - unreviewed.
+مغفرت	m a G+ f i r a t	approved	Mohammad Arif		0	OWNER CORRECTION 2026-07-27 (browser review). maghfirat needs conjunct ग़्फ़
 مگر	m a g a r	pending			0	MACHINE SUGGESTION - unreviewed.
 مہربان	m e h a r b aa n	pending			0	MACHINE SUGGESTION - unreviewed.
 میرا	m e r aa	pending			0	MACHINE SUGGESTION - unreviewed.
@@ -197,8 +181,6 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 ہر	h a r	pending			0	MACHINE SUGGESTION - unreviewed.
 ہلاک	h a l aa k	pending			0	MACHINE SUGGESTION - unreviewed.
 ہم	h a m	pending			0	MACHINE SUGGESTION - unreviewed.
-ہم سے	h a m s e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
-ہم نے	h a m n e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
 ہمسر	h a m s a r	pending			0	MACHINE SUGGESTION - unreviewed.
 ہمیں	h a m e ~	pending			0	MACHINE SUGGESTION - unreviewed.
 ہو	h o	pending			0	MACHINE SUGGESTION - unreviewed.
