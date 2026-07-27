@@ -132,6 +132,12 @@ tokens — **4.9% of the corpus**.
 > were removed from `data/lexicon/lexicon.tsv`; the table is kept as the record of
 > what was considered, not as a to-do list.
 >
+> **Exception, added after the 1:7 review — the oblique plural JOINS.**
+> `جنہوں نے` → **जिन्होंने** and `انہوں نے` → **उन्होंने**, while `ہم نے` → हम ने
+> and `تو نے` → तू ने stay split. The boundary is not arbitrary: جنہوں / انہوں
+> are oblique plural forms that occur *only* before a postposition, so they are
+> effectively bound, whereas ہم and تو stand alone freely.
+>
 > **Lesson worth keeping:** the abstract question ("join or split?") was answered
 > one way and the concrete rendered text answered it the other. Judge these on the
 > page, not in the ADR.
@@ -177,6 +183,33 @@ Use the `_` word-break phoneme. Beware `رضامندی` and `پابندی`, whic
 in `دی` and are single words.
 
 ---
+
+## Ruling 5 — Izafat: mark it, and accept that only a human can find it
+
+Added 2026-07-27, from the 1:7 review. `راه حق` renders **राह-ए-हक़**, not राह हक़.
+
+Izafat is the Persian `-e-` linker binding two nouns (*raah-e-haq*, "the path of
+truth"). Urdu **does not write it**: the text is two bare tokens, `راه` then
+`حق`, with nothing marking the construction. A reader supplies it from knowing
+the phrase.
+
+**This is worse than a homograph.** A homograph at least announces itself — the
+reviewer sees `میں` and knows a decision is due. Izafat is *invisible*: nothing
+in the spelling flags that `راه حق` differs from any other adjacent noun pair.
+The corpus has **55,819 distinct adjacent word-pairs** and no mechanical test
+separates the izafat ones. `راه` alone is followed by میں ×61, راست ×51, سے ×48,
+پر ×22 — none of which take izafat — and حق only twice.
+
+**Ruling:** record izafat as an n-gram key with explicit hyphens
+(`r aa h - e - h a q`), the same mechanism as lexical compounds. There is no
+detection rule and none should be invented: a heuristic here would insert a
+linker into phrases that do not have one, which changes the meaning of scripture.
+Izafat is found by reading, and only by reading.
+
+**Consequence for coverage claims:** a surah rendering with no gaps is NOT
+evidence that its izafat is right. Missing izafat is silent — it renders as two
+plausible words. Any claim that a surah is complete rests on someone having read
+it, which is the same conclusion as everywhere else in this project.
 
 ## Consequences
 

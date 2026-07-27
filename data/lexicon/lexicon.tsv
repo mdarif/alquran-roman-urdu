@@ -13,6 +13,7 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 انسان	i M s aa n	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was इनसान - anusvara
 انعام	i n aa m	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 2: ain absorbs -> इनाम
 انہوں	u n+ h o ~	pending			0	MACHINE SUGGESTION - unreviewed. OWNER DECISION 2026-07-27: ADR 0002 ruling 4 REVISED - pronoun+postposition stays SPLIT (Rekhta).
+انہوں نے	u n+ h o ~ n e	approved	Mohammad Arif		0	OWNER CORRECTION 2026-07-27 (browser review, 1:7). Same class as جنہوں نے.
 اور	au r	pending			0	MACHINE SUGGESTION - unreviewed.
 اپنے	a p n e	pending			0	MACHINE SUGGESTION - unreviewed.
 ایک	e k	pending			0	MACHINE SUGGESTION - unreviewed.
@@ -51,6 +52,7 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 جس	j i s	pending			0	MACHINE SUGGESTION - unreviewed.
 جن	j i n	pending			0	MACHINE SUGGESTION - unreviewed.
 جنہوں	j i n+ h o ~	pending			0	MACHINE SUGGESTION - unreviewed. conjunct
+جنہوں نے	j i n+ h o ~ n e	approved	Mohammad Arif		0	OWNER CORRECTION 2026-07-27 (browser review, 1:7). ADR 0002 r4: oblique plural + نے JOINS (जिन्होंने), unlike ہم نے/تو نے which split.
 جو	j o	pending			0	MACHINE SUGGESTION - unreviewed.
 جوق	j au q	approved	Mohammad Arif		0	OWNER CORRECTION 2026-07-27 (browser review). joq -> jauq
 جہالت	j a h aa l a t	pending			0	MACHINE SUGGESTION - unreviewed.
@@ -73,6 +75,7 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 دیکھ	d e kh	pending			0	MACHINE SUGGESTION - unreviewed.
 رات	r aa t	pending			0	MACHINE SUGGESTION - unreviewed.
 راہ	r aa h	pending			0	MACHINE SUGGESTION - unreviewed.
+راہ حق	r aa h - e - h a q	approved	Mohammad Arif		0	OWNER CORRECTION 2026-07-27 (browser review, 1:7). IZAFAT: the Persian -e- linker is unwritten in Urdu but pronounced. راه حق = राह-ए-हक़.
 رب	r a b	pending			0	MACHINE SUGGESTION - unreviewed.
 رحم	r a h a m	pending			0	MACHINE SUGGESTION - unreviewed. raham vs rahm - vowel call
 رسی	r a s+ s ii	approved	Mohammad Arif		0	OWNER CORRECTION 2026-07-27 (browser review). rassi is geminate
