@@ -110,7 +110,7 @@ text. They are not preferences.
 
 | Source | Role | Licence |
 |---|---|---|
-| Tanzil `ur.junagarhi` (6,236 verses) | The source text | **UNVERIFIED** → ATTRIBUTION.md |
+| Tanzil `ur.junagarhi` (6,236 verses) | The source text | **PUBLIC DOMAIN** — Junagarhi d. 1941 → ATTRIBUTION.md |
 | Dakshina v1.0, `ur/lexicons` | Bootstrap candidates + validation reference | CC BY-SA 4.0 |
 | CLE Lahore lexicon / PronouncUR | Phonemic transcription for the vowelization step | Per-source, check |
 | Eliasi Roman-script Quran (print) | **Adjudication reference only** — consult on reviewer disagreement. Do not ingest, do not transcribe wholesale | Copyrighted |

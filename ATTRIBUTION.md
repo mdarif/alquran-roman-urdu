@@ -1,10 +1,28 @@
 # ATTRIBUTION.md
 
-**Status: NOT CLEAR FOR RELEASE.**
+**Status: source text CLEARED. Release gated on review, not on licensing.**
 
-Nothing in this repo may be published, shipped, or bundled into `alquran-app`
-until every row below reads a resolved licence. `"UNVERIFIED — clear before
-release"` is an honest state to be in. Shipping while still in it is not.
+The **source text is public domain** (Junagarhi, d. 1941 — see below), settled by
+the owner on 2026-07-27. That removes what was the primary blocker: derivative
+works need no permission, so Roman Urdu and Devanagari output are both permitted,
+and no verbatim-only clause applies.
+
+What still gates a release, in order:
+
+1. **Review completeness — the real gate.** `AGENTS.md` §4.2 is unchanged:
+   nothing ships unreviewed. `data/lexicon/` is currently empty and every
+   `out/review_queue.tsv` row is `pending`, so there is nothing shippable yet
+   regardless of licensing.
+2. **Dakshina's CC BY-SA 4.0 share-alike**, which propagates into the lexicon.
+   Resolved and accepted per ADR 0001, but it dictates how `data/lexicon/` is
+   published — it is not a blocker, it is a constraint.
+3. **Two `UNVERIFIED` rows below — CLE Lahore/PronouncUR and Roman-Urdu-Parl.**
+   Both are **prospective and currently unused**: no suggester exists and neither
+   has been ingested. They block only at the moment something actually consumes
+   them. Clear them before that, not before release.
+
+`"UNVERIFIED"` is an honest state for a source we have not used. Shipping output
+derived from one while it still reads that way is not.
 
 ---
 
@@ -13,19 +31,31 @@ release"` is an honest state to be in. Shipping while still in it is not.
 ### Tanzil `ur.junagarhi` — Urdu translation, Maulana Muhammad Junagarhi
 
 - **Role:** the source text. Everything else is derived from it.
-- **Licence:** `UNVERIFIED — clear before release`
-- **What we know:** Junagarhi died in 1941. Pakistan and India both apply
-  life-plus-sixty, so the **translation text itself** is very likely public
-  domain. Tanzil's own permission notice covers verbatim copying of the *Quran
-  text* and forbids modification — that governs the Arabic, not the translation.
-- **What is open:** the Tanzil file derives from a published edition
-  (Darussalam). A publisher may assert rights over typesetting, orthographic
-  normalisation, or editorial apparatus — including the parenthetical glosses
-  in the text — separate from the translation itself.
-- **Action:** written enquiry to Tanzil regarding the provenance of their file,
-  and to Darussalam regarding any claim over the edition. Start now; this has
-  latency and will otherwise surface at ship time.
-- **Owner:** _unassigned_
+- **Licence:** **PUBLIC DOMAIN — RESOLVED** (owner determination, 2026-07-27).
+- **Basis:** Junagarhi died in **1941**. India and Pakistan both apply
+  life-plus-sixty, putting the translation in the public domain around **2001**;
+  life-plus-seventy jurisdictions clear it by **2011**. The text is also
+  distributed openly and at scale as an Islamic educational work — Quran.com,
+  Tanzil, Islam360 and others carry it with no licensing step.
+- **On Tanzil's terms:** Tanzil is a *redistributor* of this translation, not a
+  rights holder. Their non-commercial-with-attribution request attaches to their
+  distribution and cannot bind a public-domain work. We credit them for the
+  digital copy as a courtesy, not an obligation. (Their permission notice about
+  verbatim copying governs the **Arabic** text, which is a separate path and
+  never touches this engine — → `AGENTS.md` §4.5.)
+- **Consequence — this repo is unblocked.** A derivative of a public-domain text
+  needs nobody's permission, so **transliteration is permitted**: neither Roman
+  Urdu nor Devanagari is constrained by a verbatim-only clause, and neither
+  requires clearance before shipping. Full determination and reasoning:
+  `../alquran-data/ATTRIBUTION.md` §2.
+- **Residual, recorded not resolved:** the text carries parenthetical glosses in
+  **1,479 verses** (e.g. 1:4 `بدلے کے دن (یعنی قیامت) کا مالک ہے۔`). These are a
+  hallmark of Junagarhi's own translation and are public domain with it. A
+  publisher (Darussalam) could in principle claim rights over a specific
+  *edition's* apparatus — typesetting, orthographic normalisation — separate
+  from the translation. Assessed as thin against a text mirrored this widely,
+  and **not a blocker**. Revisit only if a publisher raises it.
+- **Owner:** determined by repo owner, 2026-07-27.
 
 ### Dakshina v1.0 — Google Research
 
