@@ -76,13 +76,21 @@ HELP = f"""
                 p ph b bh m y r l v sh s S h  |  q x G z zh f (nukta series)
     vowels      a aa i ii u uu e ai o au
     modifiers   ~  nasalisation      '  ain/hamza (syllable break)
+                M  explicit anusvara — इंसान, where ~ would give इँसान
                 +  suffix on a consonant = halant (true conjunct)
+                _  word break — ہوگئے is one Urdu token but हो गए
 
   {YELLOW}The '+' marker is the one thing to get right.{RESET} A coda consonant is bare;
   a gemination or true cluster takes a halant. Both look like "consonant with
   no vowel", so it cannot be inferred:
       k a r t aa    -> करता   (coda r, bare)
       a l+ l aa h   -> अल्लाह  (gemination, halant)
+
+{BOLD}When a machine suggestion is shown{RESET}
+  It is UNREVIEWED and is wrong often enough to matter — roughly one in seven in
+  the al-Fatiha and 108-114 pilots. Judge the rendered Devanagari, not the
+  phoneme string; that is how every error so far was caught. [enter] approves it
+  as shown, so read it before pressing.
 
 {BOLD}Commands{RESET}
   ?         this help            s   skip (stays pending)
@@ -191,28 +199,44 @@ def show_stats(rows: dict[str, dict]) -> None:
     print(f"  approved hash       {content_hash(rows)[:16]}…\n")
 
 
-def build_worklist(rows: dict[str, dict], only_key: str | None) -> list[dict]:
-    """Queue + matched, merged and frequency-ordered. Matched forms still need a
-    human: 99.4% of Dakshina matches have more than one attested spelling, and a
-    match is a candidate, not an answer."""
+def build_worklist(
+    rows: dict[str, dict], only_key: str | None, suggested_only: bool = False
+) -> list[dict]:
+    """Queue + matched + anything already in the lexicon, frequency-ordered.
+
+    Matched forms still need a human: 99.4% of Dakshina matches have more than
+    one attested spelling, and a match is a candidate, not an answer.
+
+    Lexicon entries are folded in because `matched`/`queue` are built from single
+    whitespace tokens, so an n-gram key (`ہم نے`) appears in neither and would
+    otherwise never be offered for review — it would sit `pending` forever while
+    the tool reported the queue complete.
+    """
     cand: dict[str, dict] = {}
     for r in load_tsv(MATCHED):
         cand[r["key"]] = {"key": r["key"], "freq": int(r["freq"]), "dakshina": r.get("all_variants", "")}
     for r in load_tsv(QUEUE):
         cand.setdefault(r["key"], {"key": r["key"], "freq": int(r["freq"]), "dakshina": ""})
+    for k, r in rows.items():
+        cand.setdefault(k, {"key": k, "freq": int(r.get("freq") or 0), "dakshina": ""})
     if only_key:
         return [cand[only_key]] if only_key in cand else []
     todo = [
         c for c in cand.values()
         if rows.get(c["key"], {}).get("status") not in ("reviewed", "approved")
     ]
+    if suggested_only:
+        # Only forms that already carry a machine suggestion. This is the
+        # confirm-or-correct pass, and it is the fast one: the reviewer judges a
+        # rendered word rather than composing a phonemic form from scratch.
+        todo = [c for c in todo if rows.get(c["key"], {}).get("phonemic")]
     return sorted(todo, key=lambda c: -c["freq"])
 
 
-def review_loop(reviewer: str, only_key: str | None) -> int:
+def review_loop(reviewer: str, only_key: str | None, suggested_only: bool = False) -> int:
     rows = load_lexicon()
     corpus = load_contexts()
-    worklist = build_worklist(rows, only_key)
+    worklist = build_worklist(rows, only_key, suggested_only)
     if not worklist:
         print("Nothing to review." if not only_key else f"Key not found: {only_key}")
         return 0
@@ -234,6 +258,26 @@ def review_loop(reviewer: str, only_key: str | None) -> int:
         for ref, verse in find_contexts(key, corpus):
             print(f"  {DIM}{ref:>7}{RESET}  {verse}")
 
+        # Existing machine suggestion, if any. Shown as evidence and rendered so
+        # the reviewer judges the actual Devanagari word rather than a phoneme
+        # string — that is how the two errors in the al-Fatiha pilot were caught.
+        # It is deliberately NOT pre-filled into the prompt: accepting takes an
+        # explicit keystroke, and the default action is never "approve".
+        existing = rows.get(key, {})
+        suggestion = existing.get("phonemic", "") if existing.get("status") == "pending" else ""
+        if suggestion:
+            try:
+                preview = render(suggestion)
+            except PhonemeError as exc:
+                preview = f"{YELLOW}INVALID: {exc}{RESET}"
+            print(f"\n  {DIM}machine suggestion (UNREVIEWED):{RESET} {suggestion}")
+            print(f"  {DIM}renders as:{RESET} {BOLD}{preview}{RESET}")
+            if existing.get("notes"):
+                tail = existing["notes"].replace("MACHINE SUGGESTION - unreviewed.", "").strip()
+                if tail:
+                    print(f"  {YELLOW}! {tail}{RESET}")
+            print(f"  {DIM}[enter]=approve as shown  ·  type a correction  ·  s=skip  ·  x=reviewed-only{RESET}")
+
         note = ""
         while True:
             try:
@@ -252,7 +296,20 @@ def review_loop(reviewer: str, only_key: str | None) -> int:
                 print(f"\n  {done} entries this session -> {LEXICON}")
                 print(f"  approved hash {content_hash(rows)[:16]}…")
                 return 0
-            if raw == "s" or raw == "":
+            if raw == "s":
+                break
+            if raw == "":
+                if not suggestion:
+                    break  # nothing to accept: treat bare enter as skip
+                rows[key] = {
+                    "key": key, "phonemic": suggestion, "status": "approved",
+                    "reviewer": reviewer,
+                    "reviewed_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                    "freq": str(freq), "notes": note or existing.get("notes", ""),
+                }
+                save_lexicon(rows)
+                done += 1
+                print(f"  {GREEN}approved{RESET} {render(suggestion)}")
                 break
             if raw.startswith("n "):
                 note = raw[2:].strip()
@@ -301,6 +358,8 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--reviewer", help="name recorded on every entry you decide")
     ap.add_argument("--key", help="jump straight to one surface form")
+    ap.add_argument("--suggested", action="store_true",
+                    help="only forms that already carry a machine suggestion (confirm-or-correct pass)")
     ap.add_argument("--stats", action="store_true", help="coverage so far")
     ap.add_argument("--hash", action="store_true", help="content hash of approved entries")
     args = ap.parse_args()
@@ -313,7 +372,7 @@ def main() -> int:
         return 0
     if not args.reviewer:
         ap.error("--reviewer is required: an entry with no reviewer is not reviewed")
-    return review_loop(args.reviewer, args.key)
+    return review_loop(args.reviewer, args.key, args.suggested)
 
 
 if __name__ == "__main__":
