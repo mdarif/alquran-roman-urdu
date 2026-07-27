@@ -9,7 +9,7 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 برگشتہ	b a r g a sh+ t aa	pending			0	MACHINE SUGGESTION - unreviewed. conjunct sh+t
 بڑا	b a R aa	pending			0	MACHINE SUGGESTION - unreviewed. retroflex R
 تجھ	t u jh	pending			0	MACHINE SUGGESTION - unreviewed. aspirate jh
-تعالیٰ	t aa ' a l aa	pending			0	MACHINE SUGGESTION - unreviewed. ain -> independent अ
+تعالی	t aa ' a l aa	pending			0	MACHINE SUGGESTION - unreviewed. ain -> independent अ
 تعریف	t aa r ii f	pending			0	MACHINE SUGGESTION - unreviewed. ain elided; taareef
 تمام	t a m aa m	pending			0	MACHINE SUGGESTION - unreviewed.
 تو	t uu	pending			0	MACHINE SUGGESTION - unreviewed.
@@ -24,7 +24,7 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 حق	h a q	pending			0	MACHINE SUGGESTION - unreviewed. nukta q
 دن	d i n	pending			0	MACHINE SUGGESTION - unreviewed.
 دکھا	d i kh aa	pending			0	MACHINE SUGGESTION - unreviewed. aspirate kh
-راه	r aa h	pending			0	MACHINE SUGGESTION - unreviewed.
+راہ	r aa h	pending			0	MACHINE SUGGESTION - unreviewed.
 رحم	r a h a m	pending			0	MACHINE SUGGESTION - unreviewed. raham vs rahm - vowel call
 سب	s a b	pending			0	MACHINE SUGGESTION - unreviewed.
 سبب	s a b a b	pending			0	MACHINE SUGGESTION - unreviewed.
@@ -50,7 +50,7 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 نہیں	n a h ii ~	pending			0	MACHINE SUGGESTION - unreviewed.
 نے	n e	pending			0	MACHINE SUGGESTION - unreviewed.
 والا	v aa l aa	pending			0	MACHINE SUGGESTION - unreviewed.
-وه	v o	pending			0	MACHINE SUGGESTION - unreviewed. AMBIGUOUS: vo vs vah
+وہ	v o	pending			0	MACHINE SUGGESTION - unreviewed. AMBIGUOUS: vo vs vah
 پالنے	p aa l n e	pending			0	MACHINE SUGGESTION - unreviewed.
 پر	p a r	pending			0	MACHINE SUGGESTION - unreviewed.
 پہچانا	p a h c aa n aa	pending			0	MACHINE SUGGESTION - unreviewed.

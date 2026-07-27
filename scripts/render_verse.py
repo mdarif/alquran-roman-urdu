@@ -31,7 +31,20 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from render_devanagari import PhonemeError, render  # noqa: E402
+from normalise import normalise  # noqa: E402
 from review import LEXICON, load_lexicon  # noqa: E402
+
+
+def lex_key(surface: str) -> str:
+    """The lookup key for a surface form.
+
+    MUST match how review.py's queue is keyed, which is the normalised form
+    (scripts/normalise.py is the contract). Looking up the raw surface form
+    instead silently misses every entry whose spelling the normaliser folds —
+    راه/راہ, وه/وہ, تعالیٰ/تعالی — and the corpus has ~50 such collapses. The
+    failure mode is a miss, not an error, so it does not announce itself.
+    """
+    return normalise(surface)
 
 # The Urdu source this project is derived from. Read-only, and deliberately
 # reached across to alquran-data rather than duplicated: one copy of scripture.
@@ -59,7 +72,7 @@ def render_token(tok: str, lex: dict[str, dict]) -> tuple[str, str]:
     if not core:
         return pre_d + post_d, "punct"
 
-    entry = lex.get(core)
+    entry = lex.get(lex_key(core))
     if entry is None or not entry.get("phonemic"):
         return f"{pre_d}⟨{core}⟩{post_d}", "missing"
 
@@ -90,7 +103,7 @@ def _match_ngram(toks: list[str], i: int, lex: dict[str, dict]) -> tuple[str, st
             continue
         if _EDGE.match(window[0])["pre"]:
             continue
-        key = " ".join(_EDGE.match(w)["core"] for w in window)
+        key = " ".join(lex_key(_EDGE.match(w)["core"]) for w in window)
         entry = lex.get(key)
         if not (entry and entry.get("phonemic")):
             continue
