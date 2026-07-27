@@ -33,6 +33,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from render_devanagari import PhonemeError, render  # noqa: E402
 from normalise import normalise  # noqa: E402
 from review import LEXICON, load_lexicon  # noqa: E402
+from overrides import OverrideMismatch, load_overrides  # noqa: E402
 
 
 def lex_key(surface: str) -> str:
@@ -53,8 +54,23 @@ SOURCE_DB = Path.home() / "code" / "alquran-data" / "sources" / "ur-junagarri-si
 # Punctuation carried straight through, mapped to its Devanagari equivalent
 # where one exists. Parentheses matter: Junagarhi's parenthetical glosses appear
 # in 1,479 verses and are part of the translation, not our apparatus.
-PUNCT_MAP = {"۔": "।", "،": ",", "؟": "?", "(": "(", ")": ")", "﴿": "﴿", "﴾": "﴾"}
-_EDGE = re.compile(r"^(?P<pre>[(«﴾]*)(?P<core>.*?)(?P<post>[)»﴿،۔؟,]*)$", re.DOTALL)
+#
+# The source is INCONSISTENT about the sentence terminator: 4,642 verses end in
+# an ASCII full stop U+002E and only 2,012 in the Urdu U+06D4. Both must map to
+# the danda — al-Fatiha uses U+06D4 throughout, which is why the ASCII case went
+# unnoticed until the short surahs.
+PUNCT_MAP = {
+    "۔": "।", ".": "।",
+    "،": ",", "؟": "?", "!": "!",
+    "(": "(", ")": ")", "﴿": "﴿", "﴾": "﴾",
+}
+_EDGE = re.compile(r"^(?P<pre>[(«﴾]*)(?P<core>.*?)(?P<post>[)»﴿،۔؟,.!]*)$", re.DOTALL)
+
+# Footnote references — `(1)` and friends — appear in 25 verses. They are the
+# print edition's apparatus, not Junagarhi's words, and they arrive glued to the
+# preceding token (`آجائے.(1)`). Split them out so they neither corrupt the
+# lookup key nor get reported as a missing lexicon entry.
+_FOOTNOTE = re.compile(r"\((\d+)\)")
 
 BOLD, DIM, YELLOW, RED, GREEN, RESET = (
     ("\033[1m", "\033[2m", "\033[33m", "\033[31m", "\033[32m", "\033[0m")
@@ -71,6 +87,11 @@ def render_token(tok: str, lex: dict[str, dict]) -> tuple[str, str]:
 
     if not core:
         return pre_d + post_d, "punct"
+
+    # A bare number is a footnote reference, not a word. Pass it through rather
+    # than looking it up, or it reports as a missing lexicon entry forever.
+    if core.isdigit():
+        return pre_d + core + post_d, "punct"
 
     entry = lex.get(lex_key(core))
     if entry is None or not entry.get("phonemic"):
@@ -116,11 +137,38 @@ def _match_ngram(toks: list[str], i: int, lex: dict[str, dict]) -> tuple[str, st
     return None
 
 
-def render_verse(text: str, lex: dict[str, dict]) -> tuple[str, dict[str, int], list[str]]:
+def render_verse(
+    text: str,
+    lex: dict[str, dict],
+    ref: str | None = None,
+    ovr: dict[tuple[str, int], dict] | None = None,
+) -> tuple[str, dict[str, int], list[str]]:
+    ovr = ovr or {}
     out, counts, gaps = [], {}, []
-    toks = text.split()
+    # Detach footnote markers before tokenising so `آجائے.(1)` splits into the
+    # word and the reference instead of becoming one unlookup-able key.
+    toks = _FOOTNOTE.sub(r" (\1) ", text).split()
     i = 0
     while i < len(toks):
+        # A per-occurrence override wins over both the n-gram and type lexicon:
+        # it is the only layer that can resolve a homograph. → overrides.py
+        o = ovr.get((ref, i)) if ref else None
+        if o and o.get("phonemic"):
+            span = int(o.get("span") or 1)
+            window = toks[i:i + span]
+            actual = " ".join(lex_key(_EDGE.match(w)["core"]) for w in window)
+            if actual != o["key"]:
+                raise OverrideMismatch(
+                    f"{ref} index {i}: override expects {o['key']!r} "
+                    f"but the verse has {actual!r} — indices have drifted"
+                )
+            pre = "".join(PUNCT_MAP.get(c, c) for c in _EDGE.match(window[0])["pre"])
+            post = "".join(PUNCT_MAP.get(c, c) for c in _EDGE.match(window[-1])["post"])
+            out.append(pre + render(o["phonemic"]) + post)
+            st = o.get("status", "pending")
+            counts[st] = counts.get(st, 0) + span
+            i += span
+            continue
         hit = _match_ngram(toks, i, lex)
         if hit:
             rendered, status, span = hit
@@ -146,6 +194,7 @@ def main() -> int:
     args = ap.parse_args()
 
     lex = load_lexicon()
+    ovr = load_overrides()
     if not lex:
         print(f"lexicon is empty: {LEXICON}", file=sys.stderr)
         return 1
@@ -170,7 +219,7 @@ def main() -> int:
     totals: dict[str, int] = {}
     all_gaps: list[str] = []
     for ref, urdu in verses:
-        deva, counts, gaps = render_verse(urdu, lex)
+        deva, counts, gaps = render_verse(urdu, lex, ref, ovr)
         for k, v in counts.items():
             totals[k] = totals.get(k, 0) + v
         all_gaps += gaps

@@ -1,5 +1,11 @@
 key	phonemic	status	reviewer	reviewed_at	freq	notes
+آتا	aa t aa	pending			0	MACHINE SUGGESTION - unreviewed.
+آجائے	aa _ j aa ' e	pending			0	MACHINE SUGGESTION - unreviewed. Urdu glues; Hindi आ जाए
+آپ	aa p	pending			0	MACHINE SUGGESTION - unreviewed.
 آپ نے	aa p n e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
+آگ	aa g	pending			0	MACHINE SUGGESTION - unreviewed.
+آیا	aa y aa	pending			0	MACHINE SUGGESTION - unreviewed.
+ابولہب	a b uu _ l a h a b	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: Abu Lahab is two words
 اس	i s	pending			0	MACHINE SUGGESTION - unreviewed.
 اس سے	i s s e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition | AMBIGUOUS: اس is is/us (this/that) - reviewer decides per entry
 اس میں	i s m e ~	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition | AMBIGUOUS: اس is is/us (this/that) - reviewer decides per entry
@@ -16,79 +22,196 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 ان کو	u n k o	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
 ان کی	u n k ii	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
 ان کے	u n k e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
+اندھیرا	a ~ dh e r aa	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was अनधेरा - needs nasal
+اندھیری	a ~ dh e r ii	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was अनधेरी - needs nasal
+انسان	i M s aa n	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was इनसान - anusvara
 انعام	i n aa m	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 2: ain absorbs -> इनाम
 انہوں نے	u n+ h o ~ n e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
 اور	au r	pending			0	MACHINE SUGGESTION - unreviewed.
+اپنے	a p n e	pending			0	MACHINE SUGGESTION - unreviewed.
+ایک	e k	pending			0	MACHINE SUGGESTION - unreviewed.
+اے	ai	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was अए
 بدلے	b a d l e	pending			0	MACHINE SUGGESTION - unreviewed.
+برائی	b u r aa ' ii	pending			0	MACHINE SUGGESTION - unreviewed.
 برگشتہ	b a r g a sh+ t aa	pending			0	MACHINE SUGGESTION - unreviewed. conjunct sh+t
+بٹی	b a T ii	pending			0	MACHINE SUGGESTION - unreviewed.
 بڑا	b a R aa	pending			0	MACHINE SUGGESTION - unreviewed. retroflex R
+بھڑکنے	bh a R a k n e	pending			0	MACHINE SUGGESTION - unreviewed.
+بھی	bh ii	pending			0	MACHINE SUGGESTION - unreviewed.
+بہت	b a h u t	pending			0	MACHINE SUGGESTION - unreviewed.
+بیشک	b e sh a k	pending			0	MACHINE SUGGESTION - unreviewed.
+بیوی	b ii v ii	pending			0	MACHINE SUGGESTION - unreviewed.
+بے	b e	pending			0	MACHINE SUGGESTION - unreviewed.
+تاریکی	t aa r ii k ii	pending			0	MACHINE SUGGESTION - unreviewed.
 تجھ	t u jh	pending			0	MACHINE SUGGESTION - unreviewed. aspirate jh
+تجھے	t u jh e	pending			0	MACHINE SUGGESTION - unreviewed.
+تسبیح	t a s b ii h	pending			0	MACHINE SUGGESTION - unreviewed.
 تعالی	t aa ' a l aa	pending			0	MACHINE SUGGESTION - unreviewed. ain -> independent अ
 تعریف	t aa r ii f	pending			0	MACHINE SUGGESTION - unreviewed. ain elided; taareef
+تم	t u m	pending			0	MACHINE SUGGESTION - unreviewed.
 تم نے	t u m n e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
 تمام	t a m aa m	pending			0	MACHINE SUGGESTION - unreviewed.
+تمہارا	t u m+ h aa r aa	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was तुमहारा - conjunct
+تمہارے	t u m+ h aa r e	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was तुमहारे - conjunct
 تو	t uu	pending			0	MACHINE SUGGESTION - unreviewed.
 تو نے	t uu n e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
+توبہ	t au b aa	pending			0	MACHINE SUGGESTION - unreviewed.
+تیرا	t e r aa	pending			0	MACHINE SUGGESTION - unreviewed.
 تیری	t e r ii	pending			0	MACHINE SUGGESTION - unreviewed.
+جائے	j aa ' e	pending			0	MACHINE SUGGESTION - unreviewed.
+جائے گا	j aa ' e g aa	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4 (same class): Hindi joins the future auxiliary گا/گی/گے to the verb
+جائے گی	j aa ' e g ii	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4 (same class): Hindi joins the future auxiliary گا/گی/گے to the verb
+جانے	j aa n e	pending			0	MACHINE SUGGESTION - unreviewed.
+جب	j a b	pending			0	MACHINE SUGGESTION - unreviewed.
+جس	j i s	pending			0	MACHINE SUGGESTION - unreviewed.
 جن	j i n	pending			0	MACHINE SUGGESTION - unreviewed.
 جنہوں	j i n+ h o ~	pending			0	MACHINE SUGGESTION - unreviewed. conjunct
 جنہوں نے	j i n+ h o ~ n e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
 جو	j o	pending			0	MACHINE SUGGESTION - unreviewed.
+جوق	j o q	pending			0	MACHINE SUGGESTION - unreviewed.
 جہالت	j a h aa l a t	pending			0	MACHINE SUGGESTION - unreviewed.
 جہانوں	j a h aa n o ~	pending			0	MACHINE SUGGESTION - unreviewed.
+حسد	h a s a d	pending			0	MACHINE SUGGESTION - unreviewed.
 حق	h a q	pending			0	MACHINE SUGGESTION - unreviewed. nukta q
+حمد	h a m d	pending			0	MACHINE SUGGESTION - unreviewed.
+حوض	h au z	pending			0	MACHINE SUGGESTION - unreviewed.
+خواہ	x+ v aa h	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was ख़ाह - needs ख़्वाह
+خود	x u d	pending			0	MACHINE SUGGESTION - unreviewed.
+در	d a r	pending			0	MACHINE SUGGESTION - unreviewed.
+دشمن	d u sh+ m a n	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was दुशमन - conjunct
+دعا	d u ' aa	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was invalid phoneme u'
 دن	d i n	pending			0	MACHINE SUGGESTION - unreviewed.
+دونوں	d o n o ~	pending			0	MACHINE SUGGESTION - unreviewed.
 دکھا	d i kh aa	pending			0	MACHINE SUGGESTION - unreviewed. aspirate kh
+دیا	d i y aa	pending			0	MACHINE SUGGESTION - unreviewed.
+دیجئے	d ii j i y e	pending			0	MACHINE SUGGESTION - unreviewed.
+دین	d ii n	pending			0	MACHINE SUGGESTION - unreviewed.
+دیکھ	d e kh	pending			0	MACHINE SUGGESTION - unreviewed.
+رات	r aa t	pending			0	MACHINE SUGGESTION - unreviewed.
 راہ	r aa h	pending			0	MACHINE SUGGESTION - unreviewed.
+رب	r a b	pending			0	MACHINE SUGGESTION - unreviewed.
 رحم	r a h a m	pending			0	MACHINE SUGGESTION - unreviewed. raham vs rahm - vowel call
+رسی	r a s ii	pending			0	MACHINE SUGGESTION - unreviewed.
+رہا	r a h aa	pending			0	MACHINE SUGGESTION - unreviewed.
+ساتھ	s aa th	pending			0	MACHINE SUGGESTION - unreviewed.
 سب	s a b	pending			0	MACHINE SUGGESTION - unreviewed.
 سبب	s a b a b	pending			0	MACHINE SUGGESTION - unreviewed.
 سچی	s a c+ c ii	pending			0	MACHINE SUGGESTION - unreviewed. gemination
 سیدھی	s ii dh ii	pending			0	MACHINE SUGGESTION - unreviewed. aspirate dh
+سینوں	s ii n o ~	pending			0	MACHINE SUGGESTION - unreviewed.
 سے	s e	pending			0	MACHINE SUGGESTION - unreviewed.
+شر	sh a r	pending			0	MACHINE SUGGESTION - unreviewed.
 شروع	sh u r uu	pending			0	MACHINE SUGGESTION - unreviewed.
+صبح	s u b h	pending			0	MACHINE SUGGESTION - unreviewed.
 صرف	s i r+ f	pending			0	MACHINE SUGGESTION - unreviewed. conjunct + nukta f
 عبادت	' i b aa d a t	pending			0	MACHINE SUGGESTION - unreviewed. initial ain
 عمل	' a m a l	pending			0	MACHINE SUGGESTION - unreviewed. initial ain
+عنقریب	a n q a r ii b	pending			0	MACHINE SUGGESTION - unreviewed.
 غضب	G a z a b	pending			0	MACHINE SUGGESTION - unreviewed. ghain + zaal nukta
+فتح	f a t h	pending			0	MACHINE SUGGESTION - unreviewed.
+قبول	q a b uu l	pending			0	MACHINE SUGGESTION - unreviewed.
+قربانی	q u r b aa n ii	pending			0	MACHINE SUGGESTION - unreviewed.
 قیامت	q a y aa m a t	pending			0	MACHINE SUGGESTION - unreviewed. nukta q
 لئے	l i y e	pending			0	MACHINE SUGGESTION - unreviewed.
+لاوارث	l aa v aa r i s	pending			0	MACHINE SUGGESTION - unreviewed.
 لوگ	l o g	pending			0	MACHINE SUGGESTION - unreviewed.
 لوگوں	l o g o ~	pending			0	MACHINE SUGGESTION - unreviewed.
+لکڑیاں	l a k R i y aa ~	pending			0	MACHINE SUGGESTION - unreviewed.
+لگ	l a g	pending			0	MACHINE SUGGESTION - unreviewed.
+لگا	l a g aa	pending			0	MACHINE SUGGESTION - unreviewed.
+لے	l e	pending			0	MACHINE SUGGESTION - unreviewed.
+مال	m aa l	pending			0	MACHINE SUGGESTION - unreviewed.
 مالک	m aa l i k	pending			0	MACHINE SUGGESTION - unreviewed.
+مانگ	m aa ~ g	pending			0	MACHINE SUGGESTION - unreviewed.
 مدد	m a d a d	pending			0	MACHINE SUGGESTION - unreviewed.
+معبود	m aa b uu d	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was invalid phoneme a'
+مغفرت	m a G f i r a t	pending			0	MACHINE SUGGESTION - unreviewed.
 مگر	m a g a r	pending			0	MACHINE SUGGESTION - unreviewed.
 مہربان	m e h a r b aa n	pending			0	MACHINE SUGGESTION - unreviewed.
+میرا	m e r aa	pending			0	MACHINE SUGGESTION - unreviewed.
+میرے	m e r e	pending			0	MACHINE SUGGESTION - unreviewed.
+میں	m ai ~	pending			0	MACHINE SUGGESTION - unreviewed. HOMOGRAPH: मैं(I)/में(in) - default मैं, override per occurrence
 نام	n aa m	pending			0	MACHINE SUGGESTION - unreviewed.
+نماز	n a m aa z	pending			0	MACHINE SUGGESTION - unreviewed.
 نہ	n a	pending			0	MACHINE SUGGESTION - unreviewed.
 نہایت	n i h aa y a t	pending			0	MACHINE SUGGESTION - unreviewed.
 نہیں	n a h ii ~	pending			0	MACHINE SUGGESTION - unreviewed.
+نیاز	n i y aa z	pending			0	MACHINE SUGGESTION - unreviewed.
 نے	n e	pending			0	MACHINE SUGGESTION - unreviewed.
 والا	v aa l aa	pending			0	MACHINE SUGGESTION - unreviewed.
+والی	v aa l ii	pending			0	MACHINE SUGGESTION - unreviewed.
+والیوں	v aa l i y o ~	pending			0	MACHINE SUGGESTION - unreviewed.
+والے	v aa l e	pending			0	MACHINE SUGGESTION - unreviewed.
+وسوسہ	v a s v a s aa	pending			0	MACHINE SUGGESTION - unreviewed.
+ونشان	o _ n i sh aa n	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: Persian 'o' conjunction: ओ निशान
 وہ	v o	pending			0	MACHINE SUGGESTION - unreviewed. AMBIGUOUS: vo vs vah
+ٹوٹ	T uu T	pending			0	MACHINE SUGGESTION - unreviewed.
 پالنے	p aa l n e	pending			0	MACHINE SUGGESTION - unreviewed.
 پر	p a r	pending			0	MACHINE SUGGESTION - unreviewed.
+پروردگار	p a r v a r d i g aa r	pending			0	MACHINE SUGGESTION - unreviewed.
+پس	p a s	pending			0	MACHINE SUGGESTION - unreviewed.
+پناہ	p a n aa h	pending			0	MACHINE SUGGESTION - unreviewed.
+پوست	p o s+ t	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was पोसत - needs conjunct
+پڑھ	p a Rh	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was पड़ह - Rh is one aspirate
+پھونکنے	ph uu ~ k n e	pending			0	MACHINE SUGGESTION - unreviewed.
+پھیل	ph ai l	pending			0	MACHINE SUGGESTION - unreviewed.
 پہچانا	p a h c aa n aa	pending			0	MACHINE SUGGESTION - unreviewed.
+پیدا	p ai d aa	pending			0	MACHINE SUGGESTION - unreviewed.
 پیرا	p ai r aa	pending			0	MACHINE SUGGESTION - unreviewed.
+پیچھے	p ii ch e	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was पीछहे - stray h
 چاہتے	c aa h t e	pending			0	MACHINE SUGGESTION - unreviewed.
+چیز	c ii z	pending			0	MACHINE SUGGESTION - unreviewed.
+ڈالتا	D aa l t aa	pending			0	MACHINE SUGGESTION - unreviewed.
+ڈالنے	D aa l n e	pending			0	MACHINE SUGGESTION - unreviewed.
+ڈھونے	Dh o n e	pending			0	MACHINE SUGGESTION - unreviewed.
 کا	k aa	pending			0	MACHINE SUGGESTION - unreviewed.
+کافرو	k aa f i r o	pending			0	MACHINE SUGGESTION - unreviewed.
+کام	k aa m	pending			0	MACHINE SUGGESTION - unreviewed.
+کر	k a r	pending			0	MACHINE SUGGESTION - unreviewed.
 کرتا	k a r t aa	pending			0	MACHINE SUGGESTION - unreviewed.
 کرتے	k a r t e	pending			0	MACHINE SUGGESTION - unreviewed.
 کرنے	k a r n e	pending			0	MACHINE SUGGESTION - unreviewed.
+کروں	k a r uu ~	pending			0	MACHINE SUGGESTION - unreviewed.
+کروں گا	k a r uu ~ g aa	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4 (same class): Hindi joins the future auxiliary گا/گی/گے to the verb
+کرے	k a r e	pending			0	MACHINE SUGGESTION - unreviewed.
+کسی	k i s ii	pending			0	MACHINE SUGGESTION - unreviewed.
+کمائی	k a m aa ' ii	pending			0	MACHINE SUGGESTION - unreviewed.
 کو	k o	pending			0	MACHINE SUGGESTION - unreviewed.
+کوئی	k o ' ii	pending			0	MACHINE SUGGESTION - unreviewed.
+کوثر	k au s a r	pending			0	MACHINE SUGGESTION - unreviewed.
+کچھ	k u ch	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was कुछह - stray h
+کھجور	kh a j uu r	pending			0	MACHINE SUGGESTION - unreviewed.
+کہ	k i	pending			0	MACHINE SUGGESTION - unreviewed. HOMOGRAPH: कि(that)/कह(say)
+کہہ	k a h	pending			0	MACHINE SUGGESTION - unreviewed.
 کی	k ii	pending			0	MACHINE SUGGESTION - unreviewed.
 کیا	k i y aa	pending			0	MACHINE SUGGESTION - unreviewed. AMBIGUOUS: kiyaa vs kyaa
 کے	k e	pending			0	MACHINE SUGGESTION - unreviewed.
+گئے	g a ' e	pending			0	MACHINE SUGGESTION - unreviewed.
+گا	g aa	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: joins the verb - see notes
+گردن	g a r+ d a n	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was गरदन - needs conjunct
+گرہ	g i r a h	pending			0	MACHINE SUGGESTION - unreviewed.
 گمراہوں	g u m r aa h o ~	pending			0	MACHINE SUGGESTION - unreviewed.
+گی	g ii	pending			0	MACHINE SUGGESTION - unreviewed.
 گیا	g a y aa	pending			0	MACHINE SUGGESTION - unreviewed.
+ہاتھ	h aa th	pending			0	MACHINE SUGGESTION - unreviewed.
+ہر	h a r	pending			0	MACHINE SUGGESTION - unreviewed.
+ہلاک	h a l aa k	pending			0	MACHINE SUGGESTION - unreviewed.
 ہم	h a m	pending			0	MACHINE SUGGESTION - unreviewed.
 ہم سے	h a m s e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
 ہم نے	h a m n e	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 4: Hindi joins pronoun+postposition
+ہمسر	h a m s a r	pending			0	MACHINE SUGGESTION - unreviewed.
 ہمیں	h a m e ~	pending			0	MACHINE SUGGESTION - unreviewed.
+ہو	h o	pending			0	MACHINE SUGGESTION - unreviewed.
+ہوئی	h u ' ii	pending			0	MACHINE SUGGESTION - unreviewed.
 ہوئے	h u ' e	pending			0	MACHINE SUGGESTION - unreviewed.
+ہوا	h u ' aa	pending			0	MACHINE SUGGESTION - unreviewed.
 ہوگئے	h o _ g a ' e	pending			0	MACHINE SUGGESTION - unreviewed. Urdu glues it; Hindi writes हो गए
+ہوگی	h o g ii	pending			0	MACHINE SUGGESTION - unreviewed.
 ہوں	h uu ~	pending			0	MACHINE SUGGESTION - unreviewed.
+ہٹ	h a T	pending			0	MACHINE SUGGESTION - unreviewed.
 ہی	h ii	pending			0	MACHINE SUGGESTION - unreviewed.
 ہیں	h ai ~	pending			0	MACHINE SUGGESTION - unreviewed. anusvara
 ہے	h ai	pending			0	MACHINE SUGGESTION - unreviewed.
+یا	y aa	pending			0	MACHINE SUGGESTION - unreviewed.
 یعنی	y aa n ii	pending			0	MACHINE SUGGESTION - unreviewed. AMBIGUOUS: yaanii vs ya'nii
+یقینا	y a q ii n a n	pending			0	MACHINE SUGGESTION - unreviewed.

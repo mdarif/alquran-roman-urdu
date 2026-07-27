@@ -146,6 +146,17 @@ def render(phonemic: str) -> str:
             out.append(ANUSVARA if out[-1] in NASAL_ANUSVARA else CHANDRABINDU)
             continue
 
+        if tok == "M":
+            # Explicit anusvara. `~` picks chandrabindu unless a matra occupies
+            # the space above, which is right for हूँ and अँधेरा but wrong for
+            # words Hindi conventionally spells with anusvara regardless —
+            # इंसान, not इँसान. The two are not interchangeable in print, and
+            # nothing in the phonemes distinguishes them, so the reviewer must.
+            if not out:
+                raise PhonemeError("anusvara 'M' with nothing to nasalise")
+            out.append(ANUSVARA)
+            continue
+
         conjunct = tok.endswith("+")
         base = tok[:-1] if conjunct else tok
 
