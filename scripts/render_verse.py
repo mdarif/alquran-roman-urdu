@@ -71,15 +71,57 @@ def render_token(tok: str, lex: dict[str, dict]) -> tuple[str, str]:
     return pre_d + deva + post_d, entry.get("status", "pending")
 
 
+# Longest multi-token lexicon key to attempt. Urdu splits some sequences that
+# Hindi writes as one word — ہم نے -> हमने, انہوں نے -> उन्होंने — 1,611 tokens
+# in this corpus. A key may therefore span several whitespace-delimited tokens,
+# and the longest match wins so "انہوں نے" beats a bare "انہوں".
+MAX_NGRAM = 3
+
+
+def _match_ngram(toks: list[str], i: int, lex: dict[str, dict]) -> tuple[str, str, int] | None:
+    """Longest multi-token lexicon match starting at `i`, or None.
+
+    Only bare tokens may join: a comma, paren or full stop mid-window is a real
+    break, so a sequence containing one is never collapsed into a single word.
+    """
+    for span in range(min(MAX_NGRAM, len(toks) - i), 1, -1):
+        window = toks[i:i + span]
+        if any(_EDGE.match(w)["pre"] or _EDGE.match(w)["post"] for w in window[:-1]):
+            continue
+        if _EDGE.match(window[0])["pre"]:
+            continue
+        key = " ".join(_EDGE.match(w)["core"] for w in window)
+        entry = lex.get(key)
+        if not (entry and entry.get("phonemic")):
+            continue
+        try:
+            deva = render(entry["phonemic"])
+        except PhonemeError:
+            continue  # a broken entry falls back to per-token rendering
+        post = "".join(PUNCT_MAP.get(c, c) for c in _EDGE.match(window[-1])["post"])
+        return deva + post, entry.get("status", "pending"), span
+    return None
+
+
 def render_verse(text: str, lex: dict[str, dict]) -> tuple[str, dict[str, int], list[str]]:
     out, counts, gaps = [], {}, []
-    for tok in text.split():
-        rendered, status = render_token(tok, lex)
+    toks = text.split()
+    i = 0
+    while i < len(toks):
+        hit = _match_ngram(toks, i, lex)
+        if hit:
+            rendered, status, span = hit
+            out.append(rendered)
+            counts[status] = counts.get(status, 0) + span
+            i += span
+            continue
+        rendered, status = render_token(toks[i], lex)
         out.append(rendered)
         if status != "punct":
             counts[status] = counts.get(status, 0) + 1
         if status == "missing":
-            gaps.append(_EDGE.match(tok)["core"])
+            gaps.append(_EDGE.match(toks[i])["core"])
+        i += 1
     return " ".join(out), counts, gaps
 
 

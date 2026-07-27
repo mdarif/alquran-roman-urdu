@@ -148,6 +148,56 @@ the translator's word choices are theirs, not ours.
   the Devanagari rendering is the *only* route to a Salafi-creed Hindi-script
   Quran, so the lexicon review gates a shipping decision downstream.
 
+## Word boundaries do not map 1:1 (added 2026-07-27)
+
+Found by the owner reading the al-Fatiha pilot: 1:7 rendered `ہوگئے` as होगए,
+one invented word. The cause is not a bad vowelization — it is that **Urdu and
+Hindi disagree about where words end**, and the disagreement runs in *both*
+directions:
+
+| | Urdu | Naive output | Hindi |
+|---|---|---|---|
+| Urdu glues, Hindi splits | `ہوگئے` (one token) | होगए | **हो गए** |
+| Urdu splits, Hindi joins | `جنہوں` `نے` (two tokens) | जिन्हों ने | **जिन्होंने** |
+| " | `تو` `نے` | तू ने | **तूने** |
+| " | `ان` `کی` | उन की | **उनकी** |
+
+A lexicon keyed on single surface forms cannot express either case. This is a
+**schema constraint**, not a style preference, which is why it is recorded here
+rather than left to ADR 0002.
+
+**Decision.** Two minimal extensions, both implemented:
+
+1. **`_` word-break phoneme.** A phonemic form may contain `_`, which renders a
+   space: `h o _ g a ' e` → हो गए. Covers the split direction.
+2. **Multi-token (n-gram) lexicon keys.** A key may span whitespace, matched
+   longest-first: `"جنہوں نے"` is one entry. Covers the join direction, and does
+   so *context-sensitively*, which a rule cannot — `ان لوگوں` stays उन लोगों
+   while `ان کی` becomes उनकी, because they are simply different keys.
+
+Only bare tokens may join: a comma, paren or full stop inside the window is a
+real break and blocks the match.
+
+**Scale, measured over the corpus:**
+
+- **400 tokens / 76 types** glue a verb particle — `کردیا` ×83, `ہوگئے` ×53,
+  `ہوگیا` ×36. Beware false positives: `رضامندی` and `پابندی` merely *end* in
+  `دی` and are single words.
+- **9,099 tokens (4.9% of the corpus)** are pronoun + postposition pairs —
+  `ان کے` ×1076, `ہم نے` ×821, `اس کے` ×645, `ان کی` ×393, `انہوں نے` ×314.
+
+Most of that second group joins in Hindi (उनके, हमने, इसके), but **not all**:
+`میں سے` is में से, because there میں is the postposition "in", not the pronoun
+"main". No mechanical rule separates those two readings — it needs the same
+human judgement as a vowel. At 4.9% of all tokens this is too large to leave to
+per-entry instinct and wants a **house-style ruling in ADR 0002**, with the
+n-gram keys then recording the decision rather than re-deriving it.
+
+**Consequence for reviewers:** the review tool currently walks single surface
+forms. It has no way to *propose* an n-gram, so joins will be missed unless the
+house-style rule is settled first and the frequent pairs are seeded as keys.
+Sequence this before bulk review, or the corpus gets reviewed twice.
+
 ## Open questions
 
 1. Nukta policy. Preserving `क़ ख़ ग़ ज़ फ़` is more faithful; dropping them is
@@ -157,3 +207,9 @@ the translator's word choices are theirs, not ours.
    independent selection.
 3. Whether `ہ` word-final (e.g. `مہربان` → मेहरबान) needs a schwa rule distinct
    from Roman's.
+4. **Which pronoun+postposition pairs join** (§"Word boundaries" above). 9,099
+   tokens; the `میں سے` counter-example shows it is not mechanical. Blocks bulk
+   review — settle it first.
+5. Whether Roman Urdu wants the same `_` and n-gram treatment. It has the same
+   underlying mismatch (Roman writes *hum ne* or *humne*?), so the machinery is
+   already shared even if the house style differs per script.

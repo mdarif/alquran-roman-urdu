@@ -27,6 +27,8 @@ freely; the renderer decides matra vs independent vowel vs bare consonant.
               '   ain / hamza: a syllable break, forcing the next vowel to be
                   independent. Renders nothing itself.
               +   suffix on a consonant: emit halant, i.e. a true conjunct.
+              _   word break: emit a space. For Urdu tokens that Hindi writes as
+                  two words — ہوگئے is one token but is हो गए, not होगए.
 
 The `+` marker is load-bearing and the one thing reviewers must get right.
 Devanagari writes a bare consonant for a *coda* (inherent schwa, deleted when
@@ -123,6 +125,18 @@ def render(phonemic: str) -> str:
         if tok == "'":
             # ain / hamza: pure syllable break. Emits nothing, but detaches the
             # next vowel so ta' aa l aa -> ताअला rather than ताला.
+            pending_consonant = False
+            continue
+
+        if tok == "_":
+            # Word break inside a single Urdu token. Urdu and Hindi do not agree
+            # on where words end: Urdu glues verb particles (ہوگئے) that Hindi
+            # separates (हो गए). Without this the output reads as one invented
+            # word. The mirror case — Urdu splitting what Hindi joins, ہم نے ->
+            # हमने — is handled by multi-token lexicon keys in render_verse.py.
+            if not out:
+                raise PhonemeError("word break '_' at the start of a form")
+            out.append(" ")
             pending_consonant = False
             continue
 
