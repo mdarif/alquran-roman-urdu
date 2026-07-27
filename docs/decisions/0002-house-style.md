@@ -1,6 +1,6 @@
 # ADR 0002 — House style for Roman Urdu and Devanagari output
 
-- **Status:** Proposed — rulings 1–4 need the owner's sign-off before bulk review
+- **Status:** ACCEPTED — all four rulings signed off by the owner, 2026-07-27
 - **Date:** 2026-07-27
 - **Scope:** `alquran-roman-urdu` — the phonemic store and both renderers
 - **Referenced by:** ADR 0001 §2 (one phonemic form, many renderings), ADR 0003
@@ -26,6 +26,8 @@ maximally faithful, which ruling 1 is designed to guarantee.
 ---
 
 ## Ruling 1 — Nukta: PRESERVE in the store, decide at render
+
+**Accepted 2026-07-27.** Render policy: `faithful`.
 
 **The store always keeps the Perso-Arabic consonant distinct.** `q x G z zh f`
 are separate phonemes from `k kh g j jh ph`, always, with no exceptions.
@@ -81,6 +83,8 @@ rule **انعام is इनाम**, matching conventional Hindi.
 **Test:** write what a Hindi-reading Urdu speaker would write unprompted. تعریف
 is तारीफ़ in every Hindi newspaper; it is not तअरीफ़.
 
+**Accepted 2026-07-27** — ain absorbs. **انعام is इनाम.**
+
 **Scale:** 394 types / 6,168 tokens (3.29%), dominated by تعالیٰ (1,532).
 
 **Consequence:** the `'` phoneme means *syllable break*, not "an ain is here."
@@ -92,7 +96,7 @@ Reviewers use it only when the vowel genuinely restarts.
 
 Junagarhi writes وه 2,287 times (plus 16 as وہ, which the normaliser folds).
 
-**Ruling: वो, not वह.** Both are correct Hindi; वो is the spoken register and
+**Accepted 2026-07-27. Ruling: वो, not वह.** Both are correct Hindi; वो is the spoken register and
 matches the Perso-Arabic, conversational feel of Junagarhi's prose, which ADR
 0003 identifies as the product. वह reads formal and Sanskritic-adjacent — the
 register being rejected.
@@ -111,7 +115,9 @@ reverse, since it is a pure render-time substitution.
 Urdu writes pronoun and postposition apart; Hindi usually joins them. 9,099
 tokens — **4.9% of the corpus**.
 
-**Ruling: join, via an n-gram lexicon key**, for the closed set below.
+**Accepted 2026-07-27. Ruling: join, via an n-gram lexicon key**, for the closed
+set below. Owner chose Hindi naturalness over token-for-token alignment with the
+Urdu. The 20 most frequent pairs are seeded in `data/lexicon/lexicon.tsv`.
 
 | Urdu | Devanagari | Tokens |
 |---|---|---|
