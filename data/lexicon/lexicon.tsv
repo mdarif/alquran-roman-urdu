@@ -8,9 +8,9 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 اس	i s	pending			0	MACHINE SUGGESTION - unreviewed.
 اللہ	a l+ l aa h	pending			0	MACHINE SUGGESTION - unreviewed. gemination
 ان	u n	pending			0	MACHINE SUGGESTION - unreviewed. AMBIGUOUS: un vs an
-اندھیرا	a ~ dh e r aa	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was अनधेरा - needs nasal
-اندھیری	a ~ dh e r ii	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was अनधेरी - needs nasal
-انسان	i M s aa n	pending			0	MACHINE SUGGESTION - unreviewed. CORRECTED: was इनसान - anusvara
+اندھیرا	a M dh e r aa	approved	Mohammad Arif		0	OWNER RULING 2026-07-27 (editorial review). See docs/STYLE_GUIDE.md. अँधेरा -> अंधेरा: nasal consonant before a stop takes anusvara (§2)
+اندھیری	a M dh e r ii	approved	Mohammad Arif		0	OWNER RULING 2026-07-27 (editorial review). See docs/STYLE_GUIDE.md. अँधेरी -> अंधेरी: same rule as अंधेरा (§2)
+انسان	i n+ s aa n	approved	Mohammad Arif		0	OWNER RULING 2026-07-27 (editorial review). See docs/STYLE_GUIDE.md. इंसान -> इन्सान: true न्स cluster, not a nasal (§3)
 انعام	i n aa m	pending			0	MACHINE SUGGESTION - unreviewed. ADR 0002 ruling 2: ain absorbs -> इनाम
 انہوں	u n+ h o ~	pending			0	MACHINE SUGGESTION - unreviewed. OWNER DECISION 2026-07-27: ADR 0002 ruling 4 REVISED - pronoun+postposition stays SPLIT (Rekhta).
 انہوں نے	u n+ h o ~ n e	approved	Mohammad Arif		0	OWNER CORRECTION 2026-07-27 (browser review, 1:7). Same class as جنہوں نے.
@@ -29,12 +29,12 @@ key	phonemic	status	reviewer	reviewed_at	freq	notes
 بیشک	b e sh a k	pending			0	MACHINE SUGGESTION - unreviewed.
 بیوی	b ii v ii	pending			0	MACHINE SUGGESTION - unreviewed.
 بے	b e	pending			0	MACHINE SUGGESTION - unreviewed.
-بے نام ونشان	b e - n aa m - o - n i sh aa ~	approved	Mohammad Arif		0	OWNER CORRECTION 2026-07-27. Persian compound, hyphenated (Rekhta). n-gram kept deliberately: ADR 0002 ruling 4 revision drops pronoun+postposition joins, NOT lexical compounds.
+بے نام ونشان	b e - n aa m - o - n i sh aa n	approved	Mohammad Arif		0	OWNER RULING 2026-07-27 (editorial review). See docs/STYLE_GUIDE.md. निशाँ -> निशान: source is ونشان with full ن U+0646, not ں (§2)
 تاریکی	t aa r ii k ii	pending			0	MACHINE SUGGESTION - unreviewed.
 تجھ	t u jh	pending			0	MACHINE SUGGESTION - unreviewed. aspirate jh
 تجھے	t u jh e	pending			0	MACHINE SUGGESTION - unreviewed.
 تسبیح	t a s+ b ii h	approved	Mohammad Arif		0	OWNER CORRECTION 2026-07-27 (browser review). tasbeeh needs conjunct स्ब
-تعالی	t aa ' a l aa	pending			0	MACHINE SUGGESTION - unreviewed. ain -> independent अ
+تعالی	t a ' aa l aa	approved	Mohammad Arif		0	OWNER RULING 2026-07-27 (editorial review). See docs/STYLE_GUIDE.md. ताअला -> तआला: تعالیٰ is /ta'ālā/, long vowel AFTER the ain (§4)
 تعریف	t aa r ii f	pending			0	MACHINE SUGGESTION - unreviewed. ain elided; taareef
 تم	t u m	pending			0	MACHINE SUGGESTION - unreviewed.
 تمام	t a m aa m	pending			0	MACHINE SUGGESTION - unreviewed.

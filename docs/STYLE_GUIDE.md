@@ -100,8 +100,13 @@ for it. Render the **vowel it carries**, positionally:
 |---|---|---|
 | Word-initial | independent vowel | عبادت → **इबादत**, عمل → **अमल** |
 | Between vowels, lengthening | absorbed | تعریف → **तारीफ़**, یعنی → **यानी** |
-| Between vowels, syllable break | independent vowel | see §9 (open) |
+| Between vowels, syllable break | independent vowel | تعالیٰ → **तआला** |
 | Post-consonantal | silent | بعد → **बाद** |
+
+**Place the vowel where the source has it.** تعالیٰ is /ta'ālā/ — fatha on the
+te, then the ain carries the long ā. So **तआला** (ta-ā-lā), never ताअला
+(tā-a-lā), which moves the length onto the wrong syllable. Ruled 2026-07-27;
+1,532 occurrences.
 
 Never write a letter for the ain itself. The `'` phoneme means *syllable break*,
 not "an ain is here".
@@ -188,12 +193,7 @@ spelling.
 
 ## 9. Open — needs an owner ruling
 
-1. **تعالیٰ.** Currently **ताअला**, from the original 1:1 target. But تعالیٰ is
-   /ta'ālā/ — the long vowel falls *after* the ain (ta-'ā-lā → **तआला**), whereas
-   ताअला places it before (tā-a-lā). §4 would give तआला. Unattested in the
-   published Hindi, so there is no external evidence either way. Appears 1,532
-   times, so this is the single highest-frequency open item.
-2. **`ہ` word-final** — مہربان → मेहरबान. Whether a schwa rule is needed.
+1. **`ہ` word-final** — مہربان → मेहरबान. Whether a schwa rule is needed.
 3. **Roman Urdu's answer to §1**, which may legitimately differ from Devanagari's.
 
 ---
