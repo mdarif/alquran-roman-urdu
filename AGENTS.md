@@ -1,5 +1,9 @@
 # AGENTS.md — alquran-roman-urdu
 
+> **Resuming work?** Read `docs/NEXT-SESSION.md` first — current state,
+> tomorrow's task, and the bugs that bite silently. Then `docs/STYLE_GUIDE.md`,
+> which is authoritative for every orthographic question.
+
 **Canonical.** This is the front door for any agent or human working in this
 repo. If something here conflicts with a tool-specific file (`CLAUDE.md`,
 `.cursor/rules`, a loaded skill), this file wins.
