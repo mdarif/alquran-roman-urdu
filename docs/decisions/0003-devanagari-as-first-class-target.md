@@ -97,6 +97,40 @@ recorded in `alquran-data/ATTRIBUTION.md` — and the Junagarhi licence is still
 **UNVERIFIED** in this repo's `ATTRIBUTION.md`. That gate is unchanged and
 unmet.
 
+## Register is a hard constraint (owner, 2026-07-27)
+
+Added after the fact, because it is the load-bearing reason for this ADR and was
+implicit in the decision above rather than stated.
+
+The requirement is **Hindi in the Perso-Arabic register** — Hindi script carrying
+Urdu vocabulary, as Suhel Farooq Khan's edition does. Sanskritised Hindi is
+explicitly rejected, even when it is otherwise a perfect fit on creed and
+licence. The three registers, all on 1:1:
+
+| Edition | Text | Register |
+|---|---|---|
+| al-Umari | अल्लाह के नाम से, जो **अत्यंत दयावान्, असीम** दया वाला है। | Sanskritic (tatsama) |
+| Suhel Farooq Khan | अल्लाह के नाम से जो **रहमान व रहीम** है। | Perso-Arabic |
+| Junagarhi → Devanagari (target) | शुरू करता हूँ अल्लाह ताअला के नाम से जो बड़ा **मेहरबान निहायत रहम** वाला है। | Perso-Arabic |
+
+**al-Umari is therefore out of scope** — not deferred, rejected. It is the only
+Salafi/Ahle Hadith Hindi *translation* in existence and it is permissively
+licensed and already downloaded, and it is still the wrong artifact, because its
+register is the one being rejected.
+
+That produces the constraint that puts this ADR on the critical path:
+
+> The only Salafi Hindi translation that exists is the one whose register is
+> rejected. The only text in the wanted register with the wanted creed is
+> Junagarhi, which is in Urdu script. So a Devanagari rendering of Junagarhi is
+> not an *alternative* route to Salafi-creed Hindi — it is the **only** route.
+
+Corollary for reviewers: **do not "improve" the register.** Rendering `مہربان`
+as मेहरबान is correct; rendering it as दयालु is a defect, however natural the
+Hindi. The Perso-Arabic vocabulary is the product, not an artifact of the source
+to be smoothed away. This is a transliteration, and §4.7 of `AGENTS.md` applies —
+the translator's word choices are theirs, not ours.
+
 ## Consequences
 
 - The lexicon schema needs its phonemic field specified at the finer
@@ -109,9 +143,10 @@ unmet.
   Devanagari has real choices to make: nukta consistency (क़ vs क — Hindi
   typography frequently drops nuktas), chandrabindu vs anusvara, and whether
   `ع` surfaces as अ (as in the owner's ताअला) or is dropped.
-- This does **not** close the Hindi-translation gap in `alquran-data`. al-Umari
-  remains the actual Salafi Hindi *translation*, is already downloaded, and is
-  permissively licensed via QuranEnc. The two are complements.
+- This is now on the **critical path** for an `alquran-data` feature, not a side
+  project. See §"Register is a hard constraint" below — with al-Umari ruled out,
+  the Devanagari rendering is the *only* route to a Salafi-creed Hindi-script
+  Quran, so the lexicon review gates a shipping decision downstream.
 
 ## Open questions
 
