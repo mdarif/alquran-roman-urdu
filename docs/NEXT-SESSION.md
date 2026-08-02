@@ -5,6 +5,35 @@ with no memory of it. Read `AGENTS.md` first, then this.
 
 ---
 
+## Update 2026-08-02 — the Roman Urdu track is live again, and it is separate
+
+Two things changed, and the second one splits this repo into **two tracks that do
+not gate each other**.
+
+1. **Owner ruling: our Roman Urdu, or none.** A complete third-party edition
+   (Al-QuranJino / Muhammad Kazim) was fetched, bundled into `quran.db` and
+   compared against our own pilot on Al-Baqarah 1–7. It lost on every axis —
+   `qarch`/`aaqirath` for خ, `hidaayath` for final ت, dropped nasalisation,
+   footnote markers fused into words in **309 verses**, `darsana` typo at 2:6.
+   Roman Urdu is now **gated off** in app and web (`FeatureFlags.romanUrdu`,
+   `EDITION_FLAGS`) rather than shipped rough. → `AGENTS.md` §1.
+
+2. **The Roman Urdu pilot was recovered into this repo** at
+   `data/roman-urdu/` — 325 verses (surahs 1, 2 in full, 108–114). It had been
+   living in `al-quran-web` and was deleted there; recovered from that repo's
+   history, byte-exact.
+
+**Why this matters for what you do next:** the pilot is **hand-written, not
+generated**. No script produces it, and the lexicon's 13/201 review state does
+**not** gate it. So "review the ~188 pending entries" below is the bottleneck for
+the **Devanagari** track only. Extending Roman Urdu coverage is now a parallel,
+unblocked task with a shipped feature waiting on it.
+
+→ To work on Roman Urdu, read **`docs/TRANSLITERATION-GUIDE.md`**.
+→ To work on Devanagari, continue with this file.
+
+---
+
 ## Where things stand
 
 The Devanagari transliteration pipeline is **built and working**. What is missing
@@ -21,14 +50,20 @@ is human review, and nothing ships without it.
 | Licensing | resolved — Junagarhi is public domain |
 | **Lexicon review** | **13 approved / 201 entries. This is the bottleneck.** |
 
-**Rendered surahs:** 1, 108–114 (8 of 114). None shippable — `render_verse.py
---surah N --strict` exits non-zero while anything is `pending`.
+**Rendered surahs (Devanagari):** 1, 108–114 (8 of 114). None shippable —
+`render_verse.py --surah N --strict` exits non-zero while anything is `pending`.
+
+**Roman Urdu (separate track, hand-written, not gated by the above):** surahs
+1, 2, 108–114 — **325 of 6,236 verses**, all `beta-unverified`.
+→ `docs/TRANSLITERATION-GUIDE.md`.
 
 ---
 
 ## The one thing that matters tomorrow
 
-**Review the ~188 pending entries.** Everything else is secondary.
+**Review the ~188 pending entries.** Everything else on the *Devanagari* track is
+secondary. (Roman Urdu coverage is the other track and does not wait on this —
+see the 2026-08-02 update above.)
 
 ```bash
 cd ~/code/alquran-roman-urdu
@@ -78,9 +113,12 @@ them:
 
 ## Known issues worth fixing
 
-- **`review.py --stats` reports 0.00% token coverage** even with 13 approved.
-  The seeded entries carry `freq="0"`, so the weighting is wrong. Cosmetic but
-  misleading — it looks like no progress.
+- ~~**`review.py --stats` reports 0.00% token coverage**~~ — **fixed 2026-07-28.**
+  Stats now read the real counts from `out/vocab.tsv` (`vocab_freq()`/`freq_of()`)
+  instead of the row's stored `freq` stamp. Reports **0.93%** (1,750 / 187,325).
+  The review queue's ordering was *not* affected — only the 7 n-gram keys ever
+  sorted on the stored value, and those have no corpus count either way.
+  → `docs/gotchas.md §9`
 - **`validate.py` and `review.py` are separate passes.** Folding corroboration
   into the review walk (stop only on unseen words) was offered and not yet done.
 

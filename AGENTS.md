@@ -25,7 +25,26 @@ errors and ask for scholarly checking. There is one print edition (Eliasi),
 copyrighted and undigitised. The gap is not that nobody has done it. The gap is
 that **nobody has done it verifiably**, with attribution and a review record.
 
-That gap is what we are closing. An app is downstream and optional.
+That gap is what we are closing.
+
+### The owner's ruling, 2026-08-02: ours or none
+
+**Al Quran ships our own Roman Urdu, or none at all.** This was tested, not
+assumed. A complete third-party edition (Al-QuranJino / Muhammad Kazim, all 114
+surahs) was fetched and bundled into `quran.db`; compared against our own pilot
+on Al-Baqarah 1–7 it renders خ as `q` (`qarch`, `aaqirath`), final ت as `th`
+(`hidaayath`), drops nasalisation (`hai` for ہیں, `dilo` for دلوں), fuses its
+footnote markers into words in **309 verses** (`parhezgaaro1`), and typos 2:6 as
+`darsana`. Owner's verdict: ours is a lot better.
+
+Roman Urdu is therefore **gated off in both consumers** rather than shipped
+rough — `FeatureFlags.romanUrdu` (app), `EDITION_FLAGS` (web). One-line flips.
+**This repo is what turns it back on**, so the app is no longer merely
+downstream and optional: a shipped feature is switched off waiting on this work.
+
+Do not propose adopting, patching, or blending a third-party Roman Urdu. The
+comparison is settled; what is missing is **coverage** — 325 of 6,236 verses.
+To continue that work, read **`docs/TRANSLITERATION-GUIDE.md`**.
 
 ### Why a separate repo
 
@@ -136,10 +155,15 @@ CLAUDE.md                 tool-specific; defers to this file
 docs/
   gotchas.md              landmines, append as found
   decisions/              ADRs
+  NEXT-SESSION.md         current state — read when resuming
+  STYLE_GUIDE.md          authoritative for DEVANAGARI (not Roman)
+  TRANSLITERATION-GUIDE.md  how to extend the Roman Urdu text
+  roman-urdu-pilot.md     the pilot as it was presented on the web
 data/
   raw/                    ur.junagarhi.txt (gitignored, fetched by hand)
   vendor/                 dakshina (gitignored, large)
   lexicon/                THE DELIVERABLE — reviewed entries, committed
+  roman-urdu/             THE ROMAN URDU TEXT — hand-written, committed
 scripts/
   vocab_coverage.py       vocabulary extraction + Dakshina coverage
 tests/
@@ -147,7 +171,15 @@ tests/
 out/                      generated, gitignored
 ```
 
-`data/lexicon/` is the only data directory that is committed. It is the product.
+`data/lexicon/` and `data/roman-urdu/` are the committed data directories. They
+are the two products, and they are **independent**:
+
+- `data/lexicon/` feeds the **Devanagari** renderer. Generated-then-reviewed;
+  13 of 201 entries approved, which is that track's bottleneck.
+- `data/roman-urdu/` is the **Roman Urdu** text itself. Hand-written, no
+  generator, **not gated by the lexicon's review state**. 325 of 6,236 verses.
+
+Do not overwrite `data/roman-urdu/` from a script. → `docs/TRANSLITERATION-GUIDE.md`
 
 ---
 

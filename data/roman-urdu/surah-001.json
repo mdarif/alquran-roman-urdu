@@ -1,0 +1,16 @@
+{
+  "surah": 1,
+  "status": "beta-unverified",
+  "register": "popular",
+  "source": "Transliterated from the Urdu translation of Maulana Muhammad Junagarhi.",
+  "note": "PILOT / ILLUSTRATIVE. Not reviewed, not approved. A model produced these vowelizations; per the project's non-negotiables they ship only behind a visible 'unverified' label until human review. House style: popular (see alquran-roman-urdu/out/house-style-popular-DRAFT.md).",
+  "ayahs": {
+    "1": "Shuroo karta hoon Allah Taala ke naam se jo bada meharban nihayat reham wala hai.",
+    "2": "Sab tareef Allah Taala ke liye hai jo tamaam jahanon ka paalne wala hai.",
+    "3": "Bada meharban nihayat reham karne wala.",
+    "4": "Badle ke din (yaani qayamat) ka maalik hai.",
+    "5": "Hum sirf teri hi ibaadat karte hain aur sirf tujh hi se madad chahte hain.",
+    "6": "Humein seedhi (aur sachi) raah dikha.",
+    "7": "Un logon ki raah jin par tu ne inaam kiya, un ki nahin jin par ghazab kiya gaya (yaani woh log jinhon ne haq ko pehchana, magar us par amal pera nahin hue) aur na gumraahon ki (yaani woh log jo jahalat ke sabab raah-e-haq se bargashta hogaye)."
+  }
+}

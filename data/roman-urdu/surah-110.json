@@ -1,0 +1,12 @@
+{
+  "surah": 110,
+  "status": "beta-unverified",
+  "register": "popular",
+  "source": "Transliterated from the Urdu translation of Maulana Muhammad Junagarhi.",
+  "note": "PILOT / ILLUSTRATIVE. Not reviewed, not approved. House style: popular (see alquran-roman-urdu/out/house-style-popular-DRAFT.md).",
+  "ayahs": {
+    "1": "Jab Allah ki madad aur fatah aa jaaye.",
+    "2": "Aur tu logon ko Allah ke deen mein jauq dar jauq aata dekh le.",
+    "3": "Tu apne Rabb ki tasbeeh karne lag hamd ke saath aur us se maghfirat ki dua maang, beshak woh bada hi tauba qubool karne wala hai."
+  }
+}

@@ -151,6 +151,36 @@ def load_tsv(path: Path) -> list[dict]:
         ]
 
 
+def vocab_freq() -> dict[str, int]:
+    """key -> corpus frequency, summed over the surface forms that fold to it.
+
+    `out/vocab.tsv` is the only place a real count lives. A lexicon row's own
+    `freq` is whatever was written when the row was created, and seeded machine
+    suggestions were all written with `freq=0` — so trusting the stored value
+    made `--stats` report 0.00% token coverage and, worse, sorted every seeded
+    entry to the bottom of the review queue instead of into frequency order.
+    Look the count up here rather than backfilling the file, which would go
+    stale again the next time the corpus is re-tokenised.
+    """
+    freqs: dict[str, int] = {}
+    for r in load_tsv(VOCAB):
+        freqs[r["key"]] = freqs.get(r["key"], 0) + int(r["freq"])
+    return freqs
+
+
+def freq_of(key: str, freqs: dict[str, int], row: dict | None = None) -> int:
+    """Corpus count for a key, falling back to whatever the row recorded.
+
+    The fallback carries the n-gram keys (`ہم نے`): vocab.tsv is built from
+    single whitespace tokens, so a multi-token key is absent from it by
+    construction. Their stored freq is 0 and no count is invented for them —
+    they sort last, which is why `build_worklist` folds them in explicitly.
+    """
+    if key in freqs:
+        return freqs[key]
+    return int((row or {}).get("freq") or 0)
+
+
 def load_contexts() -> list[str]:
     return CORPUS.read_text(encoding="utf-8").splitlines() if CORPUS.exists() else []
 
@@ -185,12 +215,13 @@ def show_stats(rows: dict[str, dict]) -> None:
     vocab = load_tsv(VOCAB)
     total_types = len(vocab)
     total_tokens = sum(int(v["freq"]) for v in vocab) or 1
+    freqs = vocab_freq()
     by_status: dict[str, int] = {}
     done_tokens = 0
-    for r in rows.values():
+    for k, r in rows.items():
         by_status[r.get("status", "?")] = by_status.get(r.get("status", "?"), 0) + 1
         if r.get("status") in ("reviewed", "approved"):
-            done_tokens += int(r.get("freq") or 0)
+            done_tokens += freq_of(k, freqs, r)
     print(f"\n{BOLD}Lexicon coverage{RESET}")
     print(f"  entries recorded    {len(rows):>6,} / {total_types:,} types")
     for st, n in sorted(by_status.items()):
@@ -212,13 +243,14 @@ def build_worklist(
     otherwise never be offered for review — it would sit `pending` forever while
     the tool reported the queue complete.
     """
+    freqs = vocab_freq()
     cand: dict[str, dict] = {}
     for r in load_tsv(MATCHED):
         cand[r["key"]] = {"key": r["key"], "freq": int(r["freq"]), "dakshina": r.get("all_variants", "")}
     for r in load_tsv(QUEUE):
         cand.setdefault(r["key"], {"key": r["key"], "freq": int(r["freq"]), "dakshina": ""})
     for k, r in rows.items():
-        cand.setdefault(k, {"key": k, "freq": int(r.get("freq") or 0), "dakshina": ""})
+        cand.setdefault(k, {"key": k, "freq": freq_of(k, freqs, r), "dakshina": ""})
     if only_key:
         return [cand[only_key]] if only_key in cand else []
     todo = [

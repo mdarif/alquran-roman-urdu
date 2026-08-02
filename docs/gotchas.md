@@ -131,3 +131,31 @@ frozen; none was reverse-fitted to make a test pass.
 Lesson for the next fold: adding a rule to the normaliser without adding a vector
 leaves a claim in the docs with nothing enforcing it. Extend the JSON in the
 same change. → AGENTS.md §7.
+
+---
+
+## §9 — A lexicon row's `freq` is a stamp, not a count
+
+`data/lexicon/lexicon.tsv` carries a `freq` column, but it only records whatever
+was true when the row was *written*. The 188 seeded machine suggestions were all
+written with `freq=0`, and the 13 approved entries kept that zero.
+
+`review.py --stats` summed that column and so reported **0.00% token coverage
+with 13 entries approved** — not an error, just a number that said no progress
+had been made when nearly 1% of the corpus was in fact done. The real coverage
+is 0.93%.
+
+The only place a real count lives is `out/vocab.tsv`, keyed and summed over the
+surface forms that fold to each key. `vocab_freq()` / `freq_of()` in `review.py`
+read it there rather than backfilling the TSV — a backfill goes stale the next
+time the corpus is re-tokenised, which reintroduces the same silent wrong number.
+
+**Multi-token keys are absent from `vocab.tsv` by construction** — it is built
+from single whitespace tokens, so `ہم نے`, `راہ حق` and the five other n-gram
+keys have no count and legitimately stay at 0. `freq_of()` falls back to the
+stored value rather than inventing one; they sort last, which is why
+`build_worklist` folds lexicon keys in explicitly instead of relying on the
+queue files.
+
+Same family as §4: a frequency number that looks plausible and is wrong is worse
+than a missing one, because nobody re-checks it.
