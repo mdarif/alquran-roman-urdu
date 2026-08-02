@@ -155,6 +155,62 @@ Reviewer confirmations from the Surah 3 drafting pass:
 - `آسمانوں وزمین` -> `aasmanon-o-zameen`
 - `بالیقین` -> `bilyaqeen`
 - `ثابت قدم رہو` -> `sabit-qadam raho`
+- `کلالہ` -> `kalala`
+- `خویش واقارب` -> `khwesh-o-aqarib`
+- `بودوباش` -> `bood-o-bash`
+- `دخول` / `جماع` -> `dukhool` / `jima`
+- `بہ حفاظت الٰہی` -> `ba-hifazat-e-ilahi`
+- `قضائے حاجت` -> `qaza-e-hajat`
+- `رعایت` -> `riayat`
+- `ستائش` -> `sataish`
+- `کھالیں` -> `khalain`
+- `باعتبار انجام` -> `baitibar-e-anjam`
+- `مواہده` -> `muahida`
+- `سلسلہ جنبانی` -> `silsila-jumbani`
+- `خون بہا` -> `khoon-baha`
+- `بطور صدقہ` -> `ba-taur-e-sadqa`
+- `چارہٴ کار` -> `chara-e-kar`
+- `طمع` -> `tama`
+- `کار ساز` -> `karsaz`
+- `شعائر` -> `shaair`
+- `رضاجوئی` -> `razajoi`
+- `آستانوں` -> `astanon`
+- `قرعہ کے تیروں` -> `qura ke teeron`
+- `فال گیری` -> `falgeeri`
+- `حاجت ضروری` -> `hajat-e-zaroori`
+- `روئے زمین` -> `roo-e-zameen`
+- `خانہ بدوش` -> `khana-badosh`
+- `نعش` -> `nash`
+- `مخالف جانب` -> `mukhalif janib`
+- `دوامی` -> `dawami`
+- `وسعت` -> `wusat`
+- `عابد وعالم` -> `abid-o-alim`
+- `راحت و آرام` -> `rahat-o-aram`
+- `قطعاً` -> `qatan`
+- `نصاریٰ` -> `nasara`
+- `خوان (دسترخوان)` -> `khwan (dastarkhwan)`
+- `بحیره` / `سائبہ` / `وصیلہ` / `حام` -> `baheera` / `saiba` / `waseela` / `ham`
+- `خلائق` -> `khalaiq`
+- `صریح` -> `sareeh`
+- `فعل` -> `feil` when it means "action"; `فال` remains `faal`
+- `اشکال` -> `ishkal`
+- `لہو ولعب` -> `lahu-o-lab`
+- `ایذائیں` -> `eezayen`
+- `سماعت` / `بصارت` -> `samat` / `basarat`
+- `مجرمین` -> `mujrimon`
+- `معاوضہ` -> `muawaza`
+- `آفتاب` -> `aftab`
+- `اکارت` -> `akarat`
+- `متفرق اوراق` -> `mutafarriq auraq`
+- `نگاه محیط` -> `nigah muheet`
+- `براه جہل` -> `barah-e-jahl`
+- `افترا پردازی` -> `iftira-pardazi`
+- `کتاب کامل` -> `kitab-e-kamil`
+- `جنات` -> `jinnat`
+- `مواشی` -> `mawashi`
+- `بزعم خود` -> `bazam-e-khud`
+- `براه حماقت` -> `barah-e-hamaqat`
+- `سن رشد` -> `sinn-e-rushd`
 
 ## Consequences
 
