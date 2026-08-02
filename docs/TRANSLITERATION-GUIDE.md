@@ -136,7 +136,7 @@ consequences:
   this right by context (2:2 `mein`, 1:5-style `main`). Only context decides —
   same homograph class as §7 of the Devanagari style guide (`اس` is/us, `ان`
   in/un, `تو` to/tu, `کہ` ke/kah), ~7% of the corpus.
-- **Rule 10 (ayn) is applied inconsistently** in the pilot itself: `ta'ala` and
+- **Rule 10 (ayn) is applied inconsistently** in the pilot itself: `Taala` and
   `ibaadat` keep the draft's convention, but 1:7 reads `inaam` where the
   apostrophe form `in'aam` was also in play. Pick one and note it.
 - **Izafat** (rule 14, `raah-e-haq`): Urdu does not write the linker, so nothing

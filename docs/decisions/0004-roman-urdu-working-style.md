@@ -66,10 +66,9 @@ Never choose this mechanically from the Urdu surface form.
 
 ### Ayn
 
-Drop ayn unless an apostrophe helps reading or preserves an established spelling.
-Use Surah 2's existing spellings as the local authority:
+Drop ayn unless an apostrophe helps reading or preserves an established spelling. For divine honorifics, prefer clean database spellings with reverential capitalization:
 
-- `ta'ala`
+- `Allah Taala`, `Rabb Taala`, `Janab-e-Baari Taala`
 - `in'aam`
 - `ne'mat`
 - `sha'oor`
@@ -94,7 +93,7 @@ Use hyphens for established compounds already seen in Surah 2:
 - `khauf-o-gham`
 - `fazl-o-karam`
 - `mabood-e-bar-haq`
-- `janaab-e-baari ta'ala`
+- `Janab-e-Baari Taala`
 
 ### Parenthetical Glosses
 
@@ -141,13 +140,13 @@ Reviewer confirmations from the Surah 3 drafting pass:
 - `جنگ بدر` -> `jang-e-badr`
 - `باعث نصرت وامداد` -> `baais-e-nusrat-o-imdad`
 - `اطمینان قلب` -> `itminan-e-qalb`
-- `امداد الٰہی` -> `imdad-e-ilahi`
+- `امداد الٰہی` -> `imdad-e-Ilahi`
 - `ناشائستہ` -> `nashaista`
 - `فی الواقع` -> `fil-waqe`
 - `شکست احد` -> `shikast-e-uhud`
 - `ہم رکاب` -> `humrikab`
 - `ثابت قدمی` -> `sabit-qadmi`
-- `الٰہی` -> `ilahi`
+- `الٰہی` -> `Ilahi`
 - `باعث` -> `baais`
 - `الیمناک` -> `alamnak`
 - `بآواز بلند` -> `ba-awaz-e-buland`
