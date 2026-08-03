@@ -1,0 +1,14 @@
+{
+  "surah": 105,
+  "status": "beta-unverified",
+  "register": "popular",
+  "source": "Transliterated from the Urdu translation of Maulana Muhammad Junagarhi.",
+  "note": "DRAFT / BETA-UNVERIFIED. Not reviewed, not approved. Assistant-drafted in the popular register from the Urdu translation of Maulana Muhammad Junagarhi; ships only behind a visible Beta label until human review. House style: popular; see docs/decisions/0004-roman-urdu-working-style.md.",
+  "ayahs": {
+    "1": "Kya tu ne na dekha ke tere Rabb ne haathi walon ke saath kya kiya?",
+    "2": "Kya un ke makr ko be-kaar nahin kar diya?",
+    "3": "Aur un par parindon ke jhund ke jhund bhej diye.",
+    "4": "Jo unhein mitti aur patthar ki kankariyan maar rahe the.",
+    "5": "Pas unhein khaaye hue bhoose ki tarah kar diya."
+  }
+}

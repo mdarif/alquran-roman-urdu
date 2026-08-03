@@ -1,0 +1,17 @@
+{
+  "surah": 94,
+  "status": "beta-unverified",
+  "register": "popular",
+  "source": "Transliterated from the Urdu translation of Maulana Muhammad Junagarhi.",
+  "note": "DRAFT / BETA-UNVERIFIED. Not reviewed, not approved. Assistant-drafted in the popular register from the Urdu translation of Maulana Muhammad Junagarhi; ships only behind a visible Beta label until human review. House style: popular; see docs/decisions/0004-roman-urdu-working-style.md.",
+  "ayahs": {
+    "1": "Kya hum ne tera seena nahin khol diya.",
+    "2": "Aur tujh par se tera bojh hum ne utaar diya.",
+    "3": "Jis ne teri peeth tod di thi.",
+    "4": "Aur hum ne tera zikr buland kar diya.",
+    "5": "Pas yaqeenan mushkil ke saath aasaani hai.",
+    "6": "Beshak mushkil ke saath aasaani hai.",
+    "7": "Pas jab tu faarigh ho to ibaadat mein mehnat kar.",
+    "8": "Aur apne Parwardigaar hi ki taraf dil laga."
+  }
+}

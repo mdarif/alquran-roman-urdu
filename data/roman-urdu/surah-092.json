@@ -1,0 +1,30 @@
+{
+  "surah": 92,
+  "status": "beta-unverified",
+  "register": "popular",
+  "source": "Transliterated from the Urdu translation of Maulana Muhammad Junagarhi.",
+  "note": "DRAFT / BETA-UNVERIFIED. Not reviewed, not approved. Assistant-drafted in the popular register from the Urdu translation of Maulana Muhammad Junagarhi; ships only behind a visible Beta label until human review. House style: popular; see docs/decisions/0004-roman-urdu-working-style.md.",
+  "ayahs": {
+    "1": "Qasam hai raat ki jab chha jaaye.",
+    "2": "Aur qasam hai din ki jab roshan ho.",
+    "3": "Aur qasam hai us zaat ki jis ne nar-o-maada ko paida kiya.",
+    "4": "Yaqeenan tumhari koshish mukhtalif qism ki hai.",
+    "5": "Jis ne diya (Allah ki raah mein) aur dara (apne Rabb se).",
+    "6": "Aur nek baat ki tasdeeq karta rahega.",
+    "7": "To hum bhi us ko aasan raaste ki sahoolat denge.",
+    "8": "Lekin jis ne bakheeli ki aur be-parwaahi barti.",
+    "9": "Aur nek baat ki takzeeb ki.",
+    "10": "To hum bhi us ki tangi-o-mushkil ke saamaan mayassar kar denge.",
+    "11": "Us ka maal use (aundha) girne ke waqt kuchh kaam na aayega.",
+    "12": "Beshak raah dikha dena hamare zimme hai.",
+    "13": "Aur hamare hi haath aakhirat aur dunya hai.",
+    "14": "Main ne to tumhein shole maarti hui aag se dara diya hai.",
+    "15": "Jis mein sirf wohi bad-bakht daakhil hoga.",
+    "16": "Jis ne jhutlaya aur (us ki pairwi se) munh pher liya.",
+    "17": "Aur is se aisa shakhs door rakha jaayega jo bada parhezgaar hoga.",
+    "18": "Jo paaki haasil karne ke liye apna maal deta hai.",
+    "19": "Kisi ka is par koi ehsaan nahin ke jis ka badla diya ja raha ho.",
+    "20": "Balke sirf apne Parwardigaar-e-Buzurg-o-Buland ki raza chaahne ke liye.",
+    "21": "Yaqeenan woh (Allah bhi) anqareeb razaamand ho jaayega."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "surah": 85,
+  "status": "beta-unverified",
+  "register": "popular",
+  "source": "Transliterated from the Urdu translation of Maulana Muhammad Junagarhi.",
+  "note": "DRAFT / BETA-UNVERIFIED. Not reviewed, not approved. Assistant-drafted in the popular register from the Urdu translation of Maulana Muhammad Junagarhi; ships only behind a visible Beta label until human review. House style: popular; see docs/decisions/0004-roman-urdu-working-style.md.",
+  "ayahs": {
+    "1": "Burjon wale aasman ki qasam!",
+    "2": "Waada kiye hue din ki qasam!",
+    "3": "Haazir hone wale aur haazir kiye gaye ki qasam!",
+    "4": "(Ke) khandaqon wale halaak kiye gaye.",
+    "5": "Woh ek aag thi indhan wali.",
+    "6": "Jab ke woh log is ke aas paas baithe the.",
+    "7": "Aur musalmanon ke saath jo kar rahe the us ko apne saamne dekh rahe the.",
+    "8": "Yeh log un musalmanon (ke kisi aur gunah ka) badla nahin le rahe the, siwaye is ke ke woh Allah ghaalib laayaq-e-hamd ki zaat par imaan laaye the.",
+    "9": "Jis ke liye aasman-o-zameen ka mulk hai. Aur Allah Taala har cheez ko dekh raha hai.",
+    "10": "Beshak jin logon ne musalman mardon aur aurton ko sataaya phir tauba (bhi) na ki to un ke liye jahannam ka azaab hai aur jalne ka azaab hai.",
+    "11": "Beshak imaan qabool karne walon aur nek kaam karne walon ke liye woh baaghaat hain, jin ke neeche nahren beh rahi hain. Yehi badi kaamyaabi hai.",
+    "12": "Yaqeenan tere Rabb ki pakad badi sakht hai.",
+    "13": "Wohi pehli martaba paida karta hai aur wohi dobara paida karega.",
+    "14": "Woh bada bakhshish karne wala aur bahut mohabbat karne wala hai.",
+    "15": "Arsh ka maalik azmat wala hai.",
+    "16": "Jo chaahe use kar guzarne wala hai.",
+    "17": "Tujhe lashkaron ki khabar bhi mili hai?",
+    "18": "(Yani) Firaun aur Samood ki.",
+    "19": "(Kuchh nahin) balke kaafir to jhutlaane mein pade hue hain.",
+    "20": "Aur Allah Taala bhi unhein har taraf se ghere hue hai.",
+    "21": "Balke yeh Quran hai badi shaan wala.",
+    "22": "Lauh-e-Mahfooz mein (likha hua)."
+  }
+}
