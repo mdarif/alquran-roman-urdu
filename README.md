@@ -36,10 +36,13 @@ one-line flips. The bundled row stays in `quran.db`, unused.
 This repo is what turns the flag back on. Coverage is the only thing standing
 between the pilot and shipping — the quality argument is already settled.
 
-## The pilot text — read this before writing any Roman Urdu
+## The text — read this before writing any Roman Urdu
 
-`data/roman-urdu/` holds **325 verses** (surahs 1, 2 in full, and 108–114),
-**hand-transliterated**, popular register, marked `beta-unverified`.
+`data/roman-urdu/` holds **all 6,236 verses, all 114 surahs**, popular register,
+marked `beta-unverified`. Surah 2 is hand-transliterated and the strongest
+exemplar; surah 1 was model-drafted; surahs 3–107 are assistant-drafted per
+ADR 0004; 108–114 are house-style references. None of it is reviewed or
+approved.
 
 It is **source, not output**. Nothing in `scripts/` generates it — this repo has
 `render_devanagari.py` but no Roman renderer, because the phoneme → Latin step
@@ -47,8 +50,10 @@ designed in ADR 0001 §2 was never built. Do not overwrite it from a script, and
 do not treat the lexicon's review state as gating it; they are separate efforts
 that happen to share a source text.
 
-It lived in `al-quran-web` until 2026-08-02 and was recovered here from that
-repo's history. → [`data/roman-urdu/README.md`](data/roman-urdu/README.md)
+The original 325-verse pilot (surahs 1, 2, 108–114) lived in `al-quran-web`
+until 2026-08-02 and was recovered here from that repo's history; the rest
+(3–70, then 71–107) was drafted directly in this repo.
+→ [`data/roman-urdu/README.md`](data/roman-urdu/README.md)
 
 ## Status
 
@@ -60,4 +65,6 @@ repo's history. → [`data/roman-urdu/README.md`](data/roman-urdu/README.md)
 - **Release gate is review completeness, not licensing.** Nothing ships
   unreviewed (AGENTS.md §4).
 - **Lexicon:** 13 approved of 201 entries — the Devanagari route's bottleneck.
-- **Roman Urdu pilot:** 325 of 6,236 verses.
+- **Roman Urdu text:** 6,236 of 6,236 verses drafted (all 114 surahs); 0 reviewed,
+  0 approved. Human review is now the sole remaining gate before either flag
+  can flip. → §7 of `docs/NEXT-SESSION.md`.

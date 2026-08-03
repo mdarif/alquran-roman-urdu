@@ -1,5 +1,15 @@
 # Roman Urdu (web pilot) — shared coordination
 
+> **Historical snapshot, not current status.** This file documents how the
+> Roman Urdu pilot was coordinated while it lived in the `al-quran-web` repo,
+> before the 2026-08-02 recovery into this repo. It is kept as a record of
+> that arrangement (per `AGENTS.md` §6: "the pilot as it was presented on the
+> web"), not updated as coverage changes. For current status, read
+> `data/roman-urdu/README.md` and `docs/TRANSLITERATION-GUIDE.md` — as of
+> 2026-08-03, coverage is complete (all 6,236 verses, all 114 surahs), all
+> still `beta-unverified`. The "325 verses" and per-surah coverage table below
+> describe the state before that recovery and are not current.
+
 Single source of truth for the Roman Urdu BETA on the website. **Any session
 (this one, the Baqarah session, a future one) reads this before touching the
 feature.** Lives in git so it travels tool-agnostically.

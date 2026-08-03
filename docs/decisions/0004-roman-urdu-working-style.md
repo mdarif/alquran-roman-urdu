@@ -4,6 +4,11 @@
 - **Date:** 2026-08-02
 - **Scope:** `data/roman-urdu/`
 - **Builds on:** ADR 0001, ADR 0002, `out/house-style-popular-DRAFT.md`
+- **Coverage update, 2026-08-03:** the drafting this ADR governs is now
+  complete — all 6,236 verses, all 114 surahs, all still `beta-unverified`. The
+  "325 verses" figure in the Context section below is the state as of this
+  ADR's original date and is kept as historical record, not current status. The
+  working rules below remain in force for review and for any future edits.
 
 ## Context
 
@@ -105,7 +110,7 @@ should be a consumer-layer change, not a silent deletion from the source text.
 
 Follow the draft canonical list and Surah 2 spellings:
 
-`Allah`, `Qur'an`, `Rasool`, `Rabb`, `deen`, `ibaadat`, `qayamat`, `jannat`,
+`Allah`, `Quran`, `Rasool`, `Rabb`, `deen`, `ibaadat`, `qayamat`, `jannat`,
 `dozakh`, `nabi`, `aakhirat`, `dunya`, `imaan`, `Islam`, `momin`, `kaafir`.
 
 Prophet names follow the Surah 2 style:

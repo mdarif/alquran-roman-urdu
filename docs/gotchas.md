@@ -159,3 +159,32 @@ queue files.
 
 Same family as §4: a frequency number that looks plausible and is wrong is worse
 than a missing one, because nobody re-checks it.
+
+---
+
+## §10 — Roman Urdu coverage numbers are copy-pasted into seven files, not sourced from one
+
+When surahs 71–107 (785 verses) were drafted 2026-08-03 to complete Roman Urdu
+coverage, the "325 of 6,236 verses" / "5,911 remain" / "surahs 3–107 missing"
+figures turned out to be hand-written, independently, in: `README.md`,
+`data/roman-urdu/README.md`, `docs/TRANSLITERATION-GUIDE.md` (three separate
+spots in that file alone), `docs/NEXT-SESSION.md`, `AGENTS.md` (two spots),
+`docs/decisions/0004-roman-urdu-working-style.md`, and `docs/roman-urdu-pilot.md`.
+None of them derive from a script or from `data/roman-urdu/` itself — they are
+prose someone typed once and no `validate_roman_urdu.py`-style check verifies
+against the actual file count.
+
+Nothing was broken by this — it's a documentation staleness risk, not a data
+bug — but a session that trusts any one of those numbers without grepping the
+rest will confidently repeat a wrong "verses remaining" figure. `docs/roman-urdu-pilot.md`
+is deliberately exempt: it's a historical snapshot of the pre-recovery
+`al-quran-web` coordination doc (marked as such), not live status.
+
+**Fix applied in this change:** all of the above were updated to reflect
+6,236/6,236 coverage, and `docs/TRANSLITERATION-GUIDE.md` is now the doc
+pointed to as "kept current" for Roman Urdu status.
+
+**Lesson for next time coverage changes** (a review pass moving surahs to
+`approved`, for instance): `grep -rn "325\|5,911\|beta-unverified" --include=*.md .`
+before trusting any single file's numbers, and update every hit in the same
+change — not just the file you happened to be reading.

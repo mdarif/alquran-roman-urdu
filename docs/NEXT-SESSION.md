@@ -5,6 +5,25 @@ with no memory of it. Read `AGENTS.md` first, then this.
 
 ---
 
+## Update 2026-08-03 — Roman Urdu coverage is complete; review is next
+
+`data/roman-urdu/` now holds **all 6,236 verses, all 114 surahs** — surahs 3–70
+and 71–107 were drafted since the 2026-08-02 update below, closing what was then
+a 5,911-verse gap. Every mention of "325 verses" or "surahs 3–107 remaining"
+elsewhere in this repo's docs describes the state *before* this update; treat
+those as historical unless a doc has been updated to say otherwise.
+
+**Everything is still `beta-unverified`.** Coverage finishing does not mean
+review finished — AGENTS.md §2 still applies in full: nothing ships unreviewed.
+The Roman Urdu track's "one thing that matters tomorrow" is now the read-aloud
+review pass in `docs/TRANSLITERATION-GUIDE.md` §6, parallel to (and independent
+of) the Devanagari lexicon review below.
+
+→ To review or extend Roman Urdu further, read **`docs/TRANSLITERATION-GUIDE.md`**,
+which is kept current; this file's Roman Urdu numbers below are not.
+
+---
+
 ## Update 2026-08-02 — the Roman Urdu track is live again, and it is separate
 
 Two things changed, and the second one splits this repo into **two tracks that do
@@ -53,17 +72,19 @@ is human review, and nothing ships without it.
 **Rendered surahs (Devanagari):** 1, 108–114 (8 of 114). None shippable —
 `render_verse.py --surah N --strict` exits non-zero while anything is `pending`.
 
-**Roman Urdu (separate track, hand-written, not gated by the above):** surahs
-1, 2, 108–114 — **325 of 6,236 verses**, all `beta-unverified`.
-→ `docs/TRANSLITERATION-GUIDE.md`.
+**Roman Urdu (separate track, hand- and assistant-written, not gated by the
+above):** **6,236 of 6,236 verses, all 114 surahs — coverage complete** as of
+2026-08-03 (see the update at the top of this file). All still
+`beta-unverified`. → `docs/TRANSLITERATION-GUIDE.md`.
 
 ---
 
 ## The one thing that matters tomorrow
 
 **Review the ~188 pending entries.** Everything else on the *Devanagari* track is
-secondary. (Roman Urdu coverage is the other track and does not wait on this —
-see the 2026-08-02 update above.)
+secondary. (Roman Urdu is the other track and does not wait on this — its
+coverage is now complete and its own review pass is the next task there; see
+the 2026-08-03 update above.)
 
 ```bash
 cd ~/code/alquran-roman-urdu
@@ -129,7 +150,7 @@ them:
 | Repo | Branch | Note |
 |---|---|---|
 | `alquran-data` | `develop` | clean, pushed. **`main` is 6 behind** |
-| `alquran-roman-urdu` | `main` | clean, pushed. No `develop` branch |
+| `alquran-roman-urdu` | `main` | as of 2026-07-27: clean, pushed, no `develop` branch. Stale — see the 2026-08-03 update above; check `git status` rather than trusting this row |
 | `al-quran-web` | `main` | clean, pushed. Auto-deploys on push |
 | `alquran-app` | `develop` | pushed; owner's `home_overflow_menu.dart` WIP + 2 untracked `docs/` items are **pre-existing, leave them** |
 

@@ -43,8 +43,10 @@ rough — `FeatureFlags.romanUrdu` (app), `EDITION_FLAGS` (web). One-line flips.
 downstream and optional: a shipped feature is switched off waiting on this work.
 
 Do not propose adopting, patching, or blending a third-party Roman Urdu. The
-comparison is settled; what is missing is **coverage** — 325 of 6,236 verses.
-To continue that work, read **`docs/TRANSLITERATION-GUIDE.md`**.
+comparison is settled. Coverage is now **complete** — all 6,236 verses, all 114
+surahs — as of 2026-08-03; what is missing is **review**: nothing is `reviewed`
+or `approved` yet. To continue that work, read
+**`docs/TRANSLITERATION-GUIDE.md`**.
 
 ### Why a separate repo
 
@@ -176,8 +178,9 @@ are the two products, and they are **independent**:
 
 - `data/lexicon/` feeds the **Devanagari** renderer. Generated-then-reviewed;
   13 of 201 entries approved, which is that track's bottleneck.
-- `data/roman-urdu/` is the **Roman Urdu** text itself. Hand-written, no
-  generator, **not gated by the lexicon's review state**. 325 of 6,236 verses.
+- `data/roman-urdu/` is the **Roman Urdu** text itself. Hand- and
+  assistant-written, no generator, **not gated by the lexicon's review state**.
+  6,236 of 6,236 verses — coverage complete, review not started.
 
 Do not overwrite `data/roman-urdu/` from a script. → `docs/TRANSLITERATION-GUIDE.md`
 

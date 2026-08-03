@@ -1,9 +1,13 @@
 # Roman Urdu — how to continue the transliteration
 
-Written 2026-08-02 for an agent or reviewer picking this up cold. Read
-`AGENTS.md` §1 and §4 first (non-negotiables), then this.
+Written 2026-08-02 for an agent or reviewer picking this up cold. Updated
+2026-08-03: coverage is complete. Read `AGENTS.md` §1 and §4 first
+(non-negotiables), then this.
 
-**The job:** extend `data/roman-urdu/` from **325 verses to 6,236**. 5,911 remain.
+**The job — coverage phase: done.** `data/roman-urdu/` holds all 6,236 verses
+across all 114 surahs. **The job now: review.** Nothing is `reviewed` or
+`approved` yet — that is the only thing standing between this text and
+shipping. See §7.
 
 ---
 
@@ -32,22 +36,29 @@ Its known defect classes are a useful checklist of what **not** to produce:
 
 | | |
 |---|---|
-| Done | surahs **1**, **2** (all 286), **108–114** — 325 verses |
-| Remaining | **5,911** verses, surahs 3–107 |
-| Status of all existing files | `beta-unverified` — not reviewed, not approved |
-| Consumers | Roman Urdu is **gated off** in app and web until this is ready |
+| Coverage | **6,236 of 6,236 verses, all 114 surahs — complete** |
+| Review | **0 verses reviewed, 0 approved** — this is now the only gap |
+| Status of all files | `beta-unverified` — not reviewed, not approved |
+| Consumers | Roman Urdu is **gated off** in app and web until this is reviewed |
 
-### Provenance is NOT uniform — read this before treating the pilot as gold
+### Provenance is NOT uniform — read this before treating any surah as gold
 
-The nine existing files carry three different `note` claims:
+Files carry four different `note` claims — check the `note` field of the
+specific surah you're reviewing before trusting it as a style reference:
 
-- **surah 2** — "Hand-transliterated in the popular register."
+- **surah 2** — "Hand-transliterated in the popular register." The strongest
+  exemplar; use it as the model for judging everything else.
 - **surah 1** — "A model produced these vowelizations."
+- **surahs 3–107** — "Assistant-drafted in the popular register... following
+  ADR 0004." Drafted directly against the Surah 2 pattern and the ADR 0004
+  working rules, never reviewed.
 - **surahs 108–114** — neither claim; house-style reference only.
 
-So the pilot is a **good stylistic reference and a weak factual one**. Surah 2 is
-the most trustworthy exemplar and the best model for new work. Do not silently
-promote any of it to `approved` on the strength of it having existed for a while.
+So the corpus is a **good stylistic reference and a weak factual one** almost
+everywhere except surah 2. Do not silently promote any surah to `approved` on
+the strength of it having existed for a while, or of having passed
+`validate_roman_urdu.py` — that script only checks structure (no gaps, no
+blank verses, no stray digits), never meaning.
 
 ---
 
@@ -203,26 +214,35 @@ as "publicly readable and labelled", not "private".
 
 ---
 
-## 6. Suggested order of work
+## 6. Suggested order of work — now a review order, not a drafting order
 
-1. **Surah 3 onward in order**, or
-2. **short high-traffic surahs first** — 36 (Yaseen), 55 (Ar-Rahman), 67 (Al-Mulk),
-   18 (Al-Kahf) — which get read most and would let the flag flip on for a
-   meaningful subset sooner.
+Drafting is finished (§1). What's left is the human read-aloud review pass
+that AGENTS.md §4 requires before any surah can move past `beta-unverified`.
+Suggested order:
 
-Option 2 is worth considering because the consumers already handle partial
-coverage: `al-quran-web` shipped a "coming soon" note for surahs with no Roman
-Urdu yet (the `.rur-soon` rule still exists in `src/styles/global.css`).
+1. **Surah 2 first**, as a calibration pass — it's the hand-transliterated
+   exemplar, so reviewing it establishes what "approved" should look like
+   before judging assistant-drafted surahs against it.
+2. Then **short high-traffic surahs** — 36 (Yaseen), 55 (Ar-Rahman), 67
+   (Al-Mulk), 18 (Al-Kahf), 1 (Al-Fatiha) — which get read most and would let
+   the flag flip on for a meaningful subset sooner even before the full corpus
+   is reviewed.
+3. Then the rest, in any order — the consumers already handle partial
+   `approved` coverage: `al-quran-web` shipped a "coming soon" note for surahs
+   without Roman Urdu (the `.rur-soon` rule in `src/styles/global.css`), and
+   the same per-surah gating applies to review state.
 
-**A vocabulary note:** the corpus is closed and repetitive — roughly 9–14k unique
-surface forms across the whole translation. Per-verse effort drops sharply after
-the first few surahs, so early progress is not a good predictor of total cost.
+Two error classes reach no automated check — homographs and izafat (§4) —
+so `validate_roman_urdu.py` passing is not evidence a surah is ready; only
+reading it is.
 
 ---
 
 ## 7. When it is ready to ship
 
-Turning it back on is two one-line flips, both already wired:
+Coverage being complete does **not** mean this is ready to ship — review (§6)
+comes first. When a surah (eventually the whole corpus) is `approved`, turning
+it back on is two one-line flips, both already wired:
 
 - `alquran-app` — `FeatureFlags.romanUrdu = true`
   (`lib/core/feature_flags.dart`). The gate is applied in
