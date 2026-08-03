@@ -1,0 +1,23 @@
+{
+  "surah": 61,
+  "status": "beta-unverified",
+  "register": "popular",
+  "source": "Transliterated from the Urdu translation of Maulana Muhammad Junagarhi.",
+  "note": "DRAFT / BETA-UNVERIFIED. Not reviewed, not approved. Assistant-drafted in the popular register from the Urdu translation of Maulana Muhammad Junagarhi; ships only behind a visible Beta label until human review. House style: popular; see docs/decisions/0004-roman-urdu-working-style.md.",
+  "ayahs": {
+    "1": "Zameen-o-aasman ki har har cheez Allah Taala ki paaki bayan karti hai aur wohi Ghaalib Hikmat wala hai.",
+    "2": "Ae imaan walo! Tum woh baat kyun kehte ho jo karte nahin.",
+    "3": "Tum jo karte nahin is ka kehna Allah Taala ko sakht na-pasand hai.",
+    "4": "Beshak Allah Taala un logon se mohabbat karta hai jo is ki raah mein saff-basta jihaad karte hain goya woh seesa-pilaai hui imaarat hain.",
+    "5": "Aur (yaad karo) jabke Moosa ne apni qaum se kaha ae meri qaum ke logo! Tum mujhe kyun sata rahe ho halaanke tumhein (bakhoobi) maloom hai ke main tumhari jaanib Allah ka Rasool hoon pas jab woh log tedhe hi rahe to Allah ne un ke dilon ko (aur) tedha kar diya, aur Allah Taala na-farmaan qaum ko hidayat nahin deta.",
+    "6": "Aur jab Maryam ke bete Eesa ne kaha ae (meri qaum), Bani Israeel! Main tum sab ki taraf Allah ka Rasool hoon mujh se pehle ki kitaab Taurat ki main tasdeeq karne wala hoon aur apne baad aane wale ek Rasool ki main tumhein khushkhabri sunaane wala hoon jin ka naam Ahmad hai. Phir jab woh un ke paas khuli daleelein laaye to yeh kehne lage, yeh to khula jaadu hai.",
+    "7": "Is shakhs se zyada zaalim aur kaun hoga jo Allah par jhoot (iftira) baandhe halaanke woh Islam ki taraf bulaaya jaata hai aur Allah aise zaalimon ko hidayat nahin karta.",
+    "8": "Woh chahte hain ke Allah ke noor ko apne munh se bujha den aur Allah apne noor ko kamaal tak pahunchane wala hai go kaafir bura maanen.",
+    "9": "Wohi hai jis ne apne Rasool ko hidayat aur sachcha deen de kar bheja taake ise aur tamaam mazaahib par ghaalib kar de agarche mushrikeen naakhush hon.",
+    "10": "Ae imaan walo! Kya main tumhein woh tijaarat batla doon jo tumhein dardnaak azaab se bacha le?",
+    "11": "Allah Taala par aur is ke Rasool par imaan laao aur Allah ki raah mein apne maal aur apni jaanon se jihaad karo. Yeh tumhare liye behtar hai agar tum mein ilm ho.",
+    "12": "Allah Taala tumhare gunaah maaf farma dega aur tumhein un jannaton mein pahunchaayega jin ke neeche nehrein jaari hongi aur saaf suthre gharon mein jo Jannat-e-Adan mein honge, yeh bahut badi kaamyaabi hai.",
+    "13": "Aur tumhein ek doosri (ne'mat) bhi dega jise tum chahte ho woh Allah ki madad aur jald fatah-yaabi hai, imaan walon ko khushkhabri de do.",
+    "14": "Ae imaan walo! Tum Allah Taala ke madadgaar ban jaao. Jis tarah Hazrat Maryam ke bete Hazrat Eesa ne Hawaariyon se farmaaya ke kaun hai jo Allah ki raah mein mera madadgaar bane? Hawaariyon ne kaha hum Allah ki raah mein madadgaar hain, pas Bani Israeel mein se ek jamaat to imaan laayi aur ek jamaat ne kufr kiya to hum ne mominon ki un ke dushmanon ke muqaabla mein madad ki pas woh ghaalib aa gaye."
+  }
+}
