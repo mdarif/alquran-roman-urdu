@@ -189,7 +189,7 @@ npm run dev
 # http://localhost:4321/surah/2-al-baqarah/ → toggle "Roman Urdu" in the toolbar
 ```
 
-The edition appears as **`ur-roman-almarfa`**, labelled *Experimental*, off by
+The edition appears as **`ur-roman-abu-rayyan`**, labelled *Experimental*, off by
 default, with a per-verse "suggest a correction" link. Surahs you have not
 covered show a "still expanding" note instead of an empty block. No `quran.db`
 rebuild is involved.
@@ -254,7 +254,7 @@ But note **both flags currently point at the third-party text bundled in
 `quran.db`**. Shipping *our* text additionally requires the pipeline step that
 was never built: ingest `data/roman-urdu/` into `alquran-data` as a
 `resources.type = 'transliteration'` row (its own slug, e.g.
-`ur-roman-almarfa`), rebuild `quran.db`, run `make seed-version`, and propagate
+`ur-roman-abu-rayyan`), rebuild `quran.db`, run `make seed-version`, and propagate
 to app **and** web. → `../alquran-data/TRANSLATIONS-ROADMAP.md`.
 
 Until then, do not flip either flag.
@@ -269,7 +269,7 @@ Minimum expected path:
 
 1. Add an `alquran-data` importer for `data/roman-urdu/surah-*.json`.
 2. Insert the text as a new resource, not the rejected third-party slug:
-   `ur-roman-almarfa` or another Al Marfa-owned slug.
+   `ur-roman-abu-rayyan` or another Al Marfa-owned slug.
 3. Mark it as `resources.type = 'transliteration'`.
 4. Rebuild `quran.db`.
 5. Run the app seed/version step so the mobile app sees the new DB as an update.
