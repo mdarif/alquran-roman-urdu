@@ -1,7 +1,10 @@
 # alquran-roman-urdu
 
-Open, reviewed Roman Urdu lexicon and transliteration pipeline for Quran
-translation text. Al Marfa Technologies.
+Roman Urdu lexicon and transliteration pipeline for Quran translation text.
+Al Marfa Technologies. The **lexicon** (`data/lexicon/`) is openly licensed
+(CC BY-SA 4.0); the **Quran Roman Urdu text** (`data/roman-urdu/`) is
+proprietary while it remains unreviewed — see [LICENSE](LICENSE) and
+[ATTRIBUTION.md](ATTRIBUTION.md).
 
 The lexicon is the deliverable, not the app.
 

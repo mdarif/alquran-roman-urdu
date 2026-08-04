@@ -1,0 +1,69 @@
+Copyright (c) 2026 Al Marfa Technologies. All rights reserved.
+
+This repository contains three distinct kinds of material, under three
+different licences. Read the section that applies before reusing anything.
+
+-------------------------------------------------------------------------------
+
+1. QURAN ROMAN URDU TRANSLITERATION TEXT (`data/roman-urdu/`)
+
+PROPRIETARY — NOT OPEN SOURCE. All rights reserved.
+
+No licence is granted to any person or organisation to use, copy, modify,
+publish, distribute, sublicense, or create derivative works from the text in
+`data/roman-urdu/`, in whole or in part, without the prior express written
+permission of Al Marfa Technologies (owner: Mohammad Arif,
+arif.mohammed@gmail.com).
+
+This text is the transliteration itself: the vowelization choices, house
+style (per `docs/decisions/0004-*.md`), and izafat/homograph judgment calls
+applied to the underlying (public-domain) Urdu translation. That editorial
+and creative labor is original expression belonging to Al Marfa Technologies,
+distinct from the public-domain words it renders — see ATTRIBUTION.md for the
+full basis, and the SCOPE note below for what this does and does not cover.
+
+Current status: every verse is `beta-unverified` (see README.md "Status") —
+nothing has been human-reviewed end to end. This closed licence reflects that
+experimental status, not a permanent stance: once review clears a meaningful
+portion of the text, the owner intends to revisit this licence (most likely
+toward a permissive or share-alike release, consistent with this project's
+"open lexicon" orientation elsewhere in the repo). Until that happens, treat
+this text as fully reserved. Permission requests: contact the owner.
+
+This proprietary claim mirrors the one already recorded for this same text
+once ingested downstream, in `../alquran-data/LICENSE` and
+`../alquran-data/ATTRIBUTION.md` (`resources.slug = ur-roman-abu-rayyan`) —
+the two files should be kept in sync if either changes.
+
+-------------------------------------------------------------------------------
+
+2. THE LEXICON (`data/lexicon/`)
+
+CC BY-SA 4.0 (inherited from the Dakshina dataset, accepted per
+`docs/decisions/0001-roman-urdu-source-selection.md`). This is the
+project's open deliverable — see `data/lexicon/LICENSE` for the full text
+and required attribution (Roark, Wolf-Sonkin, Kirov, Mielke, Johny,
+Demirşahin & Hall (2020), *Processing South Asian Languages Written in the
+Latin Script: the Dakshina Dataset*, LREC).
+
+Do not attach the CC BY-SA notice to material outside `data/lexicon/` — in
+particular, it does not apply to `data/roman-urdu/` (§1 above).
+
+-------------------------------------------------------------------------------
+
+3. PIPELINE CODE (`scripts/`, `tests/`) AND DOCUMENTATION
+
+Licence: undecided. Until a licence is chosen, no rights are granted beyond
+what is needed to read this repository — treat as "all rights reserved" by
+default, same reservation as §1, pending an explicit decision by the owner.
+
+-------------------------------------------------------------------------------
+
+SCOPE — THIS NOTICE DOES NOT GRANT OR CLAIM RIGHTS OVER THE SOURCE TEXT.
+
+Section 1's reservation covers Al Marfa Technologies' own transliteration
+work, not the underlying Urdu translation it is derived from. The Junagarhi
+Urdu translation is public domain (translator d. 1941; see ATTRIBUTION.md)
+and cannot be claimed by anyone, including Al Marfa Technologies. Nothing in
+this notice restricts use of the Junagarhi Urdu text itself, or of the
+Qur'anic Arabic — only this repository's own Roman Urdu rendering of it.

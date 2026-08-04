@@ -7,6 +7,12 @@ the owner on 2026-07-27. That removes what was the primary blocker: derivative
 works need no permission, so Roman Urdu and Devanagari output are both permitted,
 and no verbatim-only clause applies.
 
+That clearance is about permission to *make* the derivative, not about who
+owns the *rendering* we produce. The Quran Roman Urdu text this repo produces
+(`data/roman-urdu/`) is itself asserted **proprietary, all rights reserved**
+— see "Outputs" below and `LICENSE` — because it is still `beta-unverified`
+and unreviewed end to end.
+
 What still gates a release, in order:
 
 1. **Review completeness — the real gate.** `AGENTS.md` §4.2 is unchanged:
@@ -99,6 +105,28 @@ derived from one while it still reads that way is not.
 - **Licence:** CC BY-SA 4.0 (inherited from Dakshina, accepted per ADR 0001).
 - This is the deliverable. It ships with its own LICENSE file.
 
+### `data/roman-urdu/` — the Quran Roman Urdu transliteration text
+
+- **Licence: PROPRIETARY — all rights reserved.** © Al Marfa Technologies
+  (transliterator: Abu Rayyan / Mohammad Arif). See `LICENSE` at repo root.
+  **Not CC BY-SA** — do not reuse the CC BY-SA line below for this text; that
+  licence covers only `data/lexicon/`, a separate, unrelated artifact in this
+  repo (a word-level romanization reference bootstrapped from Dakshina), not
+  the Quran transliteration itself.
+- **Underlying words:** the Junagarhi Urdu translation, public domain (see
+  above) — nobody, including us, can restrict those. The transliteration
+  itself (vowelization choices, house style per ADR 0004, izafat/homograph
+  judgment calls) is original creative and editorial labor, not a mechanical
+  1:1 transcription, and is claimed as Al Marfa Technologies' own protectable
+  expression — same position `../alquran-data/ATTRIBUTION.md` §"Roman Urdu"
+  and `../alquran-data/LICENSE` already take once this text is ingested there
+  (`resources.slug = ur-roman-abu-rayyan`).
+- **Why proprietary while `beta-unverified`:** every verse here is unreviewed
+  (§ "Status" in README.md). Keeping it closed while it's in this state avoids
+  an unreviewed, potentially-erroneous rendering circulating as if it were a
+  finished, citable text. Revisit the licence once review clears it — see
+  `LICENSE` for the standing offer to reconsider.
+
 ### Pipeline code (`scripts/`)
 
 - **Licence:** _to decide._ Not a derivative of the lexicon data. Keeping it
@@ -109,10 +137,16 @@ derived from one while it still reads that way is not.
 ## Required in any published output
 
 Roman Urdu text is a derivative of a specific Urdu translation and must be
-rendered as such — never presented as "the Quran says". Minimum attribution:
+rendered as such — never presented as "the Quran says". Minimum attribution
+(matches `config/sources.yaml`'s `author`/`license` fields in `alquran-data`
+and `al-quran-web/scripts/export-quran.mjs`'s overlay verbatim):
 
-> Roman Urdu transliteration of the Urdu translation by
-> Maulana Muhammad Junagarhi. Transliteration by Al Marfa Technologies,
-> CC BY-SA 4.0. Not a translation of the Quran.
+> Muhammad Junagarhi; transliterated by Abu Rayyan. Junagarhi translation is
+> public domain. Transliteration © Abu Rayyan. Not a translation of the
+> Quran — unreviewed beta text.
+
+Do not attach the CC BY-SA 4.0 notice above to this text — that notice is for
+`data/lexicon/` only. Unreviewed entries must be visibly marked or hidden
+entirely.
 
 Unreviewed entries must be visibly marked or hidden entirely.
