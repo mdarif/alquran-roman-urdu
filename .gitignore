@@ -1,6 +1,7 @@
 out/
 data/raw/
 data/vendor/
+data/quran.db
 __pycache__/
 *.tar
 .DS_Store
