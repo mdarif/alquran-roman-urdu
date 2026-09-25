@@ -183,692 +183,692 @@ bech	bech	8	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
 nafarmaani	naafarmaani	8	decided	owner batch-01 2026-09-25
 ahl-e-kitab	ahl-e-kitaab	8	decided	owner batch-01 2026-09-25
 zameen-o-aasman	zameen-o-aasmaan	8	decided	owner batch-01 2026-09-25
-nishaniyon	nishaaniyon	8	needs-review	R1 auto: doubled form of a mixed cluster
-pukar	pukaar	8	needs-review	R1 auto: doubled form of a mixed cluster
-awaaz	aawaaz	8	needs-review	R1 auto: doubled form of a mixed cluster
-gawahi	gawaahi	8	needs-review	R1 auto: doubled form of a mixed cluster
-jhutlaya	jhutlaaya	8	needs-review	R1 auto: doubled form of a mixed cluster
-thikana	thikaana	8	needs-review	R1 auto: doubled form of a mixed cluster
-jaoge	jaaoge	8	needs-review	R1 auto: doubled form of a mixed cluster
+nishaniyon	nishaaniyon	8	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pukar	pukaar	8	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+awaaz	aawaaz	8	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+gawahi	gawaahi	8	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jhutlaya	jhutlaaya	8	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+thikana	thikaana	8	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jaoge	jaaoge	8	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 bhari	bhari	8	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-aasan	aasaan	8	needs-review	R1 auto: doubled form of a mixed cluster
-shayad	shaayad	8	needs-review	R1 auto: doubled form of a mixed cluster
+aasan	aasaan	8	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+shayad	shaayad	8	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 bari	bari	8	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
 shafaa'at	shafaat	7	decided	owner Q24 2026-09-25: ADR 0005 R5 lists shafaat
-qaim	qaaim	7	needs-review	R1 auto: doubled form of a mixed cluster
-jate	jaate	7	needs-review	R1 auto: doubled form of a mixed cluster
-khushkhabriyan	khushkhabriyaan	7	needs-review	R1 auto: doubled form of a mixed cluster
-nuqsan	nuqsaan	7	needs-review	R1 auto: doubled form of a mixed cluster
-pakeeza	paakeeza	7	needs-review	R1 auto: doubled form of a mixed cluster
-daryaft	daryaaft	7	needs-review	R1 auto: doubled form of a mixed cluster
-aawaz	aawaaz	7	needs-review	R1 auto: doubled form of a mixed cluster
+qaim	qaaim	7	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jate	jaate	7	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khushkhabriyan	khushkhabriyaan	7	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nuqsan	nuqsaan	7	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pakeeza	paakeeza	7	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+daryaft	daryaaft	7	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+aawaz	aawaaz	7	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 marte	marte	7	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
 bhed	bhed	7	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-khayanat	khayaanat	7	needs-review	R1 auto: doubled form of a mixed cluster
-kamyabi	kaamyaabi	7	needs-review	R1 auto: doubled form of a mixed cluster
-ahd-o-paiman	ahd-o-paimaan	7	needs-review	R1 auto: doubled form of a mixed cluster
-waste	waaste	7	needs-review	R1 auto: doubled form of a mixed cluster
+khayanat	khayaanat	7	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kamyabi	kaamyaabi	7	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ahd-o-paiman	ahd-o-paimaan	7	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+waste	waaste	7	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 nikalta	nikalta	7	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-falah	falaah	6	needs-review	R1 auto: doubled form of a mixed cluster
-baz	baaz	6	needs-review	R1 auto: doubled form of a mixed cluster
+falah	falaah	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+baz	baaz	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 jata	jaata	6	needs-review	R1 auto: doubled form of a mixed cluster
-batao	bataao	6	needs-review	R1 auto: doubled form of a mixed cluster
+batao	bataao	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 jana	jaana	6	needs-review	R1 auto: doubled form of a mixed cluster
-tabedaari	taabedaari	6	needs-review	R1 auto: doubled form of a mixed cluster
-nazil	naazil	6	needs-review	R1 auto: doubled form of a mixed cluster
-ikhtilaf	ikhtilaaf	6	needs-review	R1 auto: doubled form of a mixed cluster
-sikhaya	sikhaaya	6	needs-review	R1 auto: doubled form of a mixed cluster
-razamandi	razaamandi	6	needs-review	R1 auto: doubled form of a mixed cluster
-chahen	chaahen	6	needs-review	R1 auto: doubled form of a mixed cluster
-nigah	nigaah	6	needs-review	R1 auto: doubled form of a mixed cluster
-bhalai	bhalaai	6	needs-review	R1 auto: doubled form of a mixed cluster
-istighfar	istighfaar	6	needs-review	R1 auto: doubled form of a mixed cluster
-munafiqon	munaafiqon	6	needs-review	R1 auto: doubled form of a mixed cluster
-muqable	muqaable	6	needs-review	R1 auto: doubled form of a mixed cluster
+tabedaari	taabedaari	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nazil	naazil	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ikhtilaf	ikhtilaaf	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sikhaya	sikhaaya	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+razamandi	razaamandi	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+chahen	chaahen	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nigah	nigaah	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bhalai	bhalaai	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+istighfar	istighfaar	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+munafiqon	munaafiqon	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+muqable	muqaable	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 tareefen	tareefein	6	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
-buraaiyan	buraaiyaan	6	needs-review	R1 auto: doubled form of a mixed cluster
-ladkiyan	ladkiyaan	6	needs-review	R1 auto: doubled form of a mixed cluster
-himayati	himaayati	6	needs-review	R1 auto: doubled form of a mixed cluster
-kushada	kushaada	6	needs-review	R1 auto: doubled form of a mixed cluster
+buraaiyan	buraaiyaan	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ladkiyan	ladkiyaan	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+himayati	himaayati	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kushada	kushaada	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 jam	jam	6	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-aftab	aaftaab	6	needs-review	R1 auto: doubled form of a mixed cluster
-nigahon	nigaahon	6	needs-review	R1 auto: doubled form of a mixed cluster
+aftab	aaftaab	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nigahon	nigaahon	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 rahoon	rahoon	6	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
 chalen	chalen	6	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-chakhayenge	chakhaayenge	6	needs-review	R1 auto: doubled form of a mixed cluster
-mehrbani	mehrbaani	6	needs-review	R1 auto: doubled form of a mixed cluster
-jante	jaante	5	needs-review	R1 auto: doubled form of a mixed cluster
-faida	faaida	5	needs-review	R1 auto: doubled form of a mixed cluster
+chakhayenge	chakhaayenge	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mehrbani	mehrbaani	6	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jante	jaante	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+faida	faaida	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 pak	paak	5	needs-review	R1 auto: doubled form of a mixed cluster
-zahir	zaahir	5	needs-review	R1 auto: doubled form of a mixed cluster
-zakat	zakaat	5	needs-review	R1 auto: doubled form of a mixed cluster
+zahir	zaahir	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+zakat	zakaat	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 ziyadati	ziyaadati	5	decided	owner 2026-09-25: ziyaada and ghalib are the house spellings
-nafarmani	naafarmaani	5	needs-review	R1 auto: doubled form of a mixed cluster
-aayat	aayaat	5	needs-review	R1 auto: doubled form of a mixed cluster
-masjid-e-haram	masjid-e-haraam	5	needs-review	R1 auto: doubled form of a mixed cluster
-ghulamon	ghulaamon	5	needs-review	R1 auto: doubled form of a mixed cluster
-jati	jaati	5	needs-review	R1 auto: doubled form of a mixed cluster
-waliyon	waaliyon	5	needs-review	R1 auto: doubled form of a mixed cluster
-baadshahat	baadshaahat	5	needs-review	R1 auto: doubled form of a mixed cluster
-pukaro	pukaaro	5	needs-review	R1 auto: doubled form of a mixed cluster
-buraiyon	buraaiyon	5	needs-review	R1 auto: doubled form of a mixed cluster
-kinare	kinaare	5	needs-review	R1 auto: doubled form of a mixed cluster
-paband	paaband	5	needs-review	R1 auto: doubled form of a mixed cluster
-sitaron	sitaaron	5	needs-review	R1 auto: doubled form of a mixed cluster
+nafarmani	naafarmaani	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+aayat	aayat	5	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+masjid-e-haram	masjid-e-haraam	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ghulamon	ghulaamon	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jati	jaati	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+waliyon	waaliyon	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+baadshahat	baadshaahat	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pukaro	pukaaro	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+buraiyon	buraaiyon	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kinare	kinaare	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+paband	paaband	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sitaron	sitaaron	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 nigahen	nigahein	5	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
-ontni	oontni	5	needs-review	R1 auto: doubled form of a mixed cluster
-sazawaar	sazaawaar	5	needs-review	R1 auto: doubled form of a mixed cluster
-tane	taane	5	needs-review	R1 auto: doubled form of a mixed cluster
-tareefon	taareefon	5	needs-review	R1 auto: doubled form of a mixed cluster
-deewana	deewaana	5	needs-review	R1 auto: doubled form of a mixed cluster
-layenge	laayenge	4	needs-review	R1 auto: doubled form of a mixed cluster
-janta	jaanta	4	needs-review	R1 auto: doubled form of a mixed cluster
-banane	banaane	4	needs-review	R1 auto: doubled form of a mixed cluster
-samne	saamne	4	needs-review	R1 auto: doubled form of a mixed cluster
+ontni	oontni	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sazawaar	sazaawaar	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tane	tane	5	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tareefon	tareefon	5	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+deewana	deewaana	5	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+layenge	laayenge	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+janta	jaanta	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+banane	banaane	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+samne	saamne	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 baten	batein	4	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
-israel	israeel	4	needs-review	R1 auto: doubled form of a mixed cluster
-kitabon	kitaabon	4	needs-review	R1 auto: doubled form of a mixed cluster
-sifarish	sifaarish	4	needs-review	R1 auto: doubled form of a mixed cluster
-bare	baare	4	needs-review	R1 auto: doubled form of a mixed cluster
+israel	israeel	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kitabon	kitaabon	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sifarish	sifaarish	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bare	baare	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 haram	haraam	4	needs-review	R1 auto: doubled form of a mixed cluster
-lanat	laanat	4	needs-review	R1 auto: doubled form of a mixed cluster
-shayateen	shayaateen	4	needs-review	R1 auto: doubled form of a mixed cluster
-pahunchaye	pahunchaaye	4	needs-review	R1 auto: doubled form of a mixed cluster
-kushadgi	kushaadgi	4	needs-review	R1 auto: doubled form of a mixed cluster
+lanat	lanat	4	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+shayateen	shayaateen	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pahunchaye	pahunchaaye	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kushadgi	kushaadgi	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 marna	marna	4	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-hawaon	hawaaon	4	needs-review	R1 auto: doubled form of a mixed cluster
-pabandi	paabandi	4	needs-review	R1 auto: doubled form of a mixed cluster
-sabit	saabit	4	needs-review	R1 auto: doubled form of a mixed cluster
-waqe	waaqe	4	needs-review	R1 auto: doubled form of a mixed cluster
-qurbani	qurbaani	4	needs-review	R1 auto: doubled form of a mixed cluster
-mutabiq	mutaabiq	4	needs-review	R1 auto: doubled form of a mixed cluster
-gadhe	gaadhe	4	needs-review	R1 auto: doubled form of a mixed cluster
+hawaon	hawaaon	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pabandi	paabandi	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sabit	saabit	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+waqe	waaqe	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+qurbani	qurbaani	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mutabiq	mutaabiq	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+gadhe	gadhe	4	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 mara	mara	4	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-mamla	maamla	4	needs-review	R1 auto: doubled form of a mixed cluster
-insaf	insaaf	4	needs-review	R1 auto: doubled form of a mixed cluster
+mamla	maamla	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+insaf	insaaf	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 khata	khata	4	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
 lad	lad	4	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-baadshahi	baadshaahi	4	needs-review	R1 auto: doubled form of a mixed cluster
-imdad	imdaad	4	needs-review	R1 auto: doubled form of a mixed cluster
-sabit-qadam	saabit-qadam	4	needs-review	R1 auto: doubled form of a mixed cluster
-beemar	beemaar	4	needs-review	R1 auto: doubled form of a mixed cluster
-ittila	ittilaa	4	needs-review	R1 auto: doubled form of a mixed cluster
+baadshahi	baadshaahi	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+imdad	imdaad	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sabit-qadam	saabit-qadam	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+beemar	beemaar	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ittila	ittilaa	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 tal	tal	4	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-khasare	khasaare	4	needs-review	R1 auto: doubled form of a mixed cluster
-batlao	batlaao	4	needs-review	R1 auto: doubled form of a mixed cluster
-mayoos	maayoos	4	needs-review	R1 auto: doubled form of a mixed cluster
-sifarishi	sifaarishi	4	needs-review	R1 auto: doubled form of a mixed cluster
-barsaya	barsaaya	4	needs-review	R1 auto: doubled form of a mixed cluster
-insanon	insaanon	4	needs-review	R1 auto: doubled form of a mixed cluster
-ittiba	ittibaa	4	needs-review	R1 auto: doubled form of a mixed cluster
-farmai	farmaai	4	needs-review	R1 auto: doubled form of a mixed cluster
-khazanon	khazaanon	4	needs-review	R1 auto: doubled form of a mixed cluster
-pyare	pyaare	4	needs-review	R1 auto: doubled form of a mixed cluster
-saleh	saaleh	4	needs-review	R1 auto: doubled form of a mixed cluster
-raah-yafta	raah-yaafta	4	needs-review	R1 auto: doubled form of a mixed cluster
-dardnak	dardnaak	3	needs-review	R1 auto: doubled form of a mixed cluster
-gumrahi	gumraahi	3	needs-review	R1 auto: doubled form of a mixed cluster
-pahunchaya	pahunchaaya	3	needs-review	R1 auto: doubled form of a mixed cluster
+khasare	khasaare	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+batlao	batlaao	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mayoos	maayoos	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sifarishi	sifaarishi	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+barsaya	barsaaya	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+insanon	insaanon	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ittiba	ittibaa	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+farmai	farmaai	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khazanon	khazaanon	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pyare	pyaare	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+saleh	saaleh	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+raah-yafta	raah-yaafta	4	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+dardnak	dardnaak	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+gumrahi	gumraahi	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pahunchaya	pahunchaaya	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 misal	misl	3	decided	owner Q24 2026-09-25: all uses are مثل (Q19)
-janib	jaanib	3	needs-review	R1 auto: doubled form of a mixed cluster
-lautaye	lautaaye	3	needs-review	R1 auto: doubled form of a mixed cluster
-pakeezgi	paakeezgi	3	needs-review	R1 auto: doubled form of a mixed cluster
-chaho	chaaho	3	needs-review	R1 auto: doubled form of a mixed cluster
-kafir	kaafir	3	needs-review	R1 auto: doubled form of a mixed cluster
-bhalaiyon	bhalaaiyon	3	needs-review	R1 auto: doubled form of a mixed cluster
-chahat	chaahat	3	needs-review	R1 auto: doubled form of a mixed cluster
+janib	jaanib	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+lautaye	lautaaye	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pakeezgi	paakeezgi	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+chaho	chaaho	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kafir	kaafir	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bhalaiyon	bhalaaiyon	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+chahat	chaahat	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 pata	pata	3	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-chaha	chaaha	3	needs-review	R1 auto: doubled form of a mixed cluster
-ghafil	ghaafil	3	needs-review	R1 auto: doubled form of a mixed cluster
-hazar	hazaar	3	needs-review	R1 auto: doubled form of a mixed cluster
-shaitanon	shaitaanon	3	needs-review	R1 auto: doubled form of a mixed cluster
-ayaat	aayaat	3	needs-review	R1 auto: doubled form of a mixed cluster
-madadgar	madadgaar	3	needs-review	R1 auto: doubled form of a mixed cluster
-payen	paayen	3	needs-review	R1 auto: doubled form of a mixed cluster
-zaya	zaaya	3	needs-review	R1 auto: doubled form of a mixed cluster
-halal	halaal	3	needs-review	R1 auto: doubled form of a mixed cluster
-darwazon	darwaazon	3	needs-review	R1 auto: doubled form of a mixed cluster
-dakhil	daakhil	3	needs-review	R1 auto: doubled form of a mixed cluster
-khetiyan	khetiyaan	3	needs-review	R1 auto: doubled form of a mixed cluster
-hifazat	hifaazat	3	needs-review	R1 auto: doubled form of a mixed cluster
-tadaad	taadaad	3	needs-review	R1 auto: doubled form of a mixed cluster
+chaha	chaaha	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ghafil	ghaafil	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+hazar	hazar	3	keep	closed 2026-09-26: variant no longer in the text
+shaitanon	shaitaanon	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ayaat	ayaat	3	keep	closed 2026-09-26: variant no longer in the text
+madadgar	madadgaar	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+payen	paayen	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+zaya	zaaya	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+halal	halaal	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+darwazon	darwaazon	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+dakhil	daakhil	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khetiyan	khetiyaan	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+hifazat	hifaazat	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tadaad	taadaad	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 badshah	baadshah	3	needs-review	R1 auto: doubled form of a mixed cluster
-chunanche	chunaanche	3	needs-review	R1 auto: doubled form of a mixed cluster
-kafi	kaafi	3	needs-review	R1 auto: doubled form of a mixed cluster
+chunanche	chunaanche	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kafi	kaafi	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 roogardani	rugardaani	3	decided	owner batch-01 2026-09-25 (same word)
 sare	saare	3	needs-review	R1 auto: doubled form of a mixed cluster
-qarar	qaraar	3	needs-review	R1 auto: doubled form of a mixed cluster
-nafarmaan	naafarmaan	3	needs-review	R1 auto: doubled form of a mixed cluster
-burai	buraai	3	needs-review	R1 auto: doubled form of a mixed cluster
+qarar	qaraar	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nafarmaan	naafarmaan	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+burai	buraai	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 kat	kat	3	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-ad	aad	3	needs-review	R1 auto: doubled form of a mixed cluster
-jhutlane	jhutlaane	3	needs-review	R1 auto: doubled form of a mixed cluster
-mukhalif	mukhaalif	3	needs-review	R1 auto: doubled form of a mixed cluster
+ad	ad	3	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jhutlane	jhutlaane	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mukhalif	mukhaalif	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 aawazen	aawazein	3	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
 aasmanon-o-zameen	aasmaanon-o-zameen	3	decided	owner batch-01 2026-09-25: accepted words inside a compound only
-jaoonga	jaaoonga	3	needs-review	R1 auto: doubled form of a mixed cluster
-mehmani	mehmaani	3	needs-review	R1 auto: doubled form of a mixed cluster
-waliyan	waaliyaan	3	needs-review	R1 auto: doubled form of a mixed cluster
-miyan	miyaan	3	needs-review	R1 auto: doubled form of a mixed cluster
+jaoonga	jaaoonga	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mehmani	mehmaani	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+waliyan	waaliyaan	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+miyan	miyaan	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 dawa	daawa	3	needs-review	R1 auto: doubled form of a mixed cluster
 bahar	baahar	3	needs-review	R1 auto: doubled form of a mixed cluster
-itminan	itminaan	3	needs-review	R1 auto: doubled form of a mixed cluster
-akarat	akaarat	3	needs-review	R1 auto: doubled form of a mixed cluster
+itminan	itminaan	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+akarat	akaarat	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 dozakhi	dozakhi	3	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
-ihsan	ihsaan	3	needs-review	R1 auto: doubled form of a mixed cluster
-halak	halaak	3	needs-review	R1 auto: doubled form of a mixed cluster
-banaye	banaaye	3	needs-review	R1 auto: doubled form of a mixed cluster
-dikhaye	dikhaaye	3	needs-review	R1 auto: doubled form of a mixed cluster
-jhutlate	jhutlaate	3	needs-review	R1 auto: doubled form of a mixed cluster
-intiqam	intiqaam	3	needs-review	R1 auto: doubled form of a mixed cluster
-khalaiq	khalaaiq	3	needs-review	R1 auto: doubled form of a mixed cluster
-mutalliq	mutaalliq	3	needs-review	R1 auto: doubled form of a mixed cluster
+ihsan	ihsaan	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+halak	halaak	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+banaye	banaaye	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+dikhaye	dikhaaye	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jhutlate	jhutlaate	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+intiqam	intiqaam	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khalaiq	khalaaiq	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mutalliq	mutalliq	3	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 asar	asar	3	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-zamana	zamaana	3	needs-review	R1 auto: doubled form of a mixed cluster
-shukr-guzar	shukr-guzaar	3	needs-review	R1 auto: doubled form of a mixed cluster
-sunaiye	sunaaiye	3	needs-review	R1 auto: doubled form of a mixed cluster
-khamosh	khaamosh	3	needs-review	R1 auto: doubled form of a mixed cluster
-jaya	jaaya	3	needs-review	R1 auto: doubled form of a mixed cluster
-tari	taari	3	needs-review	R1 auto: doubled form of a mixed cluster
-giraftar	giraftaar	3	needs-review	R1 auto: doubled form of a mixed cluster
-imarat	imaarat	3	needs-review	R1 auto: doubled form of a mixed cluster
-batata	bataata	3	needs-review	R1 auto: doubled form of a mixed cluster
-jaunga	jaaunga	3	needs-review	R1 auto: doubled form of a mixed cluster
-zamane	zamaane	3	needs-review	R1 auto: doubled form of a mixed cluster
+zamana	zamaana	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+shukr-guzar	shukr-guzaar	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sunaiye	sunaaiye	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khamosh	khaamosh	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jaya	jaaya	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tari	tari	3	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+giraftar	giraftaar	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+imarat	imaarat	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+batata	bataata	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jaunga	jaaunga	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+zamane	zamaane	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 utarte	utarte	3	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-shayar	shaayar	3	needs-review	R1 auto: doubled form of a mixed cluster
-bulaya	bulaaya	3	needs-review	R1 auto: doubled form of a mixed cluster
+shayar	shaayar	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bulaya	bulaaya	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 saa'at	saa-at	2	decided	R5 owner ruling 2026-09-25: saat would clash with seven
-jahanon	jahaanon	2	needs-review	R1 auto: doubled form of a mixed cluster
-malik	maalik	2	needs-review	R1 auto: doubled form of a mixed cluster
+jahanon	jahaanon	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+malik	maalik	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 mal	mal	2	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-darana	daraana	2	needs-review	R1 auto: doubled form of a mixed cluster
-fasad	fasaad	2	needs-review	R1 auto: doubled form of a mixed cluster
-aasmani	aasmaani	2	needs-review	R1 auto: doubled form of a mixed cluster
-andheriyan	andheriyaan	2	needs-review	R1 auto: doubled form of a mixed cluster
-ba-wujood	baa-wujood	2	needs-review	R1 auto: doubled form of a mixed cluster
-raah-e-rast	raah-e-raast	2	needs-review	R1 auto: doubled form of a mixed cluster
-lata	laata	2	needs-review	R1 auto: doubled form of a mixed cluster
-kaahin	kahin	2	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-taabedari	taabedaari	2	needs-review	R1 auto: doubled form of a mixed cluster
-farmaye	farmaaye	2	needs-review	R1 auto: doubled form of a mixed cluster
-janon	jaanon	2	needs-review	R1 auto: doubled form of a mixed cluster
-zaban	zabaan	2	needs-review	R1 auto: doubled form of a mixed cluster
-paidawaar	paidaawaar	2	needs-review	R1 auto: doubled form of a mixed cluster
-dikhata	dikhaata	2	needs-review	R1 auto: doubled form of a mixed cluster
-musalmaano	musalmano	2	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-guman	gumaan	2	needs-review	R1 auto: doubled form of a mixed cluster
-halakat	halaakat	2	needs-review	R1 auto: doubled form of a mixed cluster
+darana	daraana	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+fasad	fasaad	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+aasmani	aasmaani	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+andheriyan	andheriyaan	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ba-wujood	baa-wujood	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+raah-e-rast	raah-e-raast	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+lata	laata	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kaahin	kaahin	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+taabedari	taabedaari	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+farmaye	farmaaye	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+janon	jaanon	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+zaban	zabaan	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+paidawaar	paidaawaar	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+dikhata	dikhaata	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+musalmaano	musalmaano	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+guman	gumaan	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+halakat	halaakat	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 ma	maa	2	needs-review	R1 auto: doubled form of a mixed cluster
-ilawa	ilaawa	2	needs-review	R1 auto: doubled form of a mixed cluster
+ilawa	ilaawa	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 nikalna	nikalna	2	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-ahkam	ahkaam	2	needs-review	R1 auto: doubled form of a mixed cluster
-jayegi	jaayegi	2	needs-review	R1 auto: doubled form of a mixed cluster
-badkaron	badkaaron	2	needs-review	R1 auto: doubled form of a mixed cluster
-yahood-o-nasara	yahood-o-nasaara	2	needs-review	R1 auto: doubled form of a mixed cluster
-darane	daraane	2	needs-review	R1 auto: doubled form of a mixed cluster
-baton	baaton	2	needs-review	R1 auto: doubled form of a mixed cluster
+ahkam	ahkaam	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jayegi	jaayegi	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+badkaron	badkaaron	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+yahood-o-nasara	yahood-o-nasaara	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+darane	daraane	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+baton	baaton	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 kaaron	kaaron	2	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
-tilawat	tilaawat	2	needs-review	R1 auto: doubled form of a mixed cluster
-paya	paaya	2	needs-review	R1 auto: doubled form of a mixed cluster
-awaz	aawaaz	2	needs-review	R1 auto: doubled form of a mixed cluster
-khas	khaas	2	needs-review	R1 auto: doubled form of a mixed cluster
-pukara	pukaara	2	needs-review	R1 auto: doubled form of a mixed cluster
-mano	maano	2	needs-review	R1 auto: doubled form of a mixed cluster
-musafiron	musaafiron	2	needs-review	R1 auto: doubled form of a mixed cluster
-itteba	ittebaa	2	needs-review	R1 auto: doubled form of a mixed cluster
-badaaiyan	badaaiyaan	2	needs-review	R1 auto: doubled form of a mixed cluster
-talash	talaash	2	needs-review	R1 auto: doubled form of a mixed cluster
+tilawat	tilaawat	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+paya	paaya	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+awaz	aawaaz	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khas	khaas	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pukara	pukaara	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mano	maano	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+musafiron	musaafiron	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+itteba	ittebaa	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+badaaiyan	badaaiyaan	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+talash	talaash	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 nikala	nikala	2	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-baa-khabar	ba-khabar	2	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-lane	laane	2	needs-review	R1 auto: doubled form of a mixed cluster
-sharab	sharaab	2	needs-review	R1 auto: doubled form of a mixed cluster
-khairkhwahi	khairkhwaahi	2	needs-review	R1 auto: doubled form of a mixed cluster
-bahami	baahami	2	needs-review	R1 auto: doubled form of a mixed cluster
-lagaye	lagaaye	2	needs-review	R1 auto: doubled form of a mixed cluster
-taleem	taaleem	2	needs-review	R1 auto: doubled form of a mixed cluster
-baadshaah	baadshah	2	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-muqabla	muqaabla	2	needs-review	R1 auto: doubled form of a mixed cluster
-be-niyaz	be-niyaaz	2	needs-review	R1 auto: doubled form of a mixed cluster
-achanak	achaanak	2	needs-review	R1 auto: doubled form of a mixed cluster
-malon	maalon	2	needs-review	R1 auto: doubled form of a mixed cluster
-banata	banaata	2	needs-review	R1 auto: doubled form of a mixed cluster
-chhudane	chhudaane	2	needs-review	R1 auto: doubled form of a mixed cluster
+baa-khabar	baa-khabar	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+lane	laane	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sharab	sharaab	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khairkhwahi	khairkhwaahi	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bahami	baahami	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+lagaye	lagaaye	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+taleem	taleem	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+baadshaah	baadshaah	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+muqabla	muqaabla	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+be-niyaz	be-niyaaz	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+achanak	achaanak	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+malon	malon	2	keep	closed 2026-09-26: variant no longer in the text
+banata	banaata	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+chhudane	chhudaane	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 farmabardari	farmabardaari	2	needs-review	R1 auto: doubled form of a mixed cluster; NOTE: also missing n - owner to decide farmaanbardaari
-laiq	laaiq	2	needs-review	R1 auto: doubled form of a mixed cluster
+laiq	laaiq	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 mani	mani	2	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-sardar	sardaar	2	needs-review	R1 auto: doubled form of a mixed cluster
-hawariyon	hawaariyon	2	needs-review	R1 auto: doubled form of a mixed cluster
-chahti	chaahti	2	needs-review	R1 auto: doubled form of a mixed cluster
-lana	laana	2	needs-review	R1 auto: doubled form of a mixed cluster
-paoge	paaoge	2	needs-review	R1 auto: doubled form of a mixed cluster
-ladai	ladaai	2	needs-review	R1 auto: doubled form of a mixed cluster
-waqiat	waaqiaat	2	needs-review	R1 auto: doubled form of a mixed cluster
-anjam	anjaam	2	needs-review	R1 auto: doubled form of a mixed cluster
+sardar	sardaar	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+hawariyon	hawaariyon	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+chahti	chaahti	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+lana	laana	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+paoge	paaoge	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ladai	ladaai	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+waqiat	waaqiaat	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+anjam	anjaam	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 hari	hari	2	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-badgumaniyan	badgumaaniyan	2	needs-review	R1 auto: doubled form of a mixed cluster
-namumkin	naamumkin	2	needs-review	R1 auto: doubled form of a mixed cluster
-bigad	bigaad	2	needs-review	R1 auto: doubled form of a mixed cluster
-ba-awaz-e-buland	ba-aawaz-e-buland	2	needs-review	R1 auto: doubled form of a mixed cluster
-buraiyan	buraaiyaan	2	needs-review	R1 auto: doubled form of a mixed cluster
-kaamyabi	kaamyaabi	2	needs-review	R1 auto: doubled form of a mixed cluster
-pilaya	pilaaya	2	needs-review	R1 auto: doubled form of a mixed cluster
-shahwat-rani	shahwat-raani	2	needs-review	R1 auto: doubled form of a mixed cluster
-laundiyan	laundiyaan	2	needs-review	R1 auto: doubled form of a mixed cluster
+badgumaniyan	badgumaaniyan	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+namumkin	naamumkin	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bigad	bigad	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ba-awaz-e-buland	ba-aawaz-e-buland	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+buraiyan	buraaiyaan	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kaamyabi	kaamyaabi	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pilaya	pilaaya	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+shahwat-rani	shahwat-raani	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+laundiyan	laundiyaan	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 khawind	khawind	2	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
-khalain	khaalain	2	needs-review	R1 auto: doubled form of a mixed cluster
-shaista	shaaista	2	needs-review	R1 auto: doubled form of a mixed cluster
-rahat	raahat	2	needs-review	R1 auto: doubled form of a mixed cluster
-dalen	daalen	2	needs-review	R1 auto: doubled form of a mixed cluster
-pahunchana	pahunchaana	2	needs-review	R1 auto: doubled form of a mixed cluster
-lihaza	lihaaza	2	needs-review	R1 auto: doubled form of a mixed cluster
-hare	haare	2	needs-review	R1 auto: doubled form of a mixed cluster
-irade	iraade	2	needs-review	R1 auto: doubled form of a mixed cluster
-raah-e-hidayat	raah-e-hidaayat	2	needs-review	R1 auto: doubled form of a mixed cluster
-shamil	shaamil	2	needs-review	R1 auto: doubled form of a mixed cluster
-farmayega	farmaayega	2	needs-review	R1 auto: doubled form of a mixed cluster
-ruswai	ruswaai	2	needs-review	R1 auto: doubled form of a mixed cluster
-jahiliyat	jaahiliyat	2	needs-review	R1 auto: doubled form of a mixed cluster
-bandhe	baandhe	2	needs-review	R1 auto: doubled form of a mixed cluster
-rafaqat	rafaaqat	2	needs-review	R1 auto: doubled form of a mixed cluster
-qabil-e-zikr	qaabil-e-zikr	2	needs-review	R1 auto: doubled form of a mixed cluster
-tareekiyon	taareekiyon	2	needs-review	R1 auto: doubled form of a mixed cluster
-sara	saara	2	needs-review	R1 auto: doubled form of a mixed cluster
+khalain	khaalain	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+shaista	shaaista	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+rahat	raahat	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+dalen	daalen	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pahunchana	pahunchaana	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+lihaza	lihaaza	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+hare	hare	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+irade	iraade	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+raah-e-hidayat	raah-e-hidaayat	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+shamil	shaamil	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+farmayega	farmaayega	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ruswai	ruswaai	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jahiliyat	jaahiliyat	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bandhe	bandhe	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+rafaqat	rafaaqat	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+qabil-e-zikr	qaabil-e-zikr	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tareekiyon	taareekiyon	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sara	sara	2	keep	closed 2026-09-26: variant no longer in the text
 guzarta	guzarta	2	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-beemari	beemaari	2	needs-review	R1 auto: doubled form of a mixed cluster
-tareeki	taareeki	2	needs-review	R1 auto: doubled form of a mixed cluster
-sachchai	sachchaai	2	needs-review	R1 auto: doubled form of a mixed cluster
-sawari	sawaari	2	needs-review	R1 auto: doubled form of a mixed cluster
-talega	taalega	2	needs-review	R1 auto: doubled form of a mixed cluster
-pahunchata	pahunchaata	2	needs-review	R1 auto: doubled form of a mixed cluster
-salim	saalim	2	needs-review	R1 auto: doubled form of a mixed cluster
-rawana	rawaana	2	needs-review	R1 auto: doubled form of a mixed cluster
-qarabat-daron	qaraabat-daaron	2	needs-review	R1 auto: doubled form of a mixed cluster
-khwaab	khwab	2	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-dikhai	dikhaai	2	needs-review	R1 auto: doubled form of a mixed cluster
-khayenge	khaayenge	2	needs-review	R1 auto: doubled form of a mixed cluster
-daimi	daaimi	2	needs-review	R1 auto: doubled form of a mixed cluster
-neko-karon	neko-kaaron	2	needs-review	R1 auto: doubled form of a mixed cluster
-dehati	dehaati	2	needs-review	R1 auto: doubled form of a mixed cluster
-banai	banaai	2	needs-review	R1 auto: doubled form of a mixed cluster
-faide	faaide	2	needs-review	R1 auto: doubled form of a mixed cluster
-nishan-e-ibrat	nishaan-e-ibrat	2	needs-review	R1 auto: doubled form of a mixed cluster
-ziyan-kaar	ziyaan-kaar	2	needs-review	R1 auto: doubled form of a mixed cluster
-tawana	tawaana	2	needs-review	R1 auto: doubled form of a mixed cluster
-farmanrawaai	farmaanrawaai	2	needs-review	R1 auto: doubled form of a mixed cluster
-mehrban	mehrbaan	2	needs-review	R1 auto: doubled form of a mixed cluster
-shukr-guzari	shukr-guzaari	2	needs-review	R1 auto: doubled form of a mixed cluster
-andhi	aandhi	2	needs-review	R1 auto: doubled form of a mixed cluster
-lagao	lagaao	2	needs-review	R1 auto: doubled form of a mixed cluster
-budhape	budhaape	2	needs-review	R1 auto: doubled form of a mixed cluster
+beemari	beemaari	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tareeki	taareeki	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sachchai	sachchaai	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sawari	sawaari	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+talega	talega	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pahunchata	pahunchaata	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+salim	saalim	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+rawana	rawaana	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+qarabat-daron	qaraabat-daaron	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khwaab	khwaab	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+dikhai	dikhaai	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khayenge	khaayenge	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+daimi	daaimi	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+neko-karon	neko-kaaron	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+dehati	dehaati	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+banai	banaai	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+faide	faaide	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nishan-e-ibrat	nishaan-e-ibrat	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ziyan-kaar	ziyaan-kaar	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tawana	tawaana	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+farmanrawaai	farmaanrawaai	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mehrban	mehrbaan	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+shukr-guzari	shukr-guzaari	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+andhi	andhi	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+lagao	lagaao	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+budhape	budhaape	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 haalon	haalon	2	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
-deewar	deewaar	2	needs-review	R1 auto: doubled form of a mixed cluster
-zindagani-e-dunya	zindagaani-e-dunya	2	needs-review	R1 auto: doubled form of a mixed cluster
-wail'	wail	1	needs-review	R5 apostrophe dropped; vowel run collapsed or result is short (homograph risk, e.g. saat) - confirm
-ibtidaa'an	ibtidaan	1	needs-review	R5 apostrophe dropped; vowel run collapsed or result is short (homograph risk, e.g. saat) - confirm
+deewar	deewaar	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+zindagani-e-dunya	zindagaani-e-dunya	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+wail'	wail	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ibtidaa'an	ibtidaa'an	1	keep	closed 2026-09-26: variant no longer in the text
 itaa'at-guzaar	itaat-guzaar	1	decided	owner batch-01 2026-09-25 (same word)
-fe'l	fel	1	needs-review	R5 apostrophe dropped; vowel run collapsed or result is short (homograph risk, e.g. saat) - confirm
+fe'l	fe'l	1	keep	closed 2026-09-26: variant no longer in the text
 ma'aasi	maasi	1	needs-review	R5 apostrophe dropped; vowel run collapsed or result is short (homograph risk, e.g. saat) - confirm
 mustahiq-e-shafaa'at	mustahiq-e-shafaat	1	decided	owner Q24 2026-09-25: same word as shafaat
-pehchana	pehchaana	1	needs-review	R1 auto: doubled form of a mixed cluster
-jahalat	jahaalat	1	needs-review	R1 auto: doubled form of a mixed cluster
-dikhane	dikhaane	1	needs-review	R1 auto: doubled form of a mixed cluster
-late	laate	1	needs-review	R1 auto: doubled form of a mixed cluster
-namaaz	namaz	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
+pehchana	pehchaana	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jahalat	jahaalat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+dikhane	dikhaane	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+late	laate	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+namaaz	namaaz	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
 utara	utara	1	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-kafiron	kaafiron	1	needs-review	R1 auto: doubled form of a mixed cluster
-islah	islaah	1	needs-review	R1 auto: doubled form of a mixed cluster
-khabardar	khabardaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-layen	laayen	1	needs-review	R1 auto: doubled form of a mixed cluster
-hojao	hojaao	1	needs-review	R1 auto: doubled form of a mixed cluster
-mazaq	mazaaq	1	needs-review	R1 auto: doubled form of a mixed cluster
-ungliyan	ungliyaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-bachao	bachaao	1	needs-review	R1 auto: doubled form of a mixed cluster
-saf	saaf	1	needs-review	R1 auto: doubled form of a mixed cluster
-uthane	uthaane	1	needs-review	R1 auto: doubled form of a mixed cluster
-haalanke	haalaanke	1	needs-review	R1 auto: doubled form of a mixed cluster
-thak	thaak	1	needs-review	R1 auto: doubled form of a mixed cluster
-chhupate	chhupaate	1	needs-review	R1 auto: doubled form of a mixed cluster
-chhupao	chhupaao	1	needs-review	R1 auto: doubled form of a mixed cluster
-shaq	shaaq	1	needs-review	R1 auto: doubled form of a mixed cluster
-mulaqaat	mulaaqaat	1	needs-review	R1 auto: doubled form of a mixed cluster
-jane	jaane	1	needs-review	R1 auto: doubled form of a mixed cluster
+kafiron	kaafiron	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+islah	islaah	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khabardar	khabardaar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+layen	layen	1	keep	closed 2026-09-26: variant no longer in the text
+hojao	hojaao	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mazaq	mazaaq	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ungliyan	ungliyaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bachao	bachaao	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+saf	saf	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+uthane	uthaane	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+haalanke	haalaanke	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+thak	thak	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+chhupate	chhupaate	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+chhupao	chhupaao	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+shaq	shaq	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mulaqaat	mulaaqaat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jane	jaane	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 khatayen	khatayein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
-dali	daali	1	needs-review	R1 auto: doubled form of a mixed cluster
+dali	dali	1	keep	closed 2026-09-26: variant no longer in the text
 maro	maro	1	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
 barah	baarah	1	needs-review	R1 auto: doubled form of a mixed cluster
-pehchan	pehchaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-khane	khaane	1	needs-review	R1 auto: doubled form of a mixed cluster
-nasara	nasaara	1	needs-review	R1 auto: doubled form of a mixed cluster
-pahad	pahaad	1	needs-review	R1 auto: doubled form of a mixed cluster
-tham	thaam	1	needs-review	R1 auto: doubled form of a mixed cluster
-naujawan	naujawaan	1	needs-review	R1 auto: doubled form of a mixed cluster
+pehchan	pehchan	1	keep	closed 2026-09-26: variant no longer in the text
+khane	khaane	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nasara	nasaara	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pahad	pahaad	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tham	tham	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+naujawan	naujawaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 hal	hal	1	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-dala	daala	1	needs-review	R1 auto: doubled form of a mixed cluster
-khwaahish	khwahish	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-khilaf	khilaaf	1	needs-review	R1 auto: doubled form of a mixed cluster
-bahana	bahaana	1	needs-review	R1 auto: doubled form of a mixed cluster
-iqrar	iqraar	1	needs-review	R1 auto: doubled form of a mixed cluster
-shahid	shaahid	1	needs-review	R1 auto: doubled form of a mixed cluster
-ruswayi	ruswaayi	1	needs-review	R1 auto: doubled form of a mixed cluster
-ao	aao	1	needs-review	R1 auto: doubled form of a mixed cluster
-sulaimaan	sulaiman	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
+dala	daala	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khwaahish	khwaahish	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+khilaf	khilaaf	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bahana	bahaana	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+iqrar	iqraar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+shahid	shaahid	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ruswayi	ruswaayi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ao	aao	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sulaimaan	sulaimaan	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
 kash	kaash	1	needs-review	R1 auto: doubled form of a mixed cluster
-sawab	sawaab	1	needs-review	R1 auto: doubled form of a mixed cluster
-qadir	qaadir	1	needs-review	R1 auto: doubled form of a mixed cluster
-khate	khaate	1	needs-review	R1 auto: doubled form of a mixed cluster
-tabe	taabe	1	needs-review	R1 auto: doubled form of a mixed cluster
-imam	imaam	1	needs-review	R1 auto: doubled form of a mixed cluster
-banayi	banaayi	1	needs-review	R1 auto: doubled form of a mixed cluster
-farmanbardari	farmaanbardaari	1	needs-review	R1 auto: doubled form of a mixed cluster
-aaba-o-ajdaad	aabaa-o-ajdaad	1	needs-review	R1 auto: doubled form of a mixed cluster
-ishaq	ishaaq	1	needs-review	R1 auto: doubled form of a mixed cluster
-shahaadat	shahadat	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-sawal	sawaal	1	needs-review	R1 auto: doubled form of a mixed cluster
-tabedaar	taabedaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-baqi	baaqi	1	needs-review	R1 auto: doubled form of a mixed cluster
-pyas	pyaas	1	needs-review	R1 auto: doubled form of a mixed cluster
-hidayat-yafta	hidayat-yaafta	1	needs-review	R1 auto: doubled form of a mixed cluster
-phailaa	phaila	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-qudrat-e-ilahi	qudrat-e-ilaahi	1	needs-review	R1 auto: doubled form of a mixed cluster
-taqat	taaqat	1	needs-review	R1 auto: doubled form of a mixed cluster
-tabedaron	taabedaaron	1	needs-review	R1 auto: doubled form of a mixed cluster
-nate	naate	1	needs-review	R1 auto: doubled form of a mixed cluster
-dade	daade	1	needs-review	R1 auto: doubled form of a mixed cluster
-parhezgar	parhezgaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-aasani	aasaani	1	needs-review	R1 auto: doubled form of a mixed cluster
-ruko	rukoo	1	needs-review	R1 auto: doubled form of a mixed cluster
-waaqee	waaqe	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-ba-ilm	baa-ilm	1	needs-review	R1 auto: doubled form of a mixed cluster
-haq-o-batil	haq-o-baatil	1	needs-review	R1 auto: doubled form of a mixed cluster
-musafir	musaafir	1	needs-review	R1 auto: doubled form of a mixed cluster
-ehsan	ehsaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-qurban-gaah	qurbaan-gaah	1	needs-review	R1 auto: doubled form of a mixed cluster
-wapsi	waapsi	1	needs-review	R1 auto: doubled form of a mixed cluster
-zikr-e-ilahi	zikr-e-ilaahi	1	needs-review	R1 auto: doubled form of a mixed cluster
-hisab	hisaab	1	needs-review	R1 auto: doubled form of a mixed cluster
-napasand	naapasand	1	needs-review	R1 auto: doubled form of a mixed cluster
-inteha	intehaa	1	needs-review	R1 auto: doubled form of a mixed cluster
-rehmat-e-ilahi	rehmat-e-ilaahi	1	needs-review	R1 auto: doubled form of a mixed cluster
-zaid	zaaid	1	needs-review	R1 auto: doubled form of a mixed cluster
+sawab	sawaab	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+qadir	qaadir	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khate	khaate	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tabe	taabe	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+imam	imaam	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+banayi	banaayi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+farmanbardari	farmaanbardaari	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+aaba-o-ajdaad	aabaa-o-ajdaad	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ishaq	ishaaq	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+shahaadat	shahaadat	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+sawal	sawaal	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tabedaar	taabedaar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+baqi	baaqi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pyas	pyaas	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+hidayat-yafta	hidayat-yaafta	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+phailaa	phaila	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+qudrat-e-ilahi	qudrat-e-ilaahi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+taqat	taaqat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tabedaron	taabedaaron	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nate	nate	1	keep	closed 2026-09-26: variant no longer in the text
+dade	daade	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+parhezgar	parhezgaar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+aasani	aasaani	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ruko	ruko	1	keep	closed 2026-09-26: variant no longer in the text
+waaqee	waaqee	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+ba-ilm	baa-ilm	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+haq-o-batil	haq-o-baatil	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+musafir	musaafir	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ehsan	ehsaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+qurban-gaah	qurbaan-gaah	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+wapsi	waapsi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+zikr-e-ilahi	zikr-e-ilaahi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+hisab	hisaab	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+napasand	naapasand	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+inteha	intehaa	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+rehmat-e-ilahi	rehmat-e-ilaahi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+zaid	zaid	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 taa-waqteke	taa-waqteke	1	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
-bulata	bulaata	1	needs-review	R1 auto: doubled form of a mixed cluster
-parhezgari	parhezgaari	1	needs-review	R1 auto: doubled form of a mixed cluster
-burdbar	burdbaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-talluq	taalluq	1	needs-review	R1 auto: doubled form of a mixed cluster
-tajawuz	tajaawuz	1	needs-review	R1 auto: doubled form of a mixed cluster
-pahunchane	pahunchaane	1	needs-review	R1 auto: doubled form of a mixed cluster
-razamand	razaamand	1	needs-review	R1 auto: doubled form of a mixed cluster
-kamil	kaamil	1	needs-review	R1 auto: doubled form of a mixed cluster
-waris	waaris	1	needs-review	R1 auto: doubled form of a mixed cluster
-hawale	hawaale	1	needs-review	R1 auto: doubled form of a mixed cluster
-lagaya	lagaaya	1	needs-review	R1 auto: doubled form of a mixed cluster
-tadad	taadaad	1	needs-review	R1 auto: doubled form of a mixed cluster
+bulata	bulaata	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+parhezgari	parhezgaari	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+burdbar	burdbaar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+talluq	talluq	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tajawuz	tajaawuz	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pahunchane	pahunchaane	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+razamand	razaamand	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kamil	kaamil	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+waris	waaris	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+hawale	hawaale	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+lagaya	lagaaya	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tadad	tadad	1	keep	closed 2026-09-26: variant no longer in the text
 mare	mare	1	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-paighaambar	paighambar	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-sabit-qadmi	saabit-qadmi	1	needs-review	R1 auto: doubled form of a mixed cluster
+paighaambar	paighaambar	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+sabit-qadmi	saabit-qadmi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 qaum-e-kuffar	qaum-e-kuffaar	1	decided	owner batch-01 2026-09-25: accepted words inside a compound only
-dafaa	dafa	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
+dafaa	dafa	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 ongh	ongh	1	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
-maaboodon	maboodon	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-auliya	auliyaa	1	needs-review	R1 auto: doubled form of a mixed cluster
-jilata	jilaata	1	needs-review	R1 auto: doubled form of a mixed cluster
+maaboodon	maaboodon	1	keep	closed 2026-09-26: variant no longer in the text
+auliya	auliyaa	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jilata	jilaata	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 marta	marta	1	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-banate	banaate	1	needs-review	R1 auto: doubled form of a mixed cluster
-baaliyan	baaliyaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-khairat	khairaat	1	needs-review	R1 auto: doubled form of a mixed cluster
-bagh	baagh	1	needs-review	R1 auto: doubled form of a mixed cluster
-be-parwah	be-parwaah	1	needs-review	R1 auto: doubled form of a mixed cluster
+banate	banaate	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+baaliyan	baaliyaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khairat	khairaat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bagh	baagh	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+be-parwah	be-parwaah	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 maloon	maloon	1	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
 deni	deni	1	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-bachane	bachaane	1	needs-review	R1 auto: doubled form of a mixed cluster
-chaupaye	chaupaaye	1	needs-review	R1 auto: doubled form of a mixed cluster
-samaan	saamaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-saman	saamaan	1	needs-review	R1 auto: doubled form of a mixed cluster
+bachane	bachaane	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+chaupaye	chaupaaye	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+samaan	saamaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+saman	saamaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 rogardani	rugardaani	1	decided	owner batch-01 2026-09-25 (same word)
-bhalaaiyan	bhalaaiyaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-jaandar	jaandaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-khandaan	khaandaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-jahilon	jaahilon	1	needs-review	R1 auto: doubled form of a mixed cluster
-bataye	bataaye	1	needs-review	R1 auto: doubled form of a mixed cluster
-iqrari	iqraari	1	needs-review	R1 auto: doubled form of a mixed cluster
-nafarman	naafarmaan	1	needs-review	R1 auto: doubled form of a mixed cluster
+bhalaaiyan	bhalaaiyaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jaandar	jaandaar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khandaan	khaandaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jahilon	jaahilon	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bataye	bataaye	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+iqrari	iqraari	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nafarman	naafarmaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 farmabardar	farmabardaar	1	needs-review	R1 auto: doubled form of a mixed cluster
 amaan	amaan	1	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
 ba-qaida	ba-qaaida	1	needs-review	R1 auto: doubled form of a mixed cluster
 guzari	guzari	1	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-raste	raaste	1	needs-review	R1 auto: doubled form of a mixed cluster
-waqiaat	waaqiaat	1	needs-review	R1 auto: doubled form of a mixed cluster
-naraazgi	naaraazgi	1	needs-review	R1 auto: doubled form of a mixed cluster
-sunata	sunaata	1	needs-review	R1 auto: doubled form of a mixed cluster
-khushiyan	khushiyaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-alamnaak	alamnak	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-manen	maanen	1	needs-review	R1 auto: doubled form of a mixed cluster
-jari	jaari	1	needs-review	R1 auto: doubled form of a mixed cluster
-aazmate	aazmaate	1	needs-review	R1 auto: doubled form of a mixed cluster
-nadaani	naadaani	1	needs-review	R1 auto: doubled form of a mixed cluster
-uthao	uthaao	1	needs-review	R1 auto: doubled form of a mixed cluster
+raste	raste	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+waqiaat	waaqiaat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+naraazgi	naaraazgi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sunata	sunaata	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khushiyan	khushiyaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+alamnaak	alamnaak	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+manen	maanen	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jari	jaari	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+aazmate	aazmaate	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nadaani	naadaani	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+uthao	uthaao	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 malikon	malikon	1	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
-qaide	qaaide	1	needs-review	R1 auto: doubled form of a mixed cluster
-khwahishaat	khwaahishaat	1	needs-review	R1 auto: doubled form of a mixed cluster
-nafarmaaniyan	naafarmaaniyaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-chahenge	chaahenge	1	needs-review	R1 auto: doubled form of a mixed cluster
-bandha	baandha	1	needs-review	R1 auto: doubled form of a mixed cluster
-aitiqad	aitiqaad	1	needs-review	R1 auto: doubled form of a mixed cluster
-jayengi	jaayengi	1	needs-review	R1 auto: doubled form of a mixed cluster
-chhaon	chhaaon	1	needs-review	R1 auto: doubled form of a mixed cluster
-pahunchao	pahunchaao	1	needs-review	R1 auto: doubled form of a mixed cluster
-inayat	inaayat	1	needs-review	R1 auto: doubled form of a mixed cluster
+qaide	qaaide	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khwahishaat	khwaahishaat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nafarmaaniyan	naafarmaaniyaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+chahenge	chaahenge	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bandha	bandha	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+aitiqad	aitiqaad	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jayengi	jaayengi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+chhaon	chhaaon	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pahunchao	pahunchaao	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+inayat	inaayat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 duayen	duayein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
 boda	boda	1	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
-alawa	alaawa	1	needs-review	R1 auto: doubled form of a mixed cluster
-lagaataar	lagataar	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
+alawa	alaawa	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+lagaataar	lagaataar	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
 qayaam	qayaam	1	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
-khiyanat	khiyaanat	1	needs-review	R1 auto: doubled form of a mixed cluster
-napasandeeda	naapasandeeda	1	needs-review	R1 auto: doubled form of a mixed cluster
-pukarte	pukaarte	1	needs-review	R1 auto: doubled form of a mixed cluster
-karguzari	kaarguzaari	1	needs-review	R1 auto: doubled form of a mixed cluster
+khiyanat	khiyaanat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+napasandeeda	naapasandeeda	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pukarte	pukaarte	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+karguzari	kaarguzaari	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 mail	mail	1	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-rishtedar	rishtedaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-khwahish-e-nafs	khwaahish-e-nafs	1	needs-review	R1 auto: doubled form of a mixed cluster
-udate	udaate	1	needs-review	R1 auto: doubled form of a mixed cluster
-bachaya	bachaaya	1	needs-review	R1 auto: doubled form of a mixed cluster
-pale	paale	1	needs-review	R1 auto: doubled form of a mixed cluster
-deendari	deendaari	1	needs-review	R1 auto: doubled form of a mixed cluster
-baa-imaan	ba-imaan	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-ilzam	ilzaam	1	needs-review	R1 auto: doubled form of a mixed cluster
-baa-hikmat	ba-hikmat	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-dalna	daalna	1	needs-review	R1 auto: doubled form of a mixed cluster
-salamati	salaamati	1	needs-review	R1 auto: doubled form of a mixed cluster
+rishtedar	rishtedaar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khwahish-e-nafs	khwaahish-e-nafs	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+udate	udaate	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bachaya	bachaaya	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pale	pale	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+deendari	deendaari	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+baa-imaan	baa-imaan	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+ilzam	ilzaam	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+baa-hikmat	baa-hikmat	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+dalna	dalna	1	keep	closed 2026-09-26: variant no longer in the text
+salamati	salaamati	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 alam	alam	1	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-zor-awar	zor-aawar	1	needs-review	R1 auto: doubled form of a mixed cluster
-judai	judaai	1	needs-review	R1 auto: doubled form of a mixed cluster
-sargardan	sargardaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-daalonga	daaloonga	1	needs-review	R1 auto: doubled form of a mixed cluster
+zor-awar	zor-aawar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+judai	judaai	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sargardan	sargardaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+daalonga	daaloonga	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 parwardigar-e-alam	parwardigaar-e-alam	1	decided	owner batch-01 2026-09-25: accepted words inside a compound only
-parsa	paarsa	1	needs-review	R1 auto: doubled form of a mixed cluster
-muhafiz	muhaafiz	1	needs-review	R1 auto: doubled form of a mixed cluster
-hadsa	haadsa	1	needs-review	R1 auto: doubled form of a mixed cluster
-nakaam	naakaam	1	needs-review	R1 auto: doubled form of a mixed cluster
-layega	laayega	1	needs-review	R1 auto: doubled form of a mixed cluster
-malamat	malaamat	1	needs-review	R1 auto: doubled form of a mixed cluster
-machate	machaate	1	needs-review	R1 auto: doubled form of a mixed cluster
-risalat	risaalat	1	needs-review	R1 auto: doubled form of a mixed cluster
-nafsani	nafsaani	1	needs-review	R1 auto: doubled form of a mixed cluster
-dostiyan	dostiyaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-naraaz	naaraaz	1	needs-review	R1 auto: doubled form of a mixed cluster
-imtihan	imtihaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-shamat	shaamat	1	needs-review	R1 auto: doubled form of a mixed cluster
+parsa	paarsa	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+muhafiz	muhaafiz	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+hadsa	haadsa	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nakaam	naakaam	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+layega	laayega	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+malamat	malaamat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+machate	machaate	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+risalat	risaalat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nafsani	nafsaani	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+dostiyan	dostiyaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+naraaz	naaraaz	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+imtihan	imtihan	1	keep	closed 2026-09-26: variant no longer in the text
+shamat	shaamat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 ghate	ghate	1	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-kotahi	kotaahi	1	needs-review	R1 auto: doubled form of a mixed cluster
-lade	laade	1	needs-review	R1 auto: doubled form of a mixed cluster
-zindagani	zindagaani	1	needs-review	R1 auto: doubled form of a mixed cluster
-giran	giraan	1	needs-review	R1 auto: doubled form of a mixed cluster
-naadanon	naadaanon	1	needs-review	R1 auto: doubled form of a mixed cluster
-samat	samaat	1	needs-review	R1 auto: doubled form of a mixed cluster
-darayen	daraayen	1	needs-review	R1 auto: doubled form of a mixed cluster
-daraiye	daraaiye	1	needs-review	R1 auto: doubled form of a mixed cluster
-jaldbazi	jaldbaazi	1	needs-review	R1 auto: doubled form of a mixed cluster
-daryaon	daryaaon	1	needs-review	R1 auto: doubled form of a mixed cluster
-tareek	taareek	1	needs-review	R1 auto: doubled form of a mixed cluster
-kinara-kash	kinaara-kash	1	needs-review	R1 auto: doubled form of a mixed cluster
-aasar	aasaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-pukaren	pukaaren	1	needs-review	R1 auto: doubled form of a mixed cluster
-aaftab	aaftaab	1	needs-review	R1 auto: doubled form of a mixed cluster
-aftaab	aaftaab	1	needs-review	R1 auto: doubled form of a mixed cluster
-ilyas	ilyaas	1	needs-review	R1 auto: doubled form of a mixed cluster
-mazameen	mazaameen	1	needs-review	R1 auto: doubled form of a mixed cluster
-aitibar	aitibaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-khayalaat	khayaalaat	1	needs-review	R1 auto: doubled form of a mixed cluster
+kotahi	kotaahi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+lade	lade	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+zindagani	zindagaani	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+giran	giraan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+naadanon	naadaanon	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+samat	samaat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+darayen	daraayen	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+daraiye	daraaiye	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jaldbazi	jaldbaazi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+daryaon	daryaaon	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tareek	taareek	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kinara-kash	kinaara-kash	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+aasar	aasaar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pukaren	pukaaren	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+aaftab	aaftaab	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+aftaab	aaftaab	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ilyas	ilyaas	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mazameen	mazaameen	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+aitibar	aitibaar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khayalaat	khayaalaat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 abad	abad	1	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-aabad	aabaad	1	needs-review	R1 auto: doubled form of a mixed cluster
-nafe	naafe	1	needs-review	R1 auto: doubled form of a mixed cluster
-jaiz	jaaiz	1	needs-review	R1 auto: doubled form of a mixed cluster
-baham	baaham	1	needs-review	R1 auto: doubled form of a mixed cluster
-katne	kaatne	1	needs-review	R1 auto: doubled form of a mixed cluster
-rehnumai	rehnumaai	1	needs-review	R1 auto: doubled form of a mixed cluster
-badhaya	badhaaya	1	needs-review	R1 auto: doubled form of a mixed cluster
-sharmgahon	sharmgaahon	1	needs-review	R1 auto: doubled form of a mixed cluster
-aulaad-e-adam	aulaad-e-aadam	1	needs-review	R1 auto: doubled form of a mixed cluster
-kamai	kamaai	1	needs-review	R1 auto: doubled form of a mixed cluster
-maqam	maqaam	1	needs-review	R1 auto: doubled form of a mixed cluster
-khaliq	khaaliq	1	needs-review	R1 auto: doubled form of a mixed cluster
-marifat	maarifat	1	needs-review	R1 auto: doubled form of a mixed cluster
-janasheen	jaanasheen	1	needs-review	R1 auto: doubled form of a mixed cluster
-sardaaron	sardaron	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-uthaoge	uthaaoge	1	needs-review	R1 auto: doubled form of a mixed cluster
-umara	umaraa	1	needs-review	R1 auto: doubled form of a mixed cluster
-jadugar	jaadugar	1	needs-review	R1 auto: doubled form of a mixed cluster
-harkaron	harkaaron	1	needs-review	R1 auto: doubled form of a mixed cluster
-bajaye	bajaaye	1	needs-review	R1 auto: doubled form of a mixed cluster
-shumar	shumaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-barqarar	barqaraar	1	needs-review	R1 auto: doubled form of a mixed cluster
-pahunchayen	pahunchaayen	1	needs-review	R1 auto: doubled form of a mixed cluster
-saiban	saibaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-kinara	kinaara	1	needs-review	R1 auto: doubled form of a mixed cluster
-paki	paaki	1	needs-review	R1 auto: doubled form of a mixed cluster
-sunate	sunaate	1	needs-review	R1 auto: doubled form of a mixed cluster
-qanoon	qaanoon	1	needs-review	R1 auto: doubled form of a mixed cluster
-qafila	qaafila	1	needs-review	R1 auto: doubled form of a mixed cluster
-farman-bardari	farmaan-bardari	1	needs-review	R1 auto: doubled form of a mixed cluster
-ukhad	ukhaad	1	needs-review	R1 auto: doubled form of a mixed cluster
-sabr-o-sahara	sabr-o-sahaara	1	needs-review	R1 auto: doubled form of a mixed cluster
-itrate	itraate	1	needs-review	R1 auto: doubled form of a mixed cluster
-zeenat-dar	zeenat-daar	1	needs-review	R1 auto: doubled form of a mixed cluster
-jandaron	jaandaaron	1	needs-review	R1 auto: doubled form of a mixed cluster
-jaandaron	jaandaaron	1	needs-review	R1 auto: doubled form of a mixed cluster
-dagha-bazi	dagha-baazi	1	needs-review	R1 auto: doubled form of a mixed cluster
+aabad	aabaad	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nafe	nafe	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jaiz	jaaiz	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+baham	baham	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+katne	katne	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+rehnumai	rehnumaai	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+badhaya	badhaaya	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sharmgahon	sharmgaahon	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+aulaad-e-adam	aulaad-e-aadam	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kamai	kamaai	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+maqam	maqaam	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khaliq	khaaliq	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+marifat	marifat	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+janasheen	jaanasheen	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sardaaron	sardaaron	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+uthaoge	uthaaoge	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+umara	umaraa	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jadugar	jaadugar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+harkaron	harkaaron	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bajaye	bajaaye	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+shumar	shumaar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+barqarar	barqaraar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pahunchayen	pahunchaayen	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+saiban	saibaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kinara	kinaara	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+paki	paki	1	keep	closed 2026-09-26: variant no longer in the text
+sunate	sunaate	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+qanoon	qaanoon	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+qafila	qafila	1	keep	closed 2026-09-26: variant no longer in the text
+farman-bardari	farman-bardari	1	keep	closed 2026-09-26: variant no longer in the text
+ukhad	ukhad	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sabr-o-sahara	sabr-o-sahara	1	keep	closed 2026-09-26: variant no longer in the text
+itrate	itraate	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+zeenat-dar	zeenat-daar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jandaron	jandaron	1	keep	closed 2026-09-26: variant no longer in the text
+jaandaron	jaandaaron	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+dagha-bazi	dagha-bazi	1	keep	closed 2026-09-26: variant no longer in the text
 taeed	taa'eed	1	decided	owner 2026-09-26: taa'eed (تائید) locked with its apostrophe, a deliberate exception to R5
-dalta	daalta	1	needs-review	R1 auto: doubled form of a mixed cluster
-pahunchai	pahunchaai	1	needs-review	R1 auto: doubled form of a mixed cluster
-ghati	ghaati	1	needs-review	R1 auto: doubled form of a mixed cluster
-wadon	waadon	1	needs-review	R1 auto: doubled form of a mixed cluster
-zabanon	zabaanon	1	needs-review	R1 auto: doubled form of a mixed cluster
-tana-zani	taana-zani	1	needs-review	R1 auto: doubled form of a mixed cluster
-badhate	badhaate	1	needs-review	R1 auto: doubled form of a mixed cluster
-maal-o-aulad	maal-o-aulaad	1	needs-review	R1 auto: doubled form of a mixed cluster
-imaan-dar	imaan-daar	1	needs-review	R1 auto: doubled form of a mixed cluster
-badiya-nasheenon	baadiya-nasheenon	1	needs-review	R1 auto: doubled form of a mixed cluster
-imandaron	imaandaaron	1	needs-review	R1 auto: doubled form of a mixed cluster
-qiyam	qiyaam	1	needs-review	R1 auto: doubled form of a mixed cluster
-thehraya	thehraaya	1	needs-review	R1 auto: doubled form of a mixed cluster
-mangen	maangen	1	needs-review	R1 auto: doubled form of a mixed cluster
-ainda	aainda	1	needs-review	R1 auto: doubled form of a mixed cluster
-takan	takaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-maidaan	maidan	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-pana	paana	1	needs-review	R1 auto: doubled form of a mixed cluster
-noorani	nooraani	1	needs-review	R1 auto: doubled form of a mixed cluster
-baghon	baaghon	1	needs-review	R1 auto: doubled form of a mixed cluster
-pukarta	pukaarta	1	needs-review	R1 auto: doubled form of a mixed cluster
-laiye	laaiye	1	needs-review	R1 auto: doubled form of a mixed cluster
+dalta	daalta	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pahunchai	pahunchaai	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ghati	ghaati	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+wadon	wadon	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+zabanon	zabaanon	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tana-zani	tana-zani	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+badhate	badhaate	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+maal-o-aulad	maal-o-aulaad	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+imaan-dar	imaan-daar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+badiya-nasheenon	baadiya-nasheenon	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+imandaron	imaandaaron	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+qiyam	qiyaam	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+thehraya	thehraaya	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mangen	maangen	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ainda	aainda	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+takan	takaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+maidaan	maidaan	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+pana	paana	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+noorani	nooraani	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+baghon	baaghon	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+pukarta	pukaarta	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+laiye	laaiye	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 chaloon	chaloon	1	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
 chalata	chalata	1	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
 nabatat	nabataat	1	needs-review	R1 auto: doubled form of a mixed cluster
-siyahi	siyaahi	1	needs-review	R1 auto: doubled form of a mixed cluster
-wafat	wafaat	1	needs-review	R1 auto: doubled form of a mixed cluster
-khasara	khasaara	1	needs-review	R1 auto: doubled form of a mixed cluster
-layi	laayi	1	needs-review	R1 auto: doubled form of a mixed cluster
-hatane	hataane	1	needs-review	R1 auto: doubled form of a mixed cluster
-chakhayen	chakhaayen	1	needs-review	R1 auto: doubled form of a mixed cluster
-ziyan-kar	ziyaan-kaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-gharane	gharaane	1	needs-review	R1 auto: doubled form of a mixed cluster
-peshani	peshaani	1	needs-review	R1 auto: doubled form of a mixed cluster
-mehmanon	mehmaanon	1	needs-review	R1 auto: doubled form of a mixed cluster
+siyahi	siyaahi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+wafat	wafaat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khasara	khasaara	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+layi	laayi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+hatane	hataane	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+chakhayen	chakhaayen	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ziyan-kar	ziyaan-kaar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+gharane	gharaane	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+peshani	peshaani	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mehmanon	mehmaanon	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 ba-waqar	ba-waqaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-jaun	jaaun	1	needs-review	R1 auto: doubled form of a mixed cluster
+jaun	jaaun	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 poj	poj	1	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
-taqatwar	taaqatwar	1	needs-review	R1 auto: doubled form of a mixed cluster
-ghair-aabad	ghair-aabaad	1	needs-review	R1 auto: doubled form of a mixed cluster
-kate	kaate	1	needs-review	R1 auto: doubled form of a mixed cluster
-lautaya	lautaaya	1	needs-review	R1 auto: doubled form of a mixed cluster
-khata-kaar	khataa-kaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-nishaanat	nishaanaat	1	needs-review	R1 auto: doubled form of a mixed cluster
-saaz-o-samaan	saaz-o-saamaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-udaya	udaaya	1	needs-review	R1 auto: doubled form of a mixed cluster
-wazahat	wazaahat	1	needs-review	R1 auto: doubled form of a mixed cluster
-khudaon	khudaaon	1	needs-review	R1 auto: doubled form of a mixed cluster
-dikhayen	dikhaayen	1	needs-review	R1 auto: doubled form of a mixed cluster
-ghont	ghoont	1	needs-review	R1 auto: doubled form of a mixed cluster
-rahnumai	rahnumaai	1	needs-review	R1 auto: doubled form of a mixed cluster
-dabao	dabaao	1	needs-review	R1 auto: doubled form of a mixed cluster
-darwaza	darwaaza	1	needs-review	R1 auto: doubled form of a mixed cluster
+taqatwar	taaqatwar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ghair-aabad	ghair-aabaad	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kate	kate	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+lautaya	lautaaya	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khata-kaar	khataa-kaar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nishaanat	nishaanaat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+saaz-o-samaan	saaz-o-saamaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+udaya	udaaya	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+wazahat	wazaahat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khudaon	khudaaon	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+dikhayen	dikhaayen	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ghont	ghoont	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+rahnumai	rahnumaai	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+dabao	dabaao	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+darwaza	darwaaza	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 utarta	utarta	1	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
 chara	chaara	1	needs-review	R1 auto: doubled form of a mixed cluster
 zabanen	zabanein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
-chakhaya	chakhaaya	1	needs-review	R1 auto: doubled form of a mixed cluster
-mamooli	maamooli	1	needs-review	R1 auto: doubled form of a mixed cluster
-bulaiye	bulaaiye	1	needs-review	R1 auto: doubled form of a mixed cluster
-karsazi	kaarsaazi	1	needs-review	R1 auto: doubled form of a mixed cluster
-dilaya	dilaaya	1	needs-review	R1 auto: doubled form of a mixed cluster
+chakhaya	chakhaaya	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mamooli	mamooli	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bulaiye	bulaaiye	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+karsazi	kaarsaazi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+dilaya	dilaaya	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 guzare	guzare	1	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-girani	giraani	1	needs-review	R1 auto: doubled form of a mixed cluster
-nishan	nishaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-mehmandari	mehmaandaari	1	needs-review	R1 auto: doubled form of a mixed cluster
-deewaron	deewaaron	1	needs-review	R1 auto: doubled form of a mixed cluster
-yajooj	yaajooj	1	needs-review	R1 auto: doubled form of a mixed cluster
-majooj	maajooj	1	needs-review	R1 auto: doubled form of a mixed cluster
-qarabat	qaraabat	1	needs-review	R1 auto: doubled form of a mixed cluster
-intehai	intehaai	1	needs-review	R1 auto: doubled form of a mixed cluster
-baa-barkat	ba-barkat	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
-ghaaibana	ghaaibaana	1	needs-review	R1 auto: doubled form of a mixed cluster
-ghaibana	ghaaibaana	1	needs-review	R1 auto: doubled form of a mixed cluster
-ghaibaana	ghaaibaana	1	needs-review	R1 auto: doubled form of a mixed cluster
-laun	laaun	1	needs-review	R1 auto: doubled form of a mixed cluster
-tuwa	tuwaa	1	needs-review	R1 auto: doubled form of a mixed cluster
-jhad	jhaad	1	needs-review	R1 auto: doubled form of a mixed cluster
-mujawir	mujaawir	1	needs-review	R1 auto: doubled form of a mixed cluster
+girani	giraani	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+nishan	nishaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mehmandari	mehmaandaari	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+deewaron	deewaaron	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+yajooj	yaajooj	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+majooj	maajooj	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+qarabat	qaraabat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+intehai	intehaai	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+baa-barkat	baa-barkat	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+ghaaibana	ghaaibaana	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ghaibana	ghaaibaana	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ghaibaana	ghaaibaana	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+laun	laaun	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tuwa	tuwaa	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+jhad	jhad	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mujawir	mujaawir	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 bala	bala	1	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
 makaanat	makaanat	1	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
-dikhaoon	dikhaaoon	1	needs-review	R1 auto: doubled form of a mixed cluster
-onton	oonton	1	needs-review	R1 auto: doubled form of a mixed cluster
-zinakar	zinaakaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-khalaon	khaalaon	1	needs-review	R1 auto: doubled form of a mixed cluster
-izafa	izaafa	1	needs-review	R1 auto: doubled form of a mixed cluster
-mahtaab	maahtaab	1	needs-review	R1 auto: doubled form of a mixed cluster
-tameer	taameer	1	needs-review	R1 auto: doubled form of a mixed cluster
-hamaan	haamaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-behkaya	behkaaya	1	needs-review	R1 auto: doubled form of a mixed cluster
-bad-amaliyan	bad-aamaaliyan	1	needs-review	R1 auto: doubled form of a mixed cluster
-umeedwar	umeedwaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-sanwar	sanwaar	1	needs-review	R1 auto: doubled form of a mixed cluster
-dikhao	dikhaao	1	needs-review	R1 auto: doubled form of a mixed cluster
-sazawaar-e-hamd-o-sana	sazaawaar-e-hamd-o-sanaa	1	needs-review	R1 auto: doubled form of a mixed cluster
-gawahiyan	gawaahiyan	1	needs-review	R1 auto: doubled form of a mixed cluster
-sartabi	sartaabi	1	needs-review	R1 auto: doubled form of a mixed cluster
+dikhaoon	dikhaaoon	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+onton	oonton	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+zinakar	zinaakaar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khalaon	khaalaon	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+izafa	izaafa	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+mahtaab	mahtaab	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tameer	tameer	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+hamaan	haamaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+behkaya	behkaaya	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bad-amaliyan	bad-aamaaliyan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+umeedwar	umeedwaar	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sanwar	sanwar	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+dikhao	dikhaao	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sazawaar-e-hamd-o-sana	sazaawaar-e-hamd-o-sanaa	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+gawahiyan	gawaahiyan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+sartabi	sartaabi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 aasman-e-dunya	aasmaan-e-dunya	1	decided	owner batch-01 2026-09-25: accepted words inside a compound only
 sawaal-o-jawab	sawaal-o-jawaab	1	decided	owner batch-01 2026-09-25: accepted words inside a compound only
 baap-dadon	baap-daadon	1	decided	owner batch-01 2026-09-25: accepted words inside a compound only
-nigahein	nigaahein	1	needs-review	R1 auto: doubled form of a mixed cluster
-ziyan-karon	ziyan-kaaron	1	needs-review	R1 auto: doubled form of a mixed cluster
+nigahein	nigaahein	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ziyan-karon	ziyan-kaaron	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 janti	jaanti	1	needs-review	R1 auto: doubled form of a mixed cluster
-dhuan	dhuaan	1	needs-review	R1 auto: doubled form of a mixed cluster
-khataon	khataaon	1	needs-review	R1 auto: doubled form of a mixed cluster
-bareek	baareek	1	needs-review	R1 auto: doubled form of a mixed cluster
-tapkaya	tapkaaya	1	needs-review	R1 auto: doubled form of a mixed cluster
+dhuan	dhuaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+khataon	khataaon	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+bareek	baareek	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+tapkaya	tapkaaya	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 kelon	kelon	1	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-meeras	meeraas	1	needs-review	R1 auto: doubled form of a mixed cluster
-kafiro	kaafiro	1	needs-review	R1 auto: doubled form of a mixed cluster
-daroghe	daaroghe	1	needs-review	R1 auto: doubled form of a mixed cluster
+meeras	meeraas	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+kafiro	kaafiro	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+daroghe	daaroghe	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 koda	koda	1	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
 jinhe	jinhein	30	decided	owner Q16 2026-09-25: parallel to R2
 jinhen	jinhein	30	decided	owner Q16 2026-09-25: parallel to R2
@@ -1017,3 +1017,37 @@ aarzooen	aarzooein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as wri
 taaeed	taa'eed	0	decided	owner 2026-09-26: taa'eed (تائید) locked with its apostrophe, a deliberate exception to R5
 taayeed	taa'eed	0	decided	owner 2026-09-26: taa'eed (تائید) locked with its apostrophe, a deliberate exception to R5
 taa'eed	taa'eed	0	keep	owner 2026-09-26: taa'eed (تائید) locked with its apostrophe, a deliberate exception to R5
+ahkam-e-zarooriya	ahkaam-e-zarooriya	0	decided	accepted words inside a compound only (2026-09-26)
+azaab-e-aasmani	azaab-e-aasmaani	0	decided	accepted words inside a compound only (2026-09-26)
+ba-aawaz-e-buland	ba-aawaaz-e-buland	0	decided	accepted words inside a compound only (2026-09-26)
+ba-hifazat-e-ilahi	ba-hifaazat-e-ilahi	0	decided	accepted words inside a compound only (2026-09-26)
+ba-waqt-e-mulaqaat	ba-waqt-e-mulaaqaat	0	decided	accepted words inside a compound only (2026-09-26)
+baais-e-nusrat-o-imdad	baais-e-nusrat-o-imdaad	0	decided	accepted words inside a compound only (2026-09-26)
+baitibar-e-anjam	baitibar-e-anjaam	0	decided	accepted words inside a compound only (2026-09-26)
+bareek-been	baareek-been	0	decided	accepted words inside a compound only (2026-09-26)
+be-naam-o-nishan	be-naam-o-nishaan	0	decided	accepted words inside a compound only (2026-09-26)
+faida-mand	faaida-mand	0	decided	accepted words inside a compound only (2026-09-26)
+falah-o-najaat	falaah-o-najaat	0	decided	accepted words inside a compound only (2026-09-26)
+falah-yaab	falaah-yaab	0	decided	accepted words inside a compound only (2026-09-26)
+fil-waqe	fil-waaqe	0	decided	accepted words inside a compound only (2026-09-26)
+ibaadat-khane	ibaadat-khaane	0	decided	accepted words inside a compound only (2026-09-26)
+ilm-e-kamil	ilm-e-kaamil	0	decided	accepted words inside a compound only (2026-09-26)
+imdad-e-ilahi	imdaad-e-ilahi	0	decided	accepted words inside a compound only (2026-09-26)
+itminan-e-qalb	itminaan-e-qalb	0	decided	accepted words inside a compound only (2026-09-26)
+jail-khane	jail-khaane	0	decided	accepted words inside a compound only (2026-09-26)
+kitaab-e-kamil	kitaab-e-kaamil	0	decided	accepted words inside a compound only (2026-09-26)
+mamla-fehmi	maamla-fehmi	0	decided	accepted words inside a compound only (2026-09-26)
+moojib-e-itminan	moojib-e-itminaan	0	decided	accepted words inside a compound only (2026-09-26)
+nishan-e-qadam	nishaan-e-qadam	0	decided	accepted words inside a compound only (2026-09-26)
+qabil-e-hifazat	qabil-e-hifaazat	0	decided	accepted words inside a compound only (2026-09-26)
+qaid-khane	qaid-khaane	0	decided	accepted words inside a compound only (2026-09-26)
+qaim-maqaam	qaaim-maqaam	0	decided	accepted words inside a compound only (2026-09-26)
+qaum-e-saleh	qaum-e-saaleh	0	decided	accepted words inside a compound only (2026-09-26)
+quwwat-o-taqat	quwwat-o-taaqat	0	decided	accepted words inside a compound only (2026-09-26)
+raah-e-ilzam	raah-e-ilzaam	0	decided	accepted words inside a compound only (2026-09-26)
+rahat-o-aram	raahat-o-aram	0	decided	accepted words inside a compound only (2026-09-26)
+sabit-shuda	saabit-shuda	0	decided	accepted words inside a compound only (2026-09-26)
+sadqa-o-khairat	sadqa-o-khairaat	0	decided	accepted words inside a compound only (2026-09-26)
+saman-e-zeenat	saamaan-e-zeenat	0	decided	accepted words inside a compound only (2026-09-26)
+waqiaat-e-mazkoora	waaqiaat-e-mazkoora	0	decided	accepted words inside a compound only (2026-09-26)
+zaat-e-khas	zaat-e-khaas	0	decided	accepted words inside a compound only (2026-09-26)
