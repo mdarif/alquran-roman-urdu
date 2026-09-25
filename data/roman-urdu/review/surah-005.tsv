@@ -27,7 +27,7 @@ ayah	status	sha256	reviewer	date	note
 26	verified	c4f9b68dee26bf5ee51880feb92b2ed6d8b6454669c0a0111c761205ef6dcee3	AI (double) + owner sample	2026-09-25	ADR 0006
 27	verified	cb99e90ad7367867111ffed8a2aa1cde992d30a4850f527f559d71a39bfed912	AI (double) + owner sample	2026-09-25	ADR 0006
 28	verified	69b12c9cd7fc2cafddde16e563c32338c2628c193ceccb06eac00f5f39c5f974	AI (double) + owner sample	2026-09-25	ADR 0006
-29	pending				
+29	approved	39a5bbaeab6263ed0f2a3f7bc159b723b70e996b94d7d4ca504d75d33f416a30	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26
 30	verified	c7c3d83af9e4482023f28dd663fcb895e06ceb72019a1ec7be01c473954f0980	AI (double) + owner sample	2026-09-25	ADR 0006
 31	verified	b6176d227e0baa5ce5e8daa04577abdd8a256f2483b1bbc94639ab9151fdeb83	AI (double) + owner sample	2026-09-25	ADR 0006
 32	verified	4af1bca755d86ee0e79cec3aee996c8c99ee1170e1a61b6efd8624b5ceea2214	AI (double) + owner sample	2026-09-25	ADR 0006
@@ -108,7 +108,7 @@ ayah	status	sha256	reviewer	date	note
 107	verified	182bba954424602aa35e30712b4cee0935cf6433d6ac69db91e38535265d41ff	AI (double) + owner sample	2026-09-25	ADR 0006
 108	verified	7e516042364264d34891d2dd01f3de6fff2edaaa8b2cca2a9bfb853b44f10c2b	AI (double) + owner sample	2026-09-25	ADR 0006
 109	verified	3a77c6b5c6f9dc953a18c6bd3b766a25bf23a9cbbb24b8ee8c56ebc85b956a1c	AI (double) + owner sample	2026-09-25	ADR 0006
-110	verified	84296a13903874fa7ea9a381f33cc2b572894cefa8c8c9f0bf219d43bb81b654	AI (double) + owner sample	2026-09-25	ADR 0006
+110	verified	bc450f3cdb86c24152cca5c8a806db027769fb09cc03a38cd7192f47b3f64b73	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after owner rule taa'eed 2026-09-26
 111	verified	9a61e121b009aef75e217e1fd68ad6d66a35221b11bbcdec108930575a5310e0	AI (double) + owner sample	2026-09-25	ADR 0006
 112	verified	16dbfad77ca1b0b3b25441bce80c96416b358e0bf18dc018335faaab4f3c10a8	AI (double) + owner sample	2026-09-25	ADR 0006
 113	verified	03395b0f5335f86ef5c1dda2b80d4feecb7d059fee78b468fb96db481eb3dc90	AI (double) + owner sample	2026-09-25	ADR 0006

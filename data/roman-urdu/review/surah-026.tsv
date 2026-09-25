@@ -222,7 +222,7 @@ ayah	status	sha256	reviewer	date	note
 221	verified	02f251fba913e2267cb241c910b9d8fc124c92f1955496ce1d3528cbcf11b85f	AI (double) + owner sample	2026-09-25	ADR 0006
 222	verified	c851d88c8e7a754da4505262123efab0645330f102a045e917d97568a1cd3c0d	AI (double) + owner sample	2026-09-25	ADR 0006
 223	verified	bf9018a834576c2298dccf86c77b6caffaf0e82e4e138b0ae19e7fa24790bb10	AI (double) + owner sample	2026-09-25	ADR 0006
-224	pending				
+224	approved	a963e6085c748649f57b3dc4a546243ebfabe373df6d14da4b5d21484e5f1d40	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26
 225	verified	ce709b6477923039e7e45d741ab19448b87dea69951eabd3ab54546a879d1f59	AI (double) + owner sample	2026-09-25	ADR 0006
 226	verified	0bde4d784f3a795451212bc6f144c6565384bc6a6d491306b6f60aadd80026f5	AI (double) + owner sample	2026-09-25	ADR 0006
 227	verified	874ba9045cbd555d6f14b7a593b640080d824ac994c56c2c8e8058b6ab7bbeab	AI (double) + owner sample	2026-09-25	ADR 0006

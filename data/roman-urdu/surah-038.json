@@ -1,6 +1,6 @@
 {
   "surah": 38,
-  "status": "beta-unverified",
+  "status": "verified",
   "register": "popular",
   "source": "Transliterated from the Urdu translation of Maulana Muhammad Junagarhi.",
   "note": "DRAFT / BETA-UNVERIFIED. Not reviewed, not approved. Assistant-drafted in the popular register from the Urdu translation of Maulana Muhammad Junagarhi; ships only behind a visible Beta label until human review. House style: popular; see docs/decisions/0004-roman-urdu-working-style.md.",
@@ -40,8 +40,8 @@
     "33": "In (ghodon) ko dobaara mere saamne laao! Phir to pindliyon aur gardanon par haath pherna shuru kar diya.",
     "34": "Aur hum ne Sulaiman (Alaihis-Salaam) ki aazmaaish ki aur un ke takht par ek jism daal diya, phir us ne ruju kiya.",
     "35": "Kaha ke ae mere Rabb! Mujhe bakhsh de aur mujhe aisa mulk ata farma jo mere siwa kisi (shakhs) ke laaiq na ho, tu bada hi dene wala hai.",
-    "36": "Pas hum ne hawa ko un ke maatihati kar diya aur aap ke hukm se jahaan aap chaahte narmi se pahuncha diya karti thi.",
-    "37": "Aur (taqatwar) jinnaat ko bhi (un ka maatihati kar diya), har imaarat banaane wale ko aur ghota-khor ko.",
+    "36": "Pas hum ne hawa ko un ke maatahat kar diya aur aap ke hukm se jahaan aap chaahte narmi se pahuncha diya karti thi.",
+    "37": "Aur (taqatwar) jinnaat ko bhi (un ka maatahat kar diya), har imaarat banaane wale ko aur ghota-khor ko.",
     "38": "Aur doosre jinnaat ko bhi jo zanjeeron mein jakde rehte.",
     "39": "Yeh hai hamara atiya, ab tu ehsaan kar ya rok rakh, kuch hisaab nahi.",
     "40": "Un ke liye hamare paas bada taqarrub hai aur bahut achchha thikaana hai.",

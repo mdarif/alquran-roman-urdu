@@ -1,6 +1,6 @@
 {
   "surah": 21,
-  "status": "beta-unverified",
+  "status": "verified",
   "register": "popular",
   "source": "Transliterated from the Urdu translation of Maulana Muhammad Junagarhi.",
   "note": "DRAFT / BETA-UNVERIFIED. Not reviewed, not approved. Assistant-drafted in the popular register from the Urdu translation of Maulana Muhammad Junagarhi; ships only behind a visible Beta label until human review. House style: popular; see docs/decisions/0004-roman-urdu-working-style.md.",
@@ -44,7 +44,7 @@
     "37": "Insaan jald-baaz makhlooq hai, main tumhein apni nishaaniyaan abhi abhi dikhaaoonga, tum mujh se jald-baazi na karo.",
     "38": "Kehte hain ke agar sachche ho to bata do ke yeh waada kab hai.",
     "39": "Kaash! Yeh kaafir jaante ke us waqt na to yeh kaafir aag ko apne chehron se hata sakenge aur na apni peethon se aur na un ki madad ki jaayegi.",
-    "40": "(Haan haan!) Wade ki ghadi un ke paas achaanak aa jaayegi aur unhein haka-baka kar degi, phir na to yeh log use taal sakenge aur na zara si bhi mohlat diye jaayenge.",
+    "40": "(Haan haan!) Waade ki ghadi un ke paas achaanak aa jaayegi aur unhein haka-baka kar degi, phir na to yeh log use taal sakenge aur na zara si bhi mohlat diye jaayenge.",
     "41": "Aur tujh se pehle Rasoolon ke saath bhi hansi-mazaaq kiya gaya, pas hansi karne walon ko hi us cheez ne gher liya jis ki woh hansi udaate the.",
     "42": "Un se poochhiye ke Rahman se, din aur raat tumhari hifaazat kaun kar sakta hai? Baat yeh hai ke yeh log apne Rabb ke zikr se phire hue hain.",
     "43": "Kya hamare siwa un ke aur mabood hain jo unhein museebaton se bacha len? Koi bhi khud apni madad ki taaqat nahi rakhta aur na koi hamari taraf se rafaaqat diya jaata hai.",

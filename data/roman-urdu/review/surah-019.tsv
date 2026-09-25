@@ -58,8 +58,8 @@ ayah	status	sha256	reviewer	date	note
 57	verified	083ad5daa4db0375ea049966aa87f790e3d936d52e80a2b12c7785cf9754af4e	AI (double) + owner sample	2026-09-25	ADR 0006
 58	verified	93c8e0d19973183d763d64fa4516aa389e18d4fe92896a8aa0b765e41efbb738	AI (double) + owner sample	2026-09-25	ADR 0006
 59	verified	931621bbde3056bd443089aa9c2bdc02710a76a8614fa282a3661a991c9b9a60	AI (double) + owner sample	2026-09-25	ADR 0006
-60	pending				
-61	pending				
+60	approved	f2e9eb13bbf72d48bf03af5ff7820ce8139d84d8fea0058b06d72233638322cf	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26
+61	approved	2c0153bf4da53b2e94e22f49feebe2d54d2d1ab802098bbf81918d66343d0f59	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26
 62	verified	25803af5f57450b91d6a4e1f7fad985a3bd443bd0cd16f0bb7b426c1bae095d4	AI (double) + owner sample	2026-09-25	ADR 0006
 63	verified	f9908a53395a3b732633c5f7a999c9f517ed855ee2f2a5b04bfca82257a32516	AI (double) + owner sample	2026-09-25	ADR 0006
 64	verified	31c814190b8c6ca20ed85b001e58e9d31bde44e7c1c383564f3d2fd75528fdc1	AI (double) + owner sample	2026-09-25	ADR 0006
@@ -76,7 +76,7 @@ ayah	status	sha256	reviewer	date	note
 75	verified	a3b1350ed15e121d13473ac487d344cb0bab05a381d56b1d7c204cca1ca9a65e	AI (double) + owner sample	2026-09-25	ADR 0006
 76	verified	8fdc557c8ea0f47415756672a2b08fd909b30d02f14203295a8c2107bbc47113	AI (double) + owner sample	2026-09-25	ADR 0006
 77	verified	6d3d0806ee4c7a1e0e75110a6796d1e11b2ca970c3d80e44c45ed055a9bec5b5	AI (double) + owner sample	2026-09-25	ADR 0006
-78	pending				
+78	approved	5f2f9c7079db90f7b39df76ad373f11d6d3b3811a1a85a14c25dbce6a75be0e7	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26
 79	verified	d514cd1c150e7fe83d6809739fd02ac0f24416dff39d301419997a702706db33	AI (double) + owner sample	2026-09-25	ADR 0006
 80	verified	61e07f7d57d1adf1f46c04f6bbae99556d06e2a16ed156af302cc80572ca6392	AI (double) + owner sample	2026-09-25	ADR 0006
 81	verified	bcc71d908e00234064414d752314fa4631dbc526b7e1ca02d77962835c72663c	AI (double) + owner sample	2026-09-25	ADR 0006

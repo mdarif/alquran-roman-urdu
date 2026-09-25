@@ -1,6 +1,6 @@
 {
   "surah": 40,
-  "status": "beta-unverified",
+  "status": "verified",
   "register": "popular",
   "source": "Transliterated from the Urdu translation of Maulana Muhammad Junagarhi.",
   "note": "DRAFT / BETA-UNVERIFIED. Not reviewed, not approved. Assistant-drafted in the popular register from the Urdu translation of Maulana Muhammad Junagarhi; ships only behind a visible Beta label until human review. House style: popular; see docs/decisions/0004-roman-urdu-working-style.md.",
@@ -48,7 +48,7 @@
     "41": "Ae meri qaum! Yeh kya baat hai ke main tumhein najaat ki taraf bula raha hoon aur tum mujhe dozakh ki taraf bula rahe ho.",
     "42": "Tum mujhe yeh daawat de rahe ho ke main Allah ke saath kufr karoon aur us ke saath shirk karoon jis ka koi ilm mujhe nahi aur main tumhein Ghalib Bakhshne wale (mabood) ki taraf daawat de raha hoon.",
     "43": "Yeh yaqini amar hai ke tum mujhe jis ki taraf bula rahe ho woh to na dunya mein pukaare jaane ke qaabil hai na aakhirat mein, aur yeh (bhi yaqini baat hai) ke hum sab ka lautna Allah ki taraf hai aur hadd se guzar jaane wale hi (yaqeenan) ahl-e-dozakh hain.",
-    "44": "Pas aage chal kar tum meri baaton ko yaad karoge, main apna maamla Allah ke supurd karta hoon, yaqeenan Allah Taala bandon ka nigehbaan hai.",
+    "44": "Pas aage chal kar tum meri baaton ko yaad karoge, main apna maamla Allah ke supurd karta hoon, yaqeenan Allah Taala bandon ka nigraan hai.",
     "45": "Pas use Allah Taala ne tamaam badiyon se mehfooz rakh liya jo unhon ne soch rakhi thin aur Firaun walon par buri tarah ka azaab ulat pada.",
     "46": "Aag hai jis ke saamne yeh har subah shaam laaye jaate hain aur jis din qayamat qaayam hogi (farmaan hoga ke) Firauniyon ko sakht-tareen azaab mein daalo.",
     "47": "Aur jabke dozakh mein ek doosre se jhagadenge to kamzor log takabbur walon se (jin ke yeh taabe the) kahenge ke hum to tumhare pairo the, to kya ab tum hum se is aag ka koi hissa hata sakte ho?",
