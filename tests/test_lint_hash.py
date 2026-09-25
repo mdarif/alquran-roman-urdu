@@ -33,6 +33,22 @@ def test_check_hash_approved_row_matching_hash_is_clean() -> None:
     assert check_hash(1, 1, text, row) == []
 
 
+def test_check_hash_verified_row_stale_hash_is_error() -> None:
+    # ADR 0006: `verified` rows are hash-pinned exactly like `approved` ones --
+    # a later text change must drop the verse back to pending re-review.
+    row = LedgerRow(ayah=1, status="verified", sha256="0" * 64, reviewer="AI (double) + owner sample", date="2026-09-25", note="ADR 0006")
+    findings = check_hash(1, 1, "Bismillah.", row)
+    assert len(findings) == 1
+    assert findings[0].check == "2f-hash"
+    assert findings[0].level == "error"
+
+
+def test_check_hash_verified_row_matching_hash_is_clean() -> None:
+    text = "Bismillah."
+    row = LedgerRow(ayah=1, status="verified", sha256=sha256_hex(text), reviewer="AI (double) + owner sample", date="2026-09-25", note="ADR 0006")
+    assert check_hash(1, 1, text, row) == []
+
+
 def test_check_hash_pending_row_never_checked_even_with_stale_hash() -> None:
     row = LedgerRow(ayah=1, status="pending", sha256="0" * 64, reviewer="", date="", note="")
     assert check_hash(1, 1, "Bismillah.", row) == []

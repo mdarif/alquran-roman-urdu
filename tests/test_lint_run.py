@@ -60,6 +60,7 @@ def test_run_exits_nonzero_on_unallowlisted_error(tmp_path: Path) -> None:
 
     findings, has_unallowed_error = run(
         source=db, roman_dir=roman_dir, canonical_path=canonical, allowlist_path=allowlist,
+        review_dir=tmp_path / "review",  # isolated: never read the real ledgers
     )
     assert has_unallowed_error is True
     assert any(f.check == "2e-forbidden" for f in findings)
@@ -79,6 +80,7 @@ def test_run_allowlisted_error_does_not_fail(tmp_path: Path) -> None:
 
     findings, has_unallowed_error = run(
         source=db, roman_dir=roman_dir, canonical_path=canonical, allowlist_path=allowlist,
+        review_dir=tmp_path / "review",  # isolated: never read the real ledgers
     )
     assert has_unallowed_error is False
     assert any(f.check == "2e-forbidden" for f in findings)

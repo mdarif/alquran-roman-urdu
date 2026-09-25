@@ -34,6 +34,11 @@ Majhool vowels are not "long vowels" for this rule and stay single: `log`,
 
 **R2 — Negation and nasal endings.**
 - The negative particle is always `nahi`.
+- **Plural nouns take `-ein`, reaffirmed by the owner 2026-09-26:** `baatein`,
+  `aayatein`, `cheezein`, `auratein` (114 words, 552 uses respelled from
+  `-en`). Verbs keep `-en` (Q26). Homographs are decided per verse:
+  `jaanein` "lives" vs `na jaanen` "may not know" (16:70); `kuwein` "wells"
+  (22:45) vs `kuwen walon` "of the well" (25:38).
 - Oblique plural pronouns: `unhein`, `tumhein`, `hamein`, `inhein`, and the
   relative `jinhein` (owner, Q16, 2026-09-25).
 - Nasalised plurals take `-ein` / `-on` (`mushkein`, `koonchein`, `logon`).

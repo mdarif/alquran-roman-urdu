@@ -46,7 +46,7 @@ def test_compute_status_on_real_corpus_totals_6236() -> None:
 # ---------------------------------------------------------------------------
 
 def _row(ayah: int, status: str, text: str) -> LedgerRow:
-    sha = sha256_hex(text) if status in ("reviewed", "approved") else ""
+    sha = sha256_hex(text) if status in ("reviewed", "approved", "verified") else ""
     return LedgerRow(ayah=ayah, status=status, sha256=sha, reviewer="Abu Rayyan", date="2026-09-25", note="")
 
 
@@ -80,6 +80,37 @@ def test_derive_file_status_no_ledger_rows_is_beta_unverified() -> None:
 
 
 # ---------------------------------------------------------------------------
+# derive_file_status — ADR 0006 `verified` status
+# (docs/decisions/0006-ai-verified-owner-sampled.md)
+# ---------------------------------------------------------------------------
+
+def test_derive_file_status_all_verified_is_verified() -> None:
+    ayahs = {"1": "one", "2": "two"}
+    rows = {1: _row(1, "verified", "one"), 2: _row(2, "verified", "two")}
+    assert derive_file_status(rows, ayahs) == "verified"
+
+
+def test_derive_file_status_verified_and_approved_mix_is_verified() -> None:
+    # at least one verified, the rest approved -> verified (not approved --
+    # "approved" is reserved for when EVERY row is approved by the owner).
+    ayahs = {"1": "one", "2": "two"}
+    rows = {1: _row(1, "verified", "one"), 2: _row(2, "approved", "two")}
+    assert derive_file_status(rows, ayahs) == "verified"
+
+
+def test_derive_file_status_all_approved_no_verified_is_still_approved() -> None:
+    ayahs = {"1": "one", "2": "two"}
+    rows = {1: _row(1, "approved", "one"), 2: _row(2, "approved", "two")}
+    assert derive_file_status(rows, ayahs) == "approved"
+
+
+def test_derive_file_status_one_pending_row_with_others_verified_is_beta_unverified() -> None:
+    ayahs = {"1": "one", "2": "two"}
+    rows = {1: _row(1, "pending", "one"), 2: _row(2, "verified", "two")}
+    assert derive_file_status(rows, ayahs) == "beta-unverified"
+
+
+# ---------------------------------------------------------------------------
 # compute_review_status
 # ---------------------------------------------------------------------------
 
@@ -95,12 +126,25 @@ def test_compute_review_status_counts_verses_by_ledger_status(tmp_path: Path) ->
 
     report = compute_review_status(review_dir)
 
-    assert report == {"pending": 1, "reviewed": 1, "approved": 1}
+    assert report == {"pending": 1, "reviewed": 1, "approved": 1, "verified": 0}
 
 
 def test_compute_review_status_missing_dir_is_all_zero(tmp_path: Path) -> None:
     report = compute_review_status(tmp_path / "no-such-dir")
-    assert report == {"pending": 0, "reviewed": 0, "approved": 0}
+    assert report == {"pending": 0, "reviewed": 0, "approved": 0, "verified": 0}
+
+
+def test_compute_review_status_counts_verified_rows(tmp_path: Path) -> None:
+    review_dir = tmp_path / "review"
+    save_ledger(review_dir / "surah-001.tsv", {
+        1: _row(1, "verified", "a"),
+        2: _row(2, "verified", "b"),
+        3: _row(3, "pending", "c"),
+    })
+
+    report = compute_review_status(review_dir)
+
+    assert report == {"pending": 1, "reviewed": 0, "approved": 0, "verified": 2}
 
 
 # ---------------------------------------------------------------------------

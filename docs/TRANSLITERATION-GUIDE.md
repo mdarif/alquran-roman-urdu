@@ -389,3 +389,68 @@ spelling, write `keep` to keep the current one, or write any other spelling
 to use that instead. `import FILE` prints the decisions as a TSV
 (`variant, final, status`); it never writes `canonical.tsv` itself, same
 single-writer discipline as everywhere else in this workflow.
+
+### AI-verified review (ADR 0006)
+
+Everything above requires the owner to read and approve every verse by
+hand — 35–70 hours for 6,236 verses. ADR 0006
+(`docs/decisions/0006-ai-verified-owner-sampled.md`, amending AGENTS.md §4
+non-negotiables 1 and 2 for `data/roman-urdu/` only) replaces that with
+independent double AI verification plus an owner-checked random sample.
+`scripts/verify_merge.py` is the tooling; it never writes to
+`data/roman-urdu/*.json`, and `apply_review.py` stays the only writer for
+owner decisions (`mark` is the one exception — a `verified` row is what the
+ADR itself defines, not an owner decision).
+
+```bash
+# 1. Import the second AI reviewer's verdicts (same 5-column format as
+#    data/roman-urdu/prereview/) -- validated and copied file by file; an
+#    invalid file is refused, never partially applied.
+python3 scripts/verify_merge.py import-pass2 --from ~/Downloads/pass2 --source-label "codex gpt-5.5"
+# repeat per source, e.g. the surahs a second model covered:
+python3 scripts/verify_merge.py import-pass2 --from ~/Downloads/pass2-claude --source-label "claude sonnet"
+
+# 2. Promote every pending verse where pass-1 AND pass-2 both verdict `ok`
+#    against the exact current text and lint has no error -- dry run first.
+python3 scripts/verify_merge.py mark --dry-run
+python3 scripts/verify_merge.py mark
+# prints verified / already_approved / disagreements / stale counts. Never
+# touches an approved row; never downgrades -- only pending rows are ever
+# examined.
+
+# 3. Everything mark left pending (a concern from either reviewer, or a
+#    stale/missing verdict) goes to the owner as a Markdown queue.
+python3 scripts/verify_merge.py queue --out out/verify-merge/queue.md
+# The owner answers each verse's `- decision:` line: `ok` to approve as-is,
+# or the full corrected verse.
+python3 scripts/verify_merge.py queue-import out/verify-merge/queue.md --out out/verify-merge/patches
+# writes one apply_review.py-format patch per surah (surah-NNN-patch.tsv,
+# named so apply_review.py's own filename inference finds it) -- apply as
+# usual, dry run first:
+python3 scripts/apply_review.py --patch out/verify-merge/patches/surah-NNN-patch.tsv --reviewer "Abu Rayyan" --dry-run
+python3 scripts/apply_review.py --patch out/verify-merge/patches/surah-NNN-patch.tsv --reviewer "Abu Rayyan"
+
+# 4. Owner-read random sample of the now-verified verses (ADR 0006 rule 4;
+#    with 0 errors in ~150, the verified set's error rate is below ~2% at
+#    95% confidence). Stratified so surahs whose pass-2 came from "claude
+#    sonnet" (per verify2/SOURCES.tsv) appear in proportion to their share
+#    of the verified population -- the ADR's own caveat about those
+#    surahs' reduced independence.
+python3 scripts/verify_merge.py sample --n 150 --seed 20260925 --out out/verify-merge/sample.md
+# The owner leaves `- wrong:` blank for a fine verse, or describes the
+# problem for a wrong one.
+python3 scripts/verify_merge.py sample-import out/verify-merge/sample.md
+# prints total / fine / wrong, with each wrong verse's description -- a
+# finding here means fixing the pattern across the corpus and drawing a
+# fresh sample, per the ADR.
+```
+
+A `verified` row's reviewer is recorded truthfully as `AI (double) + owner
+sample`, never `Abu Rayyan` — that name is reserved for a verse the owner
+actually read (rule 5). `status.py` reports `verified` counts alongside
+`pending`/`reviewed`/`approved`; a surah's file-level `status` becomes
+`verified` once every verse is verified-or-approved and at least one is
+`verified` (`approved` stays reserved for when *every* verse was owner-read).
+Lint check 2f treats `verified` exactly like `approved`: a later text change
+drops the stored hash out of date and the verse is an `error` until it is
+re-reviewed.

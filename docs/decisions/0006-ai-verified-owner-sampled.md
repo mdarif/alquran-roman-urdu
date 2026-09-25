@@ -28,6 +28,12 @@ verse is no longer required.
    (`data/roman-urdu/prereview/`). Verdict B comes from a second reviewer:
    a different vendor (Codex), a different prompt, and no access to
    verdict A. It is stored in `data/roman-urdu/verify2/`.
+   **As run (2026-09-25):** Codex (gpt-5.5) covered 92 surahs (4,292
+   verses) before hitting the owner's usage limit. The owner chose Claude
+   Sonnet for the remaining 22 surahs (13–25 and 34–42, 1,944 verses), with
+   a blind prompt and only the verse text in its folder. For those surahs
+   both verdicts come from Claude models, so the two are less independent;
+   the owner's random sample should include them in proportion.
 2. **Verified** means: both verdicts are `ok` for the exact current text
    (hash-pinned) and lint is clean.
 3. **Disagreements** (either verdict raises a concern) go to the owner in

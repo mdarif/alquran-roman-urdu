@@ -225,7 +225,7 @@ bhalai	bhalaai	6	needs-review	R1 auto: doubled form of a mixed cluster
 istighfar	istighfaar	6	needs-review	R1 auto: doubled form of a mixed cluster
 munafiqon	munaafiqon	6	needs-review	R1 auto: doubled form of a mixed cluster
 muqable	muqaable	6	needs-review	R1 auto: doubled form of a mixed cluster
-tareefen	taareefen	6	needs-review	R1 auto: doubled form of a mixed cluster
+tareefen	tareefein	6	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
 buraaiyan	buraaiyaan	6	needs-review	R1 auto: doubled form of a mixed cluster
 ladkiyan	ladkiyaan	6	needs-review	R1 auto: doubled form of a mixed cluster
 himayati	himaayati	6	needs-review	R1 auto: doubled form of a mixed cluster
@@ -255,7 +255,7 @@ buraiyon	buraaiyon	5	needs-review	R1 auto: doubled form of a mixed cluster
 kinare	kinaare	5	needs-review	R1 auto: doubled form of a mixed cluster
 paband	paaband	5	needs-review	R1 auto: doubled form of a mixed cluster
 sitaron	sitaaron	5	needs-review	R1 auto: doubled form of a mixed cluster
-nigahen	nigaahen	5	needs-review	R1 auto: doubled form of a mixed cluster
+nigahen	nigahein	5	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
 ontni	oontni	5	needs-review	R1 auto: doubled form of a mixed cluster
 sazawaar	sazaawaar	5	needs-review	R1 auto: doubled form of a mixed cluster
 tane	taane	5	needs-review	R1 auto: doubled form of a mixed cluster
@@ -265,7 +265,7 @@ layenge	laayenge	4	needs-review	R1 auto: doubled form of a mixed cluster
 janta	jaanta	4	needs-review	R1 auto: doubled form of a mixed cluster
 banane	banaane	4	needs-review	R1 auto: doubled form of a mixed cluster
 samne	saamne	4	needs-review	R1 auto: doubled form of a mixed cluster
-baten	baaten	4	needs-review	R1 auto: doubled form of a mixed cluster
+baten	batein	4	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
 israel	israeel	4	needs-review	R1 auto: doubled form of a mixed cluster
 kitabon	kitaabon	4	needs-review	R1 auto: doubled form of a mixed cluster
 sifarish	sifaarish	4	needs-review	R1 auto: doubled form of a mixed cluster
@@ -344,7 +344,7 @@ kat	kat	3	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
 ad	aad	3	needs-review	R1 auto: doubled form of a mixed cluster
 jhutlane	jhutlaane	3	needs-review	R1 auto: doubled form of a mixed cluster
 mukhalif	mukhaalif	3	needs-review	R1 auto: doubled form of a mixed cluster
-aawazen	aawaazen	3	needs-review	R1 auto: doubled form of a mixed cluster
+aawazen	aawazein	3	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
 aasmanon-o-zameen	aasmaanon-o-zameen	3	decided	owner batch-01 2026-09-25: accepted words inside a compound only
 jaoonga	jaaoonga	3	needs-review	R1 auto: doubled form of a mixed cluster
 mehmani	mehmaani	3	needs-review	R1 auto: doubled form of a mixed cluster
@@ -533,7 +533,7 @@ chhupao	chhupaao	1	needs-review	R1 auto: doubled form of a mixed cluster
 shaq	shaaq	1	needs-review	R1 auto: doubled form of a mixed cluster
 mulaqaat	mulaaqaat	1	needs-review	R1 auto: doubled form of a mixed cluster
 jane	jaane	1	needs-review	R1 auto: doubled form of a mixed cluster
-khatayen	khataayen	1	needs-review	R1 auto: doubled form of a mixed cluster
+khatayen	khatayein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
 dali	daali	1	needs-review	R1 auto: doubled form of a mixed cluster
 maro	maro	1	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
 barah	baarah	1	needs-review	R1 auto: doubled form of a mixed cluster
@@ -659,7 +659,7 @@ jayengi	jaayengi	1	needs-review	R1 auto: doubled form of a mixed cluster
 chhaon	chhaaon	1	needs-review	R1 auto: doubled form of a mixed cluster
 pahunchao	pahunchaao	1	needs-review	R1 auto: doubled form of a mixed cluster
 inayat	inaayat	1	needs-review	R1 auto: doubled form of a mixed cluster
-duayen	duaayen	1	needs-review	R1 auto: doubled form of a mixed cluster
+duayen	duayein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
 boda	boda	1	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
 alawa	alaawa	1	needs-review	R1 auto: doubled form of a mixed cluster
 lagaataar	lagataar	1	needs-review	R1 auto: rare doubled spelling looks like a typo; majority form kept
@@ -814,7 +814,7 @@ dabao	dabaao	1	needs-review	R1 auto: doubled form of a mixed cluster
 darwaza	darwaaza	1	needs-review	R1 auto: doubled form of a mixed cluster
 utarta	utarta	1	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
 chara	chaara	1	needs-review	R1 auto: doubled form of a mixed cluster
-zabanen	zabaanen	1	needs-review	R1 auto: doubled form of a mixed cluster
+zabanen	zabanein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
 chakhaya	chakhaaya	1	needs-review	R1 auto: doubled form of a mixed cluster
 mamooli	maamooli	1	needs-review	R1 auto: doubled form of a mixed cluster
 bulaiye	bulaaiye	1	needs-review	R1 auto: doubled form of a mixed cluster
@@ -907,3 +907,110 @@ ghaalib-o-zabardast	ghalib-o-zabardast	0	decided	owner 2026-09-25: ziyaada and g
 ghaalib-o-daana	ghalib-o-daana	0	decided	owner 2026-09-25: ziyaada and ghalib are the house spellings
 ghaalib-o-ba-hikmat	ghalib-o-ba-hikmat	0	decided	owner 2026-09-25: ziyaada and ghalib are the house spellings
 buland-o-ghaalib	buland-o-ghalib	0	decided	owner 2026-09-25: ziyaada and ghalib are the house spellings
+baaten	baatein	62	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+aayaten	aayatein	54	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+cheezen	cheezein	48	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+aankhen	aankhein	29	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+qasmen	qasmein	22	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+nahren	nahrein	19	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+daleelen	daleelein	19	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+nehren	nehrein	18	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+auraten	auratein	16	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+aurten	aurtein	14	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+misaalen	misaalein	11	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+khabren	khabrein	11	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+jannaten	jannatein	11	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+raahen	raahein	8	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+jamaaten	jamaatein	8	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+maayen	maayein	7	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+nematen	nematein	6	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+kitaaben	kitaabein	6	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+hooren	hoorein	6	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+hawaayen	hawaayein	6	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+namazen	namazein	5	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+ummaten	ummatein	4	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+sazaayen	sazaayein	4	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+nigaahen	nigaahein	4	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+nazren	nazrein	4	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+khataayen	khataayein	4	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+ghaneematen	ghaneematein	4	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+gaayen	gaayein	4	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+duaayen	duaayein	4	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+chaalen	chaalein	4	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+umeeden	umeedein	3	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+takleefen	takleefein	3	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+sooraten	sooratein	3	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+sharmgahen	sharmgahein	3	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+masjiden	masjidein	3	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+manzilen	manzilein	3	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+faujen	faujein	3	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+behnen	behnein	3	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+tadbeeren	tadbeerein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+taareefen	taareefein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+saffen	saffein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+rangaten	rangatein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+rahmaten	rahmatein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+museebaten	museebatein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+maujen	maujein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+jagahen	jagahein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+ibraten	ibratein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+haden	hadein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+hadden	haddein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+farmaishen	farmaishein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+eezayen	eezayein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+chaadaren	chaadarein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+barkaten	barkatein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+baarishen	baarishein	2	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+zirhen	zirhein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+zanjeeren	zanjeerein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+zakaaten	zakaatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+zabaanen	zabaanein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+waardaaten	waardaatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+umren	umrein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+ummeeden	ummeedein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+ujraten	ujratein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+tamannaayen	tamannaayein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+talaaqen	talaaqein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+rehmaten	rehmatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+raaten	raatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+qaumen	qaumein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+qanaaten	qanaatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+qabren	qabrein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+peethen	peethein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+nawaazishen	nawaazishein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+naslen	naslein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+naseehaten	naseehatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+naimaten	naimatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+muddaten	muddatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+mohren	mohrein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+meikhen	meikhein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+mehnaten	mehnatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+masnaden	masnadein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+lehren	lehrein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+lahren	lahrein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+laanaten	laanatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+koshishen	koshishein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+khajooren	khajoorein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+khaalaayen	khaalaayein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+karwaten	karwatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+kahaawaten	kahaawatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+jaden	jadein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+imaaraten	imaaratein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+ibaadaten	ibaadatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+hurmaten	hurmatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+ghizaayen	ghizaayein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+ghanimaten	ghanimatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+gardanen	gardanein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+faslen	faslein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+fariyaden	fariyadein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+degen	degein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+deewaaren	deewaarein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+chhaten	chhatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+buniyaaden	buniyaadein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+bateren	baterein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+barakaten	barakatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+amaanaten	amaanatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+alaamaten	alaamatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+afwaahen	afwaahein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+aawaazen	aawaazein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+aarzooen	aarzooein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)

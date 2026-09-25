@@ -44,11 +44,18 @@ def compute_status(roman_dir: Path) -> dict:
 
 
 def derive_file_status(rows: dict[int, LedgerRow], ayahs: dict[str, str]) -> str:
-    """File-level `status`, derived from the review ledger -- design §3:
+    """File-level `status`, derived from the review ledger -- design §3,
+    amended by ADR 0006 (docs/decisions/0006-ai-verified-owner-sampled.md):
 
-        every row `approved`, hash-clean              -> approved
-        every row `reviewed`/`approved`, none pending  -> reviewed
-        anything else (incl. no ledger rows at all)    -> beta-unverified
+        every row `approved`, hash-clean                    -> approved
+        every row `verified`/`approved`, >= 1 `verified`     -> verified
+        every row `reviewed`/`approved`, none pending        -> reviewed
+        anything else (incl. no ledger rows at all)          -> beta-unverified
+
+    `approved` stays reserved for when EVERY verse was owner-read one by
+    one; a file with even one `verified` (double-AI, not owner-read) row
+    is `verified`, never `approved` -- ADR 0006 rule 5 is explicit that the
+    two are recorded, and therefore reported, differently.
     """
     if not rows:
         return "beta-unverified"
@@ -59,6 +66,12 @@ def derive_file_status(rows: dict[int, LedgerRow], ayahs: dict[str, str]) -> str
             return "approved"
         return "reviewed"
 
+    if (
+        all(row.status in ("verified", "approved") for row in rows.values())
+        and any(row.status == "verified" for row in rows.values())
+    ):
+        return "verified"
+
     if all(row.status in ("reviewed", "approved") for row in rows.values()):
         return "reviewed"
 
@@ -68,7 +81,7 @@ def derive_file_status(rows: dict[int, LedgerRow], ayahs: dict[str, str]) -> str
 def compute_review_status(review_dir: Path) -> dict[str, int]:
     """Verse counts by ledger status, across every ledger under `review_dir`.
     A missing directory (no ledgers bootstrapped yet) is all zero."""
-    counts = {"pending": 0, "reviewed": 0, "approved": 0}
+    counts = {"pending": 0, "reviewed": 0, "approved": 0, "verified": 0}
     if not review_dir.exists():
         return counts
     for path in sorted(review_dir.glob("surah-*.tsv")):
@@ -132,7 +145,7 @@ def format_report(report: dict, review_report: dict[str, int] | None = None) -> 
         lines.append(f"  {status:<20} files={counts['files']:<4} verses={counts['verses']}")
     if review_report is not None:
         lines += ["", "by review status:"]
-        for status in ("pending", "reviewed", "approved"):
+        for status in ("pending", "reviewed", "verified", "approved"):
             lines.append(f"  {status:<20} verses={review_report.get(status, 0)}")
     return "\n".join(lines)
 

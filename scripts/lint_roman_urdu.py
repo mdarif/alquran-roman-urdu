@@ -368,14 +368,16 @@ def check_honorific_typography(
 # ---------------------------------------------------------------------------
 
 def check_hash(surah: int, ayah: int, roman_text: str, ledger_row) -> list[Finding]:
-    """A `reviewed`/`approved` ledger row whose stored sha256 no longer
-    matches the current text's hash is an error (the text changed after
-    approval and needs re-review). `pending` rows are never checked. A
-    missing ledger row (no ledger for this surah/ayah yet) produces no
-    finding -- this check is inert until reviews exist."""
+    """A `reviewed`/`approved`/`verified` ledger row whose stored sha256 no
+    longer matches the current text's hash is an error (the text changed
+    after approval/verification and needs re-review). `verified` rows
+    (ADR 0006: docs/decisions/0006-ai-verified-owner-sampled.md) are
+    hash-pinned exactly like `approved` ones. `pending` rows are never
+    checked. A missing ledger row (no ledger for this surah/ayah yet)
+    produces no finding -- this check is inert until reviews exist."""
     if ledger_row is None:
         return []
-    if ledger_row.status not in ("reviewed", "approved"):
+    if ledger_row.status not in ("reviewed", "approved", "verified"):
         return []
     current = sha256_hex(roman_text)
     if ledger_row.sha256 == current:

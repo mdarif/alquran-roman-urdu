@@ -335,3 +335,18 @@ red test built from the real file's actual shape, not a synthetic one;
 `load_prereview_rows` now coerces every field with `raw[key] or ""`. Assume
 any other TSV loader here that trusts `csv.DictReader`'s dict directly has
 the same gap for optional trailing columns.
+
+## §16 — A lint test silently read the real review ledgers
+
+`run()` in `scripts/lint_roman_urdu.py` defaults `review_dir` to the real
+`data/roman-urdu/review/`. Two tests in `tests/test_lint_run.py` passed their
+own tmp source, text and canonical files but not a review dir, so they read
+the real ledgers without anyone noticing. That was harmless while every
+verse was `pending`. The moment ADR 0006 marked 1:1 `verified` (2026-09-26),
+lint check 2f compared the real 1:1 hash against the test's fixture text and
+the test failed. The code was right; the test was not isolated. Both calls now
+pass `review_dir=tmp_path / "review"`.
+
+Lesson: any test that calls a function with a data-path default must pass
+every path explicitly. A default that points at real data is a hidden
+fixture, and it breaks the day that data changes.

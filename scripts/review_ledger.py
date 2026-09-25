@@ -31,7 +31,12 @@ ROMAN_DIR = ROOT / "data" / "roman-urdu"
 REVIEW_DIR = ROMAN_DIR / "review"
 
 LEDGER_COLUMNS = ["ayah", "status", "sha256", "reviewer", "date", "note"]
-STATUSES = ("pending", "reviewed", "approved")
+# "verified" -- ADR 0006 (docs/decisions/0006-ai-verified-owner-sampled.md):
+# a verse whose two independent AI verdicts agree `ok` on the exact current
+# text and whose lint is clean. Distinct from `reviewed`, which is an older,
+# unused rung -- see AGENTS.md §4 amendment. Never produced by hand; only
+# scripts/verify_merge.py mark and apply_review.py write ledger rows.
+STATUSES = ("pending", "reviewed", "approved", "verified")
 
 
 class LedgerRow(NamedTuple):
