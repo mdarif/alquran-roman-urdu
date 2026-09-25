@@ -6,12 +6,12 @@ ayah	verdict	sha256	concern	suggestion
 5	ok	68447cac73c5ae4b08402976e15f4a52b14301db4e7dc5f7323d493fa6a02867		
 6	ok	fdbbd806aae8f69f1f7138256af88815757d9070942f911f38c0594d61c21582		
 7	ok	0e2a2d0fd6cba87796f93ee1fa8f3f2b326d70a7f23b96c5df0b745867f344b5		
-8	ok	34206ada90480ab8dbe97994bde226e15da0531af1eb6dc37e2e16c60e466c2f		
-9	ok	4bd8c790c7b5f982681618b8f5d05b77fa3a55ee8f7362628c3cebbabfc2162c		
+8	ok	e9c05f781f4047f5154d1c4fc3a663a95fa367177d507e3d3b22e923827860ea		
+9	ok	97d0e0cf6daac255c45b1081ac58ab5896166164819fcebcb88bfaa9bec60826		
 10	ok	b70042e3568dd8b25e518efb6e5f4ba2957ad9aabaae8b8ba470c589a24c226b		
 11	ok	f236e57d4244dc6679b7e6788ebd9ed00cf983b07ed54fce8289b79f8d79116f		
 12	ok	8294a47039028a02623f5f7b5d1837f4c775dada054dc9e8ee96b6f14e1abd5e		
-13	ok	8a69806dcbd81edad42e415cc6ebdd834f6546341716b42b7a437b6223ba2129		
+13	ok	6d76fadbd729f48a0707e77b5c77c1b766826d1b5a6873e5de6621029e533f88		
 14	ok	033efac58f7c837facb37983e60bd17df84891323b9dec593d2f9530b3a92c41		
 15	concern	95930763f5b2e335e7648a91355ee07740130034a9a006300a88cf6a7aec138e	Urdu "اور نہریں اور راہیں بنا دیں" (and made rivers and paths) - دیں is the past-tense verb ("made/gave", fem. plural agreeing with نہریں اور راہیں), same construction as the owner's Q21 ruling (45:17): writing it "din" makes it read as "day" (دن). Should be "dein" per ADR 0005 R2/Q21.	Aur is ne zameen mein pahaad gaad diye hain taake tumhein le kar hile na, aur nehren aur raahen bana dein taake tum manzil-e-maqsood ko pahuncho.
 16	ok	73d6defaced40612f7126d75dd55557905ad3daaf37b4677410c1fdfafb6ebee		
@@ -24,19 +24,19 @@ ayah	verdict	sha256	concern	suggestion
 23	ok	b3ae97dd47afebbf9b80f3bea03a618592e37f75d991bc3baa1def253aca565f		
 24	ok	ae0864c94421a0f183f5a0b8bdaf49bb65bfc1d1373ec7a3d854edd38427bdf7		
 25	ok	fb45eb6dacde510ba9bcb007b373bf8fbb84f5814acd2382c53f395315674808		
-26	ok	1ad3eaf5cd2ae027159e760782156e67a48e74c6f4157fa8efb5af9e221b52fa		
+26	ok	f2ca1f69aafe9cd63e23f683ffc90d628993c2d34bc5242146a88c200765af49		
 27	ok	36d00aab7f5df50d4be7b121769b1aac81b1aa6709923c4813310331645a78ef		
 28	ok	871b08784ce8534a993aef5483a50337d076796bca67913692bc6d3bfb857a2d		
 29	ok	361f48d627008fe070e51b8f92f470c7b2ad55d70dbb8cde4bda5c9c9867a000		
 30	ok	b5814af9f8df46dc9238eed641b68836727cb62d3adc9a80a814348274b34b60		
-31	ok	927f2dc52c2c806d4f86cc5d22204ba0ffb4ed88589500f6cf691f16debe3f34		
-32	ok	48c4c26642993f40a32d70337eeb6dbc8f72257b2c9bbd47a3903629f6a6275d		
+31	ok	67712b3e90db171d2e971a8fe86f2c324fe4ea0c96efae43fc881e7dde469423		
+32	ok	5aaff3a9a1768a40a58c83ae0ed363b8d584728c63fc847fd747cb32823dd2a5		
 33	ok	be6c9c317337b96c1efcf588b46227ba8f44f424a521e4315663ecdbd6be6055		
 34	ok	cfbe499ead60515945b6a410e2a2394f543ec98303e20a08d0e6c026430deca5		
 35	ok	1dd6a41e639759887f956fa7eace2b84aea8239eb5968288993b00862a557d07		
 36	ok	7ac43bf1b2e7e3b7dadb07db9d96abf1b9f8ad27d8dae79cf3a91619fce0424c		
 37	ok	cfe5bf97330bd965260a7ea2de41d1cd384df476786646888f39cc582afd5fc8		
-38	ok	27849b922c4b34d98e428a676e3126a24aae633e0a1722b2283de50f87dbb56d		
+38	ok	f2c51c3a5a221a8610767d65d1edb33b29746599925d4acbc9cc8fc304815f59		
 39	ok	3850e96b45b195dcd8e5d17785e24dce559988fc9ad0d19629be9f50e099b16a		
 40	ok	aa8dafb1c242b49c77bc6b8f8ddb4af04a74bcb3222066d3adaee53bf24e765e		
 41	ok	1747de4729d57b5861a05da200f01cce124b57ecdd61eed6cb156c2cf5adc281		
@@ -51,7 +51,7 @@ ayah	verdict	sha256	concern	suggestion
 50	ok	4ff5ee7ddebea575f35f9b975308666353d1c197a1d1b7e5e7fb620a199f5382		
 51	ok	84eb550be955182e5a53e50edb1fbd53ee020c8c6c556b9289bb7b5f65ffe3e0		
 52	ok	1b32455cc46c782312fedb46b26cf0e7aa3243efc820ef28cacc53e2cfce6434		
-53	ok	3019d7ccceec4af3adc8f93e250658fb52e8f737a3184350223d1b3b6fc44077		
+53	ok	040e84e45959a5748a830447e8b6aa6377a49cd490ecd28802e9562cbc9860eb		
 54	ok	05c8cf99586e90b8af3da87c1b87cf36b2508a5d937521fe4e52aded0c0d1586		
 55	ok	22201879c30272e889c8afb3fe47311bed28992555f88d1db7114bfe7408c6ad		
 56	ok	e0b29097de18c16853303813903b55a9da246d78e3a71b44fadb7a3251b83aff		
@@ -60,7 +60,7 @@ ayah	verdict	sha256	concern	suggestion
 59	ok	da117ee80f6bced76d003087d3f5624bdb94c58370a615e4a32dc089cd0b7ae4		
 60	ok	81c6d173dddaffded42fc5c022ffa9ac99139095bb1e2198884a3e88960e8166		
 61	concern	9e803d74e0471052c9fbcdbbcfd58dfe6155f7901d6cb7aa85fdab695ae18ed5	ساعت (hour) is romanised "saaat" (three a's, no hyphen). The owner's explicit R5 ruling (canonical.tsv: saa'at -> saa-at) requires the hyphenated "saa-at", because plain "saat" would clash with "seven". Current spelling matches neither the old apostrophe form nor the ruled form.	Agar logon ke gunaah par Allah Taala un ki giraft karta to roo-e-zameen par ek bhi jaandaar baaqi na rehta, lekin woh to unhein ek waqt-e-muqarrar tak dheel deta hai, jab un ka woh waqt aa jaata hai to woh ek saa-at na peechhe reh sakte hain aur na aage badh sakte hain.
-62	ok	1a772d81469c902ff5d0df0158b905fdc64465e5e19a6f3097ae2a07beacd1bb		
+62	ok	b0f4406ec7f5e83b7fa383c250a3f16410ee6ca633b0237a20e6187ac4dcdcfc		
 63	ok	3454e5ba0c31c285ca6827c636425a741a3c0e52651f52f67ffd17038b63d108		
 64	ok	10710df8af9f3ee11fc28cccc693c87a26ef3801cb7d7351ca5cc0b183d654b2		
 65	ok	04b1e33dfea717f9fc5c331d24ae41ed9d7cdc8db2b3b5efc44dc444188f733e		
@@ -72,23 +72,23 @@ ayah	verdict	sha256	concern	suggestion
 71	ok	2cd8a230de353fc870c577d81a651c3fa6d972c6ac74ceb6a420f1414943adfb		
 72	concern	65bf4bd687246d9563eb960e1b934ac135a1b1cc3644b06a60e1145ef3ca0f06	Urdu "اچھی اچھی چیزیں کھانے کو دیں" (gave you good things to eat) - دیں is the past-tense verb "gave" (fem. plural), same class as the owner's Q21 ruling: writing it "din" makes it read as "day". Should be "dein".	Allah Taala ne tumhare liye tum mein se hi tumhari biwiyan paida kin aur tumhari biwiyon se tumhare liye tumhare bete aur pote paida kiye aur tumhein achchi achchi cheezen khaane ko dein. Kya phir bhi log baatil par imaan laayenge? Aur Allah Taala ki nematon ki na-shukri karenge?
 73	ok	f89944521303d9ec39f2125b656399eecb4d1f87dfbb43e05af31e4659243e6e		
-74	ok	950459005c10cf5585628f510fffb824e7d248f3398f2da8da4fb72211ed18a6		
+74	ok	6e2c8209e37ac4ebda3b7daf1f1b1058d6c07a9b644cf6c993c15d52e3bf15d0		
 75	ok	37702d4a4f84392d5ccca7180c74131daa088d27aad0bcd1e494fa0c8af8ee63		
 76	ok	ce1673b955e293b7f58e48179c1c20c627519e4f6d3d6e3f8996ab77002a5761		
 77	ok	d4ffa21bb35bca7fca951ee65aca7282b0168810a25f3d5798d13d36d83c59ac		
-78	ok	dce1575bb96dbf6b0602783477b969e0b41af8b54bd4d0dfedce7bd81b2c0776		
+78	ok	4e7c970f9eb7f39f14163e8fc407aa3cddc7af53c8f15bcefb8598e6708e2734		
 79	ok	0295c1c2a8f7b252dd346ac559e2d9da04cdd18d7118c41b944f70284c5096e2		
-80	ok	b7e08f23a01d403a43a1f26e2e3b442a131ef4f1469470d97b70c69401bd55ba		
-81	ok	2958d2ab914faefb118748e8eade0f3abf891bca15068ffc087f2ead5abb3f54		
+80	ok	99c66e60a16a2e4332e021870c8e9a6c5dd1ed1fb8b2904a5ea4ba2e1b671e43		
+81	ok	aef966b448a4fb464ef485888e4d5b38d5fb62fd7d4125ac21aaa6b24c83981b		
 82	ok	69877ed81c6d262c2fe09a707ee3f8a5ea720301a1e53298f5492ab1bbce6011		
-83	ok	44abebac8b4705afa09ed7cf395a12cc249e5b28e6f6a39926f95e7f5eb45c92		
+83	ok	82d244df55982aeab5b3243eec2fa87de2befc8d75afc23b3012423fe36319be		
 84	ok	fbd62824533f5897ab2214cb5ccbeaf6fb892f1d7cf237d78d3f57b5775338fa		
 85	ok	464cdc5225764aaeaec515fa6f987fe1cce1ef156fff5ad1fd4bc3c37b8f49cd		
 86	ok	75a40897ad7aabd20c70066df3e39a7740942f0ec0e3330c5dc8f16e9bdc5295		
 87	ok	3d463e62ba4b29034c5c921d7909ebb81a5976b520df78b2179bf5dd0a53b9e8		
 88	ok	190bfda7d49859d25f243d40a19e173934a0dfca1ed8b48aaae8f86ce4d5b158		
 89	ok	3b0dce6c2316443c4c6aa3f3e15ce04d661ed5eaaf33a8f7337d16b117549655		
-90	ok	d6e15304c4b1ac9b7b7cd1ea747c4643023228e5c399fffab138abe218b40d1d		
+90	ok	61382e4f4e2581f8daa220da267a9318dac61374b2f327e80fadde6b3f44bd4a		
 91	ok	9f80702c88630bb06c3b27221aa94e4702af551bfca0df11b7a4e4bf1f9d7db1		
 92	ok	45f516e594580db65ef1867824806487fc06c08f4f4377402112b4a846163052		
 93	ok	2bad845f3815e15c8ac51be8d48721affba9b601a073832412061b8101cb6c4c		

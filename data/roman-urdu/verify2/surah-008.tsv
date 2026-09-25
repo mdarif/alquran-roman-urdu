@@ -1,0 +1,76 @@
+ayah	verdict	sha256	concern	suggestion
+1	ok	a8dbe961608c541e6886b34f0f8d7c3d6d6d0647fb7f7ccd77adac2007c2c26e		
+2	ok	53075dd05c4e66b98ee287b5c177f5b282644b758385b638f6b18ce100f15681		
+3	concern	1ed300a726cf12ac2908c3808041728524d5eaf8d9414d535c79985038f15ff9	پابندی is rendered pabandi with a short first vowel; not pending in this form and violates R1.	paabandi
+4	ok	4fe00666cb0ba87836918fdcd92f2576ae3676dfc23e1b3a5816264ea101c7d9		
+5	ok	75d6b27debcce4693b5c2283770f2d79cd634e89af61d4fa4898db84c37a4d67		
+6	ok	38a76e3814a131f0097db25938cc065f4e306a7085a5027f9fd7074d8b3e48e1		
+7	ok	87e779187eed0378d3e19659d3074588b0a7cff3eb26831d43c7bbeccbf152f4		
+8	ok	bfb7b67696ae81a60dd859569c1a732c7953c613d3a0065ecdd080d9e73b9af8		
+9	ok	19ef08bd1aed6202f3fdc3076037a92532c2605d85a066e026d59cdc01a0cdac		
+10	ok	b8d0ad0302ea1e5a41586a1a1e2003b7ab5058fd87b570b0f7b73c6b02724b45		
+11	ok	41ebe01e54d4fa0edd8a9e5fb2e75b2c93132a00647b0e190af2a16813f8fbe0		
+12	ok	170f07990f3ad14751437f906f2cbfea8b5a6800f35f8fca0139d11f4a879b8a		
+13	ok	5328a65eee9d133f3ec628dec2aecdbc7457862f07d054605dc9cd132ce3869b		
+14	ok	8d33ea5acf86904e9623e8b5143f7f080728e4b3c1b141961b254490309755af		
+15	ok	ade905d867fa5054dc04344598e4b9c01cae409bd51498cd88a73ad353f1ce71		
+16	ok	21e38814a0d3233b876bd1c6125ce7b0676e83e546fca930710c478f7f29744d		
+17	ok	f836d9dc557a24b0bbeac2b32796d5841a31f49aaa814a95eeec4c87dcbf5924		
+18	ok	10b17f267b339ee83c165fb47560e62f53da19e7f4df287795f49bc039c26ee4		
+19	ok	278110dd4c889893a2095242dc835a8bf483bb9a67a39ab431f7bbd9d604974a		
+20	ok	c7120ec576956719d85f985f274a6f62d6b917ad24ca5191d651f28a4a51217b		
+21	ok	4cdd845a0b2d15dcaa434c84c131766b1882ecd6d4b6dbbd9a650374e5e85c8a		
+22	ok	c4af9147860660889c43d1d4e5ead487b11d946e2ba2a132ff92eb6ea6d6983a		
+23	ok	d9f32a7afdc9388359d76b99c070fd9bae1414363b7042da238b667f89c8e314		
+24	ok	de5e0ecbe6fa10aa499fdb9509ee0cb5c2cb112aa198ee38f0114c76cb8888c1		
+25	ok	c61781d3aeb5f797118bde5b6bd8549030b5c6e19024fcacffcfb8ceae675eaa		
+26	concern	c3e4ff83353b3e51fc43a3a6e9c0364bb2a00fb66b718dfe4a91d149802607e7	Multiple long-vowel words are shortened outside the pending list: halat, kamzor, shumar, ata farmain, shukar.	haalat; kamzor; shumaar; ata farmaain; shukr
+27	concern	7f1f79aee609530a63eed4afd71744024de9b3d1fd9f7a9fd6a7c95cd3451cf8	Verse starts Ae for اے; house style elsewhere uses Aye.	Aye imaan walo
+28	concern	aa6e609d18d7d8c4c9ad0c08835859144be4175c2aba3916f4bef3cbb3902db3	Several long-vowel spellings are shortened outside the pending list: amwal, imtihan, bhari.	amwaal; imtihaan; bhaari
+29	concern	bb8a21bdd0487fe3bdadeafb3b30954ad40af0731c8ea1fce6194d1371cb55aa	Verse starts Ae for اے; house style elsewhere uses Aye.	Aye imaan walo
+30	ok	21be0c787fd792e01e0df9a9289f922419fce13a7b839cd4cb0ed18fb18ad869		
+31	concern	5aebf37db7ecf70373e498127209ab98533d3f09c5d1cae324832d902ee9333c	Several long-vowel spellings are shortened outside the pending list: samne, jati, chahen, baten.	saamne; jaati; chaahen; baaten
+32	concern	de8b3fe51351bf6f010116676b7e2f95371ca4626e6abc40804cf0fe6833fff6	Verse starts ae for اے and has dardnak/waqe with shortened long vowels.	aye Allah; dardnaak; waaqe
+33	concern	d33b809ef838adda55e39500edec9e4c26f053fea3f0590f5e42d3fd44d86e7d	halat is shortened; not pending in this form.	haalat
+34	ok	3aa7b6f0454db9bfa524ec773a2480c61d434540b78c8c4b57883836b1649f2b		
+35	concern	cda91d9cbb8045c3af4c29497ab25a3b5196f41a54bce507e5642e2a44fafef0	namaz, taliyan, and chakho are shortened/inconsistent with house long-vowel style; taliyan is not pending.	namaaz; taaliyan; chakkho
+36	concern	78367665769540aa52e1a4bfe5db5e49a75151671436585fdf8922e26a6ceaea	malon is shortened though مالوں needs the long vowel; not pending in this plural form.	maalon
+37	concern	adaa6f74a12f09f9fb293ec57e885905ba98190ca6c2b30cd9baa62b94a9b911	jahannum should be jahannam; khasare should be khasaare.	jahannam; khasaare
+38	concern	b8bef0645c10bb1800d9e600b6e91247a1b3e6ceef8a45e1e7d934be61d4dbc4	baz/sare/sabiqeen/nafiz are shortened outside pending forms in this verse.	baaz; saare; saabiqeen; naafiz
+39	concern	4a61ce250fe534ecc8ccf9a82c263dacc0e34354fc74c9a90b3f4278ef54e496	fasad-e-aqeeda and aamal are shortened outside pending forms.	fasaad-e-aqeeda; aamaal
+40	concern	7f6befc7dabe0e1def355a57a0665593fdc47dc8fecffb08c62d24bcd31a2e63	madadgar is shortened; not pending in this form.	madadgaar
+41	concern	96ae29d1fcbf3f639a8da078afea5e6d79ba94631bec396cd09287aeb38aecc7	Several long-vowel words are shortened outside pending forms.	paanchwan; qaraabat-daaron; musaafiron; utaara; baatil; judaai; qaadir
+42	concern	4da82d900b72e5baf2aaf2aba1f237cffc75bc87c927c573131e48b7927494bb	Several long-vowel words are shortened outside pending forms.	kinaare; qaafila; jaate; daalna; halaak; pehchaan
+43	concern	def9bebbbacf7e34664b7740b354536da0f4cd0b4819aea0e767542c176c51a3	Several long-vowel words are shortened outside pending forms.	khwaab; tadaad; dikhaai; dikhaata; baare
+44	concern	1da4ff1b4f3f2b8462c6e6193f8a319fe3597139afec05a72c92d443c16af81f	Several long-vowel words are shortened outside pending forms.	mulaaqaat; nigaahon; dikhaaye; anjaam; jaate
+45	concern	b67b51c973b1a8e63623b5a9081f76a22ec3966ad9d9eb82a47ef2d5d6e3a09f	Verse starts Ae for اے and has shortened forms outside pending list.	Aye imaan walo; saabit-qadam; kaamyaabi
+46	concern	4b9849409be436720f917674175256d0c1e6b606b45646332ea2da6c3c37b0c0	Several long-vowel words are shortened outside pending forms.	farmaan-bardaari; jaaoge; ukhad jaayegi; sahaara
+47	concern	d2412351379b57de4d15aaeb284d0f96841ce7888f5bda0ec2f84ff22cc0ab7c	khud-numai is missing the long vowel; not pending in this form.	khud-numaai
+48	concern	89a4236fb7fb058376c4c0b0e87688c17f92aad7b7ed918f39d10e84166fc656	Aamal is shortened, and the plural jamaaten should keep nasal ending.	aamaal; jamaatein
+49	ok	0a9b9532e4681b9bbe985b19ac237bc56e47d2086eaa2d1c315a2f0a0411c287		
+50	ok	03947bc70f95caca0ad38c936ac92eaaf932565b724d74e1c4f0db3b358ccbfc		
+51	ok	7e9013a5a86d32f058d749962ad4137cbfc30c36637758bcffa3f5cf8ec668d7		
+52	concern	7f580b68704ec2ae4b0b4d43a2322c61a77a0ee8c76465e8c3b12d444288fa5c	Firauniyon should retain the long vowel used elsewhere for Firaun/Firauniyon.	Firauniyon
+53	concern	9e02c7e64193fff1c56e67483e49d3b05e64ee0ab9519afc6d960ad4fafb3c6a	halat is shortened; not pending in this form.	haalat
+54	concern	0eeb57124d644dae0390d4cfac57d0fa459c9825c4d26f692de939be9de6e348	Multiple long-vowel words are shortened outside pending forms.	haalat; baaten; baais; saare
+55	concern	3cd7c9781b1e4c46228a67fce906c460c5339d833ee9ebbc07850e9cc8b6bc3e	jandaron and layen are shortened outside pending forms.	jaandaaron; laayen
+56	ok	79d2116c0101aac0098a6d97af276248f4cd232af12a93117af4a74d8d813070		
+57	concern	13088f15560fde075a1efe79f4b7a814ce91acb4635e2ca916faab15be1b39b0	ladai is shortened; inhein is used for انہیں where the owner notes emphatic inhi-type readings are deliberate only case by case, but here انہیں should be unhein.	ladaai; unhein
+58	concern	80e4d0079d56847a5625f86e2cd168d3e101270f42737c2417246b8a8e755121	khayanat and halat are shortened outside pending forms.	khayaanat; haalat
+59	concern	bf4c81d70310d5177c202073cfa92c2073f47bbaa68d91ce05296638039f57fc	Kafir and aajiz are shortened outside pending forms.	Kaafir; aajiz
+60	concern	ce8b38f07c3c5c97428facfb6227ef88e3f9a8dfb37f601651894144c042977c	Multiple long-vowel words are shortened outside pending forms.	muqaable; taaqat; tayyaari; ghodon; jaan; raah; jaayega
+61	concern	e154f6168126425ada9191a0ef601eac41d31c25211bccc453013bd6700e8fac	The second تو is rendered to, colliding with the conjunction; it should be tu.	to tu bhi sulah ki taraf jhuk ja
+62	concern	f447b500a903a903a372f5a90c5067eca5dc73343dc72a4902c0aea9e78bc431	Several long-vowel words are shortened outside pending forms.	dagha-baazi; chaahenge; kaafi; mominon; taa'eed
+63	concern	efe28c2482943cc49f928db9ad7feda2301df4b3dbba92e85cc2680751254966	Several long-vowel words are shortened outside pending forms.	baahami; daali; saara ka saara; daalta
+64	concern	8421b451418e80937c8e9ebca6472d1e837549c2f349d3da8cffef5d567d33d5	Verse starts Ae for اے and has kafi shortened.	Aye Nabi; kaafi
+65	concern	3dab70c15287b0080138a2e4a7cf6ea71b5f41775bfca86877757827704b4e5d	Verse starts Ae for اے and has several shortened long-vowel words.	Aye Nabi; dilaao; hazaar; kaafiron; waaste
+66	concern	93cf23c5d19518094a21af4f91d47ccb332947d71007971006198b3a3ccc9f47	Several long-vowel words are shortened outside pending forms.	jaanta; naatawani; hazaar; hazaar
+67	concern	e9fe8897a2524ae276d1cc9459ff5115903d8db2123703add5dc503b3ecb7bee	duniya should match Urdu دنیاوی/دنیا style as dunya in this corpus; ba-hikmat should be ba-hikmat only if باحکمت, but long vowels in chaahiye are ok.	dunya
+68	concern	57326f7f44c07ff9d0b1ebfa4203dd60fa0e020e1b3277f9b399d03b4722e2ea	bare is shortened; not pending in this form.	baare
+69	concern	61f9205ded0a1651fae0f0138c451280a357fde9932a4a1a8497f41b33fc5c6e	halal is shortened; Allah's names are translated as names, but غفور ورحیم should be transliterated with wa, not ur.	halaal; Allah Ghafoor wa Raheem hai
+70	concern	b262998ebc99085bac437487e7dbab92dc46ba436a29b5ca3926e034ff65822f	Verse starts Ae for اے and has farmayega/meharbaan shortened outside pending forms.	Aye Nabi; farmaayega; meharbaan
+71	concern	5ca72cac78218f94656aecb2dc69629f17c8df35508798a7b5e42dd05d17938c	khayanat and giraftar are shortened outside pending forms.	khayaanat; giraftaar
+72	concern	ed67cd8757a60a0dfc134ac31899f25aa8c41ef45db82b83348cc7338c7f25fd	janon/bare are shortened outside pending forms.	jaanon; baare
+73	concern	11965e7574c7311821c9a974f4ed68ef70f6d8e63186c74ebebddc0d42e6e101	Kafir and fasad are shortened outside pending forms.	Kaafir; fasaad
+74	ok	cc0bfd636adc87db1e10c4e40ffc22887e184a925cfb44eb6b4152362c09ebf9		
+75	concern	52297abfa150f065102128e53e6c5cf9b42cf3dcf850db3b171bdeaf74a0df99	nate is shortened; not pending in this form.	naate

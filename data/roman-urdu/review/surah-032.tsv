@@ -1,31 +1,31 @@
 ayah	status	sha256	reviewer	date	note
-1	pending				
-2	pending				
-3	pending				
-4	pending				
-5	pending				
-6	pending				
-7	pending				
-8	pending				
-9	pending				
-10	pending				
-11	pending				
-12	pending				
-13	pending				
-14	pending				
-15	pending				
-16	pending				
-17	pending				
-18	pending				
-19	pending				
-20	pending				
-21	pending				
-22	pending				
-23	pending				
-24	pending				
-25	pending				
-26	pending				
-27	pending				
-28	pending				
-29	pending				
+1	verified	04ffe972b1cc03acb55898a669d56522a68a47caecde5a7e20a3765840548cab	AI (double) + owner sample	2026-09-25	ADR 0006
+2	verified	b26cff7738d6338c0c3d94758901e9834c093276e664b0cc93d21b5822de5b7b	AI (double) + owner sample	2026-09-25	ADR 0006
+3	verified	5bc38e1ea85d22a685e2d9329a1000c33b5ce5644b9de7be028311b0d069671e	AI (double) + owner sample	2026-09-25	ADR 0006
+4	verified	164fba3105b58af8ab85bb2291ee7f5f5f45c2dd9ccbf0c0ca4168d6502ec361	AI (double) + owner sample	2026-09-25	ADR 0006
+5	verified	e22dc997ff0b8f77817b3bfe7f702902fa15a3a8d1c55807dd9804922c5cacdb	AI (double) + owner sample	2026-09-25	ADR 0006
+6	verified	f5879e4e46ef9786271e5c131616755b71761eff899ab010c39eb149e21e93bd	AI (double) + owner sample	2026-09-25	ADR 0006
+7	verified	5682440bff168e93db0849feeaece251ff492c9612fdf7410ca745b5844f3dbb	AI (double) + owner sample	2026-09-25	ADR 0006
+8	verified	c46b533aa3ebc68c777467afadf60dfb9f7594de0cb87956004e0a047512c512	AI (double) + owner sample	2026-09-25	ADR 0006
+9	verified	2e8a364f40eea632e79f1a5f5257b623d58137a3b3b9226693978f323273a9e6	AI (double) + owner sample	2026-09-25	ADR 0006
+10	verified	364f611f93c67f0364687249a17f986a161e8c5915752f577aa5c68e083f6664	AI (double) + owner sample	2026-09-25	ADR 0006
+11	verified	f305a281d7d21f088c84e1ba26ddce7e05eda8817304368eedb73311520b17d3	AI (double) + owner sample	2026-09-25	ADR 0006
+12	verified	d38c176229afc907dbf824bf94cfeba479466fa0da2483e29858502e74579ae8	AI (double) + owner sample	2026-09-25	ADR 0006
+13	verified	b48cc79b53a0655986e25826c684fba302560ed432f97420d3c5b195fab04f35	AI (double) + owner sample	2026-09-25	ADR 0006
+14	verified	dc7b508c3745c81abee3bc9f08e12612ebc19cbd566ee42706f35bab77e0e45c	AI (double) + owner sample	2026-09-25	ADR 0006
+15	verified	44120d15db39d5845748f9cd1f7f4668933e9115204ace6e82e5fb36c9409fd1	AI (double) + owner sample	2026-09-25	ADR 0006
+16	verified	af1ec53a6f1c561aeb72e73d0b17011fbb3f558b06797d4ec63c0c66f04211c8	AI (double) + owner sample	2026-09-25	ADR 0006
+17	verified	5f5e8f237e153baa69e4d9c15c921e519137649f35f6c66badbb8593e2bc9ced	AI (double) + owner sample	2026-09-25	ADR 0006
+18	verified	7f3d736ea2c8be10a4c5669df346405542de25c5ff0b5e3f35710ddd330e7ea1	AI (double) + owner sample	2026-09-25	ADR 0006
+19	verified	582f2ca9dfe4c5968bccc4847f6eb061d481b50181d0af24e8f377448d92afc8	AI (double) + owner sample	2026-09-25	ADR 0006
+20	verified	f70cf68af5d9faee3a5f3277ae8667f7227677981f57ee589b09d25c7dbb24f8	AI (double) + owner sample	2026-09-25	ADR 0006
+21	verified	0313ff8357db0ddb2752e0036e798b508c0653b06878f8655e19636da60c4f9c	AI (double) + owner sample	2026-09-25	ADR 0006
+22	verified	34a017c0aa890fcc885c7920be8dd131dd0c18acc6d0ee9086f57f3bfe5fdb78	AI (double) + owner sample	2026-09-25	ADR 0006
+23	verified	119d06d8d5179138c47c6776ce5420455c9a8ad92e6a1529e58537a4e1b0007b	AI (double) + owner sample	2026-09-25	ADR 0006
+24	verified	587c867cbd02447547a40fe87b0be3261c675c54a0a61c50d3f071aa28d36982	AI (double) + owner sample	2026-09-25	ADR 0006
+25	verified	a1be7f84464f27e8dea535839d7f7dd6ba1bae7537cf3fcf881d06dc5ad8bb56	AI (double) + owner sample	2026-09-25	ADR 0006
+26	verified	e7ea7b3958dfa442d8d97b512e1182bef6187fcd46134e3f94e20bfbec720aec	AI (double) + owner sample	2026-09-25	ADR 0006
+27	verified	f5a3475cb727f467181b569547572a84a6438ce875b88d84f655ed76fe145124	AI (double) + owner sample	2026-09-25	ADR 0006
+28	verified	ee4e65a6b672e39a51d7ec20833c6974de9d6ec85722858a9ebc4bb2e5864723	AI (double) + owner sample	2026-09-25	ADR 0006
+29	verified	870185b721d64e9e15cb0d49fc7b71f15834902522c8343531ae698ed02740df	AI (double) + owner sample	2026-09-25	ADR 0006
 30	pending				

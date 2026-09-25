@@ -1,18 +1,18 @@
 ayah	status	sha256	reviewer	date	note
-1	pending				
-2	pending				
-3	pending				
-4	pending				
-5	pending				
-6	pending				
-7	pending				
-8	pending				
-9	pending				
-10	pending				
-11	pending				
-12	pending				
-13	pending				
-14	pending				
-15	pending				
-16	pending				
-17	pending				
+1	verified	c5454e6a10aeb01797722322f8689b6990e60fbbaff2ff5334d3f9d1e6896b9c	AI (double) + owner sample	2026-09-25	ADR 0006
+2	verified	8f43e7f140cfdbcf07347722fabd2c4d2b4a3426def8930116e041c1813db881	AI (double) + owner sample	2026-09-25	ADR 0006
+3	verified	6abe5264d18439fc503e81900b8d542cf89e0de0201f74f3154987e0db9b0861	AI (double) + owner sample	2026-09-25	ADR 0006
+4	verified	b134a25b378f7483d0b0a009ba3b4ce918a7dfc411417a92480a5679f7a8a8b4	AI (double) + owner sample	2026-09-25	ADR 0006
+5	verified	6a80b4dd5309668035e56fd3ee9873dc595135b7ae669af95767d9b6b8cb5886	AI (double) + owner sample	2026-09-25	ADR 0006
+6	verified	2f893e9059abd470f520c8cafa1c04932a1f869f3ff747ed5600becc021b5004	AI (double) + owner sample	2026-09-25	ADR 0006
+7	verified	ece5900def39a36c6d416c7fc7b0012d16dc0ce6fc81c2531f0b31370bb6bdf0	AI (double) + owner sample	2026-09-25	ADR 0006
+8	verified	8688bc4dc2ac82fed4ca16c4c45f7aa717238cd6dcc06d653fce0177f54d1d8e	AI (double) + owner sample	2026-09-25	ADR 0006
+9	verified	f3bce0b24ed050fa5a76a3f75999c1d8bdddd4ec0606b4a4538ea3ad439c0e7e	AI (double) + owner sample	2026-09-25	ADR 0006
+10	verified	5fe0af3b715a5a74cb8528c24dbd9f2dfc36d7cba173fea4f8799b5b3a5b904b	AI (double) + owner sample	2026-09-25	ADR 0006
+11	verified	f8cc66fd1fa47f1a73ca684beb4868f26d41b75532da62609494daa1c1404062	AI (double) + owner sample	2026-09-25	ADR 0006
+12	verified	bb59c0396f40692c865fc2fb2e1cf1fa461d4f8b627107e4ee8c41ab913abbc6	AI (double) + owner sample	2026-09-25	ADR 0006
+13	verified	a48c6197205add9f8601e8663a3244fb34d77dbbd2bbb5530ec7db7274166c8f	AI (double) + owner sample	2026-09-25	ADR 0006
+14	verified	9891bc6b06210f3d51425809d190da16c77fd9c5b4c57733e5acf10cae0abad0	AI (double) + owner sample	2026-09-25	ADR 0006
+15	verified	218002101c1f8598f56699552a2d8852570e52513293b7f4c7d9ba81ae88e2fb	AI (double) + owner sample	2026-09-25	ADR 0006
+16	verified	0eca64e94922b64f0e21c955414d5a425a2e3034607dde6db0215568fd1abc68	AI (double) + owner sample	2026-09-25	ADR 0006
+17	verified	cb74b8dd7d6fdfd853f835a37693948140b166b2cf5f5301c7df2aeb605b5bf8	AI (double) + owner sample	2026-09-25	ADR 0006

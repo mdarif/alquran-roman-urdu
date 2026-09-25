@@ -1,5 +1,5 @@
 ayah	verdict	sha256	concern	suggestion
-1	ok	923c49823f704e153ff1b4a7ba566e89a926b7af834ae258edff192449b8a415		
+1	ok	b543295ad0c4fc866b669b98b74eee00d4cdf09c8ee83354622684490f01a42d		
 2	ok	1c74f5f2da43131e2e34fc2721faf4e8e0f521dd2a966a561d33201381d74a42		
 3	ok	30862d0eb986de1dd635e060aa3652530240815857628d30261569c030db78f4		
 4	ok	e04f7428d98af7d0fbc8f034903ad34e7fa80349fa4926e53418f4f6d6e127f2		
@@ -9,15 +9,15 @@ ayah	verdict	sha256	concern	suggestion
 8	ok	f09cfb376e49cac7087137db27280af99471f957f3b32f67dc9ca665c7e28068		
 9	concern	e8f129d2a03f2fec8bd6795941fbe5662901bd361d82be65ab0ece747025c960	Subjunctive دیں (den) is doubled to "dein" (twice: dhansa dein, gira dein) though R2 requires it stay single-vowel; the parallel verb "chaahen" (چاہیں) in the same clause is correctly single-vowel, and the same construction is rendered "den" correctly elsewhere in this batch (41:16, 41:29, 42:7, 42:15).	Agar hum chaahen to unhein zameen mein dhansa den ya un par aasman ke tukde gira den
 10	ok	1a2546282e54fdb9297789cf17ff7960520f63aea5ae77e37ae44d74cf1543e7		
-11	ok	e47cc3a47faeeaae3c412a5a13f679aad22466359f97390dbf6c45551ddd7bcc		
+11	ok	c9d7584425e78610c84592cf92438a423f7548fd58134f4588e561eadeade0f7		
 12	ok	27a8cdae706bcc227b9e7e9068eb32af5f235ed7f6347de140acb3d7952f9a83		
-13	ok	eb34f6e4b03580cf80ec65db9f6a0de40854616ffed2146e4c42c217e764d5b4		
+13	ok	bed9a0380e5f8254be8c1ec0d11ad60a903ec2a8d17270be1fa90660e6e68952		
 14	ok	072eff1831407e1093fb55f6e9b965aea43766e73fbb9cbb29eee1990e0aa8d2		
 15	ok	842e945a81701d97ddfd7b1b48585c58052dd9c32051cb0f5713b1741bdedb4c		
 16	ok	649bc814ad87e5ad212a7471877a93ab4ac6352261db435c0bb768942270d74e		
 17	ok	266f07906052b91db931747bc785e4a08ee8219cb8bdc5c3e7bffe1d5b234c4b		
-18	ok	1870fb8a1ea38e3587f5d4d3599ca4be20209811aecd7af39dbdf055d0217873		
-19	ok	7b65ff21711482f496527d9e7ff7a5898ae58bab9e30117c37e81672105dc9a2		
+18	ok	781158a20727bad02bb804d955dfafb830d651c951b9b8a72bb4cbe0914c1aeb		
+19	ok	daca0e83a109ab325e7daf28e27e7abe0477809a86d9bc108f0fee2a27c74909		
 20	ok	1ba3a43fcff71bf3f826a146da2d9c59eb6fdb0a4a0bb12cbdcbef86ca2fc76d		
 21	concern	f07fee5f43cd7773ca747aafd10f617b11d17553572454a27263bb62225e6410	کردیں (subjunctive den) rendered "kar dein" (double vowel); R2 requires single-vowel "den".	hum un logon ko jo aakhirat par imaan rakhte hain zaahir kar den
 22	concern	1291df56a26dfe4dd6a5fd989cc387bf663331fcecfac4c10931448f1b3bcd8d	ان appears three times in this sentence for the same referent (the false partners); first and third are correctly "un", but the middle one switches to "in" (near) for no apparent reason: "na un ka in mein koi hissa hai".	na un ka un mein koi hissa hai
@@ -41,8 +41,8 @@ ayah	verdict	sha256	concern	suggestion
 40	ok	0902819d15d2fb563327b80f6c44e751fc92711fdddfe4adc4b5671df8cc1187		
 41	ok	09769a32a199912af42c1db462a91be94f931a20fb5a5055e132628f1d51b1af		
 42	ok	1b47e6bd32bf8c49a226a98971b2fbe38651b556cd9b96b5a90c4cbe499637b8		
-43	ok	f72f3372b9f9c26bb374a98dbd0574eca7932edf8552687b2aeed6243bdf8cda		
-44	ok	838c53d2ad5a1cf7ebe2a148f994452d160e2e7feb5a5b8559dca344ff7af5fe		
+43	ok	d5a3dc0766cbb20aff4ac041efccf3bda3c550bd2662b0d5d88b438f5e9f1991		
+44	ok	50a73e2e0866d06a3ad3864e2640642428b041e8d5aa4c87ea39bd5a5acb5afe		
 45	ok	4faebe1f810ebacdf6ec724ca8994c68947389c9cd795872e0c77e9d88ac4ec1		
 46	ok	93193210e16a9458d339f1059d5f4be346bbbe5e4c0c87db09da08e3338b6006		
 47	ok	96c08cc81b28a12de171374fc67d54fd760552d84d952b22918055a96fc7e08a		

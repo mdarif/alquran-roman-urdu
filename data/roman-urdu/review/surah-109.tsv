@@ -1,7 +1,7 @@
 ayah	status	sha256	reviewer	date	note
-1	pending				
-2	pending				
-3	pending				
-4	pending				
-5	pending				
-6	pending				
+1	verified	7568eae070495266b3b93fba96d7fdc8dee2b842b1015866f77ea73245603217	AI (double) + owner sample	2026-09-25	ADR 0006
+2	verified	7f28978f5972e5bd6851a340b70233f84039369867b0a78622207206cc64fae6	AI (double) + owner sample	2026-09-25	ADR 0006
+3	verified	4c6091fb1c6c9a57dc04b35a765161f2cad84889744825f4e50ca4e285e95a5c	AI (double) + owner sample	2026-09-25	ADR 0006
+4	verified	82102542031fde7df8c4cf3717fa9f8b80675320914be35aab94eaacc0f48d24	AI (double) + owner sample	2026-09-25	ADR 0006
+5	verified	64572a46082c8e803f4e97df8853d4278a20ceef9e8079fc5532eb775ab8bc67	AI (double) + owner sample	2026-09-25	ADR 0006
+6	verified	fbb1272e5baecef073a605a947e1c3073464859e3b3ecf4f96f9bbd554f32fe8	AI (double) + owner sample	2026-09-25	ADR 0006

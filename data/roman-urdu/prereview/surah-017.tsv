@@ -9,13 +9,13 @@ ayah	verdict	sha256	concern	suggestion
 8	ok	fe0780b8b7e54dccba9dbf96da70f533dc4166d0da0ec641a742f9c10f186835		
 9	ok	0be0007ea0e9ec09d9ad3feb5a69d55de1d5627f3fa3c034fd9cd7d326351419		
 10	ok	0f461b47ad9598433d73a130a7d839c40586d06a5842f75c6d7ae82d60315f94		
-11	ok	5cfa0cf199cb835637ecb9837e89b7c03c48f05401a4e6f002c456e9519ff927		
+11	ok	231493962ab3211390f92e888bc428cf60362d7acffa95eb574d09bc5d9a302d		
 12	ok	23e2dfcb92d34bea2a79b55cdd37419a7f4a8a7556c94b9b903b709c172378d6		
 13	ok	4fee210c336805951f6c1c4eedeac024fb93b4b47f8a403b5068a56870b84a38		
 14	ok	809df8f7e1624e74decaa16c3fa543190a56b76b0caac7bd465d85cde4257a4d		
 15	ok	c1f5e2a682cd8de658810e1a1d8d7de73ba55d9a229e7e9218752c6a6617ea37		
 16	ok	a266f4d86816ce6df108b5c0ea5040b8a2d317c96b46e12f712ed4e2f8ed1736		
-17	ok	d3dcbac95b66dd52d8ae9e3eca970e2c42e25a0b8359715899f969d46ab5a069		
+17	ok	91dc143e7b3c0fd09a4096e32163dbd739868adda2df3d4571266f785f118bd0		
 18	ok	197cf3b7424f5677d93286ebd3c7d933939cbd0049c79c2cf33c8e5e76c91049		
 19	ok	474e0ff9bc9977c143f335ca4c54426e530c21ab48fdf881ab90e9ad0ee79f6d		
 20	ok	6ef0d67e12b59cde8a9d9d3b9d0e5f976c7545d1f04213919a4a616bd723794d		
@@ -87,9 +87,9 @@ ayah	verdict	sha256	concern	suggestion
 86	concern	57ff3e8b8a6da167132dd6fa824b2899dc9750da2248448b09cf3fd7672dbe17	کرلیں (subjunctive of kar lena) is written "karlein"; ADR 0005 R2 requires the single-vowel nasal form "karlen" (the corpus's dominant spelling, 8:1 over "karlein").	Aur agar hum chaahen to jo wahi aap ki taraf hum ne utaari hai sab salab karlen, phir aap ko is ke liye hamare muqaable mein koi himaayati mayassar na aaske.
 87	ok	af3b4d2d448402866bc0bb2e00425ee3e3c31ec038c10c6f49ab9cc4af5107c8		
 88	concern	8694d6da37c561c8230d41237b70a00a4240b9c8686c85fa6d4d2de310d79b51	چاہیں (subjunctive of chahna) is written "chaahein"; ADR 0005 R2 requires the single-vowel nasal form "chaahen", used correctly for the same verb elsewhere in this surah (17:18, 17:86 both have "chaahen").	Keh dijiye ke agar tamaam insaan aur kull jinnat mil kar is Quran ke misl laana chaahen to un sab se is ke misl laana na-mumkin hai go woh (aapas mein) ek doosre ke madadgaar bhi ban jaayen.
-89	ok	783d6b4c196b2adc8ac0b1e9939216bcbb140cf2179edb34fc9ab93526ae9a16		
+89	ok	c77e0e388d8ebd43996a8684a793e62f517580c8c079f57c74b795541517129f		
 90	ok	62acc4827908c96a44e0b6299a4a4cfbc2b0667a08f3cf1ef87f6738c6cd8864		
-91	ok	180b2d26a741c4e4e11a649a8c5d2519b94251e58a641b8cbe897797da4e85e6		
+91	ok	02430537b847bf363d5b0069ee9155f9693234cde079fcdcff7f4d067ad3bbe6		
 92	ok	ea9b17a001029f9a00eae31006841605b52db4393707e910eb6ef1b15b1408c8		
 93	ok	9d7fd3ca7254e32631fb9b17adee4bdf04978639812bf1048d0a01495618704e		
 94	ok	2d51db45d9a9988dd98b82289d9490cf799eb6a238d69e100deee0b481192dbf		
@@ -109,4 +109,4 @@ ayah	verdict	sha256	concern	suggestion
 108	ok	99928ddab5fc85e30b26bc7ef5445b128776cac6cd9e1fc3e3570ae2922da681		
 109	ok	92f684c130b6e49fec386823257ab5f1898ff2bfc6132649fc28746fbc4bc571		
 110	ok	79bb6a14aa5bf0325ba5d7e7e6bd166eead47ea9d2304049a7c3ce853abefa0a		
-111	ok	56708d3c3bef20d0f44a420a2bd3f473f33826d71c602c232a6697c88be2b1a2		
+111	ok	6b750d6bbc67a25dd1828a69ec1befb5c01d4afe472c80b370c495812a05e571		
