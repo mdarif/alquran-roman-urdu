@@ -272,3 +272,66 @@ same way `apply_canonical.py`'s `_TOKEN_RE` does would remove both failure
 modes; not done in Phase 3 because Phase 3's rule is "never hand-edit
 `lint_roman_urdu.py` checks beyond what the plan's step 3 asks for" and this
 wasn't in scope.
+
+---
+
+## §14 — Phase 5 review tooling: two independent hash checks, and the patch has no surah column
+
+Built 2026-09-25/26 per `docs/PHASE-5-REVIEW-DESIGN.md`. Two things a future
+agent extending this should know before touching it:
+
+**The hash-staleness check exists in two places, not one.** Lint 2f
+(`lint_roman_urdu.check_hash`) and `status.derive_file_status`'s
+"hash-clean" test both recompute `sha256(current text)` and compare it
+against a ledger row's stored `sha256`, independently. They currently agree
+(same `review_ledger.sha256_hex`, same "exact unnormalised UTF-8 bytes, no
+trim/case-fold" rule), but nothing enforces that they keep agreeing if either
+is changed later. Same shape as gotchas §6 (Python↔Dart normaliser
+divergence) — if you touch one, touch the other and re-run
+`tests/test_lint_hash.py` **and** `tests/test_status.py` together, not just
+the one whose file you edited.
+
+**The review-sheet patch format has no surah column.** Design §4 specifies
+exactly five columns — `ayah, decision, corrected_text, note, seen_sha256`
+— with no way to tell which surah a downloaded patch belongs to.
+`review_sheet.py`'s "Download patch" button names the file
+`surah-{NNN}-patch.tsv`; `apply_review.py` infers the surah from that
+filename (`surah-(\d+)` in the stem) and only falls back to a required
+`--surah N` if the name doesn't match. **Renaming a downloaded patch file
+before applying it will silently apply it to the wrong surah** unless
+`--surah` is passed explicitly — there is no cross-check against the
+patch's own content, because the patch's own content doesn't carry the
+surah. If this bites in practice, the fix is to add a `surah` column to the
+patch format (a schema change, so present it to the owner first, per
+AGENTS.md §9), not to make the inference cleverer.
+
+**`status.py --write-status` only writes a file when the derived status
+actually differs from the current one.** This is deliberate, not an
+oversight: it's what keeps `git diff --stat data/roman-urdu/surah-*.json`
+empty when run against the real corpus while everything is still `pending`
+(verified 2026-09-25/26), even though `apply_canonical.py`'s own
+byte-identical-JSON-formatting guarantee would probably have made an
+unconditional rewrite safe too. Don't "simplify" this to an unconditional
+write without re-running that real-corpus diff check.
+
+---
+
+## §15 — A "short" TSV row reads as `None`, not `""`, via `csv.DictReader`
+
+Found 2026-09-25 building the AI pre-check loader
+(`review_sheet.load_prereview_rows`) against the other agent's real output
+at `data/roman-urdu/prereview/surah-001.tsv`. Its `ok` rows write only three
+fields (`ayah`, `verdict`, `sha256`) and omit the trailing empty
+`concern`/`suggestion` tabs entirely, rather than writing them as `""`. Fed
+through `csv.DictReader`, a row shorter than the header fills every missing
+trailing column with `None` (its `restval`, default `None`) — not `""`.
+
+A test built only from hand-written fixtures (every column always present,
+even when empty) never exercises this and stays green while the loader
+quietly returns `concern=None`/`suggestion=None` for most real rows —
+`None` then serialises to JSON `null` and would print as the literal text
+`"None"` if ever interpolated into the page without a guard. Caught by a
+red test built from the real file's actual shape, not a synthetic one;
+`load_prereview_rows` now coerces every field with `raw[key] or ""`. Assume
+any other TSV loader here that trusts `csv.DictReader`'s dict directly has
+the same gap for optional trailing columns.

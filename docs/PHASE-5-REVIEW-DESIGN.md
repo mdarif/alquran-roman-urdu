@@ -302,7 +302,7 @@ R1 settle (§6) adds 4–6 hours on top, once, before step 2.
 
 ```yaml
 id: P1-ledger-schema
-status: open
+status: answered
 context: >
   AGENTS.md §9 and plan §4 Phase 5 require the ledger schema to be
   presented before it is built. §1 proposes
@@ -313,13 +313,13 @@ options:
   b: "Change it (say what)"
 recommendation: a
 blocks: [building review_sheet.py, apply_review.py, lint 2f]
-answer:
-answered_on:
+answer: a   # owner accepted the recommendation ("let's do it")
+answered_on: 2026-09-25
 ```
 
 ```yaml
 id: P2-r1-sequencing
-status: open
+status: answered
 context: >
   732 canonical.tsv rows (R1 long-vowel doubling) are still needs-review.
   A later decision on one demotes any now-approved verse it touches
@@ -330,13 +330,13 @@ options:
   b: "Start Phase 5 now; accept re-approval churn as R1 rows get decided over time"
 recommendation: a
 blocks: [Phase 5 review order, §9]
-answer:
-answered_on:
+answer: a   # owner accepted the recommendation ("let's do it")
+answered_on: 2026-09-25
 ```
 
 ```yaml
 id: P3-interim-exporter
-status: open
+status: answered
 context: >
   During Phase 5, should export_simple_db.py keep exporting every verse
   unconditionally (today's behaviour, edition stays experimental: true),
@@ -346,8 +346,8 @@ options:
   b: "Switch now to approved-only export (shrinks the live Experimental edition to near-empty at first)"
 recommendation: a
 blocks: [any Phase 5-era re-export]
-answer:
-answered_on:
+answer: a   # owner accepted the recommendation ("let's do it")
+answered_on: 2026-09-25
 ```
 
 ```yaml
@@ -370,7 +370,7 @@ answered_on: 2026-09-25
 
 ```yaml
 id: P5-needs-fix-reviewer-field
-status: open
+status: answered
 context: >
   After a needs-fix correction (§5 step 5), should the ledger row's
   reviewer/date be cleared (not yet re-read) or kept with a separate
@@ -380,8 +380,8 @@ options:
   b: "Keep last reviewer/date and add a correction_count column"
 recommendation: a
 blocks: [apply_review.py's needs-fix write path]
-answer:
-answered_on:
+answer: a   # owner accepted the recommendation ("let's do it")
+answered_on: 2026-09-25
 ```
 
 ```yaml

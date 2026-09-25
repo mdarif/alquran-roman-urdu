@@ -46,10 +46,13 @@ import sys
 from pathlib import Path
 from typing import NamedTuple
 
+from review_ledger import LedgerError, LedgerRow, load_ledger, sha256_hex
+
 ROOT = Path(__file__).resolve().parents[1]
 ROMAN_DIR = ROOT / "data" / "roman-urdu"
 CANONICAL_PATH = ROMAN_DIR / "canonical.tsv"
 ALLOWLIST_PATH = ROMAN_DIR / "lint-allowlist.tsv"
+REVIEW_DIR = ROMAN_DIR / "review"
 OUT_PATH = ROOT / "out" / "lint.tsv"
 DEFAULT_SOURCE = Path.home() / "code" / "alquran-data" / "sources" / "translations" / "ur-junagarri-simple.db"
 
@@ -361,6 +364,30 @@ def check_honorific_typography(
 
 
 # ---------------------------------------------------------------------------
+# 2f -- hash (design docs/PHASE-5-REVIEW-DESIGN.md §2; AGENTS.md non-negotiable 3)
+# ---------------------------------------------------------------------------
+
+def check_hash(surah: int, ayah: int, roman_text: str, ledger_row) -> list[Finding]:
+    """A `reviewed`/`approved` ledger row whose stored sha256 no longer
+    matches the current text's hash is an error (the text changed after
+    approval and needs re-review). `pending` rows are never checked. A
+    missing ledger row (no ledger for this surah/ayah yet) produces no
+    finding -- this check is inert until reviews exist."""
+    if ledger_row is None:
+        return []
+    if ledger_row.status not in ("reviewed", "approved"):
+        return []
+    current = sha256_hex(roman_text)
+    if ledger_row.sha256 == current:
+        return []
+    return [Finding(
+        surah, ayah, "2f-hash", "error",
+        f"stored sha256 {ledger_row.sha256!r} (status={ledger_row.status}) "
+        f"does not match current text hash {current!r} -- needs re-approval",
+    )]
+
+
+# ---------------------------------------------------------------------------
 # Orchestration
 # ---------------------------------------------------------------------------
 
@@ -391,6 +418,7 @@ def check_misl(surah: int, ayah: int, roman_text: str) -> list[Finding]:
 def lint_verse(
     surah: int, ayah: int, urdu_text: str, roman_text: str,
     canonical_map: dict[str, tuple[str, str]], *, adr_0005_accepted: bool = ADR_0005_ACCEPTED,
+    ledger_row: LedgerRow | None = None,
 ) -> list[Finding]:
     findings: list[Finding] = []
     findings += check_canonical(surah, ayah, roman_text, canonical_map)
@@ -401,7 +429,22 @@ def lint_verse(
     findings += check_split_future(surah, ayah, roman_text)
     findings += check_misl(surah, ayah, roman_text)
     findings += check_honorific_typography(surah, ayah, roman_text, adr_0005_accepted=adr_0005_accepted)
+    findings += check_hash(surah, ayah, roman_text, ledger_row)
     return findings
+
+
+def load_review(review_dir: Path) -> dict[tuple[int, int], LedgerRow]:
+    """Load every ledger under `review_dir`. A missing directory (Phase 5 not
+    bootstrapped yet) yields an empty map, which makes 2f inert everywhere --
+    design §1/§2."""
+    result: dict[tuple[int, int], LedgerRow] = {}
+    if not review_dir.exists():
+        return result
+    for path in sorted(review_dir.glob("surah-*.tsv")):
+        surah = int(path.stem.split("-")[1])
+        for ayah, row in load_ledger(path).items():
+            result[(surah, ayah)] = row
+    return result
 
 
 def load_allowlist(path: Path) -> set[tuple[int, int, str]]:
@@ -440,12 +483,14 @@ def load_roman(roman_dir: Path) -> dict[tuple[int, int], str]:
 def run(
     *, source: Path = DEFAULT_SOURCE, roman_dir: Path = ROMAN_DIR,
     canonical_path: Path = CANONICAL_PATH, allowlist_path: Path = ALLOWLIST_PATH,
+    review_dir: Path = REVIEW_DIR,
     surah: int | None = None, adr_0005_accepted: bool = ADR_0005_ACCEPTED,
 ) -> tuple[list[Finding], bool]:
     urdu = load_source(source)
     roman = load_roman(roman_dir)
     canonical_map = load_canonical(canonical_path)
     allowlist = load_allowlist(allowlist_path)
+    review = load_review(review_dir)
 
     all_findings: list[Finding] = []
     for (s, a), roman_text in sorted(roman.items()):
@@ -453,7 +498,10 @@ def run(
             continue
         urdu_text = urdu.get((s, a), "")
         all_findings.extend(
-            lint_verse(s, a, urdu_text, roman_text, canonical_map, adr_0005_accepted=adr_0005_accepted)
+            lint_verse(
+                s, a, urdu_text, roman_text, canonical_map, adr_0005_accepted=adr_0005_accepted,
+                ledger_row=review.get((s, a)),
+            )
         )
 
     has_unallowed_error = any(
@@ -479,12 +527,13 @@ def main() -> int:
     parser.add_argument("--roman-dir", type=Path, default=ROMAN_DIR)
     parser.add_argument("--canonical", type=Path, default=CANONICAL_PATH)
     parser.add_argument("--allowlist", type=Path, default=ALLOWLIST_PATH)
+    parser.add_argument("--review-dir", type=Path, default=REVIEW_DIR)
     parser.add_argument("--out", type=Path, default=OUT_PATH)
     args = parser.parse_args()
 
     findings, has_unallowed_error = run(
         source=args.source, roman_dir=args.roman_dir, canonical_path=args.canonical,
-        allowlist_path=args.allowlist, surah=args.surah,
+        allowlist_path=args.allowlist, review_dir=args.review_dir, surah=args.surah,
     )
     write_findings(findings, args.out)
     print(f"wrote {len(findings)} findings to {args.out}")

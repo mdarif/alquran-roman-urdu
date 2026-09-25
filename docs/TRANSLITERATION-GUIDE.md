@@ -281,3 +281,57 @@ Minimum expected path:
 
 Do not overwrite or reuse `ur-roman-junagarhi-experimental`; it is useful as a
 rejected comparison source, not as the shipping resource.
+
+---
+
+## 8. How to review
+
+Phase 5 (`docs/PHASE-5-REVIEW-DESIGN.md`) is the per-verse approval tool. One
+review ledger per surah lives at `data/roman-urdu/review/surah-NNN.tsv`
+(`ayah, status, sha256, reviewer, date, note`), already bootstrapped for all
+114 surahs with every row `pending`. Review happens on the Mac, in a desktop
+browser (owner ruling P6, 2026-09-25) — no iPad/LAN step.
+
+```bash
+# 1. Generate the review page for a surah
+python3 scripts/review_sheet.py --surah 1
+# writes out/review/surah-001.html — Urdu (large, RTL) and Roman (large) per
+# verse, lint + fidelity-findings chips, Approve / Needs fix controls.
+
+# 2. Open it in a desktop browser and review, verse by verse
+open out/review/surah-001.html
+
+# 3. On the page: Approve, or Needs fix (a corrected Roman text is optional,
+#    a note is required). Decisions are kept on the page and mirrored to
+#    localStorage as a reload safety net only — never the record of truth.
+#    Click "Download patch" when done; it saves surah-001-patch.tsv.
+
+# 4. Apply the downloaded patch — dry run first, then for real
+python3 scripts/apply_review.py --patch ~/Downloads/surah-001-patch.tsv --reviewer "Abu Rayyan" --dry-run
+python3 scripts/apply_review.py --patch ~/Downloads/surah-001-patch.tsv --reviewer "Abu Rayyan"
+```
+
+`apply_review.py` hash-checks every row against the text it was shown
+(`seen_sha256`); a stale row (the text changed since the page was generated)
+is refused, never force-applied, and the run exits non-zero. A `needs-fix`
+row with corrected text is applied as one exact, hash-checked single-verse
+edit and the ledger row resets to `pending` (P5: reviewer/date cleared, the
+note carries the history) — it needs a fresh read-aloud approval next
+session, like any other pending verse. On success it also rewrites the
+surah's file-level `status` (never `ayahs`) per the derivation in
+`docs/PHASE-5-REVIEW-DESIGN.md` §3.
+
+`python3 scripts/status.py` reports review counts (`pending`/`reviewed`/
+`approved`) alongside the existing file-status block; `--write-status`
+recomputes and rewrites file-level `status` for every surah without being
+asked through `apply_review.py`.
+
+Lint check 2f (`scripts/lint_roman_urdu.py`) is the backstop: any
+`reviewed`/`approved` row whose stored hash no longer matches the current
+text is an `error` finding, so a stale approval can't silently ship even if
+a text writer forgets to reset the ledger row itself.
+
+Each verse also shows an AI pre-check (owner decision 2026-09-25, from
+`data/roman-urdu/prereview/surah-NNN.tsv`) in its own labelled block —
+"looks right" / "concern — ... → suggested: ..." / "out of date" —
+visually distinct from the lint/fidelity chips and never auto-approving.
