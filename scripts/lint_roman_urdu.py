@@ -415,6 +415,16 @@ def check_misl(surah: int, ayah: int, roman_text: str) -> list[Finding]:
     ]
 
 
+# 2l -- verse starts lowercase (owner ruling Q29, 2026-09-25).
+_LOWER_START_RE = re.compile(r"^\(?[a-z]")
+
+
+def check_capital_start(surah: int, ayah: int, roman_text: str) -> list[Finding]:
+    if _LOWER_START_RE.match(roman_text):
+        return [Finding(surah, ayah, "2l-capital", "error", f"verse starts lowercase: {roman_text[:25]!r}")]
+    return []
+
+
 def lint_verse(
     surah: int, ayah: int, urdu_text: str, roman_text: str,
     canonical_map: dict[str, tuple[str, str]], *, adr_0005_accepted: bool = ADR_0005_ACCEPTED,
@@ -428,6 +438,7 @@ def lint_verse(
     findings += check_forbidden(surah, ayah, roman_text)
     findings += check_split_future(surah, ayah, roman_text)
     findings += check_misl(surah, ayah, roman_text)
+    findings += check_capital_start(surah, ayah, roman_text)
     findings += check_honorific_typography(surah, ayah, roman_text, adr_0005_accepted=adr_0005_accepted)
     findings += check_hash(surah, ayah, roman_text, ledger_row)
     return findings

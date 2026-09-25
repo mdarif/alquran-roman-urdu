@@ -97,6 +97,13 @@ doesn't have. The hyphen is allowed under this rule.
   "day" (45:17, Q21).
 - ساٹھ (sixty) stays `saath`, even though it is spelled like "with"; context
   decides (58:4, Q22).
+- **Round 4 (2026-09-25).** دیں is written by tense: past tense `dein`
+  (including helper verbs: `kar dein`, `bana dein`), subjunctive or
+  imperative `den` (Q25). Verbs never take `-ein`: `chaahen`, `len`,
+  `karen`. Only plural nouns and the R2 pronouns take `-ein` (Q26). وہی is
+  `wohi` and وحی is `wahi` (Q27). Past-tense کیں/لیں is `keen`/`leen`;
+  کن "which" stays `kin` (Q28). A verse starts with a capital letter,
+  enforced by lint 2l (Q29).
 
 **Precedence:** where R1 and R2/R3 conflict, R2/R3 win, because they are
 explicit word-level rulings.

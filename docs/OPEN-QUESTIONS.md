@@ -516,6 +516,8 @@ Also noted for the Q7 long-vowel review, not decided here: `kochein`/`koonchein`
 
 # Round 4 — patterns found by the AI pre-review (2026-09-25)
 
+**All six answered 2026-09-25 (as recommended) and applied: 223 verses.** The judgement cases (Q25, Q26, Q28, and Q27 in mixed verses) were read by an agent against the Urdu and checked by the orchestrator. The two open edge cases are Q30.
+
 Every verse (6,236) now has an AI verdict in `data/roman-urdu/prereview/`:
 69 concerns across 36 surahs, the rest "looks right". The orchestrator read
 36 random "looks right" verses against the Urdu from five different batches:
@@ -529,7 +531,7 @@ pages for you to accept or reject there.
 
 ```yaml
 id: Q24-propagate
-status: open
+status: answered
 items:
   "muttala/muttale -> muttali (مطلع, Q18)":  ["5:117", "19:78", "24:31", "34:47"]
   "mudbhed -> mudbher (مڈبھیڑ, Q18)":        ["3:155", "3:166"]
@@ -540,15 +542,15 @@ items:
   "shafaa'at -> shafaat (R5 lists this exact word)": ["2:123", "2:254", "2:255", "6:94", "19:87", "43:86", "34:23"]
 recommendation: apply all (each is a ruling you already made)
 on_answer: "Rules added as decided rows in canonical.tsv where they are safe to apply mechanically, otherwise scripted one-verse edits; lint; one commit."
-answer:
-answered_on:
+answer: apply all   # owner: "let's go" = all as recommended
+answered_on: 2026-09-25
 ```
 
 ## Q25 — دیں as a past-tense verb ("gave", "made") is written `din` (reads as "day")
 
 ```yaml
 id: Q25-dein
-status: open
+status: answered
 context: >
   You ruled 45:17 "daleelein dein" (Q21). The corpus-wide check found about
   24 more verses where past-tense دیں is written "din" (21 cases) or
@@ -563,15 +565,15 @@ options:
   b: "only the main verb 'gave' -> dein; helper-verb 'kar din' stays"
   c: "only the verses already flagged"
 recommendation: a   # 'din' always risks reading as "day"; one rule is easier to keep than a split one
-answer:
-answered_on:
+answer: a   # owner: "let's go" = all as recommended
+answered_on: 2026-09-25
 ```
 
 ## Q26 — Subjunctive verbs written `-ein` (R2 says `-en`)
 
 ```yaml
 id: Q26-subjunctive-en
-status: open
+status: answered
 context: >
   R2 keeps nasal verb forms single: karen, den, len, rahen. 20 or so verbs
   break it: chaahein (6), lein (4), subjunctive "kar dein" (3), samjhein,
@@ -579,15 +581,15 @@ context: >
   (17:40-88, 34:9, 34:21, 34:37, 40:77, 32:30). Plural NOUNS keep "-ein"
   (auratein), so this is a verb-by-verb fix, not a blind replace.
 recommendation: apply (verbs only; every change is checked against the Urdu)
-answer:
-answered_on:
+answer: apply   # owner: "let's go" = all as recommended
+answered_on: 2026-09-25
 ```
 
 ## Q27 — `wahi` means two different words
 
 ```yaml
 id: Q27-wahi-wohi
-status: open
+status: answered
 context: >
   "wahi" is used 208 times: 128 are وہی ("that very one") and 75 are وحی
   ("revelation"). "wohi" is already used 97 times for وہی. A reader cannot
@@ -596,41 +598,54 @@ options:
   a: "وہی -> wohi everywhere; وحی stays wahi. Aligned by the Urdu; the 3 verses with both words (13:30, 16:2, 42:13) are done by hand"
   b: "leave it"
 recommendation: a
-answer:
-answered_on:
+answer: a   # owner: "let's go" = all as recommended
+answered_on: 2026-09-25
 ```
 
 ## Q28 — Past-tense کیں / لیں written `kin` / `lin` (`kin` also means "which ones")
 
 ```yaml
 id: Q28-keen
-status: open
+status: answered
 context: "kin 10 / keen 7, lin 3 / leen 1 (e.g. 36:42 'paida kin', 21:93 'kar lin')."
 options:
   a: "keen / leen everywhere (the majority for لیں is not clear; 'keen' already appears 7 times)"
   b: "kin / lin everywhere"
   c: "leave it"
 recommendation: a   # matches the long ee sound and avoids 'kin' = which ones
-answer:
-answered_on:
+answer: a   # owner: "let's go" = all as recommended
+answered_on: 2026-09-25
 ```
 
 ## Q29 — Small consistency fixes
 
 ```yaml
 id: Q29-small
-status: open
+status: answered
 items:
   "Lowercase verse starts -> capitalise (and a lint rule to hold it)": ["3:123","4:125","44:55","52:23","56:18","56:39","59:8"]
   "bajz -> bajuz (49 vs 6)": ["11:81","16:79","16:106","19:60","21:28", "+1"]
   "-tay -> -te": ["chaahtay 23:72", "khaultay (2)"]
   "37:18 hoge -> honge (Urdu ہوں گے; the other 'hoge' follow Urdu ہو گے and are right)": ["37:18"]
 recommendation: apply all
-answer:
-answered_on:
+answer: apply all   # owner: "let's go" = all as recommended
+answered_on: 2026-09-25
 ```
 
 The other one-off concerns (e.g. 2:17 thi -> thin, 2:19 ghairne -> gherne,
 40:44 nigraan, 22:44 dabaya, 20:134 kar dete, 34:22/41:50/42:9 un vs in)
 appear on each surah's review page with a suggestion. Accept or reject them
 there with Needs fix / Approve.
+
+## Q30 — Two edge cases between Q26 and Q28
+
+```yaml
+id: Q30-edge
+status: answered
+items:
+  "53:18": "'nishaniyan dekh lein' is past tense لیں ('saw'), so by Q28's spirit it would be 'dekh leen'. Q28 as worded only covered 'kin/lin'."
+  "72:19": "'pal padein' after 'qareeb tha ke' is subjunctive, so by Q26 it would be 'pal paden'."
+recommendation: apply both
+answer: apply both
+answered_on: 2026-09-25
+```

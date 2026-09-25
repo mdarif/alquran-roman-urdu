@@ -5,8 +5,8 @@ ayah	verdict	sha256	concern	suggestion
 4	ok	0604fd387a93d85cef136fb795e669fa6ebdeb1c5d2fa296c1213c39dd9f251a		
 5	ok	b3a354da401071524a348c8c806f0acfb18c535b3496f785c83bc9180aa8e7f9		
 6	ok	fc62ae3b11cc44b0b98d55dbae6527a81bb2675836285caf27624d67d3abc372		
-7	ok	d369d4ea1280e6407b8328c7818dbb1d39ee6f22fc4bd80cb695cb568a4787dd		
-8	ok	039f1e742e59dc5f0e0a829c3275f34ca15ca94e3977deafd16754b4fcae4ed1		
+7	ok	5b3745858d9ae732c56f2b497c3470481b61b2dd5e606887809eece8516cc7a1		
+8	ok	fe0780b8b7e54dccba9dbf96da70f533dc4166d0da0ec641a742f9c10f186835		
 9	ok	0be0007ea0e9ec09d9ad3feb5a69d55de1d5627f3fa3c034fd9cd7d326351419		
 10	ok	0f461b47ad9598433d73a130a7d839c40586d06a5842f75c6d7ae82d60315f94		
 11	ok	5cfa0cf199cb835637ecb9837e89b7c03c48f05401a4e6f002c456e9519ff927		
@@ -15,7 +15,7 @@ ayah	verdict	sha256	concern	suggestion
 14	ok	809df8f7e1624e74decaa16c3fa543190a56b76b0caac7bd465d85cde4257a4d		
 15	ok	c1f5e2a682cd8de658810e1a1d8d7de73ba55d9a229e7e9218752c6a6617ea37		
 16	ok	dca0469a893c93911b15592c2a89efa00ebdcfa1b33a268fa531471935b432f3		
-17	ok	8b66cfe342e7f7dfc65e3215c9fd74d8dc5a6eef1d4879ea1d14d32de2915c59		
+17	ok	238e039ae2f5b1f53ce52a359b3921ef14f785841d99029bc221f810be729581		
 18	ok	551e96a8665de95ca704ea7daa5a942032f3e6e62d3cbe264a139d01b9363040		
 19	ok	aa34aab2f7ecbace79f1be2d3e23b1e753b3b59ae3fdccc0d6a7fab2747fb0a4		
 20	ok	5bc5f3b8d2a87ca86cd81623d7d66dc30581c6d41df526d24c41c003363a7f27		
@@ -65,7 +65,7 @@ ayah	verdict	sha256	concern	suggestion
 64	ok	3a94c366e42c11aee206243e34c01a877134e8774f8d4d5aa3991d8916d19572		
 65	ok	436056d12a2deadf5e73c8d12afb417e551722b69c930350c6b09f3a14542ab7		
 66	ok	c357fda0f9a7faabbd449f805a02c0a9b69e8854e218c01ed90782b57ecc5033		
-67	ok	1d53787987044bfe2f523b394a9b1ce535aa37fe73e0c3941103567e515a68ef		
+67	ok	185947aa49b5fa48c735796b3fc9a7cfd6be768205ba16c70d98be49391e3f31		
 68	ok	16721ff97c8fcd3de37e6807f68907c61b2f3ebaee591dc2afdb2b546b10ae98		
 69	ok	eb11b8d5b5f19ba861b982a6d239390392011eefecf48d92a66d3c5d6911e83a		
 70	concern	70b8ffc6992c2af5b5b90365d8ff0b29f2afe17771d0fa00c952b803699df6d8	دیں appears twice meaning "gave" (سواریاں دیں, روزیاں دیں), the same past-tense construction the owner ruled on at 45:17 (Q21): write "dein", not "din" (which reads as "day"). Both instances here are still "din".	Yaqeenan hum ne aulaad-e-Aadam ko badi izzat di aur unhein khushki aur tari ki sawaariyan dein aur unhein paakeeza cheezon ki roziyan dein aur apni bahut si makhlooq par unhein fazeelat ata farmaayi.

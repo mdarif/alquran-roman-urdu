@@ -66,7 +66,7 @@ ayah	verdict	sha256	concern	suggestion
 65	ok	c6a42cb47f096e8bff2cd664c6e9b63f9ce436fa8d62d2c53e8646e7948732eb		
 66	ok	1e6f9f327266f35af7b4660da18c7f9dfe34d4e9ed58139074c056a386299a8d		
 67	ok	7e1aaa9dc396fd267de7fa726f495bb894d104755698557511ced6ff4e485cec		
-68	ok	0280ed63f1f7bc218e49e0896cb3f3fbf96171361f4a3990d0085b1ecb31cdfd		
+68	ok	7de463da7f74f2a022c3b0244010ce0f470a20aef3d3f0a2cda7b9e090760efc		
 69	concern	384218d1190e666e4faffca5d979bd42a325e85e17a7e49214793e2f3a2b99fe	Urdu مثل (misl, "like/similar to") is romanised "Misal", which reads as مثال (misal/example) -- same confusion as 8:52 and 8:54. The corpus's other occurrences of مثل all use "misl".	Misl un logon ke jo tum se pehle the, tum mein se woh zyada quwwat wale the aur zyada maal-o-aulaad wale the, pas woh apna deeni hissa barat gaye, phir tum ne bhi apna hissa barat liya jaise tum se pehle ke log apne hisse se faida-mand hue the aur tum ne bhi isi tarah mazaaqana behas ki jaise ke unhon ne ki thi. Un ke aamaal dunya aur aakhirat mein ghaarat ho gaye. Yahi log nuqsaan paane wale hain.
 70	ok	0f9ad9849fa3730311684f83990ee2c8eb9714876fd1e56dc2a84cef960c8c2d		
 71	ok	30e2afdfa4ebc2b37c1aef4a70d898fc2c578f285508be5ecfcbfa6c4bf452d0		
@@ -102,7 +102,7 @@ ayah	verdict	sha256	concern	suggestion
 101	ok	49b12d03e3d1ea076bd672c4df1cd4774ca49aca036517f170122cf64bb6880d		
 102	ok	e0cf37c3c4e1530df232dcf3ac2e2a13d49d373973c24e3656a616e8e6eede4b		
 103	ok	f4d0f22c26b9d97936a73b9e03345c6da28e3e70395acdd89403923df2a310f2		
-104	ok	7e1b44d45d54f2b1a55cc37f9bf9bcfe800b12b9c87cdbdb21114bb94ce1da49		
+104	ok	76b6ccfeaae88737135856b7204833ec3252cd8fb5e366fcf0a32bd3ddb5daa4		
 105	ok	0e0ce71a63b8c4fd893ba134d6b428e5523a6dac018fda65362320cd304cad2b		
 106	ok	4783ef0b8796e5c8a2c648a57697b9a692e218ca780dad882d77901648185561		
 107	ok	a7c02b8f1607388a58f49f3b502fc97c1fd688e4029bab32cd803609e3ebcc85		
@@ -114,7 +114,7 @@ ayah	verdict	sha256	concern	suggestion
 113	ok	ce409e72bcdfe2feeee6451c74138d10c4f4de91f7a066c790480544294cfb7c		
 114	ok	81976051ea9a51394bf468d67f06042ee2047816cd761d8f357491811f11cc7b		
 115	ok	ba159401ebcc7228a160c10d9d6cdd1c846bcde56dcc748400878c15d60a85ad		
-116	ok	c3937e386811b3dbae99d65aea8a6183a769ad6b080e31d560ce7c8f3e75da7e		
+116	ok	172500dfd3b132b333a7b625b53ba94b8f686762fbce3eed86565ea8227f8f92		
 117	ok	139b644853b42a80c2d526d2f35c7528f07a303cd62148b4add810f7f205c33b		
 118	concern	ac3c99ad2ae2af6210bb52b4da25d4537891df7bbd6e3a8496762c8c7ca0ccf8	Typo: "shakhsion" for شخصوں (plural of shakhs). The corpus's only other two occurrences of this plural spell it "shakhson"; "shakhsion" appears nowhere else.	Aur teen shakhson ke haal par bhi jin ka mamla multawi chhod diya gaya tha. Yahan tak ke jab zameen bawajood apni farakhi ke un par tang hone lagi aur woh khud apni jaan se tang aa gaye aur unhon ne samajh liya ke Allah se kahin panah nahi mil sakti bajuz is ke ke isi ki taraf rujoo kiya jaye phir un ke haal par tawajjuh farmai taake woh ainda bhi tauba kar saken. Be-shak Allah Taala bahut tauba qabool karne wala bada raham wala hai.
 119	ok	7f025cee13087106ab749db90085b7559a096004f6dc0bcf74b8ab862c25fbcf		

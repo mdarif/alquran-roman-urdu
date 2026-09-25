@@ -194,7 +194,7 @@ bhari	bhari	8	keep	owner Q7 2026-09-25: different word - suggested merge was wro
 aasan	aasaan	8	needs-review	R1 auto: doubled form of a mixed cluster
 shayad	shaayad	8	needs-review	R1 auto: doubled form of a mixed cluster
 bari	bari	8	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-shafaa'at	shafaat	7	needs-review	R5 apostrophe dropped; vowel run collapsed or result is short (homograph risk, e.g. saat) - confirm
+shafaa'at	shafaat	7	decided	owner Q24 2026-09-25: ADR 0005 R5 lists shafaat
 qaim	qaaim	7	needs-review	R1 auto: doubled form of a mixed cluster
 jate	jaate	7	needs-review	R1 auto: doubled form of a mixed cluster
 khushkhabriyan	khushkhabriyaan	7	needs-review	R1 auto: doubled form of a mixed cluster
@@ -309,7 +309,7 @@ raah-yafta	raah-yaafta	4	needs-review	R1 auto: doubled form of a mixed cluster
 dardnak	dardnaak	3	needs-review	R1 auto: doubled form of a mixed cluster
 gumrahi	gumraahi	3	needs-review	R1 auto: doubled form of a mixed cluster
 pahunchaya	pahunchaaya	3	needs-review	R1 auto: doubled form of a mixed cluster
-misal	misaal	3	needs-review	R1 auto: doubled form of a mixed cluster
+misal	misl	3	decided	owner Q24 2026-09-25: all uses are مثل (Q19)
 janib	jaanib	3	needs-review	R1 auto: doubled form of a mixed cluster
 lautaye	lautaaye	3	needs-review	R1 auto: doubled form of a mixed cluster
 pakeezgi	paakeezgi	3	needs-review	R1 auto: doubled form of a mixed cluster
@@ -509,7 +509,7 @@ ibtidaa'an	ibtidaan	1	needs-review	R5 apostrophe dropped; vowel run collapsed or
 itaa'at-guzaar	itaat-guzaar	1	needs-review	R5 apostrophe dropped; vowel run collapsed or result is short (homograph risk, e.g. saat) - confirm
 fe'l	fel	1	needs-review	R5 apostrophe dropped; vowel run collapsed or result is short (homograph risk, e.g. saat) - confirm
 ma'aasi	maasi	1	needs-review	R5 apostrophe dropped; vowel run collapsed or result is short (homograph risk, e.g. saat) - confirm
-mustahiq-e-shafaa'at	mustahiq-e-shafaat	1	needs-review	R5 apostrophe dropped; vowel run collapsed or result is short (homograph risk, e.g. saat) - confirm
+mustahiq-e-shafaa'at	mustahiq-e-shafaat	1	decided	owner Q24 2026-09-25: same word as shafaat
 pehchana	pehchaana	1	needs-review	R1 auto: doubled form of a mixed cluster
 jahalat	jahaalat	1	needs-review	R1 auto: doubled form of a mixed cluster
 dikhane	dikhaane	1	needs-review	R1 auto: doubled form of a mixed cluster
@@ -874,3 +874,11 @@ jinhe	jinhein	30	decided	owner Q16 2026-09-25: parallel to R2
 jinhen	jinhein	30	decided	owner Q16 2026-09-25: parallel to R2
 mabood-e-bar-haq	mabood bar-haq	8	decided	owner Q14 2026-09-25: no izafat (amends ADR 0004)
 rab	rabb	19	decided	owner Q20 2026-09-25: canonical Rabb (ADR 0004)
+muttala	muttali	0	decided	owner Q24/Q29 2026-09-25
+muttale	muttali	0	decided	owner Q24/Q29 2026-09-25
+mudbhed	mudbher	0	decided	owner Q24/Q29 2026-09-25
+chakhho	chakho	0	decided	owner Q24/Q29 2026-09-25
+saaat	saa-at	0	decided	owner Q24/Q29 2026-09-25
+bajz	bajuz	0	decided	owner Q24/Q29 2026-09-25
+khaultay	khaulte	0	decided	owner Q24/Q29 2026-09-25
+chaahtay	chaahte	0	decided	owner Q24/Q29 2026-09-25

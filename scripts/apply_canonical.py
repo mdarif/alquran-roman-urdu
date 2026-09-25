@@ -200,6 +200,18 @@ def drop_misl_izafat(text: str) -> tuple[str, int]:
     return MISL_IZAFAT_RE.subn(r"\1 ", text)
 
 
+# Owner ruling Q29 (2026-09-25): a verse starts with a capital letter, also
+# when it opens with a bracketed gloss.
+_LOWER_START_RE = re.compile(r"^(\(?)([a-z])")
+
+
+def capitalise_start(text: str) -> tuple[str, int]:
+    m = _LOWER_START_RE.match(text)
+    if not m:
+        return text, 0
+    return m.group(1) + m.group(2).upper() + text[m.end():], 1
+
+
 # ---------------------------------------------------------------------------
 # JSON I/O -- byte-identical formatting when nothing changes
 # ---------------------------------------------------------------------------

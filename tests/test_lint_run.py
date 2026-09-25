@@ -69,7 +69,7 @@ def test_run_allowlisted_error_does_not_fail(tmp_path: Path) -> None:
     db = tmp_path / "source.db"
     _make_source_db(db, [(1, 1, "بسم اللہ")])
     roman_dir = tmp_path / "roman"
-    _make_roman_dir(roman_dir, 1, {"1": "mein ne kaha."})
+    _make_roman_dir(roman_dir, 1, {"1": "Mein ne kaha."})
     canonical = tmp_path / "canonical.tsv"
     canonical.write_text("variant\tcanonical\tcount_2026_09_24\tstatus\tnote\n", encoding="utf-8")
     allowlist = tmp_path / "allowlist.tsv"

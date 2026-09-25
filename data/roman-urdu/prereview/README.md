@@ -25,3 +25,5 @@ edited. Owner approval, once given, is recorded separately in
 If a verse's `sha256` no longer matches `hashlib.sha256(roman_text.encode
 ("utf-8")).hexdigest()` of the current text in the surah JSON, that row is
 out of date — the verse changed since it was reviewed and needs re-review.
+
+Re-pinning (2026-09-25): after the round-4 rulings, verses whose only change was an owner-ruled, audited substitution kept their `ok` verdict with the hash updated to the new text. Verses that carried a `concern` were left out of date on purpose, so the owner sees them again.
