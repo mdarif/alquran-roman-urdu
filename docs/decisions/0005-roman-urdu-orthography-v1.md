@@ -110,6 +110,11 @@ doesn't have. The hyphen is allowed under this rule.
   کن "which" stays `kin` (Q28). A verse starts with a capital letter,
   enforced by lint 2l (Q29).
 
+**R5 exception (owner, 2026-09-26):** تائید is `taa'eed`, kept with its
+apostrophe. It is the one deliberate exception to R5, locked in canonical.tsv
+(the variants taeed/taaeed/taayeed are rewritten to it, and `taa'eed` itself is
+`keep`) and guarded by tests/test_canonical_locks.py.
+
 **Precedence:** where R1 and R2/R3 conflict, R2/R3 win, because they are
 explicit word-level rulings.
 

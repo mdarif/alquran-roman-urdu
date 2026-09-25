@@ -758,7 +758,7 @@ zeenat-dar	zeenat-daar	1	needs-review	R1 auto: doubled form of a mixed cluster
 jandaron	jaandaaron	1	needs-review	R1 auto: doubled form of a mixed cluster
 jaandaron	jaandaaron	1	needs-review	R1 auto: doubled form of a mixed cluster
 dagha-bazi	dagha-baazi	1	needs-review	R1 auto: doubled form of a mixed cluster
-taeed	taaeed	1	needs-review	R1 auto: doubled form of a mixed cluster
+taeed	taa'eed	1	decided	owner 2026-09-26: taa'eed (تائید) locked with its apostrophe, a deliberate exception to R5
 dalta	daalta	1	needs-review	R1 auto: doubled form of a mixed cluster
 pahunchai	pahunchaai	1	needs-review	R1 auto: doubled form of a mixed cluster
 ghati	ghaati	1	needs-review	R1 auto: doubled form of a mixed cluster
@@ -1014,3 +1014,6 @@ alaamaten	alaamatein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as w
 afwaahen	afwaahein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
 aawaazen	aawaazein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
 aarzooen	aarzooein	1	decided	owner 2026-09-26: plural nouns take -ein (R2 as written)
+taaeed	taa'eed	0	decided	owner 2026-09-26: taa'eed (تائید) locked with its apostrophe, a deliberate exception to R5
+taayeed	taa'eed	0	decided	owner 2026-09-26: taa'eed (تائید) locked with its apostrophe, a deliberate exception to R5
+taa'eed	taa'eed	0	keep	owner 2026-09-26: taa'eed (تائید) locked with its apostrophe, a deliberate exception to R5
