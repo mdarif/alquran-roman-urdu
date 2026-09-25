@@ -1,0 +1,12 @@
+ayah	verdict	sha256	concern	suggestion
+1	ok	cdfe0af6c6afda57dcc1a3fc55677dcfcc8d4b6ffbed3c7d1e8948227a706abf		
+2	ok	6af3290bd2d2af433b97f8069724ee9327ab8a4159533bef87794f9b1b6f9127		
+3	ok	96adc4ba430002cea06aaec4b8a55691b579862b2d9d58e137034efe8bca8b44		
+4	ok	8a0fda90018a7b54421f1cfd6d17e137f38ac45e0cf02a6b0c779593f380eeaf		
+5	ok	2bdbbf09d3925e8dcc897f6ebeb98ca10f1fcb60e351290535720addf152f6f0		
+6	concern	d51607cf9e9c43a6eb17e66a2b2aec010a8a2ae54a792ec76dbf7fd3358a15c4	Urdu ہر گز ("never") is romanised with a stray space, "har giz", instead of the corpus's overwhelmingly dominant joined spelling "hargiz" (90+ occurrences elsewhere, including twice more in this same surah at 63:11). Same class of stray-space typo as the owner-fixed 36:37 (Q11).	Un ke haq mein Aap ka istighfaar karna aur na karna dono barabar hai. Allah Taala unhein hargiz na bakhshega. Beshak Allah Taala (aise) nafarmaan logon ko hidayat nahi deta.
+7	ok	53a5d8b4fd0455beeca5d2e62868f8806074d39017b73ff3883b6f128f594600		
+8	ok	32ba5d76e94a034240eba23c17ec192d533398f6ea55e16b4ffcb85a1f702402		
+9	ok	1ca25ea25071455d446de8953c792a65b91fe152ba63592c3d7af1f05815e7d2		
+10	ok	42a8fd185fb2f28f2ec712dff77292d475797939f8cb33d292d161033b6a3f0b		
+11	concern	2b00d0cfb2094c8b7f57ddb660369728721558132ae37db05bb2dc8e6e969500	Urdu ہر گز ("never") is romanised with a stray space, "har giz", instead of the corpus's overwhelmingly dominant joined spelling "hargiz" (90+ occurrences elsewhere, including at 63:6 in this same surah). Same class of stray-space typo as the owner-fixed 36:37 (Q11).	Aur jab kisi ka muqarrara waqt aa jaata hai phir use Allah Taala hargiz mohlat nahi deta aur jo kuch tum karte ho us se Allah Taala bakhoobi bakhabar hai.

@@ -1,0 +1,30 @@
+ayah	verdict	sha256	concern	suggestion
+1	ok	ffeba03a265a41064aeca0604d3fd9a93bdd681529d92e0bd183ae49b11b9ebb		
+2	ok	b3c8924e90df6a5cce2ed8850147d13bf4aa6458cc3df5171395f897acfc23ac		
+3	ok	1443b85a216f7042e731c129ad15d3ed8271185690535d4952b7b0d26a1672d1		
+4	ok	42288a0053208286036d535fcb0f749f8225a984650e9752200da53744565f18		
+5	ok	890398a4267be15bf75a2083a93f7629cb6de66a44201a7b940e85a31c411ec5		
+6	ok	4cc1d12f3ff609c9e002d8999b5fd254d86130c59c2d9e42cd2c19770d072f6d		
+7	ok	cb5801c6037fc9a90e5b36f8bf545df2bd5cea759d8b479cd9ee1ef190737bd6		
+8	ok	fde3dec2fe5ab1608179095fbb558271d2ab0f8e5dfe0165c37c8ad585127a21		
+9	ok	152a441e78dc3062cd3e91d7ac40c4f68dcb81bece3707bebb3eb7b78e0aaea3		
+10	concern	dfb504897020749d9691ec6c111d419881328e4ac789f51eff53113e9ee74a51	Urdu خیراتیں دیں (gave charities, past tense) is romanised "khairatein deen", using the same collision with deen (religion) the owner already ruled against at 45:17 (Q21); house style is "dein".	Tumhein kya ho gaya hai jo tum Allah ki raah mein kharch nahi karte? Darasal aasmanon aur zameenon ki meeras ka maalik (tanha) Allah hi hai tum mein se jin logon ne fatah se pehle fi-sabeelillah diya hai aur qitaal kiya hai woh (doosron ke) barabar nahi, balke un se bahut bade darje ke hain jinhon ne fatah ke baad khairatein dein aur jihaad kiye. Haan bhalaai ka waada to Allah Taala ka un sab se hai jo kuch tum kar rahe ho us se Allah khabardaar hai.
+11	ok	1a288670967626ea1309d3225ac188e89ccfd3555cd7e75bc3153ef990a13905		
+12	ok	dfd85b774fff1768f51c11ffff2ed8100ea78ea6a45a1cc32fa471b3c91de9df		
+13	ok	ed32135621e2164165601baf241543baa80559042b92fcd160f06d6178ee94c9		
+14	ok	b2b6f623818b4af884eea388a5fdb283b3463e6f7bd6c5008ca4be1dda76ccab		
+15	ok	c29f002f36f7c23cfeb8468d612261b555bbffd978fae8c9fc5ab25c80aed843		
+16	ok	2cb5e082c4540a9a8dae114c86ab84662936423f29b9513a3660d33dee47f423		
+17	ok	905e49e7faf7c2d568406d9cb074a2398024633fe4f82315029569f1766f57fc		
+18	ok	76e30272277b7cad5bdb7039dd8fa0a5443c400164783e2fe4d5a8c1f5aa5212		
+19	ok	acb6f249679de17ba939fdbff9b05480aec69b709f5840095aa513c64f72e871		
+20	ok	050fddcd8389be3b6f12a7ac2b7783ae5c09867c47c524f77c894df15ecf2956		
+21	ok	29d402186c53b72499cc8d1362c394e2df032b356c7900c454ff9266a504020f		
+22	ok	dd593f20cae8153c2a2f475c6675254e54c77157ac0425a8cfc84798b966381e		
+23	ok	1bcae788071535f5c0fd86b239a9579d51f5a1f444e45988c412d546b994cfb0		
+24	ok	2ef5a3b92d4cb77d17379639a1caccb50ba0f726db5166f4620209e30cb0b52d		
+25	ok	e6fd8cdd0a1cf1527846487e8517003559e20efcc2b18a3d8e15c1806a084bc6		
+26	ok	1cabcb140e0230ca3bbe6a41027519e9445dfd1af5309f478bd04c65d2c203ce		
+27	ok	c17c0cf0271721bee47b6b6877879e105561a75e3c5edcf25d0b01b70a6269c7		
+28	ok	315e700080950b9f9ee715f83131acda2641e80c5273a3419b065525dbcb3cc0		
+29	ok	7925a2019fca332519b37dadec7ce372837b18bf5c6c49382fbf716e23855859		

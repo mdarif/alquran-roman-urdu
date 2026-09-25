@@ -1,0 +1,8 @@
+ayah	verdict	sha256	concern	suggestion
+1	concern	a31ac06c4197c8074171875771db8c9ac5f2ab4d2827339bada3f2cafa9a1aba	Urdu brackets only "(روز)" as the translator's inserted gloss, with جزا outside it: "jo (روز) جزا کو جھٹلاتا ہے". The Roman splits the established compound across the bracket boundary as "(roz-e) jaza", leaving a dangling hyphen right before the closing paren and not matching the corpus's own unbracketed "roz-e-jaza" spelling used at 26:82, 74:46, 95:7.	(roz) jaza ko jhutlaata hai
+2	ok	8c9b79b89e59a18603a353bec41380283d3c3280261e8d95d3303302838f5222		
+3	ok	cba77713e8bcdef565285a4a4a305757168cad4fc01e7b5123f73a99764197f5		
+4	ok	df948406049ed63dd21e1cb8f221bfcbf78970ca418169bf9b7ba13896906a3a		
+5	ok	b335894dfac836f6e440ed4b041a99c593157f3432ad7a55c1035cbe5826a7b3		
+6	ok	af873c566a00a1a3ff66f97d174a1efa64ec4e20748d036f2ed665bb3b1d98e9		
+7	ok	836096feac3f1c71892cd3b81bfe3d97bad463f180983e485a0a12936413646a		

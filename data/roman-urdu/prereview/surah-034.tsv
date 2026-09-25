@@ -1,0 +1,55 @@
+ayah	verdict	sha256	concern	suggestion
+1	ok	c7e3f04b59d50e57065525c12f5863dfc70e1d28149a8e13b4e12b47294edd01		
+2	ok	406d0057f53af2e3b9552a867f6664f4ec81c607b8a8722ce7ce853b5bbaebd4		
+3	ok	f27aed2abe9d2cb7939d503e9979a59ea165f814c88ae77953f6e891100bd17d		
+4	ok	e04f7428d98af7d0fbc8f034903ad34e7fa80349fa4926e53418f4f6d6e127f2		
+5	ok	4d5d015c071d44ad29dfa7fc992a09161a44f459055c2c226e115873b9113098		
+6	ok	a66c2aa74f346d6357df2876569141f2663596ea351d62a74823b791d6eae474		
+7	ok	195485a2342cff8a3126e9f107a8211dc419669b00eb0b5ec6fb90cb29ace1fc		
+8	ok	f09cfb376e49cac7087137db27280af99471f957f3b32f67dc9ca665c7e28068		
+9	concern	e8f129d2a03f2fec8bd6795941fbe5662901bd361d82be65ab0ece747025c960	Subjunctive دیں (den) is doubled to "dein" (twice: dhansa dein, gira dein) though R2 requires it stay single-vowel; the parallel verb "chaahen" (چاہیں) in the same clause is correctly single-vowel, and the same construction is rendered "den" correctly elsewhere in this batch (41:16, 41:29, 42:7, 42:15).	Agar hum chaahen to unhein zameen mein dhansa den ya un par aasman ke tukde gira den
+10	ok	1a2546282e54fdb9297789cf17ff7960520f63aea5ae77e37ae44d74cf1543e7		
+11	ok	e47cc3a47faeeaae3c412a5a13f679aad22466359f97390dbf6c45551ddd7bcc		
+12	ok	bf882414de10f20ce6ba87f9aa9b2eda54842b6f2f4d8a4427933a383bf5d8f5		
+13	ok	4c835a96e559a0ddd90d051cafbb92ed96f172d65dc39a90e0bf03ef3c5e5dad		
+14	ok	0e7dd47385881ab813341282d9a71e73de99726ef8488f18b88919d7926c549f		
+15	ok	55765358ecbd37e9d7b3cd341f4e482d47eafbc3e9c306b81931a759d59fe7ea		
+16	ok	1cdfa7d41455ab48601cedb1b1b7ab22e9920daad23e77eb74a91bf3736b98cc		
+17	ok	266f07906052b91db931747bc785e4a08ee8219cb8bdc5c3e7bffe1d5b234c4b		
+18	ok	1870fb8a1ea38e3587f5d4d3599ca4be20209811aecd7af39dbdf055d0217873		
+19	ok	7b65ff21711482f496527d9e7ff7a5898ae58bab9e30117c37e81672105dc9a2		
+20	ok	1ba3a43fcff71bf3f826a146da2d9c59eb6fdb0a4a0bb12cbdcbef86ca2fc76d		
+21	concern	f07fee5f43cd7773ca747aafd10f617b11d17553572454a27263bb62225e6410	کردیں (subjunctive den) rendered "kar dein" (double vowel); R2 requires single-vowel "den".	hum un logon ko jo aakhirat par imaan rakhte hain zaahir kar den
+22	concern	1291df56a26dfe4dd6a5fd989cc387bf663331fcecfac4c10931448f1b3bcd8d	ان appears three times in this sentence for the same referent (the false partners); first and third are correctly "un", but the middle one switches to "in" (near) for no apparent reason: "na un ka in mein koi hissa hai".	na un ka un mein koi hissa hai
+23	concern	f0a2a91bfb69ad05d54661c7cf24dbeb70fc6be3120519c8dc39012d8d03bd5e	"Shafaa'at" carries an apostrophe, violating R5's explicit ruling that this exact word is written without one ("shafaat" is R5's own listed example).	Shafaat (sifaarish) bhi us ke paas kuch nafa nahi deti
+24	ok	d6861b92db7f5afec9fbb215a0767bd439542a8dca9cf716ffc0b71657613e96		
+25	ok	c2e05ce6ecff9a88f97e8a4d8826f638ecfb80c9a8d6bc927a226bbb5321c939		
+26	ok	0b67082a90bd957808626ef37df1a4cba7699f1cbeedbfbabe48fdb4f6a9376e		
+27	ok	4730e512c7abdbcb0bced78668075cd3fd1e61f93a4e85dca5f1f77b2cd0bd32		
+28	ok	acc61f0dcb084695eff18d1b770c698fc255fc3b385e851357ef22c9f5a304c9		
+29	ok	1cdcbeb29460aad630b6806c96f7ebe0afc046d1fd2508a6e803900dbe64adcd		
+30	ok	10d3f0d81d8ab02bb10a56f6bf955b917ef260d40d3709b658b5f07ba063bfdd		
+31	ok	1a158005dba0b070e5fb3248fdaa2d72c8aa518a7d7342efb3fa5d22e8e677cf		
+32	ok	611e6061915a4d5564af5dde86b0021824b830347efd56a9997afacbbe55ee19		
+33	ok	ed3ecd7e3e821a562970a43f5bd0a2733f586bf8e5a209b0853eb1ea728e028f		
+34	ok	89ac30de0e63b9cf23590c9227c7f163e1089827e6c612be42077b7bea70408e		
+35	ok	f31872684f1ac252cfbdaf9826336d78abcd34079c7757043ddae9cd5a52110e		
+36	ok	daae8838fff902ed53fe377dc7cbb083778fbc6d1e898c1585a179297825720a		
+37	concern	3d14cda95ca28a0ab1d8fcc8566d4728099b56e5609aadc4fa2dbf0b66fc0a95	کردیں (subjunctive den) rendered "kar dein" (double vowel); R2 requires single-vowel "den".	tumhein hamare paas (martabon se) qareeb kar den
+38	ok	2baa5c6ee8752a23870c99971f43b85e5a906f1d1006e88f523cc747fca48a2e		
+39	ok	f5549a337bcfa7a71018218896792d22fdb6103a8d7743db8cb6dad488ad2ec5		
+40	ok	0902819d15d2fb563327b80f6c44e751fc92711fdddfe4adc4b5671df8cc1187		
+41	ok	09769a32a199912af42c1db462a91be94f931a20fb5a5055e132628f1d51b1af		
+42	ok	1b47e6bd32bf8c49a226a98971b2fbe38651b556cd9b96b5a90c4cbe499637b8		
+43	ok	f72f3372b9f9c26bb374a98dbd0574eca7932edf8552687b2aeed6243bdf8cda		
+44	ok	838c53d2ad5a1cf7ebe2a148f994452d160e2e7feb5a5b8559dca344ff7af5fe		
+45	ok	4faebe1f810ebacdf6ec724ca8994c68947389c9cd795872e0c77e9d88ac4ec1		
+46	ok	93193210e16a9458d339f1059d5f4be346bbbe5e4c0c87db09da08e3338b6006		
+47	ok	577ec701c2591da3df1f9a480686e8df6ccfc5dc8743cdb4483a7a95b7a8c4db		
+48	ok	aa56952fb1c36b2fd2427be11148cd0d09125bb755af961c1ad7e57b09274483		
+49	ok	ea977389246d5dec4cbd862e6eef08b70b1897fc8bee970a945c1d506c0656c5		
+50	ok	511e03e464458975a8fa8529f9298ea3ec13d76d6c6e3a2242cc23148c4f1814		
+51	ok	fe1de2b9ac067f01d4d1cf433f9169396ae7817f5a1942db3c876fef8ddda50a		
+52	ok	011aa19ecb682e3e54bff56722aac1c6b279c729c2765c7aa9c9498243956470		
+53	ok	42a1e75f0f27f17a4e7cb755d9f853132108bebe5b78dfc84da9f013c394f412		
+54	ok	dfe2b897cc4d548de32b4c91208d074a2db13f0c452381381509842595c62e2f		
