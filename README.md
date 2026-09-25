@@ -10,6 +10,16 @@ The lexicon is the deliverable, not the app.
 
 **Start here: [AGENTS.md](AGENTS.md)**
 
+## Tests
+
+```
+python3 -m pytest tests
+```
+
+Self-contained: no external repo or database is required to run the suite.
+`scripts/validate_roman_urdu.py` and `scripts/lint_roman_urdu.py` additionally
+have real-corpus modes documented in their own `--help`.
+
 ## The decision this repo exists to serve (2026-08-02)
 
 **Al Quran ships our own Roman Urdu, or none at all.** Not a third party's.

@@ -21,10 +21,18 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ROMAN_DIR = ROOT / "data" / "roman-urdu"
+DEFAULT_META = ROOT / "data" / "meta" / "surah_ayah_counts.json"
 DEFAULT_DB = Path.home() / "code" / "alquran-app" / "assets" / "db" / "quran.db"
 
 
-def expected_counts(db: Path) -> dict[int, int]:
+def expected_counts_from_meta(meta: Path) -> dict[int, int]:
+    if not meta.exists():
+        sys.exit(f"meta counts file not found: {meta}")
+    data = json.loads(meta.read_text(encoding="utf-8"))
+    return {int(surah): int(count) for surah, count in data.items()}
+
+
+def expected_counts_from_db(db: Path) -> dict[int, int]:
     if not db.exists():
         sys.exit(f"source DB not found: {db}")
     con = sqlite3.connect(db)
@@ -103,10 +111,17 @@ def int_key(value: str) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--surah", type=int, help="validate a single surah file")
-    parser.add_argument("--db", type=Path, default=DEFAULT_DB, help=f"source quran.db path (default: {DEFAULT_DB})")
+    parser.add_argument(
+        "--meta", type=Path, default=DEFAULT_META,
+        help=f"vendored surah->ayah-count JSON (default: {DEFAULT_META})",
+    )
+    parser.add_argument(
+        "--db", type=Path, default=None,
+        help=f"alternative: read counts from a quran.db (e.g. {DEFAULT_DB})",
+    )
     args = parser.parse_args()
 
-    expect = expected_counts(args.db)
+    expect = expected_counts_from_db(args.db) if args.db else expected_counts_from_meta(args.meta)
     paths = [ROMAN_DIR / f"surah-{args.surah:03d}.json"] if args.surah else sorted(ROMAN_DIR.glob("surah-*.json"))
     if not paths:
         sys.exit(f"no Roman Urdu files found in {ROMAN_DIR}")

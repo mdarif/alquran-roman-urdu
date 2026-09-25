@@ -41,6 +41,9 @@ Its known defect classes are a useful checklist of what **not** to produce:
 | Status of all files | `beta-unverified` — not reviewed, not approved |
 | Consumers | Roman Urdu is **gated off** in app and web until this is reviewed |
 
+Don't hand-type these numbers into a doc (gotchas §10) — run
+`python3 scripts/status.py` for current coverage and per-status counts.
+
 ### Provenance is NOT uniform — read this before treating any surah as gold
 
 Files carry four different `note` claims — check the `note` field of the

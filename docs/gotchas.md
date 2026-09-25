@@ -188,3 +188,87 @@ pointed to as "kept current" for Roman Urdu status.
 `approved`, for instance): `grep -rn "325\|5,911\|beta-unverified" --include=*.md .`
 before trusting any single file's numbers, and update every hit in the same
 change — not just the file you happened to be reading.
+
+---
+
+## §11 — Roman compounds of اللہ spell "-ullah", not "-allah"
+
+Plan §4 Phase 2 check 2b describes matching Roman tokens "containing 'allah'"
+to cover compounds like `Baitullah`, `kalaamullah`, `Rasoolullah`. Taken
+literally that fails: `Baitullah` is spelled with a **u** before the doubled
+lam (`bait` + `u` + `llah`), so the literal substring `"allah"` (a-l-l-a-h) is
+not present — only `"ullah"` is. Grepping the real corpus confirms it: 3072
+`allah`, but the compounds are `rasoolullah` (12), `wallah` (6), `baitullah`
+(3), `kalaamullah` (1), `ghairullah` (1), `zikrullah` (1) — every one of them
+an `-ullah` spelling, zero literal `-allah` compounds.
+
+`scripts/lint_roman_urdu.py`'s 2b parity check therefore matches on the
+substring `"llah"` (case-insensitive), not `"allah"` — that's the one
+substring every form (`Allah`, `Baitullah`, `Rasoolullah`, `kalaamullah`)
+actually shares. Matching literally on `"allah"` would have silently missed
+every compound and made the check far noisier than the warn-level design
+intends.
+
+---
+
+## §12 — A verse-level "balanced parentheses" check can hide a broken bracket
+
+`lint_roman_urdu.py` check 2g-parens counts total `(` vs `)` per verse and
+flags a mismatch. That only catches a broken bracket if the verse's *total*
+count is off. Two independent bracket defects in the same verse — one gloss
+missing its `(`, another honorific missing its `)` — cancel out numerically
+and the verse reads as "balanced" even though both spans are individually
+broken. Over the real corpus this check fires exactly once (57:12); a
+per-honorific / per-gloss adjacency check (each opening `(` must be matched by
+the *next* `)`, not just an equal count) would be needed to catch the
+cancelling case, and does not exist yet.
+
+Related, but not currently a problem: `check_honorific_typography` (2g) only
+inspects honorific mentions that already sit inside some `(...)` span — an
+honorific written with **no** brackets at all (`Alaihis-Salaam` bare in
+running text) would not be flagged by 2g-honorific, and would not disturb the
+2g-parens count either (zero added on both sides). Checked against the real
+corpus: this does not currently happen — every `alaih*`/`sallallahu*` mention
+in `data/roman-urdu/` sits inside *some* pair of parentheses, canonical or
+not — but a future edit that drops an honorific's brackets entirely would
+slip past both checks silently. Worth a dedicated "honorific has zero
+brackets" check if ADR 0005 R4 is enforced as `error`.
+
+---
+
+## §13 — `lint_roman_urdu.py`'s 2a tokenizer silently mis-scores hyphenated
+`canonical.tsv` rows (Phase 3)
+
+`check_canonical`'s word regex is `[A-Za-z']+` — it treats a hyphen as a
+token boundary. Three `decided` rows are themselves hyphenated compounds
+(`mash'ar-e-haraam`, `ne'mat-o-fazl`, `ita'at-guzari`). Against those:
+
+- The lint **never** matches the compound as a whole (`"mash'ar-e-haraam"`
+  never appears as one token under this regex), so it can never fire for
+  that row at all.
+- Worse, it can **false-positive**: `"ne'mat-o-fazl"` tokenizes into
+  `ne'mat`, `o`, `fazl`, and `ne'mat` happens to be a *different*,
+  legitimate `decided` row on its own — so the lint counts that fragment as
+  a real `ne'mat` occurrence even though it's actually part of the
+  hyphenated compound. Same for `ita'at` inside `ita'at-guzari`.
+
+Verified against the real corpus (2026-09-25, before Phase 3's apostrophe
+group ran): `scripts/apply_canonical.py`'s hyphen-aware tokenizer (a token is
+a maximal run of letters/apostrophes, chained across hyphens only when
+adjacent to more letters) correctly counted **110** occurrences across the 25
+non-`ta'ala` apostrophe rows; `lint_roman_urdu.py`'s 2a check counted **109**
+for the same set — a net undercount from a missed compound and a
+false-positive fragment cancelling differently per row. Both
+`mash'ar-e-haraam` and `ne'mat-o-fazl` and `ita'at-guzari` fire zero 2a
+findings before **and** after being fixed, because the lint's tokenizer can
+never see them as a whole token either way.
+
+This did not cause any wrong edits — `apply_canonical.py` has its own
+correct tokenizer and is the only thing that writes to
+`data/roman-urdu/*.json` — but anyone reading `out/lint.tsv` 2a counts as a
+precise per-row occurrence count for a hyphenated row should not trust it.
+Fixing `lint_roman_urdu.py`'s `_ROMAN_WORD_RE` to chain across hyphens the
+same way `apply_canonical.py`'s `_TOKEN_RE` does would remove both failure
+modes; not done in Phase 3 because Phase 3's rule is "never hand-edit
+`lint_roman_urdu.py` checks beyond what the plan's step 3 asks for" and this
+wasn't in scope.
