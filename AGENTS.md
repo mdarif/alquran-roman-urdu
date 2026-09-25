@@ -129,6 +129,13 @@ text. They are not preferences.
 7. **Attribute the translator, always.** Roman Urdu output is a derivative of a
    specific Urdu translation and is rendered as such — never as "the Quran says".
 
+> **Amended 2026-09-25 for the Roman Urdu text (`data/roman-urdu/`):** rules 1
+> and 2 are replaced by ADR 0006 (AI-verified, owner-sampled). A verse is
+> `verified` when two independent AI reviewers agree on its exact,
+> hash-pinned text and lint is clean. The owner settles disagreements and
+> checks a random sample. The ledger records the method truthfully. The
+> Devanagari lexicon track still follows rules 1 and 2 as written.
+
 ---
 
 ## 5. Sources

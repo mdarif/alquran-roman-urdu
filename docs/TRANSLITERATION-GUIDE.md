@@ -335,3 +335,57 @@ Each verse also shows an AI pre-check (owner decision 2026-09-25, from
 `data/roman-urdu/prereview/surah-NNN.tsv`) in its own labelled block —
 "looks right" / "concern — ... → suggested: ..." / "out of date" —
 visually distinct from the lint/fidelity chips and never auto-approving.
+
+### Reviewing in Markdown
+
+The owner prefers reviewing in a Markdown file in VS Code over the HTML
+page. `scripts/review_md.py` is a second front-end onto the exact same
+data `review_sheet.py` assembles (`build_review_data_for_surah` — Urdu from
+the Junagarhi sqlite, lint findings, fidelity rows, ledger state, AI
+pre-review verdicts); it changes only how that data is presented and how a
+decision comes back, never who's allowed to write it.
+
+```bash
+# 1. Generate the Markdown review file for a surah (or --all for every surah)
+python3 scripts/review_md.py export --surah 1
+# writes out/review-md/surah-001.md — CONCERN/out-of-date verses first
+# under "## Needs your eyes", then the rest under "## Looks right to the
+# AI", then already-approved verses listed compactly (no controls) under
+# "## Already approved".
+
+# 2. Open it in VS Code and review, verse by verse. Per verse:
+#      [x] approve                      -- check the box, leave fix: empty
+#      leave the box unchecked and
+#      write the whole corrected verse
+#      after `fix:`                     -- needs a fix; note: is encouraged
+#      leave both blank                 -- skip for now, untouched
+#    AI verdicts are suggestions; approval is yours.
+
+# 3. Parse the edited file into the same patch format apply_review.py
+#    expects -- ayah, decision, corrected_text, note, seen_sha256
+python3 scripts/review_md.py import out/review-md/surah-001.md
+# writes out/review-md/surah-001-patch.tsv and prints a summary:
+# approve N, needs-fix N, untouched N.
+
+# 4. Apply exactly as in the HTML flow -- review_md.py never writes the
+#    ledger or the text itself; apply_review.py stays the single writer.
+python3 scripts/apply_review.py --patch out/review-md/surah-001-patch.tsv --reviewer "Abu Rayyan" --dry-run
+python3 scripts/apply_review.py --patch out/review-md/surah-001-patch.tsv --reviewer "Abu Rayyan"
+```
+
+Each verse block carries an HTML comment, `<!-- sha256:... -->`, hashing
+the exact Roman text shown — the same `seen_sha256` staleness check as the
+HTML page's downloaded patch. Editing that comment or deleting it makes the
+verse block unparseable (`import` raises rather than silently dropping the
+row); checking `[x] approve` while also writing a `fix:` is rejected the
+same way, since the two are contradictory decisions for one verse.
+
+`scripts/canonical_review_md.py` is the equivalent for the `canonical.tsv`
+spelling-review batches (`out/canonical-review/batch-NN.tsv`, §6 of
+`docs/PHASE-5-REVIEW-DESIGN.md`): `export --batch NN` writes
+`out/canonical-review/batch-NN.md`, one row per candidate spelling change,
+with a blank `decision` column — leave it blank to accept the proposed
+spelling, write `keep` to keep the current one, or write any other spelling
+to use that instead. `import FILE` prints the decisions as a TSV
+(`variant, final, status`); it never writes `canonical.tsv` itself, same
+single-writer discipline as everywhere else in this workflow.
