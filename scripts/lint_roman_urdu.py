@@ -377,6 +377,17 @@ def check_split_future(surah: int, ayah: int, roman_text: str) -> list[Finding]:
     ]
 
 
+# 2k -- "misl-e-X" (owner ruling Q19, 2026-09-25): write "misl X".
+_MISL_IZAFAT_RE = re.compile(r"\b[Mm]isl-e-\S+")
+
+
+def check_misl(surah: int, ayah: int, roman_text: str) -> list[Finding]:
+    return [
+        Finding(surah, ayah, "2k-misl", "error", f"invented izafat {m.group(0)!r}; write 'misl X'")
+        for m in _MISL_IZAFAT_RE.finditer(roman_text)
+    ]
+
+
 def lint_verse(
     surah: int, ayah: int, urdu_text: str, roman_text: str,
     canonical_map: dict[str, tuple[str, str]], *, adr_0005_accepted: bool = ADR_0005_ACCEPTED,
@@ -388,6 +399,7 @@ def lint_verse(
     findings += check_length_outlier(surah, ayah, urdu_text, roman_text)
     findings += check_forbidden(surah, ayah, roman_text)
     findings += check_split_future(surah, ayah, roman_text)
+    findings += check_misl(surah, ayah, roman_text)
     findings += check_honorific_typography(surah, ayah, roman_text, adr_0005_accepted=adr_0005_accepted)
     return findings
 

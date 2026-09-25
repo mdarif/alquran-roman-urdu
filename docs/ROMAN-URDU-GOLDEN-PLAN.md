@@ -294,6 +294,11 @@ The high-traffic order in Phase 4 gets the most-read text golden first.
 
 ### Phase 6 — Release as golden
 
+> **Owner, 2026-09-25: "Experimental" is not dropped until the owner says so.**
+> Nothing in this phase happens automatically, even when `scripts/status.py`
+> reports 6,236 approved. An agent may prepare the steps below but must not
+> set `experimental: false` or publish without an explicit instruction.
+
 When `scripts/status.py` reports 6,236 approved and the lint (2a–2f) is clean:
 
 1. Set each file's `status` to `approved`, and update the `note` to state the

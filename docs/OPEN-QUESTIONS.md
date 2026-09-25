@@ -383,3 +383,131 @@ on_answer: "Add a lint rule (red first) and a joining rule in apply_canonical.py
 answer: a
 answered_on: 2026-09-25
 ```
+
+---
+
+# Round 3 — full-corpus fidelity sweep (2026-09-25)
+
+**All six answered 2026-09-25 and applied** (45 verses; recorded in ADR 0005 R6).
+
+All 114 surahs were swept (6,236 verses). All findings, with the Urdu, are in
+`data/roman-urdu/fidelity-findings.tsv` (45 rows). The 11 source typos where
+the Roman is already right are logged in `source-errata.tsv` and need no
+decision. The orchestrator checked every fix below against the Urdu.
+
+**How complete the sweep is:** a mechanical plural check run afterwards found
+6 errors the sweep agents had missed (Q18 group B), plus 6 more `misl-e-`
+cases (Q19). Treat the sweep as a strong pass, not proof that the text is
+clean. The per-verse read-aloud review (Phase 5) is still needed.
+
+## Q18 — Clear fixes (the Roman says a different word, or drops or garbles one)
+
+```yaml
+id: Q18-clear-fixes
+status: answered
+recommendation: apply all; say which to skip, if any
+group_A_sweep_found:
+  "9:31":   "apne aalim aur darweshon   -> apne aalimon aur darweshon   (عالموں, plural)"
+  "10:17":  "aise mujrim ko             -> aise mujrimon ko             (مجرموں)"
+  "49:15":  "apne maal se               -> apne maalon se               (مالوں; parallel to jaanon)"
+  "22:51":  "dozakhhi                   -> dozakhi                      (typo)"
+  "40:6":   "dozakhii                   -> dozakhi                      (typo)"
+  "39:24":  "chakhho                    -> chakho                       (typo)"
+  "69:24":  "guzashtha                  -> guzashta                     (گزشتہ, no aspirate)"
+  "80:30":  "ghanjaan                   -> ganjaan                      (گنجان has گ, not غ)"
+  "47:4":   "muthbher                   -> mudbher                      (مڈبھیڑ, retroflex ڈ)"
+  "96:13":  "munh phirta                -> munh pherta                  (پھیرنا turn away, not پھرنا wander)"
+  "72:26":  "muttale                    -> muttali                      (مطلع)"
+  "77:27":  "serab                      -> seeraab                      (سیراب quenched; 'serab' reads like saraab, mirage)"
+  "32:8":   "be-waqar paani             -> be-waqat paani               (وقعت worth, not وقار dignity)"
+  "86:2":   "numaayaan hone wali        -> numoodar hone wali           (نمودار, not نمایاں)"
+  "92:20":  "Parwardigaar-e-Buzurg-o-Buland -> Parwardigaar Buzurg-o-Buland (Urdu has no izafat)"
+group_B_orchestrator_found:  # plurals missing their nasal -n; these are not vocatives
+  "9:5":    "mahino ke    -> mahinon ke"
+  "11:30":  "in momino ko -> in mominon ko"
+  "11:94":  "momino ko    -> mominon ko"
+  "11:120": "momino ke liye -> mominon ke liye"
+  "5:54":   "musalmano par -> musalmanon par"
+  "5:56":   "musalmano se  -> musalmanon se"
+on_answer: "One-verse scripted edits (exact match, asserted once), lint, one commit."
+answer: apply all
+answered_on: 2026-09-25
+```
+
+## Q19 — `misl-e-X` → `misl X` (follows your 70:8 ruling)
+
+```yaml
+id: Q19-misl
+status: answered
+context: >
+  Your Q6 ruling wrote 70:8 as "misl tel ki talchhat ke". 9 verses still
+  use misl-e-: 41:13, 44:45, 44:46, 47:12, 55:58, 56:6, 68:35, 70:9, 77:32.
+  Many other verses already use "misl X" (2:194, 4:176, 5:36, ...).
+options:
+  a: "misl X everywhere (drop the -e-)"
+  b: "leave them"
+recommendation: a
+on_answer: "Add a canonical rule with its test first (red), apply, and add a lint check."
+answer: a
+answered_on: 2026-09-25
+```
+
+## Q20 — `Rab` → `Rabb`
+
+```yaml
+id: Q20-rabb
+status: answered
+context: >
+  "Rabb" is the canonical term (ADR 0004). "Rab" appears 19 times, all in
+  surahs 7, 8 and 10 (one drafting batch).
+recommendation: apply
+answer: apply
+answered_on: 2026-09-25
+```
+
+## Q21 — 45:17: the verb دیں ("gave") is written `din` (reads as "day")
+
+```yaml
+id: Q21-45-17-deen
+status: answered
+context: 'Urdu "صاف صاف دلیلیں دیں" (gave clear proofs). Roman "daleelein din".'
+options:
+  a: "daleelein deen — the correct sound; collides in spelling with deen (religion), and the same verse also has 'deen ki'"
+  b: "daleelein dein — avoids the collision, though it reads like the present 'dein'"
+  c: "keep din"
+recommendation: b   # 'deen' twice in one verse with two meanings is worse; 'dein' is the common popular spelling for دیں
+answer: b
+answered_on: 2026-09-25
+```
+
+## Q22 — 58:4: ساٹھ (sixty) is written `saath`, the same as "with"
+
+```yaml
+id: Q22-58-4-saath
+status: answered
+context: 'Urdu "ساٹھ مسکینوں کو کھانا کھلانا". Roman "saath miskeenon ko..." can be read as "feed along with the needy".'
+options:
+  a: "keep saath (context disambiguates)"
+  b: "saath (60) — the digit is forbidden by lint 2e; not recommended"
+  c: "a distinct spelling, e.g. 'saath' -> 'saatth'"
+recommendation: a   # every popular spelling of ساٹھ is 'saath'; an invented form would confuse more than it helps
+answer: a
+answered_on: 2026-09-25
+```
+
+## Q23 — Low-confidence items (recommend no change)
+
+```yaml
+id: Q23-low-confidence
+status: answered
+items:
+  "48:6":  "unhi par for انہیں پر — same emphatic reading you kept at 2:96 (Q15). Keep."
+  "46:9":  "alal-aalaan for علی الاعلان — 'alal-ailaan' matches 9:1's 'ailaan'. Minor; apply?"
+  "28:15, 23:47, 65:2": "do shakhs for دو شخصوں — colloquial number agreement. Keep."
+recommendation: "keep all; apply 46:9 only if you want it consistent with 9:1"
+answer: keep all (46:9 not applied)
+answered_on: 2026-09-25
+```
+
+Also noted for the Q7 long-vowel review, not decided here: `kochein`/`koonchein`
+(91:14 vs 26:157, 54:29), `qaem`/`qaaim`, `bipharnaa`/`dhaarnaa` (25:12).

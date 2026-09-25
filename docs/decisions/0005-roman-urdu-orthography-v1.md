@@ -90,6 +90,13 @@ doesn't have. The hyphen is allowed under this rule.
 - `آڑ` (barrier) is `aar`, so it never collides with the people of ʿĀd (`Aad`) (Q13).
 - `قرآن باحکمت` at 36:2 stays `Quran-e-Hakeem` by owner choice (Q12). This is
   a deliberate exception to transliterating Junagarhi's exact word.
+- `مثل X کے` is `misl X ke`, never `misl-e-X ke`. Enforced by lint 2k and
+  applied by `apply_canonical.py --misl` (Q19, following Q6 at 70:8).
+- `Rabb`, never `Rab` (Q20; ADR 0004's canonical term).
+- The past-tense verb دیں ("gave") is `dein` where `din` would read as
+  "day" (45:17, Q21).
+- ساٹھ (sixty) stays `saath`, even though it is spelled like "with"; context
+  decides (58:4, Q22).
 
 **Precedence:** where R1 and R2/R3 conflict, R2/R3 win, because they are
 explicit word-level rulings.

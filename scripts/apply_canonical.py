@@ -192,6 +192,14 @@ def join_split_futures(text: str) -> tuple[str, int]:
     return SPLIT_FUTURE_RE.subn(r"\1", text)
 
 
+# Owner ruling Q19 (2026-09-25): "misl X ke", never "misl-e-X ke".
+MISL_IZAFAT_RE = re.compile(r"\b([Mm]isl)-e-")
+
+
+def drop_misl_izafat(text: str) -> tuple[str, int]:
+    return MISL_IZAFAT_RE.subn(r"\1 ", text)
+
+
 # ---------------------------------------------------------------------------
 # JSON I/O -- byte-identical formatting when nothing changes
 # ---------------------------------------------------------------------------
@@ -251,7 +259,7 @@ def apply_honorifics_to_ayahs(ayahs: dict[str, str]) -> tuple[dict[str, str], in
 
 def process_corpus(
     *, rules: list[tuple[str, str]] | None = None, honorifics: bool = False,
-    join_futures: bool = False, roman_dir: Path = ROMAN_DIR, dry_run: bool = False,
+    join_futures: bool = False, misl: bool = False, roman_dir: Path = ROMAN_DIR, dry_run: bool = False,
 ) -> int:
     """Apply `rules` and/or the honorifics normaliser across every
     surah-*.json in `roman_dir`. Returns the total number of replacements.
@@ -283,6 +291,15 @@ def process_corpus(
                     changed = True
             ayahs = joined
 
+        if misl:
+            fixed = {}
+            for key, text in ayahs.items():
+                fixed[key], n = drop_misl_izafat(text)
+                if n:
+                    total += n
+                    changed = True
+            ayahs = fixed
+
         if changed and not dry_run:
             data["ayahs"] = ayahs
             write_json_file(path, data)
@@ -299,13 +316,14 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--rule", nargs="+", metavar="VARIANT", help="one or more canonical.tsv variants to apply (must be status=decided)")
     parser.add_argument("--honorifics", action="store_true", help="normalise standalone-span honorifics (ADR 0005 R4)")
     parser.add_argument("--join-futures", action="store_true", help="join split future verbs, 'jaao ge' -> 'jaaoge' (owner ruling Q17)")
+    parser.add_argument("--misl", action="store_true", help="drop the izafat in 'misl-e-X' -> 'misl X' (owner ruling Q19)")
     parser.add_argument("--dry-run", action="store_true", help="count only, do not write")
     parser.add_argument("--canonical", type=Path, default=CANONICAL_PATH)
     parser.add_argument("--roman-dir", type=Path, default=ROMAN_DIR)
     args = parser.parse_args(argv)
 
-    if not args.rule and not args.honorifics and not args.join_futures:
-        parser.error("nothing to do: pass --rule <variant> [...], --honorifics and/or --join-futures")
+    if not (args.rule or args.honorifics or args.join_futures or args.misl):
+        parser.error("nothing to do: pass --rule <variant> [...], --honorifics, --join-futures and/or --misl")
 
     rules: list[tuple[str, str]] = []
     if args.rule:
@@ -315,12 +333,12 @@ def main(argv: list[str] | None = None) -> int:
             rules.append((variant, canonical))
 
     total = process_corpus(
-        rules=rules or None, honorifics=args.honorifics, join_futures=args.join_futures,
+        rules=rules or None, honorifics=args.honorifics, join_futures=args.join_futures, misl=args.misl,
         roman_dir=args.roman_dir, dry_run=args.dry_run,
     )
 
     mode = "would replace" if args.dry_run else "replaced"
-    parts = [v for v, _ in rules] + (["honorifics"] if args.honorifics else []) + (["join-futures"] if args.join_futures else [])
+    parts = [v for v, _ in rules] + (["honorifics"] if args.honorifics else []) + (["join-futures"] if args.join_futures else []) + (["misl"] if args.misl else [])
     label = ", ".join(parts)
     print(f"{mode} {total} occurrence(s) [{label}]")
     return 0
