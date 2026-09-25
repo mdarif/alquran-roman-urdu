@@ -183,6 +183,15 @@ def apply_honorifics(text: str) -> tuple[str, int]:
     return new_text, count
 
 
+# Owner ruling Q17 (2026-09-25): future verbs are written joined. A split
+# suffix is " ga"/" ge"/" gi" standing alone right after a word.
+SPLIT_FUTURE_RE = re.compile(r"(?<=[A-Za-z]) (g[aei])(?![A-Za-z'\-])")
+
+
+def join_split_futures(text: str) -> tuple[str, int]:
+    return SPLIT_FUTURE_RE.subn(r"\1", text)
+
+
 # ---------------------------------------------------------------------------
 # JSON I/O -- byte-identical formatting when nothing changes
 # ---------------------------------------------------------------------------
@@ -242,7 +251,7 @@ def apply_honorifics_to_ayahs(ayahs: dict[str, str]) -> tuple[dict[str, str], in
 
 def process_corpus(
     *, rules: list[tuple[str, str]] | None = None, honorifics: bool = False,
-    roman_dir: Path = ROMAN_DIR, dry_run: bool = False,
+    join_futures: bool = False, roman_dir: Path = ROMAN_DIR, dry_run: bool = False,
 ) -> int:
     """Apply `rules` and/or the honorifics normaliser across every
     surah-*.json in `roman_dir`. Returns the total number of replacements.
@@ -265,6 +274,15 @@ def process_corpus(
                 total += n
                 changed = True
 
+        if join_futures:
+            joined = {}
+            for key, text in ayahs.items():
+                joined[key], n = join_split_futures(text)
+                if n:
+                    total += n
+                    changed = True
+            ayahs = joined
+
         if changed and not dry_run:
             data["ayahs"] = ayahs
             write_json_file(path, data)
@@ -280,13 +298,14 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--rule", nargs="+", metavar="VARIANT", help="one or more canonical.tsv variants to apply (must be status=decided)")
     parser.add_argument("--honorifics", action="store_true", help="normalise standalone-span honorifics (ADR 0005 R4)")
+    parser.add_argument("--join-futures", action="store_true", help="join split future verbs, 'jaao ge' -> 'jaaoge' (owner ruling Q17)")
     parser.add_argument("--dry-run", action="store_true", help="count only, do not write")
     parser.add_argument("--canonical", type=Path, default=CANONICAL_PATH)
     parser.add_argument("--roman-dir", type=Path, default=ROMAN_DIR)
     args = parser.parse_args(argv)
 
-    if not args.rule and not args.honorifics:
-        parser.error("nothing to do: pass --rule <variant> [...] and/or --honorifics")
+    if not args.rule and not args.honorifics and not args.join_futures:
+        parser.error("nothing to do: pass --rule <variant> [...], --honorifics and/or --join-futures")
 
     rules: list[tuple[str, str]] = []
     if args.rule:
@@ -296,12 +315,13 @@ def main(argv: list[str] | None = None) -> int:
             rules.append((variant, canonical))
 
     total = process_corpus(
-        rules=rules or None, honorifics=args.honorifics,
+        rules=rules or None, honorifics=args.honorifics, join_futures=args.join_futures,
         roman_dir=args.roman_dir, dry_run=args.dry_run,
     )
 
     mode = "would replace" if args.dry_run else "replaced"
-    label = ", ".join(v for v, _ in rules) + (" + honorifics" if args.honorifics else "") if rules else "honorifics"
+    parts = [v for v, _ in rules] + (["honorifics"] if args.honorifics else []) + (["join-futures"] if args.join_futures else [])
+    label = ", ".join(parts)
     print(f"{mode} {total} occurrence(s) [{label}]")
     return 0
 

@@ -364,6 +364,19 @@ def check_honorific_typography(
 # Orchestration
 # ---------------------------------------------------------------------------
 
+# 2j -- split future verbs (owner ruling Q17, 2026-09-25): "jaao ge" must be
+# written "jaaoge". Same pattern as apply_canonical.SPLIT_FUTURE_RE.
+_SPLIT_FUTURE_RE = re.compile(r"([A-Za-z]+) (g[aei])(?![A-Za-z'\-])")
+
+
+def check_split_future(surah: int, ayah: int, roman_text: str) -> list[Finding]:
+    return [
+        Finding(surah, ayah, "2j-split-future", "error",
+                f"split future verb {m.group(0)!r}; write {m.group(1) + m.group(2)!r}")
+        for m in _SPLIT_FUTURE_RE.finditer(roman_text)
+    ]
+
+
 def lint_verse(
     surah: int, ayah: int, urdu_text: str, roman_text: str,
     canonical_map: dict[str, tuple[str, str]], *, adr_0005_accepted: bool = ADR_0005_ACCEPTED,
@@ -374,6 +387,7 @@ def lint_verse(
     findings += check_gloss_parity(surah, ayah, urdu_text, roman_text)
     findings += check_length_outlier(surah, ayah, urdu_text, roman_text)
     findings += check_forbidden(surah, ayah, roman_text)
+    findings += check_split_future(surah, ayah, roman_text)
     findings += check_honorific_typography(surah, ayah, roman_text, adr_0005_accepted=adr_0005_accepted)
     return findings
 

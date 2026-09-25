@@ -34,7 +34,8 @@ Majhool vowels are not "long vowels" for this rule and stay single: `log`,
 
 **R2 — Negation and nasal endings.**
 - The negative particle is always `nahi`.
-- Oblique plural pronouns: `unhein`, `tumhein`, `hamein`, `inhein`.
+- Oblique plural pronouns: `unhein`, `tumhein`, `hamein`, `inhein`, and the
+  relative `jinhein` (owner, Q16, 2026-09-25).
 - Nasalised plurals take `-ein` / `-on` (`mushkein`, `koonchein`, `logon`).
 - Recorded dissent: `nahi` drops the noon ghunna, and the rejected
   third-party edition was criticised for exactly that (`hai` for ہیں). The
@@ -80,6 +81,15 @@ owner to decide.
 **Ruling (2026-09-25):** `saa'at` (hour) is written `saa-at`. Plain `saat`
 would clash with "seven", and `saahat` would add an `h` sound that ساعت
 doesn't have. The hyphen is allowed under this rule.
+
+**R6 — Word-level rulings from the Phase 4 sweep (owner, 2026-09-25):**
+- Future verbs are written joined: `jaaoge`, `kardega`, `bhejoonga`, never
+  `jaao ge`. Enforced by lint 2j, and applied by `apply_canonical.py --join-futures` (Q17).
+- `معبود برحق` is `mabood bar-haq`, with no izafat. This amends ADR 0004's
+  compound list (Q14).
+- `آڑ` (barrier) is `aar`, so it never collides with the people of ʿĀd (`Aad`) (Q13).
+- `قرآن باحکمت` at 36:2 stays `Quran-e-Hakeem` by owner choice (Q12). This is
+  a deliberate exception to transliterating Junagarhi's exact word.
 
 **Precedence:** where R1 and R2/R3 conflict, R2/R3 win, because they are
 explicit word-level rulings.

@@ -259,3 +259,127 @@ answered_on: 2026-09-25
   the test written red first.
 - **T2:** lint 2g only inspects honorifics that are already inside brackets
   (gotchas §12). Add a check for bare honorifics, red first.
+
+---
+
+# Round 2 — from the Phase 4 fidelity sweep (2026-09-25)
+
+**All seven answered 2026-09-25 and applied** (160 verses; recorded in ADR 0005 R6).
+
+Swept: surahs 1, 2, 18, 36, 55, 67 (594 verses). Findings are in
+`out/fidelity/surah-NNN.tsv`. The orchestrator verified each finding and
+read a sample of verses independently. Result: no dropped content in these
+surahs. The source typos at 2:282, 18:16 and 55:52 are logged in
+`source-errata.tsv`; they need no Roman change.
+
+## Q11 — Typo at 36:37
+
+```yaml
+id: Q11-36-37-typo
+status: answered
+context: 'Urdu کھینچ دیتے ہیں. The Roman has a stray space: "kheen ch dete hain".'
+proposed: "kheench dete hain"
+recommendation: apply
+on_answer: "One-verse edit, then lint."
+answer: apply
+answered_on: 2026-09-25
+```
+
+## Q12 — 36:2 has a different word than the Urdu
+
+```yaml
+id: Q12-36-2-hakeem
+status: answered
+context: >
+  Urdu "قسم ہے قرآن باحکمت کی". The Roman "Qasam hai Quran-e-Hakeem ki" uses
+  the Arabic-derived Hakeem, where Junagarhi wrote باحکمت (ba-hikmat).
+options:
+  a: "Qasam hai Quran ba-hikmat ki   — transliterate Junagarhi's word"
+  b: "keep Quran-e-Hakeem"
+recommendation: a   # the edition is Junagarhi's Urdu; a well-known Arabic phrase should not replace it
+answer: b
+answered_on: 2026-09-25
+```
+
+## Q13 — "Aad" (barrier) capitalised, so it reads as the people of ʿĀd
+
+```yaml
+id: Q13-aad-barrier
+status: answered
+context: >
+  آڑ (barrier) is rendered "aad" in 55:20, 59:14, 7:46 and 8:24, which is
+  consistent with ڑ -> d in the popular register. At 36:9 it is capitalised,
+  "ek Aad", which is exactly how the tribe of ʿĀd is written in 7:65 and
+  elsewhere.
+options:
+  a: "lowercase 'aad' at 36:9"
+  b: "a distinct spelling for the barrier everywhere (e.g. 'aar'), so it can never collide with ʿĀd"
+recommendation: b   # the collision exists in every one of the 5 verses once a reader searches; 'aar' is a common popular spelling of آڑ
+answer: b
+answered_on: 2026-09-25
+```
+
+## Q14 — 2:163 and 2:255 treat معبود برحق differently
+
+```yaml
+id: Q14-mabood-bar-haq
+status: answered
+context: >
+  The same Urdu phrase is "mabood bar-haq" at 2:163 but "mabood-e-bar-haq"
+  at 2:255. ADR 0004 lists mabood-e-bar-haq as an established compound. The
+  sweep argues برحق is an adjective, so the izafat is invented.
+options:
+  a: "mabood-e-bar-haq everywhere (ADR 0004 as written)"
+  b: "mabood bar-haq everywhere (amend ADR 0004)"
+recommendation: b   # Urdu writes no izafat and برحق qualifies معبود adjectivally; ADR 0005 already supersedes 0004 where they conflict
+on_answer: "Add a canonical.tsv row plus an ADR note; apply with apply_canonical.py."
+answer: b
+answered_on: 2026-09-25
+```
+
+## Q15 — 2:96 "inhi ko" for انہیں کو
+
+```yaml
+id: Q15-2-96-inhi
+status: answered
+context: 'Urdu "آپ انہیں کو پائیں گے" (emphatic: "it is them you will find"). Roman "Aap inhi ko paayenge".'
+options:
+  a: "keep inhi ko (emphatic sense preserved)"
+  b: "unhein ko"
+recommendation: a   # sweep confidence low; انہیں کو here is the emphatic form, which "inhi ko" captures
+answer: a
+answered_on: 2026-09-25
+```
+
+## Q16 — jinhe / jinhen / jinhein (a spelling drift R2 didn't cover)
+
+```yaml
+id: Q16-jinhein
+status: answered
+context: "Counts: jinhein 69, jinhe 30, jinhen 30. R2 settled unhein/tumhein/inhein/hamein but not this one."
+options:
+  a: "jinhein (parallel to R2)"
+  b: "other spelling"
+recommendation: a
+on_answer: "Add canonical.tsv rows as decided, record under ADR 0005 R2, apply."
+answer: a
+answered_on: 2026-09-25
+```
+
+## Q17 — Split future verbs ("jaao ge") vs joined ("jaaoge")
+
+```yaml
+id: Q17-future-verbs
+status: answered
+context: >
+  114 split future forms in 18 surahs (18:49 "jaayen ge", 18:16 "karde ga";
+  39 of them in surah 18) against 2,037 joined forms (dega, jaayenge,
+  karoonga).
+options:
+  a: "join them all (jaao ge -> jaaoge, karde ga -> kardega)"
+  b: "leave as is"
+recommendation: a   # the corpus is overwhelmingly joined; a split form breaks search for the verb
+on_answer: "Add a lint rule (red first) and a joining rule in apply_canonical.py (red first), then apply."
+answer: a
+answered_on: 2026-09-25
+```

@@ -870,3 +870,6 @@ meeras	meeraas	1	needs-review	R1 auto: doubled form of a mixed cluster
 kafiro	kaafiro	1	needs-review	R1 auto: doubled form of a mixed cluster
 daroghe	daaroghe	1	needs-review	R1 auto: doubled form of a mixed cluster
 koda	koda	1	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
+jinhe	jinhein	30	decided	owner Q16 2026-09-25: parallel to R2
+jinhen	jinhein	30	decided	owner Q16 2026-09-25: parallel to R2
+mabood-e-bar-haq	mabood bar-haq	8	decided	owner Q14 2026-09-25: no izafat (amends ADR 0004)

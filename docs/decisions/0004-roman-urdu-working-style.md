@@ -97,7 +97,8 @@ Use hyphens for established compounds already seen in Surah 2:
 
 - `khauf-o-gham`
 - `fazl-o-karam`
-- `mabood-e-bar-haq`
+- `mabood-e-bar-haq` — **superseded 2026-09-25 (owner, Q14): write `mabood bar-haq`,
+  no izafat; see ADR 0005 R6.**
 - `Janab-e-Baari Taala`
 
 ### Parenthetical Glosses
