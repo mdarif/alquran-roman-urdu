@@ -3,7 +3,7 @@ ayah	status	sha256	reviewer	date	note
 2	verified	84d19d81d17069825dba71393835bdeb86b38751b02e1f22622e2ac5f0eb157f	AI (double) + owner sample	2026-09-25	ADR 0006
 3	verified	ebd9818d21c73487773bb0a209821bacff6713f9fcf9123a97c55fec78926db1	AI (double) + owner sample	2026-09-25	ADR 0006
 4	verified	2cbcf4d7f857863b9547aaa41b14b39bbacf336b4930d1cbcc401802fe0388f5	AI (double) + owner sample	2026-09-25	ADR 0006
-5	verified	c488caa004215c5d7197005bd7cf5c10fc2bec26d87473d7b9a8887e6650c7a8	AI (double) + owner sample	2026-09-25	ADR 0006
+5	verified	cb4c822f037eaa36640051f4c5ce7279ae2e35a717807738e174b496a3c03d6b	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 6	verified	7f07873f13922c64588139d5d5280675de56ad0fa56e0337ae83c20b25065f35	AI (double) + owner sample	2026-09-25	ADR 0006
 7	verified	4716ff16b652ddd8cf0aa3e3749876e410e08bd9cb51225af1f5b58666530234	AI (double) + owner sample	2026-09-25	ADR 0006
 8	verified	677bcb3f2c31781c7937fe3730ee79b072faeffbb8d435a26934636e13fe6962	AI (double) + owner sample	2026-09-25	ADR 0006
@@ -23,19 +23,19 @@ ayah	status	sha256	reviewer	date	note
 22	verified	ea2449024f6219607d3a48a0f4647e0751152febfd8055f2b111ad4baa5b60c4	AI (double) + owner sample	2026-09-25	ADR 0006
 23	verified	a1f82c005e50b17ff617140a66fd0c171c9db2268c9d92a03e3f8645341beafb	AI (double) + owner sample	2026-09-25	ADR 0006
 24	verified	05e3f02d51c0045b9bb3905f669c96a2848bf47ae036597281a015272bfa409f	AI (double) + owner sample	2026-09-25	ADR 0006
-25	verified	c299321a2dbd772a46c1699b3b9710a12b553a254b3bf43982ab9ed380f4bc08	AI (double) + owner sample	2026-09-25	ADR 0006
+25	verified	178d675a71384dfec8c2de8d13528ca7bfb25084fd7430ebb94cb5e5c927a599	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 26	verified	0eef324985bdac6242f568c0ff53e8db2ead2976644a43422c76c43a9008efa1	AI (double) + owner sample	2026-09-25	ADR 0006
 27	verified	e5fba5d1e0237e9b7d6d0ab40402a40c8dc33d937ec5af08a9fdb2b072c51b7a	AI (double) + owner sample	2026-09-25	ADR 0006
 28	verified	b1e65a38f219f3c681aa67c75e8f6820629759c949a86d814ac609a20716d2f2	AI (double) + owner sample	2026-09-25	ADR 0006
 29	verified	6fc25953f4593abf83b69359009af88eb91032b02193321e744fba90cc9de06b	AI (double) + owner sample	2026-09-25	ADR 0006
 30	verified	68ff144b59cc0056a7783888a0ca5a4efdd1f2dd6ee9a53f50d42359972d1cc9	AI (double) + owner sample	2026-09-25	ADR 0006
 31	verified	0778aae764c50a01ccd009bc8b81801e261a33e74b2f681f983a10d0b75636a6	AI (double) + owner sample	2026-09-25	ADR 0006
-32	verified	307195893fbc954167a147a4ca1b1d46d571af2cac595a92b437daebf6cdb814	AI (double) + owner sample	2026-09-25	ADR 0006
+32	verified	367e77fe18e747d48c5420005c348c240a74e65a829c969db18855fb92d349cb	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 33	verified	f73e9551a8742ea0de04bdc11d14daffb9972307ff25d89c889fe7ec80bc01ee	AI (double) + owner sample	2026-09-25	ADR 0006
 34	verified	195b5e0c37137847e18410b2a70583e6e6606ffff90e5df4d410ca253c8cbb91	AI (double) + owner sample	2026-09-25	ADR 0006
 35	verified	30f065fa5453fca3db954503198ced4fae90d3af905fd63b4cc60e0e9b93cac8	AI (double) + owner sample	2026-09-25	ADR 0006
 36	verified	df6e9504474d2a134c76b73472e14bab0b98f57ebe47526f5c24e47384e9f0bb	AI (double) + owner sample	2026-09-25	ADR 0006
-37	verified	51c87a542872a47166070a510de06135b93aa74bec615d25bb657cd0ba44ce30	AI (double) + owner sample	2026-09-25	ADR 0006
+37	verified	dffbedabc77cdfd8ecac39ce634bbe58a691bbc85c9d57d1e6ad1cb308e85e44	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 38	verified	8b9182357a425652d8de2dc27bcfb16a4371830626a5f264c9f5b965e2be6356	AI (double) + owner sample	2026-09-25	ADR 0006
-39	verified	c6824ddf3cc2d9755f6823a01df72697b2099689efa35ef32e03a1d09fcc7df7	AI (double) + owner sample	2026-09-25	ADR 0006
+39	verified	db0e4172cac154a9d4f213e03839fe55251ecb0b5451730aa199125fb20dd4f4	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 40	verified	5931ba39607f3405c2c566bb6ed374fadbcbdd8214f3710913cc84b1aee3d084	AI (double) + owner sample	2026-09-25	ADR 0006

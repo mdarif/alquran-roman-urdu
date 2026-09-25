@@ -16,7 +16,7 @@ ayah	status	sha256	reviewer	date	note
 15	verified	f7143903cc94ade5c08dc7116d40b314ff05ad2d0e303f08fd58ac836069ac49	AI (double) + owner sample	2026-09-25	ADR 0006
 16	verified	e334fe2be6c8362a7282284d72b14889b1fcaefa51de419598bb460653f5d74c	AI (double) + owner sample	2026-09-25	ADR 0006
 17	verified	04203e9a79c62288f70d42ca7917eca75fad87a76a9cc90dadaed3239769863f	AI (double) + owner sample	2026-09-25	ADR 0006
-18	verified	5bbc1726f4cd4ba3d0309f30e75e223db0f2dc0416c8638128cc4d934b16092f	AI (double) + owner sample	2026-09-25	ADR 0006
+18	verified	4d5c4e9f9c69d585c6841e51770b34a04e8881f0be3e2b1a0792ded7e6ea3338	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 19	verified	a440ca137a7bb42ee0a3ef357fea71f0e593d624bddb95f312edabd786f143e9	AI (double) + owner sample	2026-09-25	ADR 0006
 20	verified	36a2d79480bb5c0f8123f5e61765ea5f698c29e8d21847f0f74104df62b04cc7	AI (double) + owner sample	2026-09-25	ADR 0006
 21	verified	78579d5f4199b66107074c1aa908344319e576141f8ec11ab6e50f75ff2b537a	AI (double) + owner sample	2026-09-25	ADR 0006
@@ -73,7 +73,7 @@ ayah	status	sha256	reviewer	date	note
 72	verified	ec223c69a3af5551eccb6501e39f95fa3784ac55f0dd29b7761615ad8ad164de	AI (double) + owner sample	2026-09-25	ADR 0006
 73	verified	9d5ca6d211f182829bfb824733db32679f1cfa28f55de46bcd63a06a7840ab8f	AI (double) + owner sample	2026-09-25	ADR 0006
 74	verified	f75eb66ca686bcd4fe80fdfe34c55d1b6b1b88d676aa83802c6e4a61c1d620f0	AI (double) + owner sample	2026-09-25	ADR 0006
-75	verified	55ebe7a24d64a3d2ed84ed65e1a6f4e892837e8cbed09a3864ede6893a6fd763	AI (double) + owner sample	2026-09-25	ADR 0006
+75	verified	e4ee44874fb90893e28e893c6b8f55f76ac54a08eb43242c9d0466c7e029b1b0	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 76	verified	e08011e52bc2ea5049fee2c8584ae24e2dbd70305bf01dab074980c45fba4174	AI (double) + owner sample	2026-09-25	ADR 0006
 77	verified	5771242bcdca3a2de77cc12d7731cc5d3d284fc734af00c0cb7ae3f4ca5f793a	AI (double) + owner sample	2026-09-25	ADR 0006
 78	verified	401e869b1ea781707453f8e7461e04234a063e86a5fe62233b44f70e098fe7f9	AI (double) + owner sample	2026-09-25	ADR 0006
