@@ -32,3 +32,12 @@ def test_no_rule_rewrites_taa_eed() -> None:
     offenders = [v for v, r in rows.items()
                  if r["status"] == "decided" and v == "taa'eed" and r["canonical"] != "taa'eed"]
     assert offenders == []
+
+
+def test_maa_asi_is_locked_with_its_apostrophe() -> None:
+    # Owner ruling 2026-09-26 (FINAL-REVIEW A2): معاصی is "maa'asi", keeping its
+    # apostrophe so it never collapses into "maasi" (ماسی, maternal aunt).
+    rows = _rows()
+    assert rows["maa'asi"]["status"] == "keep"
+    assert rows["ma'aasi"]["status"] == "decided"
+    assert rows["ma'aasi"]["canonical"] == "maa'asi"

@@ -332,7 +332,7 @@ dakhil	daakhil	3	decided	owner go 2026-09-26: R1 checked against the Urdu letter
 khetiyan	khetiyaan	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 hifazat	hifaazat	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 tadaad	taadaad	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
-badshah	baadshah	3	needs-review	R1 auto: doubled form of a mixed cluster
+badshah	baadshaah	3	decided	owner FINAL-REVIEW A3 2026-09-26
 chunanche	chunaanche	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 kafi	kaafi	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 roogardani	rugardaani	3	decided	owner batch-01 2026-09-25 (same word)
@@ -350,7 +350,7 @@ jaoonga	jaaoonga	3	decided	owner go 2026-09-26: R1 checked against the Urdu lett
 mehmani	mehmaani	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 waliyan	waaliyaan	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 miyan	miyaan	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
-dawa	daawa	3	needs-review	R1 auto: doubled form of a mixed cluster
+dawa	dawa	3	keep	owner FINAL-REVIEW A3 2026-09-26: dawa kept
 bahar	baahar	3	needs-review	R1 auto: doubled form of a mixed cluster
 itminan	itminaan	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 akarat	akaarat	3	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
@@ -386,7 +386,7 @@ darana	daraana	2	decided	owner go 2026-09-26: R1 checked against the Urdu letter
 fasad	fasaad	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 aasmani	aasmaani	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 andheriyan	andheriyaan	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
-ba-wujood	baa-wujood	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
+ba-wujood	baa-wujood	2	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
 raah-e-rast	raah-e-raast	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 lata	laata	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 kaahin	kaahin	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
@@ -420,21 +420,21 @@ itteba	ittebaa	2	decided	owner go 2026-09-26: R1 checked against the Urdu letter
 badaaiyan	badaaiyaan	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 talash	talaash	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 nikala	nikala	2	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-baa-khabar	baa-khabar	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+baa-khabar	baa-khabar	2	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
 lane	laane	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 sharab	sharaab	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 khairkhwahi	khairkhwaahi	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 bahami	baahami	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 lagaye	lagaaye	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 taleem	taleem	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
-baadshaah	baadshaah	2	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+baadshaah	baadshaah	2	keep	owner FINAL-REVIEW A3 2026-09-26
 muqabla	muqaabla	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 be-niyaz	be-niyaaz	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 achanak	achaanak	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 malon	malon	2	keep	closed 2026-09-26: variant no longer in the text
 banata	banaata	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 chhudane	chhudaane	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
-farmabardari	farmabardaari	2	needs-review	R1 auto: doubled form of a mixed cluster; NOTE: also missing n - owner to decide farmaanbardaari
+farmabardari	farmaanbardaari	2	decided	owner FINAL-REVIEW A3 2026-09-26
 laiq	laaiq	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 mani	mani	2	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
 sardar	sardaar	2	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
@@ -508,7 +508,7 @@ wail'	wail	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (A
 ibtidaa'an	ibtidaa'an	1	keep	closed 2026-09-26: variant no longer in the text
 itaa'at-guzaar	itaat-guzaar	1	decided	owner batch-01 2026-09-25 (same word)
 fe'l	fe'l	1	keep	closed 2026-09-26: variant no longer in the text
-ma'aasi	maasi	1	needs-review	R5 apostrophe dropped; vowel run collapsed or result is short (homograph risk, e.g. saat) - confirm
+ma'aasi	maa'asi	1	decided	owner 2026-09-26: maa'asi keeps its apostrophe (R5 exception; avoids maasi = maternal aunt)
 mustahiq-e-shafaa'at	mustahiq-e-shafaat	1	decided	owner Q24 2026-09-25: same word as shafaat
 pehchana	pehchaana	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 jahalat	jahaalat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
@@ -633,9 +633,9 @@ jahilon	jaahilon	1	decided	owner go 2026-09-26: R1 checked against the Urdu lett
 bataye	bataaye	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 iqrari	iqraari	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 nafarman	naafarmaan	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
-farmabardar	farmabardaar	1	needs-review	R1 auto: doubled form of a mixed cluster
+farmabardar	farmaanbardaar	1	decided	owner FINAL-REVIEW A3 2026-09-26
 amaan	amaan	1	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
-ba-qaida	ba-qaaida	1	needs-review	R1 auto: doubled form of a mixed cluster
+ba-qaida	baa-qaaida	1	decided	owner FINAL-REVIEW A3 2026-09-26
 guzari	guzari	1	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
 raste	raste	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 waqiaat	waaqiaat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
@@ -675,9 +675,9 @@ udate	udaate	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters 
 bachaya	bachaaya	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 pale	pale	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 deendari	deendaari	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
-baa-imaan	baa-imaan	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+baa-imaan	baa-imaan	1	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
 ilzam	ilzaam	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
-baa-hikmat	baa-hikmat	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+baa-hikmat	baa-hikmat	1	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
 dalna	dalna	1	keep	closed 2026-09-26: variant no longer in the text
 salamati	salaamati	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 alam	alam	1	keep	owner Q7 2026-09-25: different word - suggested merge was wrong
@@ -783,7 +783,7 @@ pukarta	pukaarta	1	decided	owner go 2026-09-26: R1 checked against the Urdu lett
 laiye	laaiye	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 chaloon	chaloon	1	keep	owner Q7 2026-09-25: bad target - suggested merge was wrong
 chalata	chalata	1	keep	owner Q7 2026-09-25: verb pair - suggested merge was wrong
-nabatat	nabataat	1	needs-review	R1 auto: doubled form of a mixed cluster
+nabatat	nabaataat	1	decided	owner FINAL-REVIEW A3 2026-09-26
 siyahi	siyaahi	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 wafat	wafaat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 khasara	khasaara	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
@@ -829,7 +829,7 @@ yajooj	yaajooj	1	decided	owner go 2026-09-26: R1 checked against the Urdu letter
 majooj	maajooj	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 qarabat	qaraabat	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 intehai	intehaai	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
-baa-barkat	baa-barkat	1	keep	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked (other: current spelling confirmed)
+baa-barkat	baa-barkat	1	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
 ghaaibana	ghaaibaana	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 ghaibana	ghaaibaana	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
 ghaibaana	ghaaibaana	1	decided	owner go 2026-09-26: R1 checked against the Urdu letters (AI), spot-checked
@@ -1051,3 +1051,32 @@ sadqa-o-khairat	sadqa-o-khairaat	0	decided	accepted words inside a compound only
 saman-e-zeenat	saamaan-e-zeenat	0	decided	accepted words inside a compound only (2026-09-26)
 waqiaat-e-mazkoora	waaqiaat-e-mazkoora	0	decided	accepted words inside a compound only (2026-09-26)
 zaat-e-khas	zaat-e-khaas	0	decided	accepted words inside a compound only (2026-09-26)
+maa'asi	maa'asi	0	keep	owner 2026-09-26: maa'asi keeps its apostrophe (R5 exception; avoids maasi = maternal aunt)
+baadshah	baadshaah	0	decided	owner FINAL-REVIEW A3 2026-09-26
+farmabardaari	farmaanbardaari	0	decided	owner FINAL-REVIEW A3 2026-09-26
+farmaan-bardaari	farmaanbardaari	0	decided	owner FINAL-REVIEW A3 2026-09-26
+farmabardaar	farmaanbardaar	0	decided	owner FINAL-REVIEW A3 2026-09-26
+baa-qaida	baa-qaaida	0	decided	owner FINAL-REVIEW A3 2026-09-26
+ba-qaaida	baa-qaaida	0	decided	owner FINAL-REVIEW A3 2026-09-26
+nabataat	nabaataat	0	decided	owner FINAL-REVIEW A3 2026-09-26
+ba-khabar	baa-khabar	0	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+ba-hikmat	baa-hikmat	0	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+ba-imaan	baa-imaan	0	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+ba-izzat	baa-izzat	0	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+baa-izzat	baa-izzat	0	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+ba-barkat	baa-barkat	0	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+ba-wajood	baa-wajood	0	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+baa-wajood	baa-wajood	0	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+baa-wujood	baa-wujood	0	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+ba-asar	baa-asar	0	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+baa-asar	baa-asar	0	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+ba-azmat	baa-azmat	0	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+baa-azmat	baa-azmat	0	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+ba-faraaghat	baa-faraaghat	0	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+baa-faraaghat	baa-faraaghat	0	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+ba-muraad	baa-muraad	0	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+baa-muraad	baa-muraad	0	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+ba-raunaq	baa-raunaq	0	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+baa-raunaq	baa-raunaq	0	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+ba-waqaar	baa-waqaar	0	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+baa-waqaar	baa-waqaar	0	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)

@@ -115,6 +115,22 @@ apostrophe. It is the one deliberate exception to R5, locked in canonical.tsv
 (the variants taeed/taaeed/taayeed are rewritten to it, and `taa'eed` itself is
 `keep`) and guarded by tests/test_canonical_locks.py.
 
+**Final-review rulings (owner, 2026-09-26):**
+- A1: the prefix با ("with") is `baa-` when it has its own alif (باخبر
+  `baa-khabar`, باعزت `baa-izzat`, بااثر `baa-asar`). It stays `ba-` for
+  ب / بہ (بطور `ba-taur`, بذریعہ `ba-zariye`) and when the alif belongs to
+  the root word (بآواز `ba-aawaaz`, باطمینان `ba-itminaan`, باعتبار
+  `ba-itibaar`). Words that are always با are locked in canonical.tsv.
+- A2: homographs are decided per verse from the Urdu (جاتا jaata / جتا jata,
+  جانا jaana / جنا jana, پاک paak / پک pak, باہر baahar / بہر bahar,
+  باره baarah / براه barah, کاش kaash / -کش kash, چارہ chaara / چرا chara).
+- A2: معاصی is `maa'asi`, a second R5 apostrophe exception (after `taa'eed`),
+  so it never collapses into `maasi` (maternal aunt). Guarded by
+  tests/test_canonical_locks.py.
+- A3: `baadshaah`, `farmaanbardaari` / `farmaanbardaar`, `baa-qaaida`,
+  `nabaataat`; `dawa` stays. وقعت is `waqat` (32:8 `be-waqat`, 27:29 and
+  41:41 `baa-waqat`).
+
 **Precedence:** where R1 and R2/R3 conflict, R2/R3 win, because they are
 explicit word-level rulings.
 
