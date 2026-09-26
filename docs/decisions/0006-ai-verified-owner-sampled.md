@@ -85,3 +85,20 @@ missed the sample's one wrong word. The result is recorded as it is:
   wrong-word rate of verified verses. This is weaker than the "below 5%"
   that a clean sample would have supported. A fresh, human-read sample
   would tighten it.
+
+## Sample 2 (2026-09-27)
+
+A fresh 60 verified verses (seed 20260927, none from sample 1), in
+`out/SAMPLE-2.md`. The owner returned three notes:
+
+- **9:76 `bukhl` → `bakheeli`** (Urdu بخیلی): a real wrong word. The
+  corpus-wide check found the same error at 4:37 (twice). 47:37 and 47:38's
+  `bukheeli` were aligned to `bakheeli`; 47:38's `bukhl` for بخل is correct
+  and stays.
+- **24:54 `matahati` → `maatahati`** (ماتحتی): a spelling fix. The whole
+  ماتحت family was aligned to `maatahat` in 6 more verses.
+- 4:102 `chuken` → `chukin`: **not applied.** چکیں is subjunctive here
+  ("when they have prostrated"), so R2 gives `chuken`.
+
+**Combined estimate** (samples 1 + 2): 2 wrong words in 120 verified
+verses, about 1.7% observed. The 95% upper bound (exact binomial) is 5.9%.
