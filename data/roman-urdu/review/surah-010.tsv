@@ -86,7 +86,7 @@ ayah	status	sha256	reviewer	date	note
 85	approved	1d1be8fcba4640601e085224741a87fdd0e0ba457afa59f6179a32ef30ec8bce	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26
 86	verified	874ca869f92bbc62d48cbbd3ea291284fdb872c6d4209e1065d222b3efe2c4e9	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 87	verified	b5e942a2d604fdbeac721c7acce011f0457b6de72f2ecc87b700e7ff01bfd28e	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
-88	approved	4493d73fb4f32110b241631930688a2828f8eab092c5682be0fdd676d0f8733a	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26
+88	approved	29988e71d1b5ab205493355b1cc8499d93993e9c3e69c575d013bde8bfd1a5c1	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26; re-pinned after final spelling choices 2026-09-26
 89	verified	53823169d931a4e26f69f008ac0ded0cdbdb2f9a523b7728b66608aa84457dc0	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 90	approved	b0a9cfb802cbdfb4902b1d8143abfa1f0b9c04fb968ede22cd8e5ba0f24437e3	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26
 91	verified	9ef06dae1195051986db75f10fa591dd9d9a16926b980cda79ab111aa2a2a8b6	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
@@ -102,9 +102,9 @@ ayah	status	sha256	reviewer	date	note
 101	verified	49385e6e8e56994a0cd5a999ac65e5e08ad419a1cabd411e2878322d93d7a670	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 102	verified	910ce76a6bd8ae908b8039d41eb770c0637312637eac9ffe509678768f6859b5	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 103	verified	27445c9745c40f2a5dd70ceed46bf3892168744ba25d4ed1f8c266dcc60011dd	AI (double) + owner sample	2026-09-25	ADR 0006
-104	verified	266abca34a48e5fb6677a54621b79fc71c9dd85242cb66d635708baf220f37a3	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
+104	verified	24a56cb0ef2787b20e0aa8672956ddaf9e46dce84074138eddadcd98a504e7c3	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26; re-pinned after final spelling choices 2026-09-26
 105	verified	b82a24ab8a88997fdbf7a1c9504afa624d0623cbf4de0eeed565c08f8c945feb	AI (double) + owner sample	2026-09-25	ADR 0006
 106	verified	91083657bcb97f70872abb005f9d8ed24dde8b12dfafa9f61db291568e46758d	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 107	verified	fee715b910e849bd43fac2c733dcb5f8462ec403daba0a6aeac3908ca9a08892	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
-108	verified	ccf495e8e048b39819570cfb0fad68d782edcf173c26f9d39390274135fd5f9a	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
+108	verified	3b0d2f8c47d2e99c1f1dbe405724883465dc2ab8241db0f6c8349e77daaadb48	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26; re-pinned after final spelling choices 2026-09-26
 109	verified	d37efb0c67671f8886aef31a319468bf098632e25de2012843046feb0f7bd972	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26

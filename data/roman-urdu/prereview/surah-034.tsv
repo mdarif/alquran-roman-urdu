@@ -8,16 +8,16 @@ ayah	verdict	sha256	concern	suggestion
 7	ok	6c240a56058f03ef57c6fa2cd94a7d6572a9c206324c3464f8020fe282bcdcec		
 8	ok	f09cfb376e49cac7087137db27280af99471f957f3b32f67dc9ca665c7e28068		
 9	concern	e8f129d2a03f2fec8bd6795941fbe5662901bd361d82be65ab0ece747025c960	Subjunctive دیں (den) is doubled to "dein" (twice: dhansa dein, gira dein) though R2 requires it stay single-vowel; the parallel verb "chaahen" (چاہیں) in the same clause is correctly single-vowel, and the same construction is rendered "den" correctly elsewhere in this batch (41:16, 41:29, 42:7, 42:15).	Agar hum chaahen to unhein zameen mein dhansa den ya un par aasman ke tukde gira den
-10	ok	1a2546282e54fdb9297789cf17ff7960520f63aea5ae77e37ae44d74cf1543e7		
+10	ok	6700ab5e06e119f202c08253c9966ead0618a956ad139aeefe085f7e05d11591		
 11	ok	c9d7584425e78610c84592cf92438a423f7548fd58134f4588e561eadeade0f7		
 12	ok	6fd9ab39e1cb63c4e711513a314da1ca58027acfd5286d15b7ffd2d4fcf688a2		
-13	ok	79b7a6cf9f21bdcf145795cddf4e06bfea3448a0fb66e0bc0ba06ea2965b5fd0		
+13	ok	13d94b476984dff35818038e6b78b3e8d093bf1b5c8707a31453bd0c1511d2b5		
 14	ok	072eff1831407e1093fb55f6e9b965aea43766e73fbb9cbb29eee1990e0aa8d2		
 15	ok	988c1b81b85fd55e17f9b84d516986d0a30de085c9c86a7c55f8fa7d3015f5d1		
 16	ok	649bc814ad87e5ad212a7471877a93ab4ac6352261db435c0bb768942270d74e		
 17	ok	266f07906052b91db931747bc785e4a08ee8219cb8bdc5c3e7bffe1d5b234c4b		
 18	ok	781158a20727bad02bb804d955dfafb830d651c951b9b8a72bb4cbe0914c1aeb		
-19	ok	daca0e83a109ab325e7daf28e27e7abe0477809a86d9bc108f0fee2a27c74909		
+19	ok	b7ed685bb471476055be9c2c8c5ebd27e60b06e2ca51d1a22928dc9e63f5c416		
 20	ok	1ba3a43fcff71bf3f826a146da2d9c59eb6fdb0a4a0bb12cbdcbef86ca2fc76d		
 21	concern	f07fee5f43cd7773ca747aafd10f617b11d17553572454a27263bb62225e6410	کردیں (subjunctive den) rendered "kar dein" (double vowel); R2 requires single-vowel "den".	hum un logon ko jo aakhirat par imaan rakhte hain zaahir kar den
 22	concern	1291df56a26dfe4dd6a5fd989cc387bf663331fcecfac4c10931448f1b3bcd8d	ان appears three times in this sentence for the same referent (the false partners); first and third are correctly "un", but the middle one switches to "in" (near) for no apparent reason: "na un ka in mein koi hissa hai".	na un ka un mein koi hissa hai
@@ -29,7 +29,7 @@ ayah	verdict	sha256	concern	suggestion
 28	ok	4215780adfbd8d41727d33c9880a760f684ef0b198084d74719c2f932e8d0d35		
 29	ok	1cdcbeb29460aad630b6806c96f7ebe0afc046d1fd2508a6e803900dbe64adcd		
 30	ok	0fb7c1c84ba5943a5c88db6324ca2448420978632e281648573dc6b4af0279b9		
-31	ok	1a158005dba0b070e5fb3248fdaa2d72c8aa518a7d7342efb3fa5d22e8e677cf		
+31	ok	9523fc6c53d05c330e0991330571420bf556e039ae2c0043bf33f167df95c1e4		
 32	ok	524e3fa8907ad6ab0fe709806f64e96eb7bc7352b5966ca969d860430dfd72aa		
 33	ok	ee66255fe22f9148b1472cf04abecb1892c8c5d280bfe65fe71024e2b04f2448		
 34	ok	94e9b5781d88650da5e1343a86ae561d43586a0cf01c0c859f1d060c665b42cb		

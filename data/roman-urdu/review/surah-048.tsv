@@ -1,5 +1,5 @@
 ayah	status	sha256	reviewer	date	note
-1	verified	a4d0a468894f582668adf82679314e143407e12c8ba6243137280eb41d23e2a6	AI (double) + owner sample	2026-09-25	ADR 0006
+1	verified	8585d026adcd9d13fa2d3fdd0a77fc7969234698f0c624a527ebaf1f4698023f	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after final spelling choices 2026-09-26
 2	verified	78b81bbef4d51cc26863287d5e22eb7c900aa7459f2754d440915d07d4b47f4b	AI (double) + owner sample	2026-09-25	ADR 0006
 3	verified	0c3e133bbf38bdf3f63faff48c2f51641660d33d2cfff4963c1ea2be4e1bcde7	AI (double) + owner sample	2026-09-25	ADR 0006
 4	verified	d0dcacbe2105b2672fd146f63bbbca2ae46c122bbc2c61895eb75bdee45dcd9d	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26; re-pinned after FINAL-REVIEW A1-A3 rulings 2026-09-26
@@ -7,7 +7,7 @@ ayah	status	sha256	reviewer	date	note
 6	verified	8455b5b88052e456a62e2856f41a7c8805897198c11df79fa55e96d699ee35bf	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 7	verified	89ff976f407ff301ae958ec6e7395a8a1e3758316331579739843f72b5a6416e	AI (double) + owner sample	2026-09-25	ADR 0006
 8	verified	eedab2435a65a7fd98d082c0c30ec2733a18318d0f7bc986e6598a6b171b7232	AI (double) + owner sample	2026-09-25	ADR 0006
-9	verified	e664d6369e3f7bd5d6b14e91a4fe8eecc78203a781b88b7982f94be4b695b201	AI (double) + owner sample	2026-09-25	ADR 0006
+9	verified	0ed898692b45b0ef8af3e884a28dd48b95e6777ed89171d51121e59d6887bd55	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after final spelling choices 2026-09-26
 10	verified	28f251bbd0b2fb3ca9b00808b2d4d8b7cfee3c775db9b9e6921a08293416309c	AI (double) + owner sample	2026-09-25	ADR 0006
 11	verified	306edc3760f735cb5d9d8944fe27baeeb3ee264002b957af2b1b6ca27ab4d952	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after FINAL-REVIEW A1-A3 rulings 2026-09-26
 12	verified	615d36151547e60ee669a8966194fe56c9f4715cb77b6ee5d4bfcd54099e837a	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
