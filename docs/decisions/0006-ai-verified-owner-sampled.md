@@ -65,3 +65,23 @@ verse is no longer required.
   corpus-wide pattern checks (lint, plus the round 1–4 audits) are what
   guard against that.
 - Owner time drops from 35–70 hours to about 3–4 hours.
+
+## Sample result (2026-09-26)
+
+60 verified verses were drawn at random (seed 20260926, stratified by
+second-pass reviewer) into `out/FINAL-REVIEW.md` Part B. The owner returned
+the sample as "B done" with notes that appear to have been AI-assisted.
+Several notes contradicted the Urdu (for example, alifs present in ہمراه
+and اطلاع, and a misspelling that did not exist in the text), and the notes
+missed the sample's one wrong word. The result is recorded as it is:
+
+- **1 fidelity error** in 60: 6:107 `nigehbaan` for نگران (should be
+  `nigraan`, per the owner's 40:44 ruling). The orchestrator found it and
+  fixed it, along with the same error at 6:104.
+- **About 8 spelling inconsistencies** in 60 (Shuaib/Shoaib, ae/aye,
+  tawajjoh, banaai, daraazee, farmabardaari). All were settled by the
+  owner's final rulings the same day and locked in canonical.tsv.
+- **Estimate:** 1/60, about 1.7% observed; 95% upper bound about 9% for the
+  wrong-word rate of verified verses. This is weaker than the "below 5%"
+  that a clean sample would have supported. A fresh, human-read sample
+  would tighten it.
