@@ -131,6 +131,10 @@ apostrophe. It is the one deliberate exception to R5, locked in canonical.tsv
   `nabaataat`; `dawa` stays. وقعت is `waqat` (32:8 `be-waqat`, 27:29 and
   41:41 `baa-waqat`).
 
+**Final spelling choices (owner, 2026-09-26):** `Shoaib` (شعیب), `aye` for the
+vocative اے (never `ae`), `tawajjuh` (توجہ), `banaayi` (بنائی), `-daraazi`
+(درازی). Each is locked in canonical.tsv.
+
 **Precedence:** where R1 and R2/R3 conflict, R2/R3 win, because they are
 explicit word-level rulings.
 

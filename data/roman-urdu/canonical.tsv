@@ -39,7 +39,7 @@ pas	pas	477	keep	pas (so)/paas (near)
 walon	walon	448	keep	everyday
 har	har	388	keep	har/haar
 ya	ya	362	keep	everyday
-aye	aye	310	keep	aye (voc)/aaye (came)
+aye	aye	310	keep	owner 2026-09-26: final spelling choices
 tak	tak	271	keep	everyday
 gaye	gaye	244	keep	gaye/gaaye (cow)
 hon	hon	166	keep	hon/hoon
@@ -1080,3 +1080,14 @@ ba-raunaq	baa-raunaq	0	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is 
 baa-raunaq	baa-raunaq	0	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
 ba-waqaar	baa-waqaar	0	decided	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
 baa-waqaar	baa-waqaar	0	keep	owner FINAL-REVIEW A1 2026-09-26: prefix با is baa- (Urdu-checked, always با for this word)
+ae	aye	0	decided	owner 2026-09-26: final spelling choices
+shuaib	shoaib	0	decided	owner 2026-09-26: final spelling choices
+tawajjoh	tawajjuh	0	decided	owner 2026-09-26: final spelling choices
+banaai	banaayi	0	decided	owner 2026-09-26: final spelling choices
+dast-daraazee	dast-daraazi	0	decided	owner 2026-09-26: final spelling choices
+zabaan-daraazee	zabaan-daraazi	0	decided	owner 2026-09-26: final spelling choices
+shoaib	shoaib	0	keep	owner 2026-09-26: final spelling choices
+tawajjuh	tawajjuh	0	keep	owner 2026-09-26: final spelling choices
+banaayi	banaayi	0	keep	owner 2026-09-26: final spelling choices
+dast-daraazi	dast-daraazi	0	keep	owner 2026-09-26: final spelling choices
+zabaan-daraazi	zabaan-daraazi	0	keep	owner 2026-09-26: final spelling choices
