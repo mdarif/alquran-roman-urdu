@@ -101,4 +101,4 @@ A fresh 60 verified verses (seed 20260927, none from sample 1), in
   ("when they have prostrated"), so R2 gives `chuken`.
 
 **Combined estimate** (samples 1 + 2): 2 wrong words in 120 verified
-verses, about 1.7% observed. The 95% upper bound (exact binomial) is 5.9%.
+verses, about 1.7% observed. The 95% upper bound (exact binomial) is 5.2%.
