@@ -39,7 +39,7 @@ ayah	status	sha256	reviewer	date	note
 38	verified	7616306f2588857b0b7e237e380fc034398a7016ae4906bbe654aada39587d8b	AI (double) + owner sample	2026-09-25	ADR 0006
 39	verified	203735f8a75858d315e079c5cc4fb3eb522eb1ad57a591d0fa8e2dfb57bf8c44	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 40	verified	9ea77a30aa73760f27855333c82d10011c069f1f30faa7983ec71d0755c68fde	AI (double) + owner sample	2026-09-25	ADR 0006
-41	verified	a541c92a5aa8b080c619e3633c9ec2dc29f474476f662b064b1da873d849662c	AI (double) + owner sample	2026-09-25	ADR 0006
+41	verified	b4645d2e3c7c2b81058487fa597b9d40a609e6c9d80991a8377c058e99d783ad	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after FINAL-REVIEW A1-A3 rulings 2026-09-26
 42	verified	04691ea882ae814be40d788f44d46c12dbee2d17a2702900b7276dcb143867ca	AI (double) + owner sample	2026-09-25	ADR 0006
 43	verified	4c31c28e17b9c7c48f3dfb121e97192a3c6ef236035fa7181883753e83a98845	AI (double) + owner sample	2026-09-25	ADR 0006
 44	approved	556cad806eb1e144dcc3f9c3d19ce85ae5cfb8aae6090c13a24d8327abf9fba3	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26

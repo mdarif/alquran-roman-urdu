@@ -48,7 +48,7 @@ ayah	verdict	sha256	concern	suggestion
 47	concern	d2412351379b57de4d15aaeb284d0f96841ce7888f5bda0ec2f84ff22cc0ab7c	khud-numai is missing the long vowel; not pending in this form.	khud-numaai
 48	concern	89a4236fb7fb058376c4c0b0e87688c17f92aad7b7ed918f39d10e84166fc656	Aamal is shortened, and the plural jamaaten should keep nasal ending.	aamaal; jamaatein
 49	ok	0a9b9532e4681b9bbe985b19ac237bc56e47d2086eaa2d1c315a2f0a0411c287		
-50	ok	03947bc70f95caca0ad38c936ac92eaaf932565b724d74e1c4f0db3b358ccbfc		
+50	ok	9e65341eb58dac51147ed087aa8b6da1e2bef0774883b7690abebf2da6c551bb		
 51	ok	7e9013a5a86d32f058d749962ad4137cbfc30c36637758bcffa3f5cf8ec668d7		
 52	concern	7f580b68704ec2ae4b0b4d43a2322c61a77a0ee8c76465e8c3b12d444288fa5c	Firauniyon should retain the long vowel used elsewhere for Firaun/Firauniyon.	Firauniyon
 53	concern	9e02c7e64193fff1c56e67483e49d3b05e64ee0ab9519afc6d960ad4fafb3c6a	halat is shortened; not pending in this form.	haalat

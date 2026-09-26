@@ -44,15 +44,15 @@ ayah	status	sha256	reviewer	date	note
 43	approved	70cba4754e46dd14491326442aa450bf2a26b91c9555089e1b5d4e4aca336787	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26
 44	approved	ef7a846f1b0f7100ccb0715c00aafff488acf99dc183a0369002ed9e303c39cb	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26
 45	approved	bf15f1fe0e65ecb7aaabb2171ef8a37706710c4e5c5040233cc399fb5b6bafe0	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26
-46	approved	0e962e64f282e7b47803c1b444e6f5e35b97525921a92c3cc6249aece6f9131f	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26
+46	approved	72311075d04235c953ff7a44a23a45158d5e0aa6494c7729d39aeb38cc9e928b	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26; re-pinned after FINAL-REVIEW A1-A3 rulings 2026-09-26
 47	approved	fafce41b23446bc10e0aab6243650440b3de7b2de85242b50b0ee823735214e3	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26
 48	approved	7ecee3ce9148859fab86bee7afb5c8d8eb3409bffdbe5be70c68e45881e7b4a8	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26
 49	verified	0a9b9532e4681b9bbe985b19ac237bc56e47d2086eaa2d1c315a2f0a0411c287	AI (double) + owner sample	2026-09-25	ADR 0006
-50	verified	03947bc70f95caca0ad38c936ac92eaaf932565b724d74e1c4f0db3b358ccbfc	AI (double) + owner sample	2026-09-25	ADR 0006
+50	verified	9e65341eb58dac51147ed087aa8b6da1e2bef0774883b7690abebf2da6c551bb	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after FINAL-REVIEW A1-A3 rulings 2026-09-26
 51	verified	7e9013a5a86d32f058d749962ad4137cbfc30c36637758bcffa3f5cf8ec668d7	AI (double) + owner sample	2026-09-25	ADR 0006
 52	approved	7f580b68704ec2ae4b0b4d43a2322c61a77a0ee8c76465e8c3b12d444288fa5c	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26
 53	approved	4b1c9f36bd65d99515e275324f146ea62df4989eac093174b7608ba75bd725cf	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26
-54	approved	095264d3ca6e84ab8dcb8e7e073c119979c8a2370029c690b67b456a574196cb	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26
+54	approved	bba37a918c41cc45f9264b4997d6fbac76caf32cb0572b82f1d49717b4130d8f	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after FINAL-REVIEW A1-A3 rulings 2026-09-26
 55	approved	2dfc6ae6f3651d5b108f20a52072946119d411c394a19e7214c2bf9849a758c3	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26
 56	verified	86a19af1d9907862872ed1fa4c2dba0cd8b149746102fd26189d700e1eac9120	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 57	approved	65a4b4815aabf4621d595491b3d504c7d10daf2d11d8773995e3e4a24027d93a	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26
@@ -65,7 +65,7 @@ ayah	status	sha256	reviewer	date	note
 64	approved	02bf6ee823478fd3bd80b092bb382292e0460d7a2747e5370d8ad59a9fae47bf	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26
 65	approved	908958af47e3785773f97b2ffec50924650de217ebda99c919666e120f51d2a7	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26
 66	approved	57ab9fceed3f0abd8d029e50cd96f903c2f8aee4be550aba8b2080c6699b47f8	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26
-67	approved	26396c0fc47f5da0acc817b40381162efced4af039650d50de451e385a7bb141	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26
+67	approved	ef94e888d0fdf796b1bc57149fd8d2c5e3c6ef3eab77a63bec002ef7fb3ea1cc	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26; re-pinned after FINAL-REVIEW A1-A3 rulings 2026-09-26
 68	approved	2e43218273dc0ee65901fc108bbfed0059bffddbf4e1a5a506c829ecaa0712ad	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26
 69	approved	8e2e73541ec58fe375624607e20adeeb3333adf6bc13b67dfbc8bb5c9d6ce3e0	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26; re-pinned after R1 spelling rules 2026-09-26
 70	approved	6837c41a32cf7b64278308d214d40e004afb45580489e7c7189b9d2d548ec45f	Abu Rayyan	2026-09-25	owner queue ruling 2026-09-26

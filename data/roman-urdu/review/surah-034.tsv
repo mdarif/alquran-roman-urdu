@@ -1,6 +1,6 @@
 ayah	status	sha256	reviewer	date	note
 1	verified	b543295ad0c4fc866b669b98b74eee00d4cdf09c8ee83354622684490f01a42d	AI (double) + owner sample	2026-09-25	ADR 0006
-2	verified	1c74f5f2da43131e2e34fc2721faf4e8e0f521dd2a966a561d33201381d74a42	AI (double) + owner sample	2026-09-25	ADR 0006
+2	verified	08249f2807cbab6794dbd75b050d27d5c70bd47c908a75e23a6bf680d7287c78	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after FINAL-REVIEW A1-A3 rulings 2026-09-26
 3	verified	30862d0eb986de1dd635e060aa3652530240815857628d30261569c030db78f4	AI (double) + owner sample	2026-09-25	ADR 0006
 4	verified	4003ed8f58324a77226e1d5990005dbae614bde218bcbe3de0fd1b39dc661338	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 5	verified	4d5d015c071d44ad29dfa7fc992a09161a44f459055c2c226e115873b9113098	AI (double) + owner sample	2026-09-25	ADR 0006
@@ -25,7 +25,7 @@ ayah	status	sha256	reviewer	date	note
 24	verified	8bf0ef5cad2f948282e2309d030dbd2e32eaf17e063c60b8a6f672e6a5e3bc06	AI (double) + owner sample	2026-09-25	ADR 0006
 25	verified	784c8af378878ab8e630102831cc83deb8a8b24bf16312a67c3d3a7d0000c777	AI (double) + owner sample	2026-09-25	ADR 0006
 26	verified	0b67082a90bd957808626ef37df1a4cba7699f1cbeedbfbabe48fdb4f6a9376e	AI (double) + owner sample	2026-09-25	ADR 0006
-27	verified	986eeaec8e857a5b9809bc09156d3939c7da2b650cfe9fdcb27e78e551cdd28f	AI (double) + owner sample	2026-09-25	ADR 0006
+27	verified	c508a74df1136c88c2f845672d3faca57cc1a0f4ad80dbbba23bf629963cbb9e	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after FINAL-REVIEW A1-A3 rulings 2026-09-26
 28	verified	4215780adfbd8d41727d33c9880a760f684ef0b198084d74719c2f932e8d0d35	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after R1 spelling rules 2026-09-26
 29	verified	1cdcbeb29460aad630b6806c96f7ebe0afc046d1fd2508a6e803900dbe64adcd	AI (double) + owner sample	2026-09-25	ADR 0006
 30	verified	0fb7c1c84ba5943a5c88db6324ca2448420978632e281648573dc6b4af0279b9	AI (double) + owner sample	2026-09-25	ADR 0006
@@ -45,7 +45,7 @@ ayah	status	sha256	reviewer	date	note
 44	verified	50a73e2e0866d06a3ad3864e2640642428b041e8d5aa4c87ea39bd5a5acb5afe	AI (double) + owner sample	2026-09-25	ADR 0006
 45	verified	4faebe1f810ebacdf6ec724ca8994c68947389c9cd795872e0c77e9d88ac4ec1	AI (double) + owner sample	2026-09-25	ADR 0006
 46	verified	93193210e16a9458d339f1059d5f4be346bbbe5e4c0c87db09da08e3338b6006	AI (double) + owner sample	2026-09-25	ADR 0006
-47	verified	96c08cc81b28a12de171374fc67d54fd760552d84d952b22918055a96fc7e08a	AI (double) + owner sample	2026-09-25	ADR 0006
+47	verified	8da164f1299705a433635142ef70fbcdbf54310b7aa4c1f8e120869a97a7781f	AI (double) + owner sample	2026-09-25	ADR 0006; re-pinned after FINAL-REVIEW A1-A3 rulings 2026-09-26
 48	verified	aa56952fb1c36b2fd2427be11148cd0d09125bb755af961c1ad7e57b09274483	AI (double) + owner sample	2026-09-25	ADR 0006
 49	verified	ea977389246d5dec4cbd862e6eef08b70b1897fc8bee970a945c1d506c0656c5	AI (double) + owner sample	2026-09-25	ADR 0006
 50	verified	511e03e464458975a8fa8529f9298ea3ec13d76d6c6e3a2242cc23148c4f1814	AI (double) + owner sample	2026-09-25	ADR 0006
