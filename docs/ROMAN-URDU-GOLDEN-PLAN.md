@@ -294,6 +294,10 @@ The high-traffic order in Phase 4 gets the most-read text golden first.
 
 ### Phase 6 — Release as golden
 
+> **Owner, 2026-09-29: "Experimental" is dropped (ADR 0007).** It was held
+> back on 2026-09-25 ("not dropped until the owner says so"), and the owner
+> has now said so.
+>
 > **Owner, 2026-09-25: "Experimental" is not dropped until the owner says so.**
 > Nothing in this phase happens automatically, even when `scripts/status.py`
 > reports 6,236 approved. An agent may prepare the steps below but must not

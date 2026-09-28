@@ -192,8 +192,9 @@ npm run dev
 # http://localhost:4321/surah/2-al-baqarah/ → toggle "Roman Urdu" in the toolbar
 ```
 
-The edition appears as **`ur-roman-abu-rayyan`**, labelled *Experimental*, off by
-default, with a per-verse "suggest a correction" link. Surahs you have not
+The edition appears as **`ur-roman-abu-rayyan`**, off by default. It carried an
+*Experimental* label and a per-verse "suggest a correction" link until the
+owner dropped both on 2026-09-29 (ADR 0007). Surahs you have not
 covered show a "still expanding" note instead of an empty block. No `quran.db`
 rebuild is involved.
 
@@ -212,8 +213,8 @@ production. Consequences:
   failing, so the site is never broken by its absence.
 
 **This is live on alquranreader.com** (owner, 2026-08-02) as an opt-in
-Experimental edition. Text you sync and commit is public — treat `beta-unverified`
-as "publicly readable and labelled", not "private".
+edition, unlabelled since 2026-09-29 (ADR 0007). Text you sync and commit is
+public — treat every status as "publicly readable", not "private".
 
 ---
 

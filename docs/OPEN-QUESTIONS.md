@@ -213,11 +213,11 @@ id: Q9-interim-publish
 status: answered
 blocks: []
 context: >
-  The live edition (ur-roman-abu-rayyan, Experimental) still serves the
+  The live edition (ur-roman-abu-rayyan) still serves the
   pre-Phase-3 text. Re-export = alquran-data
   pipeline/roman_urdu/export_simple_db.py -> build -> build_editions.py ->
   publish_editions.sh; web = al-quran-web npm run sync:roman-urdu + commit.
-  It stays labelled Experimental either way.
+  (The Experimental label was dropped 2026-09-29, ADR 0007.)
 options:
   a: "Publish after Q1 and Q8"
   b: "Wait until more of the review is done"
